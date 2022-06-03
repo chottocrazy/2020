@@ -8,6 +8,9 @@
     <script src="../tone/jquery-ui.min.js"></script>
     <script src="../tone/Tone.min.js"></script>
     <script src="../tone/StartAudioContext.js"></script>
+    <script src="hsl.js" type="text/javascript"></script>
+    <script src="jquery-min.js" type="text/javascript"></script>
+    <script src="scrool.js"></script>
     <style>
         body {
             padding: 0;
@@ -16,6 +19,8 @@
         
         #rolling {
             position: relative;
+            filter: invert();
+            z-index: 10;
             padding: 1.25vw;
             margin: 0;
             display: flex;
@@ -46,16 +51,20 @@
             padding: 0 0.25rem;
         }
         
-        .print {
-            display: none;
-        }
-        
-        #sketch {
+        #color {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100vh;
+            margin: 0;
+            padding: 0;
+            z-index: -1;
+            overflow: hidden;
+        }
+        
+        .print {
+            display: none;
         }
         
         @media print {
@@ -156,10 +165,10 @@
     </script>
 </head>
 
-<body>
-    <div id="sketch"></div>
+<body data-feedly-extension-follow-feed="1.0.3" cz-shortcut-listen="true">
+    <div class="wrapper" id="color"></div>
 
-    <section id="rolling" data-feedly-extension-follow-feed="1.0.3" cz-shortcut-listen="true">
+    <section id="rolling">
         <div class="col">
             大 chotto crazy 2021<br>
             <br> 実現したいことを実現する
@@ -265,12 +274,6 @@
 
     <span id="bcpws" class="tool">The code was stolen from <a href="https://book-coffee-print-work.shop/" target="_blank" rel="noopener noreferrer">book-coffee-print-work.shop</a></span>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-        $(function() {
-            $("#sketch").load("https://creative-community.space/coding/js/hsl/");
-        })
-    </script>
 </body>
 
 </html>
