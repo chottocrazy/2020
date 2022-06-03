@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>FREE TIME | creative-community.space</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="FREE TIME | 何かする時間">
+<link rel="stylesheet" href="https://creative-community.space/org/css/ityped.css"/>
+<link rel="stylesheet" href="http://chottocrazy.pe.hu/font/fontmotion.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://creative-community.space/org/js/ityped.js"></script>
+<style type="text/css">
+.content p:before {
+  content:"chotto crazy";
+  font-size: 200%;
+  color: red;
+  text-align: center;
+  position:absolute;
+  top: 50%; left: 50%;
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  width:120%;
+  animation:2.5s linear infinite fontmotion;
+}
+
+#freetime {
+  color: #000;
+  font-size: 4.5rem;
+}
+
+@media screen and (max-width: 750px){
+#freetime {font-size: 9.5vw;}
+.content p:before {font-size: 222%;}
+}
+</style>
+</head>
+<body>
+<div id="cover_freetime">
+<div class="content">
+<span>何か</span>
+<p><span id="freetime" class="ityped"></span></p>
+<span>した時間</span>
+</div>
+</div>
+<script>
+ityped.init('#freetime', {
+strings:[
+  '作ったり、',
+  '壊したり、',
+  '書いたり、',
+  '読んだり、',
+  '話したり、',
+  '撮ったり、',
+  '見たり、',
+  '音を出したり、',
+  '聞いたり、',
+  '練習したり、',
+  '挑戦したり、'
+],
+
+typeSpeed: 125,
+backSpeed: 100,
+startDelay: 500,
+backDelay: 1000,
+loop: true
+});
+</script>
+</body>
+</html>
