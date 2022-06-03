@@ -1,0 +1,384 @@
+body {
+	margin:0;
+	padding:0;
+	width:100%; 
+	height:100%;
+}
+hr {clear:both; border:none;}
+#la {
+	font-size:2rem;
+	font-family: "Arial";
+	position:fixed;
+	width:5.5rem;
+	height:5.5rem;
+	top:12.5vh;
+	zoom:1.25;
+	left:50%;
+	text-align:center;
+	z-index:0;
+ -webkit-transform:translate(-50%,-50%);
+ transform:translate(-50%,-50%);
+	pointer-events:none;
+}
+#la span {
+	margin:0; padding:0;
+	font-weight:1000;
+	display:block;
+	transform: scale(1.5, 1);
+}
+#la .line {
+	margin-top:1rem;
+	padding:0;
+	border-bottom:0.1rem solid;
+}
+#la .short {
+	position:relative;
+	display:block;
+	margin-top:1rem;
+	border-bottom:0.1rem solid;
+	width:3rem;
+	left:50%;
+ -webkit-transform:translate(-50%,0%);
+ transform:translate(-50%,0%);
+}
+#la .space {
+	width:100%;
+	position:absolute;
+	margin-top:0.45rem;
+}
+#la .score {
+	width:100%;
+	position:absolute;
+	margin-top:-1.2rem;
+}
+
+#step, #list {
+	margin:0.5rem auto 2.5vw;
+  width:95%;
+  max-width:50rem;
+}
+#step h1, #list h1 {
+	font-size:1.5rem;
+	margin:0 1rem;
+	padding:0.5rem;
+	font-weight:500;
+}
+#step h1 b, #list h1 b {
+	display:inline-block;
+	font-size:1rem;
+  float:right;
+	border:0.1rem solid;
+	margin-top: 1.5rem;
+	padding:0.5rem;
+	font-weight:500;
+  border-radius:2.5rem;
+}
+#step h2, #list h2, #play h1, #play h2 {
+  position:absolute;
+  z-index:1;
+  display:inline-block;
+  width:100%;
+  margin:0.5rem auto;
+  text-align:center;
+	font-size:3.5rem;
+	font-weight:300;
+  -webkit-text-stroke: 0.025rem #FFF;
+  text-stroke: 0.025rem #FFF;
+}
+#step h2 {top:5%; pointer-events:none;}
+#list h2 {bottom:0; pointer-events:none;}
+#play h2 {pointer-events:none;}
+#play .click {bottom:15vh; font-size:1.5rem;}
+#play .click a {
+	display:inline-block;
+	border:0.1rem solid;
+	padding:0.5rem;
+	font-weight:500;
+  border-radius:50%;
+}
+#play .click a:hover {
+  cursor:pointer;
+  color:#fff;
+  background:#000;
+}
+#step p, #list p {
+	font-size:0.9rem;
+  line-height:200%;
+  text-transform: uppercase;
+	margin:1rem 1rem 2.5rem;
+	padding:0.5rem;
+}
+#step p b, #list p b {
+  display:inline-block;
+	border:0.1rem solid;
+	margin-right: 0.25rem;
+	padding:0.25vw 0.75rem;
+	font-weight:500;
+  border-radius:50%;
+}
+#list h2 b, #play h2 b {
+	font-weight:300;
+	margin-right: 0.25rem;
+}
+#step p .time, #list p .time {
+	border:0.1rem solid;
+  background:#000;
+  color:#fff;
+	margin-right: 0.25rem;
+	padding:0.25vw 0.5rem;
+	font-weight:555;
+}
+#step h2 .time, #list h2 .time, #play h2 .time {
+  font-family: "MS Serif", "Times New Roman";
+  font-style: italic;
+}
+#step p .info, #list p .info {
+  font-size:1rem;
+	margin-right: 0.5rem;
+}
+#step h2 .info, #list h2 .info, #play h2 .info {
+  display:block;
+}
+#step h2 .info {
+  font-size:45%;
+  margin:auto;
+}
+#play h2 .info {
+  font-size:55%;
+}
+#step ul, #list ul, #play ul {
+  position:relative;
+	list-style-type: none;
+	margin:1rem;
+	padding:0.5rem;
+}
+#step li, #list li {
+  position:relative;
+  width:100%;
+  height:60vw;
+  max-height:30rem;
+  margin-bottom:0;
+}
+#zoom {
+  position:relative;
+  top:2.5rem;
+  padding:0 5% 2.5rem;
+}
+#zoom a {
+  display:inline-block;
+  color:#fff;
+  background:#000;
+  padding:0.5% 1%;
+  margin:0.5rem 0.25rem 0;
+  width:100%;
+  text-decoration:none;
+}
+#zoom a:hover,
+#zoom span:hover,
+#online_la a:hover {cursor:pointer; background:gold; color:#000;}
+#zoom p {margin-top:2.5rem; text-align:center;}
+#zoom span {
+  font-size:1.5rem;
+	border:0.1rem solid;
+	padding:1rem;
+	font-weight:500;
+  border-radius:2.5rem;
+}
+#zoom u {
+  display:inline-block;
+  font-size:1.25rem;
+}
+#zoom i {
+  display:inline-block;
+  font-size:1.25rem;
+  padding-top:1rem;
+  line-height:200%;
+}
+#zoom b {
+  display:inline-block;
+  padding:2% 1%;
+  font-weight:500;
+}
+#play li {
+  position:relative;
+}
+#play li:not(:first-of-type) {display:none;}
+#list li iframe {
+  border:none;
+  position:absolute;
+  display:block;
+  bottom:0;
+  width:100%;
+  height:55vw;
+  max-height:25rem;
+}
+#list li iframe:hover {
+  z-index:10;
+}
+#play li audio {
+  border:none;
+  position:absolute;
+  display:block;
+  top:25vh;
+  border:;
+	width:100%;
+}
+#step li #memo {
+  position:absolute;
+  display:block;
+  height:35vw;
+  overflow-y:auto;
+  top:55%;
+  line-height:200%;
+}
+#step li #memo u,
+#zoom u {
+  text-decoration:none;
+	border:0.1rem solid;
+  padding: 0.25rem 0.25rem;
+  margin:0 0.25rem;
+}
+#online_la {
+  position:fixed;
+  z-index:100;
+  width:100%; height:100%;
+  top:0; left:0;
+  padding:0; margin:0;
+}
+#online_la p {
+  font-size:2rem;
+  position: absolute; 
+  background-color:rgba(255,255,255,0.9);
+	left:50%; top:50%;
+  width:60vw;
+  padding:1rem;
+ -webkit-transform:translate(-50%,-50%);
+ transform:translate(-50%,-50%);
+}
+#online_la a {
+  color:#000;
+	border:0.15rem solid;
+	padding:0.5rem 1rem;
+  text-decoration:none;
+	font-weight:500;
+  border-radius:2.5rem;
+}
+.online_close {position:relative; top:0;}
+#list li .none {
+  display:none;
+}
+
+#clock {
+ width: 100vw;
+ height: 100vh;
+  overflow:hidden;
+  position: fixed;
+	z-index:1;
+	pointer-events:none;
+}
+
+#second-hand {
+    animation: rotation-s 60s linear infinite;
+    position: absolute;
+    right: calc(50% - 0.1rem);
+    top: calc(50% - 0.1rem);
+    transform-origin: calc(100% - 0.1rem) center;
+    width: 24rem;
+	pointer-events:none;
+}
+#guid {
+	font-size:1rem;
+	position:fixed;
+	z-index:2;
+	width:80%;
+	text-align:center;
+	top:75%;
+	left:50%;
+ -webkit-transform:translate(-50%,-50%);
+ transform:translate(-50%,-50%);
+}
+#guid p {
+	display:inline;
+	background-color:rgba(255,255,255,0.5);
+	line-height:3rem;
+}
+#guid span {
+	display:inline-block;
+	margin-left:3rem;
+ transform: rotate(-90deg);
+ -moz-transform: rotate(-90deg);
+ -webkit-transform: rotate(-90deg);
+	pointer-events:none;
+}
+#pick {
+	table-layout: fixed;
+	border-collapse:collapse;
+	font-size:0.9rem;
+	position:fixed;
+	margin:0;
+	bottom:0;
+	width:100%;
+	height:5vh;
+}
+#pick td {
+	border:solid 0.1rem;
+	margin:0;
+	text-align:center;
+}
+#pick td:hover {
+	background:#000;
+	color:#fff;
+	cursor:pointer;
+}
+#play {
+  position:fixed;
+  z-index:10;
+  top:50%; left:50%;
+  width:75vw; max-width:25rem;
+  height:75vh;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+}
+#play iframe {width:100%; height:100%; border:none;}
+
+.popup {position:fixed; z-index:100; width:100%; height:100%; top:0; left:0; padding:0; margin:0;}
+.popup p {position: absolute; background-color:rgba(255,255,255,1);
+  width:100%; height:100%; 
+  top: 0%; left: 0%;
+  padding:0; margin:0;
+}
+.popup iframe {width:100%; height:100%; border:none;}
+.close {position:absolute; z-index:100; font-size:4rem; padding:2.5% 5%; bottom:0; right:0;}
+.close:hover {
+  cursor:pointer; 
+}
+
+@keyframes rotation-s {
+    0% {transform: rotate(90deg)} 
+    100% {transform: rotate(450deg)}
+}
+
+@media screen and (max-width: 600px){
+#list h1, #step h1 {font-size:3.5vw; margin-bottom:-1rem;}
+#list h1 b, #step h1 b {font-size:2.5vw; margin-top:4.5vw;}
+#list h2, #step h2 {font-size:7.5vw;}
+#play h2 {font-size:12.5vw;}
+#step h2 {top:10%;}
+#step h2 .info {width:100%;}
+#step p, #list p {font-size:2.5vw;}
+#step p .info, #list p .info {font-size:3vw;}
+#step li #memo {width:100%; margin:0; top:45%;}
+#guid span {
+  font-size:3vw;
+	margin-left:10vw;
+  float:right;
+}
+}
+
+@media screen and (max-width: 750px){
+#guid p {
+	font-size:2.5vw;
+	line-height:8.5vw;
+}
+#la {zoom:0.9;}
+}

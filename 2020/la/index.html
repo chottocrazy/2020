@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="styles.css" rel="stylesheet">
+<title>みんなで音が合うまで、「ラ(だと思う音)」を歌いましょう by 山村祥子</title>
+<script type="text/javascript">
+$(function(){
+})
+</script>
+<style type="text/css">
+</style>
+</head>
+<body>
+<div id="la">
+<span class="short"></span>
+<span class="score">○</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="space">○</span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="short"></span>
+<span class="short"></span>
+<span class="score">○</span>
+</div>
+<div id="guid">
+<p>みんなで音が合うまで、「ラ(だと思う音)」を歌いましょう<br/>
+Everyone shall sing A until it is in harmony.</p>
+</div>
+<div class="popup" id="about" style="display:none;">
+<p><iframe src="about.php"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+<div class="popup" id="howto" style="display:none;">
+<p><iframe src="howto.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('howto').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+<div id="play" style="display:none;">
+<iframe src="play.php"></iframe>
+</div>
+<div class="popup" id="web" style="display:none;">
+<p><iframe src="web.php"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('web').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+<div class="popup" id="oto" style="display:none;">
+<p><iframe src="otobuil.php"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('oto').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+<table id="pick">
+  <tbody>
+    <tr>
+      <td onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';">About</td>
+      <td onclick="obj=document.getElementById('howto').style; obj.display=(obj.display=='none')?'block':'none';">How To</td>
+      <td onclick="obj=document.getElementById('play').style; obj.display=(obj.display=='none')?'block':'none';">Play</td>
+      <td onclick="obj=document.getElementById('web').style; obj.display=(obj.display=='none')?'block':'none';">On The Web</td>
+      <td onclick="obj=document.getElementById('oto').style; obj.display=(obj.display=='none')?'block':'none';">@音ビル</td>
+    </tr>
+  </tbody>
+</table>
+<div id="clock">
+<div id="second-hand">
+<div id="guid">
+<span>イ</span>
+<span>ラ</span>
+<span>A</span>
+<span>La</span>
+</div>
+</div>
+</div>
+</body>
