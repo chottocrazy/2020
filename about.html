@@ -1,0 +1,273 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<title>大 chotto crazy 2020 資料集</title>
+<script type="text/javascript">
+$(function(){
+})
+</script>
+<style type="text/css">
+#contents {margin:2.5%; width:95%;}
+#text {background:#fff; padding:2.5%; margin:0 5%;}
+body {overflow-x: hidden;
+  font-family: Arial, "MS PGothic", sans-serif;
+  background: linear-gradient(-55deg, #25AF5A, #f6d435, #D24117);
+  background-size: 200% 200%;
+  animation: gradientBG 1s ease infinite;}
+a {color:#000; text-decoration:none;}
+a:hover {color:#25AF5A;}
+hr {clear:both;}
+#top {position:relative; top:0; left:0; background:#eee; margin:1vw;overflow: hidden;}
+#schedule {position:relative; top:0; left:0; background:#eee; margin:0 1vw; overflow: hidden;}
+header {padding: 5vw 4vw 2.5vw;}
+header h2 {font-family: Arial; font-size: 5.5vw; line-height: 10vw; font-weight: normal; font-weight: 500; padding: 0 10vw 0; letter-spacing: 0.1rem;}
+#top h1, .dates {font-size: 3.5vw; text-align:left;}
+#top h3 {background: #fff; color:#D24117; padding: 1vw; width:65vw; margin:2.5vw 12.5vw; text-align:center; font-size: 2vw; display : inline-block;}
+.main {line-height: 10vw; padding: 1vw; margin-right:2vw; background-color: #25AF5A; color:#fff;}
+#sub  {line-height: 7.5vw; padding: 1vw; margin-right:2vw; background-color: #25AF5A; color:#fff;}
+.contents {line-height: 5vw; padding: 1vw; background: #fff;}
+h1 a {line-height: 5vw; padding: 1vw; background: #f6d435;}
+
+.chishima {position:relative; padding-left: 1vw; top:1vw;}
+.chishima img {width:35vw;}
+.topic {background: #fff; color:#D24117; padding: 1vw 2.5vw; width:82vw; margin:7.5vw 5vw 0; text-align:center; font-size: 5vw; line-height:10vw; display: inline-block;}
+h1 {font-size: 3.5vw; line-height:5.5vw;  margin:4vw 5vw;letter-spacing: 0.1rem; font-weight: 500;}
+h2 {font-family: Arial; font-size: 3vw; line-height: 5vw; font-weight: normal; font-weight: 500; letter-spacing: 0.1rem;}
+h2 b {font-family: "MS Serif", "Times New Roman"; color:#f6d435; font-size: 125%; font-style: italic;}
+h2 i {font-family: "Times New Roman", "Times", serif; font-size: 125%; font-style: italic; letter-spacing: 0.13rem;}
+h3 {background: #fff; color:#D24117; width:45vw; padding: 1vw; margin:5vw 25vw 0; text-align:center; font-size:5vw; display:inline-block;}
+#do b {font-weight: 500; text-decoration:underline wavy #fff}
+.hold, .dai {color:#fff;}
+.hold:before {
+  content:"hold"; font-family: "MS Serif", "Times New Roman";  color:#f6d435; font-style:italic;
+  position:absolute; font-weight: 555;
+  margin-top:2vw; margin-left:-1.25vw;
+}
+.dai:before {
+  content:"ĺ¤§";
+  position:absolute;
+  padding-left: 0.2vw; font-size: 10vw;
+  font-family: "Times New Roman", "Times", serif; color:#D24117;
+}
+.by i {font-size: 3.5vw; font-style: normal; line-height: 0;}
+.by i:before {
+  content:"by";
+  position:relative;
+  padding-right: 3vw; font-size: 3vw;
+  color:#f6d435;
+}
+.by i:after {
+  content:"âˆ§Â° â” "; font-family: "MS Mincho";
+  position:relative;
+  padding-left: 2.5vw; font-size:4vw;
+  color:#000;
+}
+.hold:before ,.dai:before, h2 b ,.dai:after{
+  -webkit-text-stroke: 0.25vw #FFF;
+  text-stroke: 0.25vw #FFF;
+}
+.entry:before {
+  content:"ÄşÂ¤Â§ÄşÂ‹ÂŸĂŠÂ›Â†";
+  position:absolute; float:right; right:0; margin:2.5vw 5vw;
+  font-size:5.5vw; width:25vw; height:25vw; padding: 0;  line-height: 25vw;
+  color:#fff; border-radius: 15vw; text-align:center;
+  background: linear-gradient(55deg, #25AF5A, #f6d435, #D24117);
+  background-size: 250% 250%;
+  animation: gradientBG 0.25s ease infinite;
+}
+.end:before{
+  content:"çľ‚äş†ă —ă žă —ă Ÿ";
+  position:absolute; float:right; right:5vw; margin-top: 1vw;
+  font-size:3vw; width:30vw; height:30vw; padding: 1vw; line-height:30vw;
+  color:#fff; border-radius: 30vw; text-align:center;
+  background: linear-gradient(55deg, #25AF5A, #f6d435, #D24117);
+  background-size: 250% 250%;
+  animation: gradientBG 0.25s ease infinite;
+}
+#gizagiza a , #gizagiza a:after , #gizagiza a:before , #gizagiza a span {
+ width:15vw; height:15vw;
+  background-color:#25AF5A;
+  position:absolute;
+  top:0px;
+}
+#gizagiza , #gizagiza a , #gizagiza a:after , #gizagiza a:before {
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+}
+#gizagiza a span:hover {color:#D24117; cursor:pointer;}
+#gizagiza a span {
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  text-align: center;
+  z-index: 999;
+  line-height: 15vw;
+  font-size:7.5vw;
+  color: #fff;
+}
+#gizagiza span:before{
+  content:"ă‚‚ă Łă ¨čŚ‹ă‚‹";
+  font-size:2.5vw; letter-spacing: 0rem;
+  line-height: 3vw;
+  position:absolute;
+  top:0; left:0; width:15vw;
+}
+#gizagiza {
+  -webkit-transform: rotate(-320deg);
+  -moz-transform: rotate(-320deg);
+  position:relative; width:15vw; height:15vw;
+  background-color:#25AF5A;
+  float:right; top:-2.5em; right:-7.5vw;
+}
+#gizagiza span:after{
+  content:"ă “ă “ă Ťé›†ă žă Łă Ÿă€ ă „ă‚ ă‚“ă Şäşşă Ÿă Ąă ŽĺŽŸç žă —ă Ÿă „ă “ă ¨ă‚’ç´šäť‹ă —ă žă ™ă€‚";
+  font-size:2vw; letter-spacing: 0rem;
+  line-height: 3vw; color:#D24117;
+  position:absolute; padding: 0.5vw 1vw;
+  bottom:-7.5vw; left:-8vw; width:27.5vw;
+  background-color:#f6d435;
+}
+
+.greeting i:before {content:"chotto crazy";
+  color:#f6d435; position:absolute; float:left;
+  font-family: "MS Serif", "Times New Roman"; font-size:75%; margin-top:-1.5vw;
+  -webkit-text-stroke: 0.02vw #fff;
+  text-stroke: 0.02vw #fff;
+}
+
+#crazy {position:relative; font-size:3vw; margin: 5vw 5vw; padding: 0 5vw 0; float:right; right:2.5vw;
+width:70vw; border: solid 3px #fff; border-radius: 2.5vw;
+  background: linear-gradient(55deg, #25AF5A, #f6d435, #D24117);
+  background-size: 200% 200%;
+  animation: gradientBG 1s ease infinite;}
+.yes:after, .no:after, .or:after {
+  position:relative;
+  padding-left: 1vw; font-size:125%;
+  color:#25AF5A;
+  -webkit-text-stroke: 0.1vw #FFF;
+  text-stroke: 0.1vw #FFF;
+}
+.yes:after {content:"ă ‘ă Šă §ă  ă Şă „";}
+.no:after {content:"ă ‘ă Šć°—ă Ťă Şă‚‹";}
+.or:after {content:"ă ‘ă Šă‚„ă Łă Śă żă Ÿă „";}
+
+.chotto {position:relative; float:right; right:0; width:100%; margin-top:0.5em;}
+.chotto:before {content:"ă Ąă‚‡ă Łă ¨ă‚ŻăƒŹă‚¤ă‚¸ăƒźă Ş";
+  color:#f6d435; float:left; left:0; padding-right: 1.25vw;
+  font-size:100%; font-family: "MS Serif", "Times New Roman";
+  -webkit-text-stroke: 0.05vw #FFF;
+  text-stroke: 0.05vw #FFF;
+}
+.chotto:after {content:"ă ‚ă Şă Ÿă Ž";
+  font-size: 125%;
+  font-family: "Times New Roman", "Times", serif; color:#D24117;
+  position:absolute; float:left; padding-top:0.25em; left:7.5vw;
+  -webkit-text-stroke: 0.1vw #FFF;
+  text-stroke: 0.1vw #FFF;
+}
+
+.you {font-size: 2.5vw;
+  font-family: "Times New Roman", "Times", serif; color:#D24117;
+  -webkit-text-stroke: 0.1vw #FFF;
+  text-stroke: 0.1vw #FFF;
+}
+.big {font-size: 7.5vw; padding: 1.5vw;
+  font-family: "Times New Roman", "Times", serif; color:#D24117;
+  -webkit-text-stroke: 0.15vw #FFF;
+  text-stroke: 0.15vw #FFF;
+}
+.pehu {font-family:"MS Mincho"; font-size: 2.5vw; }
+.pehu:after {content:"creative, community space"; font-size: 1.25vw;  margin-left:1em;}
+
+#entry  {clear:both; position:relative; margin:5vw 0;}
+#list {position:relative; z-index:10; padding:2.5vw 2.5vw;}
+#do  {padding: 0; clear:both;}
+#message {font-size:5vw; position:relative; float:left; right:0; width:auto; margin:2.5vw 0 0 2.5vw;}
+.greeting {background: #fff; padding: 1vw;}
+#poem {color:#eee; position:relative; float:right; z-index:10; margin: 5vw 5vw 0 5vw; font-family: "YuGothic","Yu Gothic"; font-size: 0.25vw; letter-spacing: 0.3rem;}
+#poem p{text-shadow: 1px 2px 3px #fff;}
+.past {width:30vw;}
+
+.about {position:relative; clear:both; font-size:2vw; margin: 5vw; border: solid 3px #fff; border-radius: 2.5vw; padding:2.5vw 5vw}
+.statement {clear:both; text-align:center; padding:0; margin:0 0 2.5vw; }
+.statement a {background-color:#D24117; width:93.8%; display:inline-block; color:#fff; padding:1vw 2vw; font-size:5vw;}
+
+
+/* Animation */
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+@media screen and (max-width: 1000px){
+header {padding: 3em 2.5vw 0;}
+h1 {font-size:3.5vw}
+h2 {font-size:100%}
+}
+
+@media screen and (max-width: 500px){
+header {padding: 1em 2.5vw 0;}
+header h2 {font-size: 95%;}
+header h3 {width:65vw; margin:0 10vw; font-size:2.5vw;}
+.topic, h3 {font-size:4.5vw;}
+h1 {font-size:3.5vw;}
+.by i {font-size: 2.5vw;}
+#message {float:left; margin: 1em 2.5vw 0;}
+#poem {display:none;}
+#crazy {width:70vw; float:right; font-size:3vw; margin:2.5em 3vw;}
+#gizagiza a , #gizagiza a:after , #gizagiza a:before , #gizagiza a span {width:15vw; height:15vw;}
+#gizagiza span:before{font-size:2.5vw;line-height: 5vw; width:15vw;}
+#gizagiza a span {line-height: 16vw; font-size:8vw;}
+#gizagiza span:after{
+  font-size:2.5vw; line-height: 3vw;
+  position:absolute; padding: 0.5vw 1vw;
+  top:-7.5vh; left:12.5vw; width:1vw; height:47.5vh;
+}
+}
+</style>
+</head>
+<body>
+<h1 class=""><span id="sub">意気込み</span>
+<span class="contents">2020年3月30日 -</span><br>
+大 chotto crazy の 発案者 中尾香織が、公募を開始した翌日 2020年3月30日に書き上げた 大 chotto crazy 2020 への意気込みを発表します。</h1>
+<div id="text">
+<span id="docs-internal-guid-8a899b03-7fff-8673-e69f-59035c79cfba"><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">日々の生活の中でぼんやりと思う、自分以外の他人にとっては意味も価値もないような、どうでもいいことに、その人ならではの</span><span style="font-size: 24pt; font-family: &quot;MS PGothic&quot;; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">素直な思い</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">が詰まってるんじゃないかなって思った。</span></p><br><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 18pt; font-family: Arial; color: rgb(255, 255, 0); background-color: rgb(255, 229, 153); font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">「</span><span style="font-size: 19pt; font-family: Arial; color: rgb(255, 255, 0); background-color: rgb(255, 229, 153); font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">やりたい</span><span style="font-size: 18pt; font-family: Arial; color: rgb(255, 255, 0); background-color: rgb(255, 229, 153); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">けどできない</span><span style="font-size: 18pt; font-family: Arial; color: rgb(255, 255, 0); background-color: rgb(255, 229, 153); font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">」</span><span style="font-size: 18pt; font-family: Arial; color: rgb(204, 0, 0); background-color: rgb(244, 204, 204); font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">「</span><span style="font-size: 18pt; font-family: Arial; color: rgb(204, 0, 0); background-color: rgb(244, 204, 204); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">やりたくないけど</span><span style="font-size: 18pt; font-family: Arial; color: rgb(204, 0, 0); background-color: rgb(244, 204, 204); font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">気になる」</span><span style="font-size: 18pt; font-family: Arial; color: rgb(0, 255, 0); background-color: rgb(182, 215, 168); font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">「</span><span style="font-size: 18pt; font-family: Arial; color: rgb(0, 255, 0); background-color: rgb(182, 215, 168); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">やらなくてもいいけど</span><span style="font-size: 18pt; font-family: Arial; color: rgb(0, 255, 0); background-color: rgb(182, 215, 168); font-weight: 700; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">やってみたい</span><span style="font-size: 18pt; font-family: Arial; color: rgb(0, 255, 0); background-color: rgb(182, 215, 168); font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">」</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">こと</span></p><br><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">それはただの</span><span style="font-size: 14pt; font-family: Arial; background-color: rgb(207, 226, 243); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">”気分”</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">でしかないかもしれないけど、どういう気分になりがちかっていう、</span><span style="font-size: 14pt; font-family: &quot;MS PMincho&quot;; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">隠しきれない</span><span style="font-size: 18pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; text-decoration-line: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;">その人の素質を知る方法の一つ</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">かもしれない。</span></p><br><br><p dir="ltr" style="line-height:1.7999999999999998;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">興味のあることだけを知り、興味のないことを知らずにいることができる情報過多な世の中で、自分がすでに知っていることがすべてだって考えるより、まだ</span><span style="font-size: 18pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">知らないことのなか</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">に</span><span style="font-size: 24pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">興味</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">を</span><span style="font-size: 18pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">持てる</span><span style="font-size: 24pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">魅力的</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">なことが</span><span style="font-size: 30pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">ある</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">かもしれないって &nbsp; </span><span style="font-size: 18pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">可&nbsp; 能&nbsp; 性 </span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">を考えるほうがきっと </span><span style="font-size: 18pt; font-family: &quot;MS PGothic&quot;; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">楽・し・い </span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">って思う。</span></p><br><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">様々な人たちの</span><span style="font-size: 18pt; font-family: &quot;MS PMincho&quot;; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">実現したい</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">ことを知ること、まだ深く知らない人と、実現したいことを</span><span style="font-size: 18pt; font-family: &quot;MS PMincho&quot;; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">実現する</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">っていうあまりない体験には、想像以上の</span><span style="font-size: 18pt; font-family: &quot;MS PMincho&quot;; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">発見</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">があるはず。それはきっと自分が決めた興味の枠から</span><span style="font-size: 24pt; font-family: &quot;MS PMincho&quot;; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">飛び出す</span><span style="font-size: 14pt; font-family: Arial; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">刺激的</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">な体験になるはず。</span></p><br><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">私の勝手なイメージかもしれないけど、２１世紀を迎えるまでの　　</span><span style="font-size: 14pt; font-family: Arial; color: rgb(159, 197, 232); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">「未来」　</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">って言葉がもっていた輝かしい未来を想像をする人って今あんまりいないと思う。</span></p><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">今でも世界はこれまで通り美しい✴はずなのに、ネガティブなイメージに引っ張られて、醜くぶち壊れた世界を思ってしまうこと、|||||行き詰った空気|||||が漂っていることが当たり前っていう</span><span style="font-size: 14pt; font-family: &quot;MS PGothic&quot;; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">今の雰囲気が悲しい。</span></p><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">嫌なことも大変なこともずっとあるだろうし、今までもこれからもずっといい社会ではないだろうし、それに引っ張られて絶望しようと思えばいくらでもできる。</span></p><br><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">辛い現実を過度に意識してネガティブな気持ちの渦に飲み込まれないように、</span><span style="font-size: 12pt; font-family: Arial; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">他人に頼らず自分で動いて自力で全力で楽しむことに価値があるはず。</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">ちょっとでも笑っていたいって思う。</span></p><br><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">この一回のchotto crazyで何かを大きく変えられるとは思ってないけど、楽しいことをやってみたいと思う気持ち、いい状態をイメージすることが </span><span style="font-size: 18pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">で き る</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">瞬間があることで、</span><span style="font-size: 14pt; font-family: Arial; color: rgb(255, 242, 204); background-color: rgb(183, 183, 183); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">未来</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">がほんの少し、一部分でも</span><span style="font-size: 14pt; font-family: &quot;MS PGothic&quot;; color: rgb(255, 255, 0); background-color: rgb(207, 226, 243); font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">輝いて</span><span style="font-size: 14pt; font-family: Meiryo; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">何かに</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">繋がらないかなと思う。</span></p><br><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">「実現したい」という気持ちを集めて、知らない人同士、いつもだったら興味のないことにも協力しあって</span><span style="font-size: 18pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">積極</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">的に</span><span style="font-size: 18pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">能動</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">的に楽しみ、手が付けられないほどブチ </span><span style="font-size: 18pt; font-family: &quot;MS PGothic&quot;; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">アガって</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">遊ぶことを目指す。</span></p><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">知らない人のやりたいこと、自分の中にないことを、全力で</span><span style="font-size: 18pt; font-family: &quot;MS PGothic&quot;; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">やる</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">。</span></p><p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">自分で楽しめないと誰も楽しませてはくれないって気持ちで、とにかく遊んで、心から楽しいと思えることを</span><span style="font-size: 14pt; font-family: &quot;MS PMincho&quot;; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">自分で</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">やる。</span></p><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">自分にとっても</span><span style="font-size: 14pt; font-family: &quot;MS PMincho&quot;; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">簡単な事じゃない</span><span style="font-size: 14pt; font-family: Arial; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">けど 大 chotto crazy はそんな場所にする。</span></span><br/><br/><br/>
+<p>※ 上記は、中尾の原文をペフ支配人のささじまが清書したテキストです。</p>
+</div>
+<div id="past">
+<h3>採用プログラム決定までの活動</h3>
+<h1 class=""><span id="sub">個人面談</span>
+<span class="contents">2020年7月4日 - 7月31日</span><br>
+ご応募頂いた方々と個人面談を行い、大 chotto crazy 2020 で実現する「実現したいこと」を決定します。<br>
+<p><span class="contents">2020年5月24日</span><br>
+<a href="https://docs.google.com/document/d/134DM6Or8cVLKX2UNaO12XfRCyPIX_Z5i1O_xeNFSyA8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">大 chotto crazy 2020 トークルーム</a> にて、 「実現したいこと」応募者の皆様との座談会を開催しました。</p></h1>
+<h1 class=""><span id="sub">公開会議</span>
+<br><span class="contents">2020年5月30日& 31日</span>
+<br>公募で集まった「実現したいこと」を実現する方法を考える会議を行いました。
+<br>
+<iframe width="400vw" height="220vw" src="https://www.youtube.com/embed/2mQvKzlQCmY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="400vw" height="220vw" src="https://www.youtube.com/embed/L8BDjUdS0gQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><span class="contents">2020年7月12日(日)</span><br><a href="https://docs.google.com/presentation/d/e/2PACX-1vQy3TctZM1w26Jum9UaHw0iMlX8C9vOQl5wQUg1YiCq74jfaP5fDqRS99AsmWsc5Fka4QDbHTT0e6Eg/pub?start=true&loop=false&delayms=3000">「実現したいこと」公募の特徴まとめ及び、開催方法変更のお知らせ</a>を公開しました。
+<br>
+</h1>
+<h1 class=""><span id="sub">個人面談</span>
+<span class="contents">2020年7月4日 - 7月31日</span><br>
+ご応募頂いた方々と個人面談を行い、大 chotto crazy 2020 で実現する「実現したいこと」を決定します。<br>
+<p><span class="contents">2020年8月17日(月)</span><br>
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vQ-clsE1Wvhi2rOJGXJ4nABxWnfM5NcapRaD3XL1OhRuQh89E-ZMiimM-4rMVRkkMKJmPAZQT1sF5Tv/pub?start=false&loop=false&delayms=3000-8" target="_blank" rel="noopener noreferrer">大 chotto crazy 2020 の 目標 及び、 個人面談に関する報告</a>を公開しました。</p></h1>
+<h1><span id="sub">プログラム発表</span><span class="contents">2020年9月27日(日)</span><br>
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vQVUV4_zr-xwzJV_tHjnoeg-T_NL02qES46gbMhTTcnE1Aplhb2YvIR93Npu_n5EyJ6DHjtO7w6JRNZ/pub?start=false&loop=false&delayms=3000" target="_blank" rel="noopener noreferrer">20の開催プログラムと採用者17名のプロフィール</a>を発表しました。</h1>
+<h1><span id="sub">キャッチコピー発表</span><span class="contents">2020年9月27日(日)</span><br>
+Ro / Chris Shields の実現したいことを、キャッチコピーとして採用し、メッセージ広告を制作しました。<img src="img/motto.png" width="100%"></h1>
+<h1><span class="contents">2020年12月11日(金)</span><br>
+<a href="otobuil/covid19.pdf" target="_blank" rel="noopener noreferrer">大阪府・国の感染症拡大防止対策ガイドラインに基づく、コロナ対策チェックシート</a>を作成し、<a href="otobuil/covid19.html" target="_blank" rel="noopener noreferrer">大大大 chotto crazy 2020 MAXでの実現を 中止／延期・実現方法を変更するプログラム</a>を決定しました。</h1>
+<h1><span class="contents">2021年1月16日(土)</span><br>完全予約制 展覧会・アトラクション「大大大 chotto crazy 2020 MAX」で行う、感染症予防対策をまとめた
+<a href="otobuil/maxcheck.pdf" target="_blank" rel="noopener noreferrer">MAXチェックシート</a>を作成しました。</h1>
+</div>
+</body>
+</html>

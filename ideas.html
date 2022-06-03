@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#list").load("list.php");
+            $("#entry").load("entry.php");
+            $("#schedule").load("schedule.html");
+        })
+    </script>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet">
+    <title>大 chotto crazy | We Support your Amazing Ideas and Creative Challenges</title>
+    <style type="text/css">
+        .dai:after {
+            content: "2020";
+            position: absolute;
+            z-index: 10;
+            padding-left: 30vw;
+            top: 1.5em;
+            color: #25AF5A;
+        }
+        
+        .refine-teims {
+            pointer-events: none;
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <header>
+            <h2>We <span class="hold">are</span> <span class="dai">the</span> <span class="on"><b>chotto crazy</b></span><span class="by"><br/><i>creative, community space</i></span></h2>
+            <h3>2020年3月29日 - 5月15日 までの期間に集まった<br/>色んな人たちの「実現したいこと」を紹介します。</h3>
+        </header>
+
+        <div class="refine">
+            <input id="refine-1" type="radio" name="refine-btn">
+            <label class="refine-btn art" for="refine-1">美術</label>
+            <input id="refine-2" type="radio" name="refine-btn">
+            <label class="refine-btn music" for="refine-2">音楽</label>
+            <input id="refine-3" type="radio" name="refine-btn">
+            <label class="refine-btn edit" for="refine-3">デザイン | 編集</label>
+            <input id="refine-4" type="radio" name="refine-btn">
+            <label class="refine-btn direction" for="refine-4">企画 | 演出</label>
+            <input id="refine-5" type="radio" name="refine-btn">
+            <label class="refine-btn spot" for="refine-5">ギャラリー | 店</label>
+            <input id="refine-6" type="radio" name="refine-btn">
+            <label class="refine-btn life" for="refine-6">人</label>
+            <input id="refine-7" type="radio" name="refine-btn">
+            <label class="refine-btn members" for="refine-7">匿名</label>
+            <input id="refine-0" type="radio" name="refine-btn" checked>
+            <label class="refine-btn all" for="refine-0">すべて見る</label>
+            <hr/>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/311/p-r-s/">
+                    <p class="text">公共施設のメインエントランスと通用口を入れ替える作品</p>
+                </a>
+                <span class="name"><i>秋山ブク</i></span>
+            </div>
+            <div class="refine-teims members">
+                <a href="http://newlifecollection.com/ca29/245/p-r-s/">
+                    <p class="text">一般公募の４つ</p>
+                </a>
+                <span class="name"><i>一般公募より抜粋</i></span>
+            </div>
+            <div class="refine-teims members">
+                <a href="http://newlifecollection.com/ca29/210/p-r-s/">
+                    <p class="text">一般公募の５つ</p>
+                </a>
+                <span class="name"><i>一般公募より抜粋</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/270/p-r-s/">
+                    <p class="text">喧嘩した人と仲直りしたい</p>
+                </a>
+                <span class="name"><i>池野詩織</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/269/p-r-s/">
+                    <p class="text">可愛い凧を作って凧揚げをしたい</p>
+                </a>
+                <span class="name"><i>池野詩織</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/268/p-r-s/">
+                    <p class="text">光っている方へ行く</p>
+                </a>
+                <span class="name"><i>池野詩織</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/247/p-r-s/">
+                    <p class="text">藍で染めよう祭り</p>
+                </a>
+                <span class="name"><i>ソウ</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/261/p-r-s/">
+                    <p class="text">一番初めに落ちてくる雨粒の観察 など</p>
+                </a>
+                <span class="name"><i>ソノノ</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/260/p-r-s/">
+                    <p class="text">妖精を、追いかけたり、眺めたり、 など</p>
+                </a>
+                <span class="name"><i>yonezo</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/237/p-r-s/">
+                    <p class="text">紅弾けるまでギター合宿 など</p>
+                </a>
+                <span class="name"><i>tantan</i></span>
+            </div>
+            <div class="refine-teims direction">
+                <a href="http://newlifecollection.com/ca29/255/p-r-s/">
+                    <p class="text">偽物の故郷をつくりたい</p>
+                </a>
+                <span class="name"><i>井上奈美</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/244/p-r-s/">
+                    <p class="text">作品を部屋いっぱいに並べてみたい</p>
+                </a>
+                <span class="name"><i>yamamoo</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/259/p-r-s/">
+                    <p class="text">いまからでもいいので自分が死ぬまでの記録を映像として残したい など</p>
+                </a>
+                <span class="name"><i>スポーツガーデンひ</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/257/p-r-s/">
+                    <p class="text">ドラァグクイーンのメイクがしたい</p>
+                </a>
+                <span class="name"><i>ψ μαψυ</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/256/p-r-s/">
+                    <p class="text">良い睡眠にとって最良のものを集めた環境で眠る</p>
+                </a>
+                <span class="name"><i>小菅くみ</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/246/p-r-s/">
+                    <p class="text">たまごパーティ！</p>
+                </a>
+                <span class="name"><i>ねこたまごちゃん</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/234/p-r-s/">
+                    <p class="text">針葉樹を紙糸にして製品に編みファブリックとして販売する</p>
+                </a>
+                <span class="name"><i>蓮沼千紘</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/216/p-r-s/">
+                    <p class="text">好きだった恋愛対象を紙に順に書いてもらう</p>
+                </a>
+                <span class="name"><i>レパー</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/198/p-r-s/">
+                    <p class="text">大きなことも小さなことも一緒に探っていきましょう</p>
+                </a>
+                <span class="name"><i>Ro / Chris Shields</i></span>
+            </div>
+            <div class="refine-teims direction">
+                <a href="http://newlifecollection.com/ca29/233/p-r-s/">
+                    <p class="text">サイキック少年になりたい</p>
+                </a>
+                <span class="name"><i>sakumotto</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/227/p-r-s/">
+                    <p class="text">微生物を練り込んだ本を作る</p>
+                </a>
+                <span class="name"><i>飯沢未央</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/212/p-r-s/">
+                    <p class="text">春を迎えに行きたい など</p>
+                </a>
+                <span class="name"><i>廣野鮎美</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/215/p-r-s/">
+                    <p class="text">ホクロが何個あるのか知りたい</p>
+                </a>
+                <span class="name"><i>時吉あきな</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/214/p-r-s/">
+                    <p class="text">中華料理屋さんが本当にあるのか確かめたい</p>
+                </a>
+                <span class="name"><i>時吉あきな</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/211/p-r-s/">
+                    <p class="text">座右の銘を交換したい</p>
+                </a>
+                <span class="name"><i>宙空一派</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/213/p-r-s/">
+                    <p class="text">綺麗なフェードカットに仕上げてみたい</p>
+                </a>
+                <span class="name"><i>Le Makeup</i></span>
+            </div>
+            <div class="refine-teims members">
+                <a href="http://newlifecollection.com/ca29/199/p-r-s/">
+                    <p class="text">一般公募の６つ</p>
+                </a>
+                <span class="name"><i>一般公募より抜粋</i></span>
+            </div>
+            <div class="refine-teims edit">
+                <a href="http://newlifecollection.com/ca29/208/p-r-s/">
+                    <p class="text">合唱したい</p>
+                </a>
+                <span class="name"><i>石塚俊</i></span>
+            </div>
+            <div class="refine-teims edit">
+                <a href="http://newlifecollection.com/ca29/209/p-r-s/">
+                    <p class="text">街のお店の公式グッズを作る</p>
+                </a>
+                <span class="name"><i>石塚俊</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/207/p-r-s/">
+                    <p class="text">架空の家を作りたいです</p>
+                </a>
+                <span class="name"><i>emamouse</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/206/p-r-s/">
+                    <p class="text">記憶と夢をシャッフル</p>
+                </a>
+                <span class="name"><i>pootee</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/190/p-r-s/">
+                    <p class="text">ふざける・目立つ・食い意地</p>
+                </a>
+                <span class="name"><i>りえ</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/189/p-r-s/">
+                    <p class="text">全国の道路をめくって芝を植えたい</p>
+                </a>
+                <span class="name"><i>浅野充利</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/189/p-r-s/">
+                    <p class="text">『芝浴』</p>
+                </a>
+                <span class="name"><i>浅野充利</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/205/p-r-s/">
+                    <p class="text">生きた国の味がするバナナブレッドのプティングをつくる など</p>
+                </a>
+                <span class="name"><i>永遠</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/200/p-r-s/">
+                    <p class="text">オペラ２ など</p>
+                </a>
+                <span class="name"><i>Dove</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/203/p-r-s/">
+                    <p class="text">浮きたい</p>
+                </a>
+                <span class="name"><i>鷲尾 怜</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/201/p-r-s/">
+                    <p class="text">癖を発表/実践するプレゼン大会</p>
+                </a>
+                <span class="name"><i>松延総司</i></span>
+            </div>
+            <div class="refine-teims direction">
+                <a href="http://newlifecollection.com/ca29/202/p-r-s/">
+                    <p class="text">SNSの景色を体験し合ってみたい</p>
+                </a>
+                <span class="name"><i>カトー</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/187/p-r-s/">
+                    <p class="text">性転換 など</p>
+                </a>
+                <span class="name"><i>fri珍</i></span>
+            </div>
+            <div class="refine-teims members">
+                <a href="http://newlifecollection.com/ca29/160/p-r-s/">
+                    <p class="text">一般公募の７つ</p>
+                </a>
+                <span class="name"><i>一般公募より抜粋</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/161/p-r-s/">
+                    <p class="text">全員に好きって告白されたい</p>
+                </a>
+                <span class="name"><i>ひろし</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/181/p-r-s/">
+                    <p class="text">一冊の写真集を大量に集めて展示</p>
+                </a>
+                <span class="name"><i>河野幸人</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/152/p-r-s/">
+                    <p class="text">リサイクルショップの地図を作る</p>
+                </a>
+                <span class="name"><i>江村仁太</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/151/p-r-s/">
+                    <p class="text">人の体の全表面に写真のタトゥーシールを貼る</p>
+                </a>
+                <span class="name"><i>江村仁太</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/154/p-r-s/">
+                    <p class="text">海を見ながら涙を流すキリンが見たい(原寸大で)</p>
+                </a>
+                <span class="name"><i>24river</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/155/p-r-s/">
+                    <p class="text">もう一度、手づくりの凧を空へ飛ばしたい</p>
+                </a>
+                <span class="name"><i>Yuto Ohashi</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/156/p-r-s/">
+                    <p class="text">目を閉じたまま写真を撮りたい</p>
+                </a>
+                <span class="name"><i>Kenny Pain</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/133/p-r-s/">
+                    <p class="text">広い空間で思いっ切りお皿を叩き割りたい</p>
+                </a>
+                <span class="name"><i>河野裕麻</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/153/p-r-s/">
+                    <p class="text">オセロットになる</p>
+                </a>
+                <span class="name"><i>松尾黄</i></span>
+            </div>
+            <div class="refine-teims spot">
+                <a href="http://newlifecollection.com/ca29/150/p-r-s/">
+                    <p class="text">主役以外、全員等身大パネルの誕生日パーティー</p>
+                </a>
+                <span class="name"><i>コーヒー ムテ</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/149/p-r-s/">
+                    <p class="text">暗い部屋でお喋りしたい</p>
+                </a>
+                <span class="name"><i>Kenny Pain</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/112/p-r-s/">
+                    <p class="text">エスカレーターの段を人で全て埋めて流れていく</p>
+                </a>
+                <span class="name"><i>Sara Hirayama</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/129/p-r-s/">
+                    <p class="text">サボテン植え替え大会</p>
+                </a>
+                <span class="name"><i>YeXuQo</i></span>
+            </div>
+            <div class="refine-teims members">
+                <a href="http://newlifecollection.com/ca29/116/p-r-s/">
+                    <p class="text">一般公募の９つ</p>
+                </a>
+                <span class="name"><i>一般公募より抜粋</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/113/p-r-s/">
+                    <p class="text">憧れの黒電話をリモコンで再現</p>
+                </a>
+                <span class="name"><i>るる</i></span>
+            </div>
+            <div class="refine-teims spot">
+                <a href="http://newlifecollection.com/ca29/148/p-r-s/">
+                    <p class="text">素顔を暴く</p>
+                </a>
+                <span class="name"><i>琥珀</i></span>
+            </div>
+            <div class="refine-teims spot">
+                <a href="http://newlifecollection.com/ca29/147/p-r-s/">
+                    <p class="text">暗闇でノイズを大音量で聴く体験を共有</p>
+                </a>
+                <span class="name"><i>琥珀</i></span>
+            </div>
+            <div class="refine-teims spot">
+                <a href="http://newlifecollection.com/ca29/146/p-r-s/">
+                    <p class="text">モノと化した人間を撮影したい</p>
+                </a>
+                <span class="name"><i>琥珀</i></span>
+            </div>
+            <div class="refine-teims spot">
+                <a href="http://newlifecollection.com/ca29/145/p-r-s/">
+                    <p class="text">メルティングライヴ</p>
+                </a>
+                <span class="name"><i>琥珀</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/137/p-r-s/">
+                    <p class="text">建物に火をつける</p>
+                </a>
+                <span class="name"><i>ハマジ</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/128/p-r-s/">
+                    <p class="text">暦がなくなった世界を妄想したカレンダーをつくりたい など</p>
+                </a>
+                <span class="name"><i>小中 葵</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/136/p-r-s/">
+                    <p class="text">写真と物を飾った展示</p>
+                </a>
+                <span class="name"><i>イトウ ヒロキ</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/127/p-r-s/">
+                    <p class="text">夜の海に服のまま入ってタバコを吸う など</p>
+                </a>
+                <span class="name"><i>中田有美</i></span>
+            </div>
+            <div class="refine-teims spot">
+                <a href="http://newlifecollection.com/ca29/126/p-r-s/">
+                    <p class="text">初対面の人に、かたっぱしからミドルネーム付けたい</p>
+                </a>
+                <span class="name"><i>コーヒー ムテ</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/125/p-r-s/">
+                    <p class="text">誰かの買い物リストで買った食材で料理 など</p>
+                </a>
+                <span class="name"><i>UMMMI</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/124/p-r-s/">
+                    <p class="text">一年間日記をつけて、あわよくば出版する</p>
+                </a>
+                <span class="name"><i>Kenshi</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/121/p-r-s/">
+                    <p class="text">服を一度解体してもう一度自分で縫い直してみたい</p>
+                </a>
+                <span class="name"><i>沖真秀</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/122/p-r-s/">
+                    <p class="text">できる限り粗悪な音でいろんな音楽を聴きたい</p>
+                </a>
+                <span class="name"><i>沖真秀</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/111/p-r-s/">
+                    <p class="text">家にあるえげつない量のフライヤーを壁一面に貼りたい</p>
+                </a>
+                <span class="name"><i>熊澤隆仁</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/110/p-r-s/">
+                    <p class="text">世界1美味しくて大きいパフェが食べたい など</p>
+                </a>
+                <span class="name"><i>原田真由子</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/117/p-r-s/">
+                    <p class="text">革なめしから作りたい！</p>
+                </a>
+                <span class="name"><i>原田真由子</i></span>
+            </div>
+            <div class="refine-teims spot">
+                <a href="http://newlifecollection.com/ca29/107/p-r-s/">
+                    <p class="text">大ドッジボール大会</p>
+                </a>
+                <span class="name"><i>西山与利子</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/106/p-r-s/">
+                    <p class="text">火星移住</p>
+                </a>
+                <span class="name"><i>平山昌尚</i></span>
+            </div>
+            <div class="refine-teims edit">
+                <a href="http://newlifecollection.com/ca29/105/p-r-s/">
+                    <p class="text">落ち葉で焼き芋</p>
+                </a>
+                <span class="name"><i>ヒカワ</i></span>
+            </div>
+            <div class="refine-teims spot">
+                <a href="http://newlifecollection.com/ca29/103/p-r-s/">
+                    <p class="text">大コレクション展</p>
+                </a>
+                <span class="name"><i>西山与利子</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/104/p-r-s/">
+                    <p class="text">海外での展示 など</p>
+                </a>
+                <span class="name"><i>さとうさかな</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/102/p-r-s/">
+                    <p class="text">世界中のアスファルトを土に戻す など</p>
+                </a>
+                <span class="name"><i>新田さやか</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/97/p-r-s/">
+                    <p class="text">忘れたことを思い出す／思い出を忘れる</p>
+                </a>
+                <span class="name"><i>船川翔司</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/96/p-r-s/">
+                    <p class="text">Weathering with …</p>
+                </a>
+                <span class="name"><i>船川翔司</i></span>
+            </div>
+            <div class="refine-teims edit">
+                <a href="http://newlifecollection.com/ca29/95/p-r-s/">
+                    <p class="text">生花</p>
+                </a>
+                <span class="name"><i>芥川亜由弥</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/94/p-r-s/">
+                    <p class="text">磨きたい</p>
+                </a>
+                <span class="name"><i>seaketa</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/93/p-r-s/">
+                    <p class="text">無意識にやってしまっていることを知りたい</p>
+                </a>
+                <span class="name"><i>なっちん</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/92/p-r-s/">
+                    <p class="text">レゲエMCになってみたい</p>
+                </a>
+                <span class="name"><i>セーラーかんな子</i></span>
+            </div>
+            <div class="refine-teims spot">
+                <a href="http://newlifecollection.com/ca29/91/p-r-s/">
+                    <p class="text">何を作ってもいい会</p>
+                </a>
+                <span class="name"><i>YAMASTORE</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/90/p-r-s/">
+                    <p class="text">プリクラ機の落書きコーナーの足元だけ撮った写真集 など</p>
+                </a>
+                <span class="name"><i>maqui</i></span>
+            </div>
+            <div class="refine-teims direction">
+                <a href="http://newlifecollection.com/ca29/89/p-r-s/">
+                    <p class="text">とにかく汚れたい</p>
+                </a>
+                <span class="name"><i>中尾香織</i></span>
+            </div>
+            <div class="refine-teims direction">
+                <a href="http://newlifecollection.com/ca29/88/p-r-s/">
+                    <p class="text">破片・かけらをいっぱい作りたい</p>
+                </a>
+                <span class="name"><i>中尾香織</i></span>
+            </div>
+            <div class="refine-teims spot">
+                <a href="http://newlifecollection.com/ca29/87/p-r-s/">
+                    <p class="text">知らない町で生活してみたい</p>
+                </a>
+                <span class="name"><i>川良</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/86/p-r-s/">
+                    <p class="text">地球上の小石を一つの場所に集めてみたい</p>
+                </a>
+                <span class="name"><i>金子由里奈</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/85/p-r-s/">
+                    <p class="text">大勢(勿論全員全裸)の写真を撮りまくってみたい など</p>
+                </a>
+                <span class="name"><i>きゅー</i></span>
+            </div>
+            <div class="refine-teims direction">
+                <a href="http://newlifecollection.com/ca29/84/p-r-s/">
+                    <p class="text">お米とコーヒーを一緒においしく</p>
+                </a>
+                <span class="name"><i>中尾香織</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/83/p-r-s/">
+                    <p class="text">靴の上から靴を履きたい</p>
+                </a>
+                <span class="name"><i>wanna be youth</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/81/p-r-s/">
+                    <p class="text">雨をのみたい、草を食べたい</p>
+                </a>
+                <span class="name"><i>woopheadclrms</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/80/p-r-s/">
+                    <p class="text">もう一度「しろいもお」をさわりたい</p>
+                </a>
+                <span class="name"><i>時吉あきな</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/79/p-r-s/">
+                    <p class="text">閉ざされた空間にぎちぎちに詰め込まれたい</p>
+                </a>
+                <span class="name"><i>ぎぼん</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/78/p-r-s/">
+                    <p class="text">ベランダで太陽の光を浴びる</p>
+                </a>
+                <span class="name"><i>hir 0)))</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/77/p-r-s/">
+                    <p class="text">何人かで「ラ(だと思う音)」の音合わせをしたい</p>
+                </a>
+                <span class="name"><i>山村祥子</i></span>
+            </div>
+            <div class="refine-teims direction">
+                <a href="http://newlifecollection.com/ca29/76/p-r-s/">
+                    <p class="text">シナリオライティング</p>
+                </a>
+                <span class="name"><i>ささじまかずま</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/75/p-r-s/">
+                    <p class="text">虹の先っちょに行く</p>
+                </a>
+                <span class="name"><i>アンナ</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/71/p-r-s/">
+                    <p class="text">おっきな焚火</p>
+                </a>
+                <span class="name"><i>0</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/70/p-r-s/">
+                    <p class="text">ふとんで寝ながらさんぽしたい</p>
+                </a>
+                <span class="name"><i>黒木結</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/68/p-r-s/">
+                    <p class="text">お風呂で１日生活する</p>
+                </a>
+                <span class="name"><i>服部峻</i></span>
+            </div>
+            <div class="refine-teims spot">
+                <a href="http://newlifecollection.com/ca29/67/p-r-s/">
+                    <p class="text">お店</p>
+                </a>
+                <span class="name"><i>吉村祥</i></span>
+            </div>
+            <div class="refine-teims spot">
+                <a href="http://newlifecollection.com/ca29/66/p-r-s/">
+                    <p class="text">電子マネー KOIPAY 始動！ など</p>
+                </a>
+                <span class="name"><i>小池ん</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/65/p-r-s/">
+                    <p class="text">数学を勉強したい</p>
+                </a>
+                <span class="name"><i>Ψυχή</i></span>
+            </div>
+            <div class="refine-teims art">
+                <a href="http://newlifecollection.com/ca29/58/p-r-s/">
+                    <p class="text">夢の中で待ち合わせ</p>
+                </a>
+                <span class="name"><i>Soogyong Kim</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/51/p-r-s/">
+                    <p class="text">孤島に沢山のスピーカーを待っていって音を爆音で鳴らしてパーティーをする など</p>
+                </a>
+                <span class="name"><i>南タン</i></span>
+            </div>
+            <div class="refine-teims music">
+                <a href="http://newlifecollection.com/ca29/49/p-r-s/">
+                    <p class="text">ヘリウムガスを吸って混声合唱</p>
+                </a>
+                <span class="name"><i>黄倉未来</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/34/p-r-s/">
+                    <p class="text">とある風景に付随する記憶や感情</p>
+                </a>
+                <span class="name"><i>不揃いキャラメルケーキ</i></span>
+            </div>
+            <div class="refine-teims direction">
+                <a href="http://newlifecollection.com/ca29/28/p-r-s/">
+                    <p class="text">色んな長いものをだらーんて垂らしてみたい</p>
+                </a>
+                <span class="name"><i>中尾香織</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/27/p-r-s/">
+                    <p class="text">昔をカラーでイメージできない</p>
+                </a>
+                <span class="name"><i>Kakita Ibuki</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/26/p-r-s/">
+                    <p class="text">記憶の重ね合わせ</p>
+                </a>
+                <span class="name"><i>Kakita Ibuki</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/25/p-r-s/">
+                    <p class="text">DJと作曲</p>
+                </a>
+                <span class="name"><i>𝑚𝑜𝑠𝑡𝑖𝑛</i></span>
+            </div>
+            <div class="refine-teims life">
+                <a href="http://newlifecollection.com/ca29/23/p-r-s/">
+                    <p class="text">プロジェクター投影</p>
+                </a>
+                <span class="name"><i>Kakita Ibuki</i></span>
+            </div>
+            <div class="refine-teims edit">
+                <a href="http://newlifecollection.com/ca29/22/p-r-s/">
+                    <p class="text">職業体験</p>
+                </a>
+                <span class="name"><i>芥川亜由弥</i></span>
+            </div>
+            <div class="refine-teims direction">
+                <a href="http://newlifecollection.com/ca29/21/p-r-s/">
+                    <p class="text">換気したい</p>
+                </a>
+                <span class="name"><i>ささじまかずま</i></span>
+            </div>
+            <p class="copy">© 2020 you All rights reserved.</p>
+        </div>
+    </div>
+    <div id="footer">
+        <p class="statement"><a href="index.html">あなたの素晴らしいアイデアや創造的チャレンジを実現します。</a></p>
+    </div>
+</body>
+
+</html>
