@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: absolute;
+    top: -12.5%;
+    right: -25%;
+    z-index: 10;
+    overflow: none;
+    pointer-events: none;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 10vw;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    animation: 2.5s linear infinite alternate year;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.innertext {
+    text-align: center;
+    float: left;
+    position: relative;
+    box-sizing: content-box;
+    border-radius: 200px;
+}
+
+.innertext:nth-child(even) {
+    filter: sepia(100%);
+}
+
+.innertext:nth-child(odd) {
+    filter: hue-rotate(180deg);
+}
+
+@-webkit-keyframes year {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(0.45);
+    }
+}
