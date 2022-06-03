@@ -1,0 +1,215 @@
+html,body {overflow-x: hidden;
+  font-family: Arial, "MS PGothic", sans-serif;
+  background: linear-gradient(-55deg, #25AF5A, #f6d435, #D24117);
+  background-size: 200% 200%;
+  animation: gradientBG 1s ease infinite;}
+a {color:#000; text-decoration:none;}
+a:hover {color:#25AF5A;}
+hr {clear:both;}
+#top {position:relative; top:0; left:0; background:#eee; margin:1vw;overflow: hidden;}
+#schedule {position:relative; top:0; left:0; background:#eee; margin:0 1vw; overflow: hidden;}
+header {padding: 5vw 4vw 2.5vw;}
+header h2 {font-family: Arial; font-size: 5.5vw; line-height: 10vw; font-weight: normal; font-weight: 500; padding: 0 10vw 0; letter-spacing: 0.1rem;}
+#top h1, .dates {font-size: 3.5vw; text-align:left;}
+#top h3 {background: #fff; color:#D24117; padding: 1vw; width:65vw; margin:2.5vw 12.5vw; text-align:center; font-size: 2vw; display : inline-block;}
+.main {line-height: 10vw; padding: 1vw; margin-right:2vw; background-color: #25AF5A; color:#fff;}
+#sub  {line-height: 7.5vw; padding: 1vw; margin-right:2vw; background-color: #25AF5A; color:#fff;}
+.contents {line-height: 5vw; padding: 1vw; background: #fff;}
+h1 a {line-height: 5vw; padding: 1vw; background: #f6d435;}
+
+.chishima {position:relative; padding-left: 1vw; top:1vw;}
+.chishima img {width:35vw;}
+.topic {background: #fff; color:#D24117; padding: 1vw 2.5vw; width:82vw; margin:7.5vw 5vw 0; text-align:center; font-size: 5vw; line-height:10vw; display: inline-block;}
+h1 {font-size: 3.5vw; line-height:5.5vw;  margin:4vw 5vw;letter-spacing: 0.1rem; font-weight: 500;}
+h2 {font-family: Arial; font-size: 3vw; line-height: 5vw; font-weight: normal; font-weight: 500; letter-spacing: 0.1rem;}
+h2 b {font-family: "MS Serif", "Times New Roman"; color:#f6d435; font-size: 125%; font-style: italic;}
+h2 i {font-family: "Times New Roman", "Times", serif; font-size: 125%; font-style: italic; letter-spacing: 0.13rem;}
+h3 {background: #fff; color:#D24117; width:45vw; padding: 1vw; margin:5vw 25vw 0; text-align:center; font-size:5vw; display:inline-block;}
+#do b {font-weight: 500; text-decoration:underline wavy #fff}
+.hold, .dai {color:#fff;}
+.hold:before {
+  content:"hold"; font-family: "MS Serif", "Times New Roman";  color:#f6d435; font-style:italic;
+  position:absolute; font-weight: 555;
+  margin-top:2vw; margin-left:-1.25vw;
+}
+.dai:before {
+  content:"大";
+  position:absolute;
+  padding-left: 0.2vw; font-size: 10vw;
+  font-family: "Times New Roman", "Times", serif; color:#D24117;
+}
+.by i {font-size: 3.5vw; font-style: normal; line-height: 0;}
+.by i:before {
+  content:"by";
+  position:relative;
+  padding-right: 3vw; font-size: 3vw;
+  color:#f6d435;
+}
+.by i:after {
+  content:"∧° ┐"; font-family: "MS Mincho";
+  position:relative;
+  padding-left: 2.5vw; font-size:4vw;
+  color:#000;
+}
+.hold:before ,.dai:before, h2 b ,.dai:after{
+  -webkit-text-stroke: 0.25vw #FFF;
+  text-stroke: 0.25vw #FFF;
+}
+.entry:before {
+  content:"ĺ¤§ĺé"; 
+  position:absolute; float:right; right:0; margin:2.5vw 5vw;
+  font-size:5.5vw; width:25vw; height:25vw; padding: 0;  line-height: 25vw;
+  color:#fff; border-radius: 15vw; text-align:center;
+  background: linear-gradient(55deg, #25AF5A, #f6d435, #D24117);
+  background-size: 250% 250%;
+  animation: gradientBG 0.25s ease infinite;
+}
+.end:before{
+  content:"終了しました";
+  position:absolute; float:right; right:5vw; margin-top: 1vw;
+  font-size:3vw; width:30vw; height:30vw; padding: 1vw; line-height:30vw;
+  color:#fff; border-radius: 30vw; text-align:center;
+  background: linear-gradient(55deg, #25AF5A, #f6d435, #D24117);
+  background-size: 250% 250%;
+  animation: gradientBG 0.25s ease infinite;
+}
+#gizagiza a , #gizagiza a:after , #gizagiza a:before , #gizagiza a span {
+ width:15vw; height:15vw;
+  background-color:#25AF5A;
+  position:absolute;
+  top:0px;
+}
+#gizagiza , #gizagiza a , #gizagiza a:after , #gizagiza a:before {
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+}
+#gizagiza a span:hover {color:#D24117; cursor:pointer;}
+#gizagiza a span {
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  text-align: center;
+  z-index: 999;
+  line-height: 15vw;
+  font-size:7.5vw;
+  color: #fff;
+}
+#gizagiza span:before{
+  content:"もっと見る"; 
+  font-size:2.5vw; letter-spacing: 0rem;
+  line-height: 3vw;
+  position:absolute;
+  top:0; left:0; width:15vw;
+}
+#gizagiza {
+  -webkit-transform: rotate(-320deg);
+  -moz-transform: rotate(-320deg);
+  position:relative; width:15vw; height:15vw;
+  background-color:#25AF5A;
+  float:right; top:-2.5em; right:-7.5vw;
+}
+#gizagiza span:after{
+  content:"ここに集まった、いろんな人たちの実現したいことを紹介します。"; 
+  font-size:2vw; letter-spacing: 0rem;
+  line-height: 3vw; color:#D24117;
+  position:absolute; padding: 0.5vw 1vw;
+  bottom:-7.5vw; left:-8vw; width:27.5vw;
+  background-color:#f6d435;
+}
+
+.greeting i:before {content:"chotto crazy";
+  color:#f6d435; position:absolute; float:left;
+  font-family: "MS Serif", "Times New Roman"; font-size:75%; margin-top:-1.5vw;
+  -webkit-text-stroke: 0.02vw #fff;
+  text-stroke: 0.02vw #fff;
+}
+
+#crazy {position:relative; font-size:3vw; margin: 5vw 5vw; padding: 0 5vw 0; float:right; right:2.5vw;
+width:70vw; border: solid 3px #fff; border-radius: 2.5vw;
+  background: linear-gradient(55deg, #25AF5A, #f6d435, #D24117);
+  background-size: 200% 200%;
+  animation: gradientBG 1s ease infinite;}
+.yes:after, .no:after, .or:after {
+  position:relative;
+  padding-left: 1vw; font-size:125%;
+  color:#25AF5A;
+  -webkit-text-stroke: 0.1vw #FFF;
+  text-stroke: 0.1vw #FFF;
+}
+.yes:after {content:"けどできない";}
+.no:after {content:"けど気になる";}
+.or:after {content:"けどやってみたい";}
+
+.chotto {position:relative; float:right; right:0; width:100%; margin-top:0.5em;}
+.chotto:before {content:"ちょっとクレイジーな";
+  color:#f6d435; float:left; left:0; padding-right: 1.25vw;
+  font-size:100%; font-family: "MS Serif", "Times New Roman";
+  -webkit-text-stroke: 0.05vw #FFF;
+  text-stroke: 0.05vw #FFF;
+}
+.chotto:after {content:"あなたの";
+  font-size: 125%;
+  font-family: "Times New Roman", "Times", serif; color:#D24117;
+  position:absolute; float:left; padding-top:0.25em; left:7.5vw;
+  -webkit-text-stroke: 0.1vw #FFF;
+  text-stroke: 0.1vw #FFF;
+}
+
+.you {font-size: 2.5vw;
+  font-family: "Times New Roman", "Times", serif; color:#D24117;
+  -webkit-text-stroke: 0.1vw #FFF;
+  text-stroke: 0.1vw #FFF;
+}
+.big {font-size: 7.5vw; padding: 1.5vw;
+  font-family: "Times New Roman", "Times", serif; color:#D24117;
+  -webkit-text-stroke: 0.15vw #FFF;
+  text-stroke: 0.15vw #FFF;
+}
+.pehu {font-family:"MS Mincho"; font-size: 2.5vw; }
+.pehu:after {content:"creative, community space"; font-size: 1.25vw;  margin-left:1em;}
+
+#entry  {clear:both; position:relative; margin:5vw 0;}
+#list {position:relative; z-index:10; padding:2.5vw 2.5vw;}
+#do  {padding: 0; clear:both;}
+#message {font-size:5vw; position:relative; float:left; right:0; width:auto; margin:2.5vw 0 0 2.5vw;}
+.greeting {background: #fff; padding: 1vw;}
+#poem {color:#eee; position:relative; float:right; z-index:10; margin: 5vw 5vw 0 5vw; font-family: "YuGothic","Yu Gothic"; font-size: 0.25vw; letter-spacing: 0.3rem;}
+#poem p{text-shadow: 1px 2px 3px #fff;}
+.past {width:30vw;}
+
+.about {position:relative; clear:both; font-size:2vw; margin: 5vw; border: solid 3px #fff; border-radius: 2.5vw; padding:2.5vw 5vw}
+.statement {clear:both; text-align:center; padding:0; margin:0 0 2.5vw; }
+.statement a {background-color:#D24117; width:93.8%; display:inline-block; color:#fff; padding:1vw 2vw; font-size:5vw;}
+
+
+/* Animation */
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+@media screen and (max-width: 1000px){
+header {padding: 3em 2.5vw 0;}
+h1 {font-size:3.5vw}
+h2 {font-size:100%}
+}
+
+@media screen and (max-width: 500px){
+header {padding: 1em 2.5vw 0;}
+header h2 {font-size: 95%;}
+header h3 {width:65vw; margin:0 10vw; font-size:2.5vw;}
+.topic, h3 {font-size:4.5vw;}
+h1 {font-size:3.5vw;}
+.by i {font-size: 2.5vw;}
+#message {float:left; margin: 1em 2.5vw 0;}
+#poem {display:none;}
+#crazy {width:70vw; float:right; font-size:3vw; margin:2.5em 3vw;}
+#gizagiza a , #gizagiza a:after , #gizagiza a:before , #gizagiza a span {width:15vw; height:15vw;}
+#gizagiza span:before{font-size:2.5vw;line-height: 5vw; width:15vw;}
+#gizagiza a span {line-height: 16vw; font-size:8vw;}
+#gizagiza span:after{
+  font-size:2.5vw; line-height: 3vw;
+  position:absolute; padding: 0.5vw 1vw;
+  top:-7.5vh; left:12.5vw; width:1vw; height:47.5vh;
+}
+}

@@ -1,0 +1,148 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>暗室／ステージ - 大大大 chotto crazy 2020 MAX</title>
+    <link rel="stylesheet" href="room.css" type="text/css" />
+    <link rel="stylesheet" href="stage.css" type="text/css" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/popup.css" type="text/css" />
+
+    <script type="text/javascript">
+        function LinkClick() {
+            var elemList = document.getElementsByClassName("FadeFrame");
+            for (i = 0; i < elemList.length; i++) {
+                elemList[i].classList.add("fadeout");
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        function LinkUp() {
+            var elemList = document.getElementsByClassName("FadeOut");
+            for (i = 0; i < elemList.length; i++) {
+                elemList[i].classList.add("fadeup");
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(function() {})
+    </script>
+
+    <style type="text/css">
+
+    </style>
+</head>
+
+<body>
+
+    <div class="communication" id="talkshow" style="display:none;">
+        <p><iframe src="../../program/talkshow/index.html"></iframe></p>
+        <span class="close" onclick="obj=document.getElementById('talkshow').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+    </div>
+    <div class="communication" id="memorygame" style="display:none;">
+        <p><iframe src="../../program/memorygame/index.html"></iframe></p>
+        <span class="close" onclick="obj=document.getElementById('memorygame').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+    </div>
+
+    <div id="in" class="FadeOut">
+        <p id="up"><i>プログラム</i></p>
+        <div id="up">
+            <div id="menu">
+                <a onclick="obj=document.getElementById('talkshow').style; obj.display=(obj.display=='none')?'block':'none';">暗闇でおしゃべりしたい
+</a>
+                <a onclick="obj=document.getElementById('memorygame').style; obj.display=(obj.display=='none')?'block':'none';">記憶の重ね合わせ</a>
+                <a onclick="obj=document.getElementById('memorygame').style; obj.display=(obj.display=='none')?'block':'none';">とある風景に付随する記憶や感情</a>
+            </div>
+            <div id="out">
+                <a onclick="window.location.reload();">暗室から出る</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="FadeOut">
+        <div class="FadeFrame">
+            <div id="enter" class="inside">
+                <b>暗室</b>の中で<u>素性が分からない相手</u>と
+                <i>コミュニケーション</i>
+                <br/><a href="javascript:LinkClick();">暗室へ入る</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="performance" id="la" style="display:none;">
+        <p><iframe src="../../program/la/index.html"></iframe></p>
+        <span class="close" onclick="obj=document.getElementById('la').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+    </div>
+    <div class="performance" id="soundlive" style="display:none;">
+        <p><iframe src="../../program/soundlive/index.html"></iframe></p>
+        <span class="close" onclick="obj=document.getElementById('soundlive').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+    </div>
+    <div class="performance" id="walk" style="display:none;">
+        <p><iframe src="../../program/walk/index.html"></iframe></p>
+        <span class="close" onclick="obj=document.getElementById('walk').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+    </div>
+    <div class="performance" id="shibayoku" style="display:none;">
+        <p><iframe src="../../program/shibayoku/index.html"></iframe></p>
+        <span class="close" onclick="obj=document.getElementById('shibayoku').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+    </div>
+
+    <div id="on" class="FadeFrame" style="display:none;">
+        <p><i>プログラム</i></p>
+        <div id="menu">
+            <a onclick="obj=document.getElementById('shibayoku').style; obj.display=(obj.display=='none')?'block':'none';">芝浴</a>
+            <a onclick="obj=document.getElementById('walk').style; obj.display=(obj.display=='none')?'block':'none';">靴の上から靴を履く</a>
+            <a onclick="obj=document.getElementById('soundlive').style; obj.display=(obj.display=='none')?'block':'none';">音の出るものをいっぱい並べる</a>
+            <a onclick="obj=document.getElementById('la').style; obj.display=(obj.display=='none')?'block':'none';">何人かで「ラ(だと思う音)」の音合わせをしたい</a>
+        </div>
+        <div id="down">
+            <a onclick="window.location.reload();">戻る</a>
+        </div>
+    </div>
+
+    <div class="FadeFrame">
+        <div id="onstage" class="FadeOut">
+            <a id="up" href="javascript:LinkUp();" onclick="obj=document.getElementById('on').style; obj.display=(obj.display=='none')?'block':'none';">ステージへ上がる</a>
+        </div>
+    </div>
+
+    <div id="object" class="FadeFrame">
+        <div id="room" class="FadeOut" style="display:;">
+            <div id="title">
+                <div>
+                    <h2>2021.1.16-1.31</h2>
+                    <h1><b>音ビル</b><u>2F</u><i>A室</i></h1>
+                </div>
+            </div>
+
+            <div data-depth="0.7" class="shiba">
+                <ul>
+                    <li class="shiba1"></li>
+                    <li class="shiba2"></li>
+                    <li class="shiba3"></li>
+                    <li class="shiba5"></li>
+                    <li class="shiba6"></li>
+                </ul>
+            </div>
+            <div data-depth="1.0" class="ansitsu">
+                <ul>
+                    <li class="face1"></li>
+                    <li class="face2"></li>
+                    <li class="face3"></li>
+                    <li class="face4"></li>
+                    <li class="face5"></li>
+                    <li class="face6"></li>
+                </ul>
+            </div>
+            <div data-depth="0.4" class="wall"></div>
+        </div>
+    </div>
+    <div class="communication" id="about" style="display:none;">
+        <p><iframe src="about.html"></iframe></p>
+        <span class="close" onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+    </div>
+</body>
+
+</html>

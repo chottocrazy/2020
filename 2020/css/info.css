@@ -1,0 +1,340 @@
+body {
+	background:#eee;
+	overflow-x:hidden;
+}
+.image {
+	position:fixed;
+	z-index:-1;
+	top:0;	left:0;
+	padding:0;
+	margin:0;
+	width:100%;
+	height:100%;
+}
+.image img {
+	max-width:100%;
+	max-height:100%;
+	position:absolute;
+ bottom:0%; left:50%;
+ -webkit-transform: translate(-50%,-0%);
+ transform: translate(-50%,-0%);
+}
+.image iframe {
+	position:absolute;
+	width:90%;
+	height:45vw;
+ bottom:5%; left:50%;
+ -webkit-transform: translate(-50%,-0%);
+ transform: translate(-50%,-0%);
+}
+#programme {
+	position:relative;
+	left:7.5rem;
+	padding:1.5rem;
+	width:82.5vw;
+}
+#title {font-size:1.75rem;}
+.by {display:block; margin-top:1.25rem; font-size:1.25rem;}
+#about {font-size:1.25rem; margin-top:1.5rem; background-color:rgba(255,255,255,0.5); clear:both; padding:0.5% 2.5%;}
+#about u {margin-right:2vw;}
+#about b {font-size:120%; font-weight:555;}
+#about div {width:100%; position:relative; margin:1rem 0;}
+#about div span {display:block;border:solid 0.1vw; width:auto; margin:auto; padding:2% 4.5%;} 
+
+.online:before,
+.pre_event:before,
+.exhibition:before,
+.festival:before {
+display:inline-block; 
+padding:0 0.25rem; 
+margin-top:2.5rem; 
+font-size:1.25rem; 
+}
+.online:after,
+.pre_event:after,
+.exhibition:after,
+.festival:after {
+font-size:1.25rem; 
+position:absolute; 
+top:1rem; 
+font-weight:500; 
+color:#000; 
+border-bottom:0.125rem solid;
+}
+.online:before {content:"オンライン発表"; border:0.125rem solid #000;}
+.pre_event:before {content:"プレイベント"; color:#25AF5A; border:0.125rem solid #25AF5A;}
+.exhibition:before {content:"展覧会・アトラクション"; color:#D24117; border:0.125rem solid #D24117;}
+.festival:before {content:"限定開催"; color:#f6d435; border:0.125rem solid #f6d435;}
+
+.by:before {
+	content:"by";
+	margin-right:1vw;
+	font-style:italic;
+ font-family: "MS Serif", "Times New Roman"; 
+	font-size:90%;
+}
+
+#schedule {font-size:1.25rem; margin:2.5rem 0 0;}
+#schedule div {padding:0.5rem 0; position:relative;}
+#schedule div span {
+pointer-events:none; 
+position:relative; 
+z-index:2; 
+display:inline-block;
+}
+
+#schedule .date {
+margin-left:2%;
+position:absolute;
+background:#fff;
+top:1rem;
+}
+#schedule .sub {
+display:block;
+font-size:2.25rem;
+overflow:hidden;
+}
+#schedule .sub u{
+margin:0;
+text-decoration:none;
+display : inline-block;
+padding-left: 100%;
+white-space : nowrap;
+animation : scrollSample01 10s linear infinite;
+}
+#schedule #none a,
+#schedule .up a,
+#schedule .tba a
+{display:none;}
+#schedule .now
+{cursor:pointer;}
+#schedule .up,
+#schedule .tba
+{pointer-events:none;}
+
+#schedule .now .sub u:after {content:"します";}
+#schedule .up .sub u:after {content:"します";}
+#schedule .tba:before {
+	position:absolute;
+ top: 50%; left:50%;
+	z-index:10;
+ transform: translate(-50%,-50%);
+ -webkit-transform:translate(-50%,-50%);
+ content:"近日公開";
+ font-size:2.5vw; color:#fff;
+ background:linear-gradient(-90deg, #25AF5A, #f6d435, #D24117);
+ background-size: 200% 200%;
+ animation: gradientBG 1s ease infinite;
+}
+#schedule .tba .sub {
+  pointer-events:none;
+  user-select: none;
+  -webkit-filter: blur(1.5vw);
+  filter: blur(1.5vw);
+}
+#schedule .end .sub {color:#fff;}
+#schedule .end .sub:before {
+ content:"✔";
+	position:absolute;
+	font-size:125%;
+	bottom:0; right:2.5vw;
+ display:inline-block;
+}
+#schedule .cancel .sub:before {
+ content:"×";
+  color:red;
+	position:absolute;
+	font-size:150%;
+	bottom:0; right:2.5vw;
+ display:inline-block;
+}
+#schedule #canceled {
+	background:#fff; padding: 2.5%;
+	font-size:1.25rem;
+}
+#schedule #canceled b {
+	font-weight:555;
+	padding:1%;
+	color:#fff;
+ background:linear-gradient(-90deg, #25AF5A, #f6d435, #D24117);
+ background-size: 200% 200%;
+ animation: gradientBG 1s ease infinite;
+}
+#schedule #canceled u {
+	display:block;
+	text-align:right;
+	margin:0; padding:0;
+}
+#schedule #link {
+  position: absolute;
+  margin:0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-indent:-999px;
+}
+#schedule .end .sub u:after{
+  content:"しました";
+  color:#fff;
+}
+#schedule .cancel .sub u:after{
+  content:"します";
+}
+#schedule .end {
+  background:linear-gradient(-55deg, #25AF5A, #f6d435, #D24117);
+  background-size:200% 200%;
+  animation:gradientBG 1s ease infinite;
+  cursor:pointer;
+}
+#schedule #link:hover {
+  background:linear-gradient(-55deg, #D24117, #f6d435, #25AF5A);
+  background-size:200% 200%;
+  animation:gradientBG 1s ease infinite;
+	cursor:pointer;
+}
+#bootleg div {
+	width:95%;
+	margin:auto;
+	font-size:150%;
+}
+#bootleg div audio {
+	width:100%;
+}
+#iframe, #www {
+	width:95%;
+	height:50vw;
+	margin:0 2.5%;
+	border-radius:2.5vw;
+}
+#video {
+	pointer-events:none;
+}
+#video div{
+	display:none;
+}
+#progress {
+ background-color: #fff; 
+ display: block; 
+ width: 85vh; height: 2.5rem; 
+ border-radius: 5rem; 
+ position:fixed;
+ top:52.5%; left:-32.5vh;
+ transform: rotate(-90deg);
+ -moz-transform: rotate(-90deg);
+ -webkit-transform: rotate(-90deg);
+}
+#progress .max {
+	height: 2.5rem;
+	border-radius: 5rem;
+	background:linear-gradient(90deg, #25AF5A, #f6d435, #D24117);
+	background-size: 200% 200%;
+ animation: gradientBG 5s ease infinite;
+}
+#progress :after {
+ content:"MAX"; 
+ font-family: "MS Serif", "Times New Roman"; 
+ font-style: italic;
+ text-align:center;
+ font-size: 200%;
+ width:4rem;
+ padding:1%;
+ color:#fff;
+ border:0.125rem solid #fff; 
+ position:fixed; 
+ right:-15%;
+ transform: rotate(90deg);
+ -moz-transform: rotate(90deg);
+ -webkit-transform: rotate(90deg);
+ background: linear-gradient(55deg, #25AF5A, #f6d435, #D24117);
+ background-size: 200% 200%;
+ animation: gradientBG 0.5s ease infinite;
+ animation: flash 0.5s infinite;
+}
+.all{
+	display:inline-block;
+	position:relative;
+	font-size:2vw;
+	margin-top:7.5vw;
+	width:100%;
+	text-align:center;
+}
+.all a {
+	color:#000;
+	text-decoration:none;
+	border:0.125rem solid;
+	border-radius:50%;
+	background:#fff;
+	padding:2.5%;
+}
+/* Animation */
+@keyframes gradientBG {
+0% {background-position: 0% 50%;}
+50% {background-position: 100% 50%;}
+100% {background-position: 0% 50%;}
+}
+@keyframes scrollSample01{
+0% { transform: translateX(0)}
+100% { transform: translateX(-100%)}
+}
+@keyframes flash {
+0%,100% {opacity: 1;}
+50% {opacity: 0;}
+}
+
+@media screen and (max-width: 1000px){
+#progress {left:-14.5rem;}
+#programme {width:75vw;}
+}
+@media screen and (max-width: 750px){
+#programme {width:70vw;}
+#title, #schedule .sub {font-size:4.5vw;}
+#about,
+	#schedule #canceled,
+.online:before,
+.pre_event:before,
+.exhibition:before,
+.festival:before,
+.online:after,
+.pre_event:after,
+.exhibition:after,
+.festival:after,
+.by
+{font-size:2.5vw;}
+#schedule .tba:before {font-size:4.5vw;}
+#schedule .sub {display:block; overflow:hidden;}
+#schedule .sub u{
+margin-top:5.5vw; padding:0 0.25rem;
+text-decoration:none;
+white-space : normal;
+display : inline-block;
+animation : scrollSample01 0s linear infinite;
+}
+}
+@media screen and (max-width: 550px){
+#progress {
+  width:80%; position:relative; top:2%; left:2.5%; zoom:75%; margin-bottom:5%;
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);}
+#progress :after {
+  right:-17.5%;
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+#programme {width:85vw; margin:0;
+  left:0; padding:5%;}
+#schedule {font-size:2.5vw;}
+#schedule div {padding-top:5vw;}
+#schedule .date {top:2vw;}
+#schedule .sub u{margin-top:3.5vw;}
+#schedule .canceled:before {
+	font-size:15vw;
+	top:20%; left:20%;
+}
+#www {
+	width:95%;
+	height:75vh;
+}
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<title>アクティブパークへようこそ | 大 chotto crazy 2020</title>
+<link href="active.css" rel="stylesheet">
+<script type="text/javascript">
+$(function(){
+</script>
+<style type="text/css">
+#reservation {
+	position: relative;
+	width: 90vw;
+	height:90vh;
+	top:50%; left:50%;
+ -webkit-transform:
+		translate(-50%,-50%);
+	transform:
+	translate(-50%,-50%);
+}
+#reservation iframe {
+	width:100%; height:100%;
+	border:none;
+}
+</style>
+</head>
+<body>
+
+<div class="base">
+<div class="news" onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';"><span>資料集</span><marquee>アクティブパークの制作／記録資料集</marquee></div>
+<div id="scaler" class="scaler">
+<section class="section section-1" data-z="0">
+<h1>ACTIVE PARK</h1>
+<h2 class="tate">2021.1.16-31</h2>
+<h3 class="bottom">@音ビル 2F B室</h3>
+</section>
+<section class="section section-2" data-z="1.25">
+<h1 class="bottom">プログラム</h1>
+<h2>思い出と憧れの洞窟</h2>
+<div id="menu" class="center">
+<a onclick="obj=document.getElementById('kodomokichi').style; obj.display=(obj.display=='none')?'block':'none';">こども基地協会を設立</a>
+<a onclick="obj=document.getElementById('sky').style; obj.display=(obj.display=='none')?'block':'none';">手作りの凧を空へ飛ばしたい</a>
+<a onclick="obj=document.getElementById('okayama').style; obj.display=(obj.display=='none')?'block':'none';">オススメを集める</a>
+<a onclick="obj=document.getElementById('value').style; obj.display=(obj.display=='none')?'block':'none';">自慢コンクール</a>
+<a onclick="obj=document.getElementById('botanical').style; obj.display=(obj.display=='none')?'block':'none';">サボテン植え替え大会</a>
+<a onclick="obj=document.getElementById('refine').style; obj.display=(obj.display=='none')?'block':'none';">石を磨きたい</a>
+</div>
+</section>
+<section class="section section-2" data-z="3">
+<h1 class="bottom">に基づき実現を延期します</h1>
+<h2>感染症拡大防止ガイドライン</h2>
+<div id="menu" class="center">
+<a onclick="obj=document.getElementById('excuse').style; obj.display=(obj.display=='none')?'block':'none';">口実を作りたい</a>
+<a onclick="obj=document.getElementById('touch').style; obj.display=(obj.display=='none')?'block':'none';">砂のトンネルで握手</a>
+</div>
+</section>
+<section class="section section-5" data-z="4.5">
+<h1 class=""><a href="../../otobuil/index.html" target="_parent">展覧会・アトラクション</a></h1>
+<div id="text">
+<p><b>アクティブパーク</b>は、手作りの洞窟のような場所です。<br/>
+ここで、自由に作り、遊び、できあがったもの<br/>
+それらが壊れたり、壊したり、直したりを繰り返すこと<br/>
+ここでの全ての思い出・憧れが、アクティブパークという作品の一部です。</p>
+</div>
+</section>
+<section class="section section-3" data-z="7">
+<div id="reservation">
+<iframe id="iframe" src="https://www.youtube.com/embed/zQixonPdOg0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="center">
+<h2 style="z-index:100;">LIVE</h2>
+</div>
+<h2 class="tate">生配信</h2>
+</section>
+
+</div>
+</div>
+<div id="scroll" class="scroll"></div>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="active.js"></script>
+
+<div class="popup" id="about" style="display:none;">
+<p><iframe src="about.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('about').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+<div class="popup" id="value" style="display:none;">
+<p><iframe src="../../program/value/index.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('value').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+<div class="popup" id="okayama" style="display:none;">
+<p><iframe src="../../program/okayama/index.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('okayama').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+<div class="popup" id="kodomokichi" style="display:none;">
+<p><iframe src="../../program/kodomokichi/index.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('kodomokichi').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+<div class="popup" id="botanical" style="display:none;">
+<p><iframe src="../../program/botanical/index.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('botanical').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+<div class="popup" id="refine" style="display:none;">
+<p><iframe src="../../program/refine/index.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('refine').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+<div class="popup" id="excuse" style="display:none;">
+<p><iframe src="../../program/excuse/index.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('excuse').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+<div class="popup" id="touch" style="display:none;">
+<p><iframe src="../../program/touch/index.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('touch').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+<div class="popup" id="sky" style="display:none;">
+<p><iframe src="../../program/sky/index.html"></iframe></p>
+<span class="close" onclick="obj=document.getElementById('sky').style; obj.display=(obj.display=='none')?'block':'none';">✕</span>
+</div>
+</body>

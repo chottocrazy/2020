@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>大 chotto crazy 2021 @ 音ビル</title>
+    <link rel="stylesheet" href="/font/fontmotion.css" />
+    <style type="text/css">
+#about {
+	font-size:2rem;
+	padding:0 5.5%;
+}
+#about b {
+	color:#000;
+	font-size:120%;
+	display:inline-block;
+	line-height:120%;
+	font-weight:500;
+	margin:1% 1% 0;
+  animation:2.5s linear infinite fontmotion;
+}
+#about .dai {
+  position:relative;
+}
+#about .dai:before {
+  content:"大";
+  position:relative;
+  margin: 0;
+  font-size: 250%;
+  font-family: "Times New Roman", "Times", serif;
+  color:#D24117;
+}
+#about .dai:after {
+  content:"4.1.2021 - Future";
+  position:absolute;
+  top:3.5rem;
+  right: 10rem;
+  margin: 0;
+  font-size: 75%;
+  font-family: Arial;
+  -webkit-text-stroke: 0.05rem #fff;
+  text-stroke: 0.05rem #fff;
+}
+#about i {
+	color:#000;
+	font-style:normal;
+	font-size:125%;
+	display:inline-block;
+	transform: scale(1, 2.5);
+	line-height:100%;
+	font-weight:500;
+	margin:0 1% 1%;
+	text-decoration:underline wavy #000;
+}
+#about u {
+  font-weight:555;
+  text-decoration:underline wavy #D24117;
+}
+#about .pehu {
+  font-family:"MS Mincho", serif;
+}
+#about .pehu:after {
+  content:"∧°┐";
+  position:relative;
+  margin: 0 1rem;
+  font-size: 125%;
+}
+#about .yes:after,
+#about .no:after,
+#about .or:after {
+  position:relative;
+  padding-left: 0.25rem;
+  font-size:125%;
+  color:#eee;
+  -webkit-text-stroke: 0.05rem #000;
+  text-stroke: 0.05rem #000;
+}
+#about .yes:after {content:"けど、できない";}
+#about .no:after {content:"けど、気になる";}
+#about .or:after {content:"けど、やってみたい";}
+#about .online:before {
+content:"オンライン";
+  font-size:150%;
+  color:#eee;
+  -webkit-text-stroke: 0.05rem #000;
+  text-stroke: 0.05rem #000;
+}
+#about .otobuil:after {
+  content:"音ビル";
+  font-size:150%;
+  color:#eee;
+  -webkit-text-stroke: 0.05rem #000;
+  text-stroke: 0.05rem #000;
+}
+#about .big {
+  font-size: 250%;
+  padding: 0.5rem 0 0;
+  font-family: "Times New Roman", "Times", serif;
+  color:#D24117;
+  -webkit-text-stroke: 0.1rem #FFF;
+  text-stroke: 0.1rem #FFF;
+}
+
+@media screen and (max-width: 1000px){
+#about {
+	font-size:3vw;
+}
+#about .dai:after {
+  top:4.5vw;
+  right: 25vw;
+}
+}
+    </style>
+
+  
+  </head>
+<body>
+  <div id="about">
+    <h2 class="dai"><b>chotto crazy</b></h2>
+    <p class="pehu">クリエイティブ・コミュニティスペース</p>
+    <p>が <span class="big">実現</span> したい</p>
+    <p>
+    <span id="do" class="yes">やりたい</span><br/>
+    <span id="do" class="no">やりたくない</span><br/>
+    <span id="do" class="or">やらなくてもいい</span>
+    </p>
+    <p><span class="big">10</span> のことを<br/>
+      <span class="online"></span>
+      ・
+      <span class="otobuil"></span>
+    </p>
+    <p>いろんな場所で <span class="big">実現</span> する</p>
+    </div>
+</body>
+</html>
