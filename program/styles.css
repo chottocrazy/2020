@@ -1,0 +1,424 @@
+body {
+	background:green;
+	padding:0; margin:0;
+	width:100vw; height:100vh;
+	overflow:hidden;
+	font-family:"Hiragino Maru Gothic Pro","Hiragino Kaku Gothic Pro","HGMaruGothicMPRO";
+}
+#main a,
+#marquee a,
+.gizagiza a,
+#stone a {
+	cursor:pointer;
+	display:block; width:100%; height:100%;
+}
+
+#main {
+	text-align:center;
+	overflow-x:hidden;
+	overflow-y:auto;
+	position:absolute;
+	z-index:100;
+	top:50%; left:50%;
+	padding: 7.5vh 2.5vw 0;
+	width:85vw; height:80vh;
+	transform:translateY(-50%) translateX(-50%);
+	-webkit-transform:translateY(-50%) translateX(-50%);
+}
+#main .title {
+	font-size:12.5vw;
+	position:relative;
+	z-index:-1;
+	margin:-2.5vh 0 0;
+	font-family: 'YuMincho', serif;
+	color:green;
+text-shadow: -1px -1px 1px #000, 1px 1px #fff;
+}
+#main .center {
+	text-align:center;
+	font-family: Arial, "MS PGothic", sans-serif;
+	font-size:3.5vw;
+}
+#main .date {
+	text-align:center;
+	font-family: Arial, "MS PGothic", sans-serif;
+	font-size:2.5vw;
+	font-weight: 500;
+	color:#fff;
+	padding:1vw 1.5vw;
+	border:0.35vw solid;
+ border-radius: 50%;
+}
+#main .center a {
+	font-size:3.5vw;
+	font-weight: 500;
+	display:inline-block;
+	width:auto;
+	text-decoration:none;
+	color:#000;
+	background:#fff;
+	margin:7.5vw auto 5vw;
+	padding:1vw 2.5vw;
+	border:0.35vw solid;
+ border-radius: 50%;
+}
+#main .center a:hover {
+	color:#fff;
+	background:green;
+	border:0.35vw solid;
+ border-radius: 50%;
+	cursor:pointer;
+}
+#main i,
+#stone span {
+	font-size:80%;
+}
+#main #about {
+	font-family: 'YuMincho', serif;
+	font-size:1.75vw;
+	text-align:left;
+ position: relative;
+	width:70vw;
+	margin:75vh auto 15vh;
+	padding:2% 4%;
+	background:#fff;
+ display: block;
+}
+#main #about hr {
+	margin:5vh 0;
+	border-bottom:solid green 0.1vw;
+}
+#main #about h1 {
+	font-size:2.5vw;
+	font-family: 'YuMincho', serif;
+	color:#fff;
+	text-shadow: -1px -1px 1px #000, 1px 1px green;
+}
+#main .menu h1 {
+	padding:0 2%;
+}
+#main .menu a {
+	width:95%;
+	cursor:pointer;
+	color:#fff; padding:2%;
+	border:solid 0.1vw #b35900;
+	border-radius:5vw;
+	background:green;
+	margin:0.25vh 0;
+}
+#main .menu a:hover {
+	border-radius:5vw;
+	background:#b35900;
+	margin:0.25vh 0;
+}
+#main b {
+	font-size:150%;
+	font-family: 'YuMincho', serif;
+	color:green;
+text-shadow: -1px -1px 1px #000, 1px 1px #fff;
+}
+#main i {font-size:75%;}
+#main #about span {
+	display:block;
+	margin:5vw 0vw 0;
+	padding:0 2%;
+	font-size:1.5vw;
+	border:solid 0.1vw;
+}
+
+#ichoose {
+	color:green;
+	text-shadow: -1px -1px 1px #000, 1px 1px #fff;
+	font-size: 2vw;
+	font-family: "Times New Roman", "Times", serif;
+	margin:7.5vh 0 ; padding:2.5%;
+}
+#ichoose h3 {
+	font-size: 2.5vw;
+	font-weight: 500;
+	display:inline-block;
+	background-color:#fff;
+ border-radius: 1rem 2.5rem;
+	padding:0.5rem 1.25rem;
+	box-shadow: -1.5vw 2vw 0vw 0vw #000;
+  animation: zoom 5s ease infinite;
+}
+
+#ichoose p {
+	display:inline-block;
+	background-color:#fff;
+ border-radius: 2.5rem 1rem;
+	padding:0.5rem 1.25rem;
+	box-shadow: 1.5vw 2vw 0vw 0vw #000;
+  animation: zoom 2.5s ease infinite;
+}
+#ichoose a {
+	zoom:1.25;
+	box-shadow: 0vw 1.25vw 0vw 1.25vw #000;
+ animation: zoom 1s ease infinite;
+}
+#ichoose b {font-weight: 500; font-size: 150%;}
+#ichoose b:before {
+  content: "{";
+  margin-right: 1.5vw;
+  font-size: 200%;
+}
+#ichoose b:after {
+  content: "}";
+  margin-left: 1.5vw;
+  font-size: 200%;
+}
+#back {display:none;}
+
+.gizagiza {
+	top:20vh; right:7.5vw;
+  position: absolute;
+  --r: 10vw;
+  width: calc(var(--r) * 2);
+  height: calc(var(--r) * 2);
+  border-radius: 100%;
+	transform:skewX(-30deg);
+}
+
+.gizagiza .text {
+	 font-family: 'YuMincho';
+  position: absolute;
+  pointer-events:none;
+  top: 50%; left: 50%;
+  transform:translate(-50%,-50%);
+  display:inline-block;
+  padding:1vw 1.5vw; margin: 0;
+	 width:7.5vw;
+  border-radius: 100%;
+  font-size: 2.5vw;
+	 color:gold;
+	 text-shadow: -1px -1px 1px #000, 1px 1px #fff;
+}
+
+.gizagiza span{
+  position: absolute;
+  pointer-events:none;
+  top: 50%; left: 50%;
+  width: 0.5vw;
+  height: 10vw;
+  background: linear-gradient(0deg, green 0%, limegreen 50%, greenyellow 100%);
+  transform-origin: center center;
+  transform: translate(-50%,-50%) rotate(var(--angle)) translateY(calc(var(--r) * -1));
+  transition: 2.5s;
+  z-index: 1;
+}
+
+.gizagiza span:nth-of-type(1){  --angle: 0deg;   }
+.gizagiza span:nth-of-type(2){  --angle: 30deg;  }
+.gizagiza span:nth-of-type(3){  --angle: 60deg;  }
+.gizagiza span:nth-of-type(4){  --angle: 90deg;  }
+.gizagiza span:nth-of-type(5){  --angle: 120deg; }
+.gizagiza span:nth-of-type(6){  --angle: 150deg; }
+.gizagiza span:nth-of-type(7){  --angle: 180deg; }
+.gizagiza span:nth-of-type(8){  --angle: 210deg; }
+.gizagiza span:nth-of-type(9){  --angle: 240deg; }
+.gizagiza span:nth-of-type(10){ --angle: 270deg; }
+.gizagiza span:nth-of-type(11){ --angle: 300deg; }
+.gizagiza span:nth-of-type(12){ --angle: 330deg; }
+
+.gizagiza span:before{
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+background: green;
+background: linear-gradient(0deg, green 0%, limegreen 30%, greenyellow 100%);
+
+ transform-origin: center bottom;
+ transform: rotate(65deg);
+}
+
+.gizagiza:hover span,
+.gizagiza:active span{
+  transform: 
+    translate(-50%,-50%) rotate(calc(var(--angle) + 360deg))
+    translateY(calc(var(--r) * -1));
+}
+.gizagiza .text:after {
+  position:absolute;
+  margin-top:5vh;
+  content: '';
+  width: 1vw;
+  height: 20vh;
+  background: linear-gradient(180deg, green 0%, limegreen 30%, greenyellow 100%);
+  transform-origin: center top;
+  transform:skewX(30deg);
+  animation: uneune 5s linear infinite;
+	pointer-events:none;
+}
+
+#main #stone {
+	bottom:17.5vh; left:7.5vw;
+ position: absolute;
+	background:#ddd;
+	width:20vw;
+	height:20vw;
+ border-radius: 50% 40% 35%;
+ transform: scale(1);
+ animation: morphing 0.4s linear infinite;
+	padding:1vw;
+	font-size:2vw;
+	color:#000;
+	box-shadow: -7.5vw 2vw 2vw -2.5vw #000;
+	color:#ddd;
+ text-shadow: -1px -1px 1px #000, 1px 1px #fff;
+}
+#main #stone p {
+	 font-family: 'YuMincho';
+  font-size:3.5vw;
+  position: absolute;
+  pointer-events:none;
+	 width:10vw;
+  top: 11%; left: 30%;
+  transform: translate(-50%,-50%);
+  display: block;
+ animation: rolling 2s linear infinite;
+}
+.box {
+ position: fixed;
+	z-index:-1;
+	bottom:0; left:0;
+ width:100vw;
+ height:45vh;
+ background-image: radial-gradient(#ccc 25%, transparent 50%),
+		radial-gradient(#ccc 25%, transparent 25%);
+ background-position: 0 0, 1vw 1vw;
+ background-size    : 2vw 2vw;
+ animation: wave 2s linear infinite;
+}
+.info_l {
+ display: table-cell;
+ vertical-align: bottom;
+	position:fixed;
+	left:1vw; bottom:0;
+	font-size:2.5vw;
+	text-align:left;
+	color:#fff;
+	padding:1vw 1.5vw;
+}
+.info_r {
+ display: table-cell;
+ vertical-align: bottom;
+	position:fixed;
+	right:1vw; bottom:0;
+	font-size:2.5vw;
+	text-align:right;
+	color:#fff;
+	padding:1vw 1.5vw;
+}
+.info_l,
+.info_r {
+	margin:7.5vh 7.5vw;
+}
+.info_l span,
+.info_r span {
+	font-size:80%;
+	text-decoration:underline;
+}
+
+@keyframes wave {
+  0% {
+    background-image: radial-gradient(#b35900 50%, transparent 50%),
+		radial-gradient(gray 15%, transparent 25%); 
+  }
+  20% {
+    background-image: radial-gradient(#b35900 40%, transparent 40%),
+		radial-gradient(gray 25%, transparent 35%);
+  }
+  40% {
+    background-image: radial-gradient(#b35900 30%, transparent 30%),
+		radial-gradient(gray 35%, transparent 25%);
+  }
+  60% {
+    background-image: radial-gradient(#b35900 25%, transparent 40%),
+		radial-gradient(gray 45%, transparent 15%);
+  }
+  80% {
+    background-image: radial-gradient(#b35900 30%, transparent 50%),
+		radial-gradient(gray 35%, transparent 25%); 
+  }
+  100% {
+    background-image: radial-gradient(#b35900 40%, transparent 40%),
+		radial-gradient(gray 25%, transparent 35%);
+  }
+}
+
+@keyframes morphing {
+  0% {
+    border-radius: 50% 40% 35%;
+			transform: scale(1);
+  }
+  25% {
+    border-radius: 40% 35% 40%;
+			transform: scale(1.02);
+  }
+  50% {
+    border-radius: 35% 40% 50%;
+			transform: scale(1);
+  }
+  75% {
+    border-radius: 40% 50% 40%;
+			transform: scale(0.98);
+  }
+}
+@keyframes rolling {
+  0% {
+			transform: rotate(0deg);
+  }
+  25% {
+			transform: rotate(90deg);
+  }
+  50% {
+			transform: rotate(180deg);
+  }
+  75% {
+			transform: rotate(270deg);
+  }
+  100% {
+			transform: rotate(360deg);
+  }
+}
+::-webkit-scrollbar{
+  width: 3vw;
+}
+::-webkit-scrollbar-track{
+  background: #fff;
+  border-radius: 3vw;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(0deg, #25AF5A, #f6d435, #D24117);
+  background-size: 200% 200%;
+  animation: gradientBG 1s ease infinite;
+  border: 0.45vw solid #fff;
+  border-radius: 3vw;
+}
+
+@keyframes zoom {
+    0% {transform: scale(1);
+					transform: rotate(2.5deg);}
+    50% {transform: scale(1.1);
+					transform: rotate(-5deg);}
+    100% {transform: scale(1);
+					transform: rotate(2.5deg);}
+}
+
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.popup {position:fixed; z-index:200; width:100%; height:100vh; top:0; left:0;}
+.popup p {position: fixed; background-color:rgba(255,255,255,1); z-index:100; font-size:1.25rem;
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
+.popup p {width:85%; height:85%; top: 50%; left: 50%; border-radius:5vw;}
+.popup iframe {width:100%; height:100%; border-radius:5vw;}
+.close {position:absolute; font-size:5vw; padding:2.5% 5%; top:0; left:0; width: 100%; height:100vh;  background-color:rgba(0,0,0,0.5); cursor:pointer;}

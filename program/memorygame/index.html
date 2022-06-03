@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../../css/info.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/cancel.css" />
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {})
+    </script>
+    <style type="text/css">
+        .exhibition:after {
+            content: "2021.1.16 - 1.31";
+        }
+        
+        #progress .max {
+            width: 75%;
+            animation: max 2.5s ease;
+        }
+        
+        @keyframes max {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 75%;
+            }
+        }
+    </style>
+    <title>メモリーゲーム | 大 chotto crazy 2020</title>
+</head>
+
+<body>
+    <div id="progress">
+        <div class="max"></div>
+    </div>
+    <div class="exhibition" id="programme">
+        <p id="title">メモリーゲーム
+            <span class="by">Kakita Ibuki, 2n2n</span></p>
+        <div id="about">
+            <p><span id="sub">ルール</span></p>
+            <p>会場の図面が描かれた下敷きの上にある透明な祇に、大大大 chotto crazy 2020 をスケッチしてください。</p>
+            <p>
+                ・ スケッチに使用できる色は白・緑・青・赤・黄・黒の６色<br/> ・ 印象に残っているものから順にスケッチしましょう<br/> ・ 色／形の正確性は重要ではありません</p>
+            <p>※ 記憶／感情など、印象をスケッチすることを心がけましょう</p>
+        </div>
+        <br/>
+
+        <div id="schedule">
+            <div class="end">
+                <span class="date">2020.8.4</span>
+                <span class="sub">
+<u>重ね合わせの計画書をオンライン発表</u>
+</span>
+                <a id="link" class="now" onclick="obj=document.getElementById('sketch').style; obj.display=(obj.display=='none')?'block':'none';"></a>
+                <div class="frame" id="sketch" style="display:none;">
+                    <iframe id="iframe" src="sketch.pdf"></iframe>
+                </div>
+            </div>
+            <div class="end">
+                <span class="date">2021.1.17 - 1.31</span>
+                <span class="sub">
+<u>音ビルにて メモリーゲーム を開催</u>
+</span>
+                <a id="link" href="../../otobuil/index.html" target="_parent"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
