@@ -1,0 +1,78 @@
+body {
+	padding:0; margin:0;
+	width:100vw; height:100vh;
+	overflow:hidden;
+	font-family:"Hiragino Maru Gothic Pro","Hiragino Kaku Gothic Pro","HGMaruGothicMPRO";
+}
+
+#main {
+	text-align:center;
+	overflow-x:hidden;
+	overflow-y:visible;
+	position:absolute;
+	z-index:100;
+	top:50%; left:50%;
+	padding:7.5vh 2.5% 5vh;
+	width:82.5vw; height:80vh;
+	transform:translateY(-50%) translateX(-50%);
+	-webkit-transform:translateY(-50%) translateX(-50%);
+}
+#main .title {
+	font-size:12.5vw;
+	position:relative;
+	z-index:-1;
+	margin:-2.5vh 0 0;
+	font-family: 'YuMincho', serif;
+	color:green;
+text-shadow: -1px -1px 1px #000, 1px 1px #fff;
+}
+
+#marquee {
+	font-family:"Hiragino Maru Gothic Pro","Hiragino Kaku Gothic Pro","HGMaruGothicMPRO";
+	padding:0; margin:0;
+	position:fixed; z-index:50;
+	width:100vw; height:100vh;
+	overflow:hidden;
+}
+#marquee div {
+	position:absolute;
+	padding:0; margin:0;
+	background:#fff;
+}
+#marquee a {color:#000;}
+#marquee ul {
+	width:100%; text-align:center;
+	display:inline-block;
+	font-size:2vw;
+	padding:0; margin:0.5rem 0;
+}
+#marquee li {
+	display:inline-block;
+	margin: 0 1rem;
+}
+#marquee #top {
+	width:100vw; top:0;
+}
+#marquee #left {
+	width:100vh; top:100vh;
+	transform-origin:left top;
+	transform:rotate(270deg);
+}
+#marquee #right {
+	width:100vh; top:100vh; right:0;
+	transform-origin:right top;
+	transform:rotate(90deg);
+}
+#marquee #bottom {
+	width:100vw;	bottom:0;
+	transform:rotate(180deg);
+}
+.pehu {font-size: 120%; font-weight: normal; font-family:"MS Mincho"; color:#000; text-decoration:none;}
+
+@media screen and (max-width: 850px){
+#marquee #top, #marquee #bottom {zoom:0.75; width:135vw;}
+#marquee #left, #marquee #right {zoom:0.75; top:135vh; width:135vh;}
+}
+@media screen and (max-width: 450px){
+#main {padding:15vh 2.5% 5vh;}
+}

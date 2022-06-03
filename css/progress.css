@@ -1,0 +1,137 @@
+body{position:relative; margin:0; padding:0;}
+.start {text-decoration:none; color: #000;}
+#progress {
+  position:relative; 
+  top:0; 
+  background-color: #fff; 
+  margin: 1.5% auto 0; 
+  display: inline-block; 
+  width: 60vw; 
+  height: 2.5rem; 
+  border-radius: 5rem;
+}
+
+#title {
+  display:inline-block; 
+  font-size:1.25rem;
+}
+#title b {
+  font-family: "MS Serif", "Times New Roman"; 
+  color:#f6d435; 
+  font-size: 125%; 
+  font-style: italic;
+}
+.hold, .dai {color:#fff;}
+.hold:before {
+  content:"hold"; 
+  font-family: "MS Serif", "Times New Roman";
+  color:#f6d435;
+  font-style:italic;
+  position:absolute;
+  font-weight: 555;
+  margin-top:0.4rem; 
+  margin-left:-0.05rem;
+}
+.dai:before {
+  content:"大";
+  position:absolute;
+  padding-left: 0.2rem; 
+  margin-top:-0.7rem; 
+  color:#D24117;
+  font-size: 150%;
+  font-family: "Times New Roman", "Times", serif; 
+}
+.dai:after {
+  content:"2020";
+  position:absolute;
+  padding-left: 6.5rem; 
+  margin-top:-0.2rem;
+  color:#25AF5A;
+}
+.hold:before,
+.dai:before,
+.dai:after,
+#title b {
+  -webkit-text-stroke: 0.045rem #FFF;
+  text-stroke: 0.045rem #FFF;
+}
+
+.start {
+  position:relative;
+  top:-0.5vw;
+  padding-left:2%;
+  width:30%;
+  zoom: 1.5;
+}
+.max {
+  font-family: "MS Serif", "Times New Roman"; 
+  font-style: italic;
+  text-align:center;
+  font-size: 200%;
+  width:4rem;
+  position:absolute;
+  top:2.5vw;
+  right:0;
+  color:#fff;
+  border:0.15rem solid #fff;
+  padding:1%;
+  transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+  background: linear-gradient(55deg, #25AF5A, #f6d435, #D24117);
+  background-size: 200% 200%;
+  animation: gradientBG 1s ease infinite;
+  animation: flash 0.5s infinite;
+}
+.news {position:relative; border:0.15rem solid; padding:1%; margin:1.5%; width:89%; font-size:1.25rem; background:#fff;}
+.news span {width:auto; display:inline-block;}
+.news marquee {float:right; width:85%; display:inline-block;}
+
+
+#bottom {text-align:center;}
+#bottom a {
+	padding:0 2%;
+	margin:2.5%;
+	display:inline-block;
+	border:0.125rem solid;
+	border-radius:5rem; 
+	text-decoration:none;
+	color:#000;
+	font-size:2.5vw;
+}
+#bottom a:hover {
+	color:#fff;
+  background: linear-gradient(55deg, #25AF5A, #f6d435, #D24117);
+  background-size: 200% 200%;
+  animation: gradientBG 1s ease infinite;
+}
+
+/* Animation */
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+@media screen and (max-width: 1200px){
+#title {top:0; padding:1% 2%; text-align:left; width:80%; zoom: 1.5;}
+.max {top:0.5rem; right:2.5%; width:4rem;
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+#progress {width: 95.5%; margin:1% 2% 0;}
+.news {top:0.5rem; width:94%; font-size:1rem;}
+}
+@keyframes flash {
+0%,100% {opacity: 1;}
+50% {opacity: 0;}
+}
+
+@media screen and (max-width: 500px){
+#title {font-size:4.5vw; padding:0.5rem;}
+.max {font-size:5vw; top:4rem}
+.news {font-size:2.5vw;}
+.news marquee {width:75%;}
+#progress {height:2rem;}
+#progress>div {height:2rem;}
