@@ -1,0 +1,48 @@
+body {overflow-x: hidden;}
+hr {border: #fff;}
+#ichoose {font-family: "Times New Roman", "Times", serif; font-size: 2vw; margin:5vw 2.5vw 0}
+#ichoose h3 u {font-size: 2.5vw;}
+#ichoose p {margin-bottom: 5vw;}
+#ichoose b {font-weight: 500; font-size: 150%;}
+#ichoose b:before {
+  content: "{";
+  margin-right: 1.5vw;
+  font-size: 200%;
+}
+#ichoose b:after {
+  content: "}";
+  margin-left: 1.5vw;
+  font-size: 200%;
+}
+#ichoose br {display:none;}
+.question {padding: 20vw 10vw 0; text-align: center;}
+.question p {font-size: 2vw;}
+#answer {text-align: center; padding-bottom: 5vh;}
+#answer span {font-size: 2vw; display: inline-block; vertical-align: middle;}
+#answer u {font-size: 4vw; font-style: italic;}
+#answer .or {padding: 0 5vw;}
+.more {position: absolute; top: 40vw; left: 50%; text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);}
+.letsplay {text-align: center;}
+.more i a, .letsplay i a {font-size: 5.5vw; display: inline-block; margin: 5vh 0; color: red; border: solid red; border-radius: 50%;}
+.more i a:hover, .letsplay i a:hover {color: #fff; background: red; cursor: pointer;}
+
+.collection {position:fixed; font-size: 3vw; padding:1% 0; width:100vh; top:0; left:100%; transform-origin: left top; transform:rotateZ( 90deg );}
+
+#who {font-size: 2.5vw; position:relative; margin: 20vw 0 0;}
+.name {font-size: 2.5vw; margin:2.5vw 5vw; padding:0 2.5vw;}
+.message {font-size: 2.5vw; border: solid; margin:0 5vw; padding: 2.5vw 3vw; clear:both;}
+.name u {font-size: 75%;}
+.link {font-size: 2.5vw; text-align: center; margin:5vw 0; width: 100%;}
+.link a {border: solid; padding: 1vw; margin: 0 1vw;}
+
+#back {padding: 2.5vw 0 0; text-align: center;}
+
+@media screen and (max-width: 500px){
+.collection {font-size: 10vw;}
+}
+  
+@media screen and (max-width: 1000px){
+.collection {font-size: 5.5vw;}
+}

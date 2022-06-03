@@ -1,0 +1,11 @@
+.question {transform: scale(1.25);}
+.question:nth-of-type(n+2) {display:none;}
+
+@media print{
+.more, .link, .collection, .letsplay {display: none;}
+.question, #answer {zoom:0.9;}
+.question {padding: 5.5vw 10vw 0;}
+#ichoose {margin:-10vw 2.5vw 0; zoom:0.5;}
+#who {margin: 12.5vw 0 0; zoom:0.5;}
+#headline, #back {zoom:0.5;}
+}
