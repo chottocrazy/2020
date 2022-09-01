@@ -1,0 +1,186 @@
+html, body {font-family: Arial, "MS PGothic", "Osaka", sans-serif;  font-weight: 400;}
+h1 {font-size: 5vw; font-weight: 400; text-align:center;}
+h2 {font-size: 3vw; font-weight: 400;}
+h3 {position:fixed; z-index:1000; width:100%; bottom:5vh; left:0; font-weight: 400; text-align:center;}
+h3 a {text-decoration:none; color:#000; border:0.1rem solid; padding:2% 4%; border-radius:50%;}
+hr {border:none; padding:1rem;}
+.about:hover {cursor:pointer;}
+.left {position:fixed; z-index:100; top:0; left:0;  padding:2.5%;}
+
+#submit {position:absolute; text-align:left; font-size:2.5vw;}
+#submit form {width:60%;}
+#submit input {font-size:2vw; font-family: "ＭＳ 明朝","MS Mincho";}
+#submit input {margin:0.5vw 0;}
+#submit input[type="text"], #submit input[type="name"]
+{padding:1vw 2%; width:96%;}
+button {
+font-size: 2.5vw; cursor:pointer; width:100%;
+margin:0.5vw 0; padding:1vw 0;
+background: blue; color: #fff;
+border-radius:  50px;
+}
+
+#new {position:fixed; z-index:50; width:100%; height:100vh; top:0; left:0; background-color:#fff; font-size:5.5vw; cursor:pointer;}
+
+#random {
+  list-style:none; 
+  padding:0 0 5vh;
+  top:0; left:0;
+  position:relative;
+  z-index:10;
+  height:95vh;
+  overflow:scroll;
+}
+#random li:first-of-type{
+  display:block;
+  width:80vw;
+  padding:25vw 0 20vw;
+  margin:0 10vw;
+  zoom:1;
+}
+#random li:first-of-type:after{
+  content:"みんなの座右の銘";
+  text-align:center;
+  font-size:2vw;
+  display:block;
+  margin-top:15vw;
+  text-decoration:blue wavy underline;;
+}
+#random li:first-of-type .text:before {
+  content:"あなたの新しい座右の銘は、"; 
+  position:absolute; 
+  top:20vw; 
+  font-size:75%;
+}
+#random li:first-of-type .text:after {
+  content:"です。";
+  margin-left:1.5vw;
+  font-size:75%;
+}
+#random li:first-of-type .name:after {content:"さんの座右の銘でした。"; margin-left:1.5vw; font-size:75%;}
+#random li{
+  display:block;
+  padding:5vw 2.5vw 10vw;
+  width:90vw;
+  height:35vw;
+  zoom:0.5;
+  float:left;
+}
+#random .text {
+  padding:0 5%;
+  font-size: 4.5vw;
+}
+#random .name {display:block; text-align:right; padding:2.5%; font-size:3.5vw;}
+#random .name:before {content:"これは、"; font-size:75%;}
+#random .name:after {content:"さんの座右の銘です。"; margin-left:1.5vw; font-size:75%;}
+#random a {
+  position:relative;
+  top:-27.5vw; left:70vw;
+	text-decoration:none;
+	font-size:2.5vw;
+	color:#000; padding:1% 2.5%;
+	border:solid 0.1rem;
+}
+#btn-Convert-Html2Image {
+	position:fixed;
+	margin-top:25%;
+	text-decoration:none;
+	font-size:2.5vw;
+	color:#000; padding:1% 2.5%;
+	border:solid 0.1rem;
+}
+#submit form,
+#submit h1,
+#new p,
+#btn-Convert-Html2Image {position: fixed; z-index:100; top: 50%; left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+#marquee span {
+	position:fixed;
+  font-size:1.25rem;
+	left:0; top:0;
+	background:blue;
+	color:#fff;
+	padding:0.5vw;
+}
+#marquee li {
+  padding:0;
+  margin:;
+  font-size:1.25rem;
+}
+#art {
+	position:fixed;
+	bottom:0; right:0;
+	font-size:1.5vw;
+	width:60vw;
+	margin:0 5vw;
+}
+#audio {
+	width:70%;
+	position:fixed;
+	bottom:0; 
+	margin:15%;
+}
+audio {
+ display:none;
+	height:2rem;
+}
+
+#bgm #audio:not(:first-of-type) {display:none;}
+
+#credit {
+  display:block;
+  margin:1vw 0;
+}
+#credit a {
+  display:inline-block;
+  background:blue;
+  color:#fff;
+  padding:0.5vw;
+  border:0.1vw solid blue;
+  text-decoration:none;
+  margin:0.5rem 0;
+}
+#credit a:hover {
+  background:#fff;
+  color:blue;
+}
+#credit b {
+  font-size:200%;
+}
+.bottom b {font-size:250%;}
+.popup {
+  position:fixed;
+  z-index:1000;
+  width:100%;
+  height:100%;
+  top:0; left:0;
+}
+.popup p {
+  position: absolute;
+  background-color:rgba(255,255,255,1);
+  z-index:1000;
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  width:75%; height:80%;
+  top: 50%; left: 50%;
+  border-radius:5vw;
+  overflow:auto;
+}
+.popup iframe {width:100%; height:100%; border-radius:5vw; overflow-x: hidden; border:none;}
+.close {
+  position:absolute;
+  font-size:5vw;
+  padding:2.5% 5%;
+  top:0; left:0;
+  width: 100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.5); 
+}
+.close:hover {
+  cursor:pointer;
+  background:blue;
+}
+@media screen and (max-width: 550px){
+}
