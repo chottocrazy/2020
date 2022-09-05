@@ -50,8 +50,7 @@
             appearance: none;
         }
                 
-        #color,
-        #sketch {
+        #color {
             position: fixed;
             top: 0;
             left: 0;
@@ -59,17 +58,25 @@
             height: 100vh;
             margin: 0;
             padding: 0;
-        }                
-        #color {
             z-index: -1;
+        }
+        
+        #sketch {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
         }
     </style>
 </head>
 
 <body data-feedly-extension-follow-feed="1.0.3" cz-shortcut-listen="true">
     <div class="wrapper" id="color"></div>
-    <div id="sketch"></div>
     <section id="rolling">
+    <div id="sketch"></div>
         <div class="col">
             大 chotto crazy 2021<br>
             <br> 実現したいことを実現する
