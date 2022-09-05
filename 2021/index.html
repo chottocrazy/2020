@@ -21,8 +21,6 @@
             filter: invert();
             padding: 0 1.25vw;
             margin: 0;
-            pointer-events:none;
-            user-select:none;
             display: flex;
             font-size: 2.5vw;
             max-height: 100vh;
@@ -30,10 +28,6 @@
         }
         
         #rolling a {
-            position: relative;
-            z-index: 10;
-            pointer-events:auto;
-            user-select:auto;
             text-decoration: none;
             padding: 0.25vw;
         }
@@ -48,6 +42,15 @@
             padding: 0 2.5vw;
             box-sizing: border-box;
             appearance: none;
+            pointer-events:none;
+            user-select:none;
+        }
+        
+        .col a {
+            position: relative;
+            z-index: 10;
+            pointer-events:auto;
+            user-select:auto;
         }
                 
         #color {
@@ -66,7 +69,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 100%;
+            height: 100vh;
             margin: 0;
             padding: 0;
         }
