@@ -14,7 +14,6 @@
         }
         
         #rolling {
-            position: relative;
             filter: invert();
             padding: 0 1.25vw;
             margin: 0;
@@ -42,7 +41,8 @@
             box-sizing: border-box;
             appearance: none;
         }
-        
+                
+        #color,
         #sketch {
             position: fixed;
             top: 0;
@@ -51,28 +51,12 @@
             height: 100vh;
             margin: 0;
             padding: 0;
-            overflow: hidden;
-        }
-        
-        .print {
-            display: none;
-        }
-        
-        @media print {
-            .print {
-                display: block;
-                filter: invert(100%);
-            }
-            .no_print {
-                display: none;
-            }
         }
     </style>
 </head>
 
 <body id="color" data-feedly-extension-follow-feed="1.0.3" cz-shortcut-listen="true">
     <div id="sketch"></div>
-    <div></div>
     <section id="rolling">
         <div class="col">
             大 chotto crazy 2021<br>
