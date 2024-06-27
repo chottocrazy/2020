@@ -1,0 +1,23 @@
+.programs {
+    font-family: "Arial", "Yu Gothic", sans-serif;
+    text-align: center;
+    display: flex;
+    gap: 0.25rem;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.programs button {
+    appearance: none;
+    color: #111;
+    background: #fff;
+    border: solid 1px;
+    border-radius: 3rem;
+    outline: none;
+    padding: 0.25rem 1rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: 111%;
+    font-weight: 555;
+    text-align: left;
+}

@@ -1,0 +1,204 @@
+body,
+main,
+h1,
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+#otobuil,
+#otobuil h2 {
+    padding: 1rem;
+}
+
+#otobuil h2 {
+    margin: 0.5rem;
+    width: 60%;
+}
+
+html {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+}
+
+a,
+a u {
+    color: inherit;
+    text-decoration: none;
+}
+
+a u {
+    color: #fff;
+    background: #D24117;
+    padding: 0.25rem 0.5rem;
+}
+
+#main article section {
+    border: solid #fff 1px;
+    position: relative;
+}
+
+#main,
+#main article {
+    display: flex;
+}
+
+#main article section,
+#main article section a {
+    display: grid;
+    place-items: center;
+}
+
+#main,
+#main article {
+    flex-wrap: wrap;
+}
+
+#main article.row {
+    flex-direction: row;
+}
+
+#main article.column {
+    flex-direction: column;
+}
+
+#main article.full section,
+#main article section a,
+#otobuil {
+    width: 100%;
+    height: 100%;
+}
+
+#main article.row section {
+    width: 100%;
+    height: 50%;
+}
+
+#main article.column section {
+    width: 50%;
+    height: 100%;
+}
+
+#main article.row section p {
+    width: calc(100% - 7.5rem);
+}
+
+#main {
+    width: 125rem;
+    height: 75rem;
+}
+
+#main article.medium {
+    width: 25rem;
+    height: 25rem;
+}
+
+#main article.wide {
+    width: 50rem;
+    height: 25rem;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+.text h3,
+.text h4 {
+    margin: auto;
+    width: calc(100% - 1rem);
+}
+
+.value h4 {
+    font-size: 250%;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+#main article.column b,
+#main article.row section p b {
+    font-size: 200%;
+    letter-spacing: 1rem;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+#main article.row section p,
+h3,
+h3 strong {
+    font-size: 123%;
+}
+
+#main article section[data-before]::before,
+#main article section[data-after]::after,
+h3 b {
+    font-size: 111%;
+}
+
+.value,
+h2 small {
+    font-size: 75%;
+}
+
+#main article section p {
+    font-weight: 700;
+}
+
+#main article.row section[data-before]::before,
+#main article.row section[data-after]::after,
+#main article.full section[data-after]::after,
+#main article.column {
+    writing-mode: vertical-lr;
+}
+
+#main article section[data-before]::before,
+#main article section[data-after]::after {
+    position: absolute;
+    top: 0;
+    padding: 0.5rem;
+}
+
+#main article section[data-before]::before {
+    left: 0;
+}
+
+#main article section[data-after]::after {
+    right: 0;
+}
+
+@media (max-width: 950px) {
+    #main {
+        width: 100rem;
+        height: 100rem;
+    }
+}
+
+@media (orientation: portrait) {
+    html {
+        font-size: 2vw;
+    }
+
+    #main {
+        width: 100vw;
+        height: auto;
+    }
+
+    #main article.medium {
+        width: 50%;
+        height: 50vw;
+    }
+
+    #main article.wide {
+        width: 100%;
+        height: 50vw;
+    }
+}

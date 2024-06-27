@@ -1,0 +1,321 @@
+#otobuil,
+#otobuil #bate {
+    display: flex;
+}
+
+#cover {
+    display: grid;
+    place-items: center;
+}
+
+@media print {
+    #cover {
+        height: calc(100vh - 1rem);
+    }
+}
+
+#cover h1,
+#cover section,
+hr {
+    width: 100%;
+}
+
+hr {
+    clear: both;
+    border: none;
+}
+
+#otobuil {
+    position: relative;
+    align-items: end;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+}
+
+#otobuil #main {
+    width: 37.5%;
+    height: 100%;
+}
+
+#otobuil #bate {
+    width: 60%;
+    height: 67.5%;
+}
+
+#otobuil div {
+    border: solid #000 0.75vw;
+    border-radius: 1rem;
+    position: relative;
+}
+
+#otobuil div span {
+    border-radius: 0.5rem;
+}
+
+h2 strong {
+    color: #D24117;
+    -webkit-text-stroke: 0.075rem #FFF;
+    text-stroke: 0.075rem #FFF;
+}
+
+#otobuil #bate span {
+    display: grid;
+    place-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+#otobuil h2,
+#otobuil div ruby,
+#otobuil #darkroom,
+#otobuil #stage,
+#otobuil #memory,
+#otobuil #shiba,
+#otobuil #park {
+    position: absolute;
+}
+
+#otobuil h2 {
+    top: 0.5rem;
+    left: 0;
+    font-weight: 400;
+}
+
+#otobuil #darkroom {
+    background: #333;
+    border: 4.5vw outset #333;
+    border-radius: 1vw;
+    width: 55%;
+    height: 42.5%;
+    top: 14.5%;
+    left: 22.5%;
+}
+
+#otobuil #stage {
+    background: green;
+    border: 1vw inset green;
+    border-radius: 1vw;
+    width: 60%;
+    height: 20%;
+    bottom: 5%;
+    right: 5%;
+}
+
+#otobuil #active {
+    background: #cba97b;
+    border: 3vw inset #cba97b;
+    border-radius: 1vw;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+}
+
+.text {
+    font-family: "Arial", "Yu Gothic", sans-serif;
+}
+
+#otobuil div ruby b {
+    color: #eee;
+    display: block;
+    transform: scale(1, 2.5);
+    font-family: "Times New Roman", "Times", serif;
+    font-weight: 400;
+}
+
+#otobuil div ruby rt {
+    background: #fff;
+    padding: 0.25rem;
+}
+
+#otobuil #memory,
+#otobuil #shiba,
+#otobuil #park {
+    color: #000;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 5rem;
+    font-size: 111%;
+    padding: 2.5% 5%;
+    z-index: 1;
+}
+
+#otobuil #memory {
+    top: 2.5%;
+    right: 5%;
+    max-width: 70%;
+}
+
+#otobuil #shiba {
+    bottom: -25%;
+    right: 1.25%;
+    max-width: 65%;
+}
+
+#otobuil #park {
+    bottom: 5%;
+    right: -5%;
+}
+
+#otobuil div ruby,
+#otobuil #memory,
+#otobuil #shiba,
+#otobuil #park {
+    user-select: none;
+    pointer-events: none;
+}
+
+#otobuil div ruby {
+    font-size: 250%;
+    line-height: 150%;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text h2,
+.text h3,
+.text h4 {
+    font-weight: 500;
+    line-height: 175%;
+}
+
+.text h3 small {
+    font-size: 75%;
+}
+
+.text h4 {
+    clear: both;
+    font-size: 123%;
+    border: solid #111;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.text u,
+.text b {
+    display: inline-block;
+    padding: 0.125rem 0.5rem;
+    text-decoration: none;
+}
+
+.text u.fff {
+    background: #fff;
+}
+
+.text h4 b {
+    display: inline-block;
+    transform: scale(1, 1.25);
+}
+
+.text h4 u {
+    display: inline-block;
+    transform: scale(1, 1.23);
+    line-height: 200%;
+    text-decoration: wavy underline;
+}
+
+#gizagiza {
+    font-size: 100%;
+    position: relative;
+    padding: 0;
+    margin: 2rem;
+    float: left;
+}
+
+#gizagiza,
+#gizagiza a,
+#gizagiza a:after,
+#gizagiza a:before,
+#gizagiza a span {
+    width: 17.5vw;
+    height: 17.5vw;
+    background-color: #D24117;
+}
+
+#gizagiza a,
+#gizagiza a:after,
+#gizagiza a:before,
+#gizagiza a span {
+    position: absolute;
+}
+
+#gizagiza a span {
+    display: grid;
+    place-items: center;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    text-align: center;
+    color: #fff;
+}
+
+#gizagiza,
+#gizagiza a,
+#gizagiza a:after,
+#gizagiza a:before {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+}
+
+#gizagiza a span b {
+    font-family: "Times New Roman", "Times", serif;
+    font-style: italic;
+    color: #f6d435;
+    display: block;
+    transform: scale(1.25, 2.5);
+}
+
+#gizagiza span:after {
+    content: "17名 の CCM を 紹介します";
+    font-size: 75%;
+    font-family: "Arial", "Yu Gothic", sans-serif;
+    color: #D24117;
+    position: absolute;
+    padding: 0.5vw 1vw;
+    bottom: -7.5vw;
+    left: -2.5vw;
+    width: 20vw;
+    background-color: #f6d435;
+}
+
+#ccm {
+    display: block;
+    width: 70%;
+    float: right;
+    margin: 0;
+}
+
+#ccm u {
+    margin: 0.25rem;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    font-family: "Arial", "Yu Gothic", sans-serif;
+    font-size: 185%;
+    padding: 1rem 0.25rem;
+    margin: 0;
+    width: 100%;
+}
+
+.scale h2 {
+    background: #fff;
+    border: #000 solid;
+    border-radius: 1rem;
+    font-size: 150%;
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem;
+}
+
+.scale h2 * {
+    display: inline-block;
+    transform: scale(1, 2);
+    line-height: 300%;
+}
+
+.scale h2 i,
+.scale h2 b {
+    font-size: 150%;
+}

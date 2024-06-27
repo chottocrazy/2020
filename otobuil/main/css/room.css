@@ -1,0 +1,48 @@
+#room,
+h2,
+h3,
+#shiba,
+#ansitsu,
+#wall {
+    transition: all 2.5s;
+}
+
+#shiba:hover,
+#ansitsu:hover {
+    box-shadow: yellow 0 0 10rem;
+    cursor: pointer;
+}
+
+#on,
+#on #room {
+    background: green;
+}
+
+#on #wall {
+    height: 40vh;
+}
+
+#on h2,
+#on #shiba li,
+#on #ansitsu {
+    display: none;
+}
+
+#in,
+#in #wall {
+    background: #111;
+}
+
+#in h2 {
+    color: #eee;
+}
+
+#in #wall {
+    height: 150vh;
+}
+
+#in h3,
+#in #shiba,
+#in #ansitsu li {
+    display: none;
+}

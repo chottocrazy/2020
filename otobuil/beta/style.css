@@ -1,0 +1,71 @@
+.body {
+    background-color: #cba97b;
+}
+
+#scaler {
+    border-top: 17.5vh inset #cba97b;
+    border-right: 17.5vw outset #cba97b;
+    border-bottom: 17.5vh inset #cba97b;
+    border-left: 17.5vw inset #cba97b;
+    font-family: "Arial", "Yu Gothic", sans-serif;
+}
+
+.section u,
+.programs strong {
+    color: #cba97b;
+    -webkit-text-stroke: 0.025rem #FFF;
+    text-stroke: 0.025rem #FFF;
+    pointer-events: none;
+    user-select: none;
+}
+
+.section h1 {
+    color: #eee;
+}
+
+.section strong {
+    font-family: "Times New Roman", "Times", serif;
+    font-weight: 500;
+    display: inline-block;
+    margin: 2rem 0;
+    text-align: center;
+    transform: scale(0.75, 4.5);
+}
+
+.section h1 {
+    font-size: 400%;
+}
+
+.section h2 {
+    font-size: 200%;
+}
+
+.section u {
+    font-size: 125%;
+}
+
+.section b strong {
+    font-size: 111%;
+}
+
+.section {
+    display: grid;
+    place-items: center;
+}
+
+.section h2 {
+    position: absolute;
+    top: 5%;
+}
+
+.section b {
+    position: absolute;
+    bottom: 7.5%;
+}
+
+.section u {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    writing-mode: vertical-lr;
+}

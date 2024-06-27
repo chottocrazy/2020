@@ -1,0 +1,111 @@
+#green {
+    float: right;
+    position: absolute;
+    top: 25%;
+    right: 12.5%;
+    display: grid;
+    place-items: center;
+    --r: 10vw;
+    width: calc(var(--r) * 2);
+    height: calc(var(--r) * 2);
+    transform: skewX(-30deg);
+}
+
+#green span {
+    position: absolute;
+    pointer-events: none;
+    top: 50%;
+    left: 50%;
+    width: 0.5vw;
+    height: 10vw;
+    background: linear-gradient(0deg, green 0%, limegreen 50%, greenyellow 100%);
+    transform-origin: center center;
+    transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(var(--r) * -1));
+    transition: 5s;
+    z-index: 1;
+}
+
+#green span:nth-of-type(1) {
+    --angle: 0deg;
+}
+
+#green span:nth-of-type(2) {
+    --angle: 30deg;
+}
+
+#green span:nth-of-type(3) {
+    --angle: 60deg;
+}
+
+#green span:nth-of-type(4) {
+    --angle: 90deg;
+}
+
+#green span:nth-of-type(5) {
+    --angle: 120deg;
+}
+
+#green span:nth-of-type(6) {
+    --angle: 150deg;
+}
+
+#green span:nth-of-type(7) {
+    --angle: 180deg;
+}
+
+#green span:nth-of-type(8) {
+    --angle: 210deg;
+}
+
+#green span:nth-of-type(9) {
+    --angle: 240deg;
+}
+
+#green span:nth-of-type(10) {
+    --angle: 270deg;
+}
+
+#green span:nth-of-type(11) {
+    --angle: 300deg;
+}
+
+#green span:nth-of-type(12) {
+    --angle: 330deg;
+}
+
+#green span:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: green;
+    background: linear-gradient(0deg, green 0%, limegreen 30%, greenyellow 100%);
+    transform-origin: center bottom;
+    transform: rotate(65deg);
+}
+
+#green:hover span,
+#green:active span {
+    transform:
+        translate(-50%, -50%) rotate(calc(var(--angle) + 360deg)) translateY(calc(var(--r) * -1.11));
+}
+
+#green b {
+    color: gold;
+    font-size: 111%;
+    font-family: "Arial", "Yu Gothic", sans-serif;
+}
+
+#green b:after {
+    position: absolute;
+    content: '';
+    margin-top: 5rem;
+    width: 1vw;
+    height: 20vh;
+    background: linear-gradient(180deg, green 0%, limegreen 30%, greenyellow 100%);
+    transform-origin: center top;
+    transform: skewX(30deg);
+    pointer-events: none;
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "ZenOldMincho";
+    src: url("ZenOldMincho-Medium.ttf"),
+        url("ZenOldMincho-Regular.ttf"),
+        url("ZenOldMincho-SemiBold.ttf"),
+        url("ZenOldMincho-Bold.ttf"),
+        url("ZenOldMincho-Black.ttf");
+}
+
+.kosu {
+    background: green;
+}
+
+.ZenOldMincho {
+    color: green;
+    font-family: "ZenOldMincho", serif;
+    text-shadow: -0.1rem -0.1rem 0.1rem #000, 0.1rem 0.1rem #fff;
+}
+
+.date {
+    text-decoration: none;
+    border: solid 0.2rem;
+    border-radius: 50%;
+    color: #fff;
+    padding: 0.25rem 1rem;
+    font-size: 75%;
+}

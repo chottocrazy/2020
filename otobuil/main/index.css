@@ -1,0 +1,219 @@
+html {
+    font-size: 16px;
+    height: -webkit-fill-available;
+}
+
+[hidden] {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    html {
+        font-size: 1.75vw;
+    }
+}
+
+@media (orientation: portrait) {
+    html {
+        font-size: 2.5vw;
+    }
+}
+
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h1 b,
+h2 {
+    font-size: 125%;
+}
+
+h1 u {
+    font-size: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 u,
+h1 b,
+h2,
+h3,
+#shiba:before,
+#ansitsu:before {
+    display: inline-block;
+    transform: scale(1, 2);
+}
+
+h1 u {
+    color: #D24117;
+    margin-bottom: 1.25rem;
+}
+
+h1 b,
+h3 {
+    color: #fff;
+    -webkit-text-stroke: 0.025rem #000;
+    text-stroke: 0.025rem #000;
+}
+
+#room {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    max-height: -webkit-fill-available;
+}
+
+h1,
+h2,
+h3,
+#room p {
+    position: absolute;
+}
+
+h1 {
+    top: 2rem;
+    right: 7.5vw;
+    z-index: 5;
+}
+
+h2 {
+    top: 7.5rem;
+    left: 2.5rem;
+    width: 55%;
+    z-index: 1;
+}
+
+h3 {
+    bottom: 1rem;
+    right: 2rem;
+    max-width: calc(100% - 4rem);
+    z-index: 3;
+}
+
+#shiba {
+    width: 90vh;
+    height: 10vh;
+    bottom: 10%;
+    right: -5%;
+    z-index: 5;
+}
+
+#shiba li:nth-of-type(1) {
+    transform: translateY(-5vh) rotateX(90deg);
+}
+
+#shiba li:nth-of-type(2) {
+    transform: translateZ(45vh);
+}
+
+#shiba li:nth-of-type(3) {
+    transform: translateZ(-45vh) rotateX(-180deg);
+}
+
+#shiba li:nth-of-type(4) {
+    transform: translateX(45vh) rotateY(90deg);
+}
+
+#shiba li:nth-of-type(5) {
+    transform: translateX(-45vh) rotateY(90deg);
+}
+
+#shiba:before {
+    content: "ステージ";
+    background: #fff;
+    color: green;
+    border: 0.1rem solid;
+    font-size: 155%;
+    font-family: "Times New Roman", "Times", serif;
+    padding: 0 1.55rem;
+    border-radius: 50%;
+    top: -100%;
+    left: 50%;
+}
+
+#ansitsu {
+    top: 15%;
+    left: 5%;
+    width: 50vh;
+    height: 50vh;
+    z-index: 1;
+}
+
+#ansitsu li:nth-of-type(1) {
+    border-top: 1.5vh silver solid;
+    border-left: 1.5vh silver solid;
+    border-right: 1.5vh silver solid;
+    transform: translateZ(25vh);
+}
+
+#ansitsu li:nth-of-type(2) {
+    border: 1.5vh silver solid;
+    transform: translateY(-25vh) rotateX(90deg);
+}
+
+#ansitsu li:nth-of-type(3) {
+    border-top: 1.5vh silver solid;
+    border-left: 1.5vh silver solid;
+    border-right: 1.5vh silver solid;
+    transform: translateZ(-25vh) rotateX(-180deg);
+}
+
+#ansitsu li:nth-of-type(4) {
+    border: 1.5vh silver solid;
+    transform: translateY(25vh) rotateX(90deg);
+}
+
+#ansitsu li:nth-of-type(5) {
+    border-top: 1.5vh silver solid;
+    border-left: 1.5vh silver solid;
+    border-right: 1.5vh silver solid;
+    transform: translateX(25vh) rotateY(90deg);
+}
+
+#ansitsu li:nth-of-type(6) {
+    border-top: 1.5vh silver solid;
+    border-left: 1.5vh silver solid;
+    border-right: 1.5vh silver solid;
+    transform: translateX(-25vh) rotateY(90deg);
+}
+
+#ansitsu:before {
+    content: "暗室";
+    background: #fff;
+    color: gray;
+    border: 0.1rem solid;
+    font-size: 200%;
+    font-family: "Times New Roman", "Times", serif;
+    padding: 0 5%;
+    border-radius: 50%;
+    top: -20%;
+    left: 50%;
+}
+
+#stage {
+    top: 5%;
+    left: 5%;
+    z-index: 10;
+}
+
+#communication {
+    bottom: 5%;
+    right: 5%;
+    z-index: 10;
+}
+
+#wall {
+    height: 50vh;
+}

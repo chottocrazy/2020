@@ -1,0 +1,78 @@
+#shiba {
+    width: 10rem;
+    height: 2.5rem;
+    bottom: 5%;
+    right: 20%;
+    z-index: 5;
+}
+
+#shiba li:nth-of-type(1) {
+    transform: translateY(-1.25rem) rotateX(90deg);
+}
+
+#shiba li:nth-of-type(2) {
+    transform: translateZ(5rem);
+}
+
+#shiba li:nth-of-type(3) {
+    transform: translateZ(-5rem) rotateX(-180deg);
+}
+
+#shiba li:nth-of-type(4) {
+    transform: translateX(5rem) rotateY(90deg);
+}
+
+#shiba li:nth-of-type(5) {
+    transform: translateX(-5rem) rotateY(90deg);
+}
+
+
+#ansitsu {
+    top: 10%;
+    left: 5%;
+    width: 7.5rem;
+    height: 7.5rem;
+    z-index: 1;
+}
+
+#ansitsu li:nth-of-type(1) {
+    border-top: 1.5vh silver solid;
+    border-left: 1.5vh silver solid;
+    border-right: 1.5vh silver solid;
+    transform: translateZ(3.75rem);
+}
+
+#ansitsu li:nth-of-type(2) {
+    border: 1.5vh silver solid;
+    transform: translateY(-3.75rem) rotateX(90deg);
+}
+
+#ansitsu li:nth-of-type(3) {
+    border-top: 1.5vh silver solid;
+    border-left: 1.5vh silver solid;
+    border-right: 1.5vh silver solid;
+    transform: translateZ(-3.75rem) rotateX(-180deg);
+}
+
+#ansitsu li:nth-of-type(4) {
+    border: 1.5vh silver solid;
+    transform: translateY(3.75rem) rotateX(90deg);
+}
+
+#ansitsu li:nth-of-type(5) {
+    border-top: 1.5vh silver solid;
+    border-left: 1.5vh silver solid;
+    border-right: 1.5vh silver solid;
+    transform: translateX(3.75rem) rotateY(90deg);
+}
+
+#ansitsu li:nth-of-type(6) {
+    border-top: 1.5vh silver solid;
+    border-left: 1.5vh silver solid;
+    border-right: 1.5vh silver solid;
+    transform: translateX(-3.75rem) rotateY(90deg);
+}
+
+#wall {
+    height: 7.5rem;
+}

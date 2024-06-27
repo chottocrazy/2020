@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Arial";
+    src: url("Arial.ttf");
+}
+
+@font-face {
+    font-family: "Times New Roman";
+    src: url("times.ttf");
+}
+
+@font-face {
+    font-family: "Yu Gothic";
+    src: url("YuGothR.ttc");
+}
+
+#main,
+.chotto::before,
+.logo sup,
+.logo *[data-after]::after {
+    font-family: "Arial", "Yu Gothic", sans-serif;
+    font-weight: 555;
+}
+
+h1 i,
+h2 i,
+h3 i,
+h2 strong,
+.chotto::after,
+.logo .dai,
+.logo b[data-before]::before,
+.logo .max,
+.logo *[data-dai]::before {
+    font-family: "Times New Roman", "Times", serif;
+}
+
+.logo {
+    font-weight: 500;
+}
+
+h2 u {
+    text-decoration: wavy underline #fff;
+}
+
+h3.logo u {
+    font-size: 275%;
+}
+
+h2 strong .logo *[data-dai]::before {
+    font-size: 200%;
+}
+
+.logo .dai,
+.chotto::after {
+    font-size: 150%;
+}
+
+h1 i,
+h2 i,
+h3 i,
+h2 small[data-after]::after {
+    font-size: 123%;
+}
+
+.chotto::before {
+    font-size: 95%;
+}
+
+h2 small[data-after]::after {
+    margin: 0.5rem;
+}
+
+.logo b,
+.logo i {
+    position: relative;
+}
+
+.logo *[data-before]::before,
+.logo *[data-after]::after,
+.logo *[data-dai]::before {
+    position: absolute;
+    font-weight: 400;
+}
+
+.online,
+.logo b {
+    color: #fff;
+}
+
+.pre_event,
+.logo sup,
+.logo *[data-after]::after,
+h2 small[data-after]::after {
+    color: #25AF5A;
+}
+
+.exhibition,
+.chotto::after,
+.logo .dai,
+.logo *[data-dai]::before {
+    color: #D24117;
+}
+
+h1 i,
+h2 i,
+h3 i,
+.festival,
+.chotto::before,
+.logo *[data-before]::before {
+    color: #f6d435;
+}
+
+.logo *[data-before]::before {
+    font-style: italic;
+}
+
+.logo .max {
+    color: #fff;
+    display: block;
+    float: right;
+    font-weight: 400;
+    padding: 0 0.5rem;
+    text-decoration: none;
+}
+
+h1 i,
+h2 i,
+h3 i,
+h2 small[data-after]::after,
+.chotto::after,
+.logo * {
+    -webkit-text-stroke: 0.075rem #FFF;
+    text-stroke: 0.075rem #FFF;
+}
+
+[data-before]::before {
+    content: attr(data-before);
+}
+
+[data-after]::after {
+    content: attr(data-after);
+}
+
+.chotto {
+    position: relative;
+    float: right;
+    width: 100%;
+}
+
+.chotto::before {
+    content: "ちょっとクレイジーな";
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    margin: 0.5rem;
+    line-height: 250%;
+    -webkit-text-stroke: 0.05rem #FFF;
+    text-stroke: 0.05rem #FFF;
+}
+
+.chotto::after {
+    content: "あなたの";
+    position: absolute;
+    left: 0;
+    letter-spacing: 1rem;
+}
+
+.logo *[data-before]::before {
+    font-size: 90%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.logo *[data-after]::after {
+    font-size: 55%;
+    font-style: normal;
+    font-weight: 700;
+    top: -0.5rem;
+    right: -1rem;
+}
+
+.logo *[data-dai]::before {
+    content: attr(data-dai);
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gradation {
+    background: linear-gradient(90deg, #25AF5A, #f6d435, #D24117);
+    background-size: 200% 200%;
+    animation: gradientBG 2s ease infinite;
+}
+
+#main a:hover {
+    background: linear-gradient(-55deg, #25AF5A, #f6d435, #D24117);
+    background-size: 200% 200%;
+    animation: gradientBG 2s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
