@@ -43,6 +43,7 @@ a u {
 #main article section {
     border: solid #fff 1px;
     position: relative;
+    overflow: hidden;
 }
 
 #main,
