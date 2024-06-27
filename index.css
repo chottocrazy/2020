@@ -116,7 +116,7 @@ h1 {
     width: calc(100% - 1rem);
 }
 
-.value h4 {
+#value h4 {
     font-size: 250%;
     width: 90%;
     height: 90%;
@@ -145,7 +145,7 @@ h3 b {
     font-size: 111%;
 }
 
-.value,
+#value,
 h2 small {
     font-size: 75%;
 }
@@ -181,6 +181,11 @@ h2 small {
         width: 100rem;
         height: 100rem;
     }
+
+    #main article.medium#value {
+        width: 50rem;
+        height: 25rem;
+    }
 }
 
 @media (orientation: portrait) {
@@ -198,7 +203,8 @@ h2 small {
         height: 50vw;
     }
 
-    #main article.wide {
+    #main article.wide,
+    #main article.medium#value {
         width: 100%;
         height: 50vw;
     }
