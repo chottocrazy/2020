@@ -290,13 +290,10 @@ h2 strong {
 }
 
 header {
-    position: sticky;
-    top: 0;
     font-family: "Arial", "Yu Gothic", sans-serif;
     font-size: 185%;
     padding: 1rem 0.25rem;
     margin: 0;
-    width: 100%;
 }
 
 .scale h2 {

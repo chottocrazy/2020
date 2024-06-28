@@ -22,10 +22,15 @@ h3,
     height: 40vh;
 }
 
-#on h2,
-#on #shiba li,
-#on #ansitsu {
+#on h2 {
     display: none;
+}
+
+#on #ansitsu,
+#on #shiba li {
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
 }
 
 #in,
@@ -41,8 +46,13 @@ h3,
     height: 150vh;
 }
 
-#in h3,
+#in h3 {
+    display: none;
+}
+
 #in #shiba,
 #in #ansitsu li {
-    display: none;
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
 }

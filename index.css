@@ -17,7 +17,7 @@ h2 {
 }
 
 html {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 * {
@@ -91,21 +91,6 @@ a u {
     width: calc(100% - 7.5rem);
 }
 
-#main {
-    width: 125rem;
-    height: 75rem;
-}
-
-#main article.medium {
-    width: 25rem;
-    height: 25rem;
-}
-
-#main article.wide {
-    width: 50rem;
-    height: 25rem;
-}
-
 h1 {
     font-size: 300%;
 }
@@ -176,6 +161,42 @@ h2 small {
     right: 0;
 }
 
+#main {
+    width: 125rem;
+    height: 75rem;
+}
+
+#main article.medium {
+    width: 25rem;
+    height: 25rem;
+}
+
+#main article.wide {
+    width: 50rem;
+    height: 25rem;
+}
+
+@media (min-width: 125rem) {
+    html {
+        font-size: 0.81vw;
+    }
+
+    #main {
+        width: 100vw;
+        height: auto;
+    }
+
+    #main article.medium {
+        width: 20%;
+        height: 20vw;
+    }
+
+    #main article.wide {
+        width: 40%;
+        height: 20vw;
+    }
+}
+
 @media (max-width: 950px) {
     #main {
         width: 100rem;
@@ -190,7 +211,7 @@ h2 small {
 
 @media (orientation: portrait) {
     html {
-        font-size: 2vw;
+        font-size: 2.1vw;
     }
 
     #main {

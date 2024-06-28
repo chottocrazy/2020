@@ -69,3 +69,11 @@
     right: 5%;
     writing-mode: vertical-lr;
 }
+
+#img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+}
