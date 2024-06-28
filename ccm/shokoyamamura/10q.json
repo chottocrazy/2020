@@ -3,8 +3,8 @@
     "name": "山村祥子",
     "yomi": "Shoko Yamamura",
     "text": [
-        "I learned contemporary art in US. I create with my theme that I mainly focus on daily lives of consumers and their surroundings, with questioning to the role of communication of expression of respect and gentleness.",
-        "アメリカで現代美術を学ぶ。主に都市の消費者生活に焦点を当て、周囲の環境（もの・こと・ひと）に立ち止まり内省する、敬意や優しさを表すといった自他のコミュニケーションの在り方や他に向かう態度を問いかけ、提案することをテーマとして制作を行っている。"
+        "アメリカで現代美術を学ぶ。主に都市の消費者生活に焦点を当て、周囲の環境（もの・こと・ひと）に立ち止まり内省する、敬意や優しさを表すといった自他のコミュニケーションの在り方や他に向かう態度を問いかけ、提案することをテーマとして制作を行っている。",
+        "I learned contemporary art in US. I create with my theme that I mainly focus on daily lives of consumers and their surroundings, with questioning to the role of communication of expression of respect and gentleness."
     ],
     "link": [
         {
@@ -19,7 +19,7 @@
     "questions": [
         {
             "id": "Q1",
-            "question": "You can recognize musical scale <i>Ra</i>",
+            "question": "You can recognize musical scale <b>Ra</b>",
             "jp": "「ラ」の音がわかる",
             "yes": "Yes",
             "left": "はい",
@@ -32,7 +32,7 @@
             "jp": "歌うなら？",
             "yes": "with someone",
             "left": "誰かと",
-            "no": "by yourself",
+            "no": "a solo",
             "right": "ひとりで"
         },
         {
@@ -66,9 +66,9 @@
             "id": "Q6",
             "question": "Do you like a sound?",
             "jp": "音は？",
-            "yes": "Yes I do.",
+            "yes": "Yes",
             "left": "好き",
-            "no": "No I don't.",
+            "no": "No i don't",
             "right": "嫌い"
         },
         {
@@ -91,7 +91,7 @@
         },
         {
             "id": "Q9",
-            "question": "Do you know smell of 〇〇?",
+            "question": "Do you know the taste that feel like a smell of something?",
             "jp": "〇〇の匂いのような味を知ってる？",
             "yes": "Yes",
             "left": "はい",
@@ -104,7 +104,7 @@
             "jp": "聴いてみる？",
             "yes": "yeah",
             "left": "いいよ",
-            "no": "well...maybe..",
+            "no": "well. maybe...",
             "right": "どうだろう"
         }
     ]

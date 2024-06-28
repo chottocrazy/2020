@@ -3,8 +3,8 @@
     "name": "wanna be youth",
     "yomi": "ワナビーユース",
     "text": [
-        "I just take a walk and recording at home.",
-        "散歩したり、宅録したりしています"
+        "散歩したり、宅録したりしています",
+        "I just take a walk and recording at home."
     ],
     "link": [
         {
@@ -37,7 +37,7 @@
             "jp": "目は口ほどに物を言う？",
             "yes": "Yes",
             "left": "そう思う",
-            "no": "No I don't think so.",
+            "no": "No i don't think so",
             "right": "そう思わない"
         },
         {

@@ -6,7 +6,8 @@
     justify-content: center;
 }
 
-.programs button {
+.programs button,
+.programs a {
     appearance: none;
     color: #111;
     background: #fff;

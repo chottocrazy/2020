@@ -3,8 +3,8 @@
     "name": "seaketa",
     "yomi": "シーケタ",
     "text": [
-        "I do music things.",
-        "音楽やっています。"
+        "音楽やっています。",
+        "I do music things."
     ],
     "link": [
         {
@@ -34,18 +34,18 @@
             "id": "Q2",
             "question": "Do you like glasses?",
             "jp": "メガネは好き？",
-            "yes": "yes",
+            "yes": "Yes",
             "left": "はい",
-            "no": "no",
+            "no": "No",
             "right": "いいえ"
         },
         {
             "id": "Q3",
-            "question": "a jewelry",
+            "question": "A jewelry",
             "jp": "宝石",
-            "yes": "I want one.",
+            "yes": "I want one",
             "left": "欲しい",
-            "no": "I don't want it.",
+            "no": "I don't want it",
             "right": "欲しくない"
         },
         {
@@ -97,18 +97,18 @@
             "id": "Q9",
             "question": "Speaking of water flowing",
             "jp": "水が流れるといえば",
-            "yes": "The river",
+            "yes": "the river",
             "left": "川",
-            "no": "The waterfall",
+            "no": "the waterfall",
             "right": "滝"
         },
         {
             "id": "Q10",
             "question": "Have you ever picked up a stone?",
             "jp": "石を拾ったことが",
-            "yes": "Yes I have.",
+            "yes": "Yes i have",
             "left": "ある",
-            "no": "No I haven't.",
+            "no": "No i haven't",
             "right": "ない"
         }
     ]

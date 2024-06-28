@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="program.css">
 	<link rel="stylesheet" href="10q.css">
+	<link rel="stylesheet" href="value.css">
 	<link rel="stylesheet" href="../logo/style.css">
 
 	<script>
@@ -32,7 +33,6 @@
 <body>
 	<header>
 		<input type="button" id="headline">
-
 		<h1 class="logo">
 			<strong data-dai="We are">わたしたちは</strong>
 			<br>
@@ -46,6 +46,7 @@
 		</h1>
 		<nav id="mates"></nav>
 	</header>
+
 	<article id="article" hidden>
 		<section id="profile">
 			<h2>
@@ -57,15 +58,23 @@
 			<h3 id="program" class="programs">
 				実現したいこと
 			</h3>
-			<h3 id="value" class="programs">
+			<h3 id="valuing" class="programs">
 				大切なもの
 			</h3>
+			<button id="back" type="button" onclick="history.back()">◀ 戻る</button>
 		</section>
 		<form id="questions"></form>
-		<aside>
-			<p>大 chotto crazy 2020 プログラム採用者</p>
-		</aside>
-		<button id="back" type="button" onclick="history.back()">◀ Back</button>
+		<aside></aside>
+	</article>
+
+	<article id="value" hidden>
+		<h3 class="ja vertical">
+			<strong>大切にすることを大切にするための場所</strong>
+			<small>creative, community space ∧° ┐</small>
+		</h3>
+		<img src="" alt="" width="90%" hidden>
+		<section class="ja_app"></section>
+		<button type="button" onclick="history.back()">◀ Back</button>
 	</article>
 </body>
 

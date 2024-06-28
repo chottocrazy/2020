@@ -3,8 +3,8 @@
     "name": "Yuto Ohashi",
     "yomi": "オオハシユウト",
     "text": [
-        "about something like being alone and a scenery.",
-        "1994。ひとりとか風景とかそういうことについて。"
+        "1994。ひとりとか風景とかそういうことについて。",
+        "about something like being alone and a scenery."
     ],
     "link": [
         {
@@ -46,16 +46,16 @@
             "jp": "どこから来たのかを知っている",
             "yes": "Yes",
             "left": "はい",
-            "no": "No I don't",
+            "no": "No i don't",
             "right": "いいえ"
         },
         {
             "id": "Q5",
             "question": "Can you sleep in the lighted place?",
             "jp": "明るい場所で眠ることができる",
-            "yes": "Yes I can",
+            "yes": "Yes i can",
             "left": "はい",
-            "no": "No I can't",
+            "no": "No i can't",
             "right": "いいえ"
         },
         {
@@ -73,7 +73,7 @@
             "jp": "今よりももっといい場所があるとおもう",
             "yes": "Yes",
             "left": "はい",
-            "no": "No I don't",
+            "no": "No i don't",
             "right": "いいえ"
         },
         {
@@ -96,7 +96,7 @@
         },
         {
             "id": "Q10",
-            "question": "When you say  <i>thank you</i> you feel",
+            "question": "When you say  <b>thank you</b> you feel",
             "jp": "ありがとうと伝えるとき",
             "yes": "embarrassed",
             "left": "照れくさい",

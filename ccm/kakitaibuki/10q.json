@@ -3,8 +3,8 @@
     "name": "Kakita Ibuki",
     "yomi": "カキタイブキ",
     "text": [
-        "A person who are swayed by a space.<br>I'm looking for something that is bigger when it's smaller.",
-        "空間にとらわれる人。小さいほど大きい何かを探しています。"
+        "空間にとらわれる人。小さいほど大きい何かを探しています。",
+        "A person who are swayed by a space.<br>I'm looking for something that is bigger when it's smaller."
     ],
     "link": [
         {
@@ -17,9 +17,9 @@
             "id": "Q1",
             "question": "Do you often experience deja vu?",
             "jp": "普段デジャブを体験スル？",
-            "yes": "Yes I do.",
+            "yes": "Yes i do",
             "left": "はい",
-            "no": "No I don't.",
+            "no": "No i don't",
             "right": "いいえ"
         },
         {
@@ -33,25 +33,25 @@
         },
         {
             "id": "Q3",
-            "question": "Well..it might be.",
+            "question": "Well.. it might be",
             "jp": "きっとそうだろうな",
-            "yes": "Yes it might be.",
+            "yes": "Yes it might be",
             "left": "はい、きっと。",
-            "no": "No...may be...",
+            "no": "No... may be...",
             "right": "いいえ、おそらく。"
         },
         {
             "id": "Q4",
             "question": "Is it that?",
             "jp": "あれはそれ？",
-            "yes": "Yes that is it.",
+            "yes": "Yes that is it",
             "left": "はい、あれはそれ。",
-            "no": "No it is that.",
+            "no": "No it is that",
             "right": "いいえ、それはあれ。"
         },
         {
             "id": "Q5",
-            "question": "There is a thing that only I can see.",
+            "question": "There is a thing that only i can see",
             "jp": "自分にしか見えないものがある",
             "yes": "Yes",
             "left": "はい",
@@ -62,9 +62,9 @@
             "id": "Q6",
             "question": "To be honest you see the magical power?",
             "jp": "実は魔力が見える",
-            "yes": "Yes I do",
+            "yes": "Yes i do",
             "left": "はい",
-            "no": "No I don't",
+            "no": "No i don't",
             "right": "いいえ"
         },
         {

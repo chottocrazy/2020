@@ -3,8 +3,8 @@
     "name": "浅野充利",
     "yomi": "Mitsutoshi Asano",
     "text": [
-        "I work in Nagoya. My motto is To grass from concrete",
-        "名古屋在住のサラリーマンです。座右の銘は｢コンクリートから芝へ｣です。"
+        "名古屋在住のサラリーマンです。座右の銘は｢コンクリートから芝へ｣です。",
+        "I work in Nagoya. My motto/policy is to grass from concrete"
     ],
     "questions": [
         {
@@ -29,7 +29,7 @@
             "id": "Q3",
             "question": "What do you imagine with sunshine?",
             "jp": "日光浴のイメージは？",
-            "yes": "Cuddle hormon",
+            "yes": "cuddle hormon",
             "left": "幸せホルモン",
             "no": "freckle",
             "right": "シミ"

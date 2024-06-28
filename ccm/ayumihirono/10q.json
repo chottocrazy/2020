@@ -3,8 +3,8 @@
     "name": "廣野鮎美",
     "yomi": "Ayumi Hirono",
     "text": [
-        "Hello. A curtain in my room is green, my favourite stuffed animal is yellow, a coat I recently bought is black.",
-        "こんにちは。部屋のカーテンは緑、お気に入りのぬいぐるみは黄色、最近買ったコートは黒です。"
+        "こんにちは。部屋のカーテンは緑、お気に入りのぬいぐるみは黄色、最近買ったコートは黒です。",
+        "Hello. A curtain in my room is green, my favourite stuffed animal is yellow, a coat I recently bought is black."
     ],
     "link": [
         {
@@ -23,16 +23,16 @@
     "questions": [
         {
             "id": "Q1",
-            "question": "Let's eat Gyoza! Because",
+            "question": "Let's eat Gyoza, because",
             "jp": "餃子食べよ",
-            "yes": "it's sunny today.",
+            "yes": "it's sunny today",
             "left": "晴れてるから",
-            "no": "my stomach tells me so.",
+            "no": "my stomach tells me so",
             "right": "胃がそう言ってるから"
         },
         {
             "id": "Q2",
-            "question": "Let's go to the park. Because",
+            "question": "Let's go to the park, because",
             "jp": "公園行こ",
             "yes": "I want to walk",
             "left": "歩きたいから",
@@ -41,74 +41,74 @@
         },
         {
             "id": "Q3",
-            "question": "Let's watch the rising sun! Because",
+            "question": "Let's watch the rising sun, because",
             "jp": "朝日見よ",
-            "yes": "I saw it on the TV yesterday.",
+            "yes": "I saw it on the TV yesterday",
             "left": "昨日テレビで見たから",
-            "no": "I am in the mountain now.",
+            "no": "I am in the mountain now",
             "right": "今山にいるから"
         },
         {
             "id": "Q4",
-            "question": "Let's go to the book store. Because",
+            "question": "Let's go to the book store, because",
             "jp": "本屋行こ",
-            "yes": "I found it.",
+            "yes": "I found it",
             "left": "見つけたから",
-            "no": "it was on the road.",
+            "no": "it was on the road",
             "right": "落ちてたから"
         },
         {
             "id": "Q5",
-            "question": "Let's talk! Because",
+            "question": "Let's talk, because",
             "jp": "話そ",
-            "yes": "my hair has grown.",
+            "yes": "my hair has grown",
             "left": "髪が伸びたから",
-            "no": "I saw a UFO.",
+            "no": "I saw a UFO",
             "right": "UFO見たから"
         },
         {
             "id": "Q6",
-            "question": "Let's dig potatoes! Because",
+            "question": "Let's dig potatoes, because",
             "jp": "じゃがいも掘ろ",
-            "yes": "I haven't ever seen a shooting star.",
+            "yes": "I haven't ever seen a shooting star",
             "left": "流れ星見たことないしさ",
-            "no": "I want to go to Germany.",
+            "no": "I want to go to Germany",
             "right": "ドイツ行きたいし"
         },
         {
             "id": "Q7",
-            "question": "Chocolate. Because",
+            "question": "Chocolate, because",
             "jp": "チョコレート",
-            "yes": "it's cold.",
+            "yes": "it's cold",
             "left": "寒いから",
-            "no": "the parcel isn't delivered yet.",
+            "no": "the parcel isn't delivered yet",
             "right": "宅配便が届かないから"
         },
         {
             "id": "Q8",
-            "question": "Let's go out together. Because",
+            "question": "Let's go out together, because",
             "jp": "デートしましょう",
-            "yes": "the wind brew.",
+            "yes": "the wind brew",
             "left": "風が吹いたから",
-            "no": "I like green.",
+            "no": "I like green",
             "right": "緑が好きだから"
         },
         {
             "id": "Q9",
-            "question": "I am at the top of the building. Because",
+            "question": "I am at the top of the building, because",
             "jp": "ビルのてっぺん",
-            "yes": "I want to see the sky.",
+            "yes": "I want to see the sky",
             "left": "空が見たいから",
-            "no": "I want to see the clouds.",
+            "no": "I want to see the clouds",
             "right": "雲が見たいから"
         },
         {
             "id": "Q10",
             "question": "A excuse",
             "jp": "口実",
-            "yes": "I need some.",
+            "yes": "I need some",
             "left": "いる",
-            "no": "I don't need it.",
+            "no": "I don't need",
             "right": "いらない"
         }
     ]

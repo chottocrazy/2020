@@ -3,8 +3,8 @@
     "name": "黒木結",
     "yomi": "Yui Kuroki",
     "text": [
-        "I am a contemporary artist based Kyoto.",
-        "京都で現代美術の作品を作っています。"
+        "京都で現代美術の作品を作っています。",
+        "I am a contemporary artist based Kyoto."
     ],
     "link": [
         {
@@ -26,9 +26,9 @@
             "id": "Q2",
             "question": "When you sleep lights are?",
             "jp": "寝る時、電気を消す？",
-            "yes": "OFF",
+            "yes": "Off",
             "left": "消す",
-            "no": "ON",
+            "no": "On",
             "right": "消さない"
         },
         {
@@ -89,9 +89,9 @@
             "id": "Q9",
             "question": "What do you tend to do when you take a walk?",
             "jp": "散歩中よくすることは？",
-            "yes": "Listening to music",
+            "yes": "listening to music",
             "left": "音楽を聴く",
-            "no": "Thinking about something",
+            "no": "thinking about something",
             "right": "考えごと"
         },
         {

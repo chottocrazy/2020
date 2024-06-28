@@ -3,8 +3,8 @@
     "name": "宙空一派",
     "yomi": "Chukuippa",
     "text": [
-        "I do home recording. I didn' t eat many Azuki bar this summer.",
-        "俺は自宅録音家。今年の夏はあずきバーをそんなに食べませんでした。"
+        "俺は自宅録音家。今年の夏はあずきバーをそんなに食べませんでした。",
+        "I do home recording. I didn't eat many Azuki bar this summer."
     ],
     "link": [
         {
@@ -25,9 +25,9 @@
             "id": "Q1",
             "question": "Do you have a own motto/policy?",
             "jp": "あなたには座右の銘がありますか？",
-            "yes": "Yes I have.",
+            "yes": "Yes i have",
             "left": "ある",
-            "no": "No I haven't.",
+            "no": "No i haven't",
             "right": "ない"
         },
         {
@@ -50,25 +50,25 @@
         },
         {
             "id": "Q4",
-            "question": "What do you think if your motto/policy must be simplicity and fortitude?<",
+            "question": "What do you think if your motto/policy must be simplicity and fortitude?",
             "jp": "今日からあなたの座右の銘が「質実剛健」になったらどんな気分ですか？",
-            "yes": "I think I would be sad.",
+            "yes": "I think i would be sad",
             "left": "どちらかと言えば悲しい",
-            "no": "I think I would be happy.",
+            "no": "I think i would be happy",
             "right": "どちらかと言えば嬉しい"
         },
         {
             "id": "Q5",
             "question": "What do you think if you have to exchange your motto/policy with someone?",
             "jp": "座右の銘（もしくはモットー、ポリシー、考え、信念など）を交換せざるを得ない状況になったら、どう思いますか？",
-            "yes": "I would be very excited.",
+            "yes": "I would be very excited",
             "left": "ワクワクする",
-            "no": "I would be disappointed.",
+            "no": "I would be disappointed",
             "right": "テンションが下がる"
         },
         {
             "id": "Q6",
-            "question": "simplicity and fortitude is",
+            "question": "Simplicity and fortitude is",
             "jp": "質実剛健って",
             "yes": "difficult",
             "left": "こむずかしい",
@@ -86,11 +86,11 @@
         },
         {
             "id": "Q8",
-            "question": "good fortune and happiness will come to the home of those who smile",
+            "question": "Good fortune and happiness will come to the home of those who smile",
             "jp": "笑う門には福来たる",
-            "yes": "Yes I think so too.",
+            "yes": "Yes i think so too",
             "left": "に違いない",
-            "no": "Not so much..",
+            "no": "Not so much...",
             "right": "とは限らない"
         },
         {
@@ -106,9 +106,9 @@
             "id": "Q10",
             "question": "You would choose",
             "jp": "もし選ぶなら、",
-            "yes": "Strike while the iron is hot.",
+            "yes": "Strike while the iron is hot",
             "left": "善は急げ",
-            "no": "More haste, less speed.",
+            "no": "More haste, less speed",
             "right": "急がば回れ"
         }
     ]

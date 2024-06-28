@@ -3,8 +3,8 @@
     "name": "YeXuQo",
     "yomi": "エズコ",
     "text": [
-        "I make music and graphics. I recently attracted to things that cute,  comfortable and cool-looking.",
-        "音楽やグラフィックを作っています。ここ最近は、かわいらしいもの、小気味よいもの、涼しいものに惹かれるようになりました"
+        "音楽やグラフィックを作っています。ここ最近は、かわいらしいもの、小気味よいもの、涼しいものに惹かれるようになりました。",
+        "I make music and graphics. I recently attracted to things that cute, comfortable and cool-looking."
     ],
     "link": [
         {
@@ -21,9 +21,9 @@
             "id": "Q1",
             "question": "Do you want to practice?",
             "jp": "練習したい？",
-            "yes": "Yes I do.",
+            "yes": "Yes i do",
             "left": "したい",
-            "no": "No I don't.",
+            "no": "No i don't",
             "right": "したくない"
         },
         {
@@ -39,9 +39,9 @@
             "id": "Q3",
             "question": "Have you ever had a fracture?",
             "jp": "骨折したことがある？",
-            "yes": "Yes I have.",
+            "yes": "Yes i have",
             "left": "ある",
-            "no": "No I have never.",
+            "no": "No i have never",
             "right": "ない"
         },
         {
@@ -50,14 +50,14 @@
             "jp": "時間は",
             "yes": "I want more!",
             "left": "もっとたくさんほしい",
-            "no": "I would give it to someone.",
+            "no": "I would give it to someone",
             "right": "誰かにあげたい"
         },
         {
             "id": "Q5",
             "question": "Do you think a flower and a leaf is different?",
             "jp": "花と葉って違うと思う？",
-            "yes": "it could be.",
+            "yes": "it could be",
             "left": "違うかも",
             "no": "it might be the same",
             "right": "同じかも"
@@ -75,9 +75,9 @@
             "id": "Q7",
             "question": "Can you imagine the inside of the soil where cactus is planted?",
             "jp": "サボテンの土の中を想像できる？",
-            "yes": "Yes I can.",
+            "yes": "Yes i can",
             "left": "できる",
-            "no": "No I can't.",
+            "no": "No i can't",
             "right": "できない"
         },
         {
@@ -93,9 +93,9 @@
             "id": "Q9",
             "question": "Are you happy if you know?",
             "jp": "知れたらうれしい？",
-            "yes": "Yes I think so.",
+            "yes": "Yes i think so",
             "left": "そう思う",
-            "no": "No I don't think so.",
+            "no": "No i don't think so",
             "right": "そうは思わない"
         },
         {

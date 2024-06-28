@@ -44,7 +44,10 @@ aside {
 }
 
 #back {
-    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
 }
 
 ruby,
@@ -66,6 +69,11 @@ body {
 
 ruby rt {
     color: #f6d435;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 125%;
+    -webkit-text-stroke: 0.04rem #fff;
+    text-stroke: 0.04rem #fff;
 }
 
 aside {
@@ -207,7 +215,7 @@ aside {
     }
 }
 
-ruby rt {
+ruby {
     letter-spacing: 0.25rem;
 }
 

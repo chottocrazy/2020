@@ -3,11 +3,8 @@
     "name": "2n2n",
     "yomi": "ツンツン",
     "text": [
-        "I feel like to live in Hokkaido somehow. I want to work in Teshima and I want to be able to speak in English. I'm a boy like that.",
-        "北海道に住みたくなってきた",
-        "豊島で働いてみたい",
-        "英語が喋れるようになりたい",
-        "そんな男の子"
+        "北海道に住みたくなってきた<br>豊島で働いてみたい<br>英語が喋れるようになりたい<br>そんな男の子",
+        "I feel like to live in Hokkaido somehow. I want to work in Teshima and I want to be able to speak in English. I'm a boy like that."
     ],
     "link": [
         {
@@ -58,7 +55,7 @@
         },
         {
             "id": "Q5",
-            "question": "You feel your life is soaked in details of your daily life these days.",
+            "question": "You feel your life is soaked in details of your daily life these days",
             "jp": "人生が日常の細部に染み込んでいるなぁと感じる、最近",
             "yes": "Yes",
             "left": "はい",
@@ -67,7 +64,7 @@
         },
         {
             "id": "Q6",
-            "question": "A fragmentary thing is the best",
+            "question": "A fragmentary thing is important",
             "jp": "断片的なのが大事",
             "yes": "Yes",
             "left": "はい",
@@ -96,9 +93,9 @@
             "id": "Q9",
             "question": "Delicious is happiness",
             "jp": "おいしいはしあわせ",
-            "yes": "Yes I think so",
+            "yes": "Yes i think so",
             "left": "そうだね",
-            "no": "No I don't think so",
+            "no": "No i don't think so",
             "right": "そうかな"
         },
         {

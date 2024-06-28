@@ -3,8 +3,8 @@
     "name": "イトウヒロキ",
     "yomi": "Hiroki Ito",
     "text": [
-        "Line One",
-        "こんにちはです☀︎イトウ ヒロキです。<br>1996年生まれの岡山県出身です。"
+        "こんにちはです☀︎イトウ ヒロキです。<br>1996年生まれの岡山県出身です。",
+        "Hi ☀︎ I'm Ito Hiroki from Okayama born in 1996"
     ],
     "link": [
         {
@@ -21,7 +21,7 @@
             "id": "Q1",
             "question": "What taste of ramen noodle do you like?",
             "jp": "どの味のラーメンが好きです？",
-            "yes": "Tonkotsu (pork bone broth)",
+            "yes": "tonkotsu (pork bone broth)",
             "left": "豚骨",
             "no": "salt",
             "right": "塩"
@@ -82,7 +82,7 @@
         },
         {
             "id": "Q8",
-            "question": "What do you imagine when you hear <i>hachi</i>?",
+            "question": "What do you imagine when you hear <b>hachi</b>?",
             "jp": "『はち』といえば、どちらですか？",
             "yes": "8",
             "left": "8",

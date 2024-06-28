@@ -3,8 +3,8 @@
     "name": "Kenny Pain",
     "yomi": "ケニーペイン",
     "text": [
-        "born in Osaka. 1996",
-        "1996年生まれ大阪在住"
+        "1996年生まれ大阪在住",
+        "born in Osaka, 1996"
     ],
     "link": [
         {
@@ -44,18 +44,18 @@
             "id": "Q4",
             "question": "When you sleep you turn the light",
             "jp": "寝るときの電気は？",
-            "yes": "off",
+            "yes": "Off",
             "left": "消す",
-            "no": "on",
+            "no": "On",
             "right": "消さない"
         },
         {
             "id": "Q5",
             "question": "Do you think human beings were born from soil?",
             "jp": "人間は土から生まれたと思う？",
-            "yes": "Yes I do.",
+            "yes": "Yes",
             "left": "思う",
-            "no": "No I don't.",
+            "no": "No i don't",
             "right": "思わない"
         },
         {

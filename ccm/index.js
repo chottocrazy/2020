@@ -18,6 +18,14 @@ async function questions(json) {
     creatQ(index)
 }
 
+async function value(json) {
+    const request = new Request(json)
+    const response = await fetch(request)
+    const jsonIndex = await response.text()
+    const index = JSON.parse(jsonIndex)
+    valuing(index)
+}
+
 function mates(obj) {
     const ccm = document.querySelector('#mates')
     for (const mate of obj.ccm) {
@@ -29,25 +37,22 @@ function mates(obj) {
         article.appendChild(ruby)
         const a = document.createElement('a')
         a.textContent = mate.name;
-        a.href = `?name=${mate.id}`
+        a.href = `?name=${mate.id}`;
         ruby.appendChild(a)
 
         const rt = document.createElement('rt')
         rt.textContent = mate.yomi;
         ruby.appendChild(rt)
 
+        // ?name=名前
         if (params.get("name") === mate.id) {
-            console.log(params.get("name"))
             const name = document.querySelector('#profile h2 ruby b')
             const yomi = document.querySelector('#profile h2 ruby rt')
             const program = document.querySelector('#profile #program')
-            const value = document.querySelector('#profile #value')
-            const text = document.querySelector('aside p')
-            const aside = document.querySelector('aside')
+            const valuing = document.querySelector('#profile #valuing')
 
             name.textContent = mate.name;
             yomi.textContent = mate.yomi;
-            text.textContent = mate.text;
 
             if (mate.program) {
                 for (const ii of mate.program) {
@@ -59,34 +64,21 @@ function mates(obj) {
 
             if (mate.value) {
                 for (const iii of mate.value) {
-                    const button = document.createElement('button')
-                    button.textContent = iii.title;
-                    value.appendChild(button)
+                    const a = document.createElement('a')
+                    a.textContent = iii.title;
+                    a.href = `?value=${mate.id}`;
+                    valuing.appendChild(a)
                 }
             }
 
             questions(`${mate.id}/10q.json`)
+        }
 
-            if (mate.link) {
-                for (const iiii of mate.link) {
-                    const a = document.createElement('a')
-                    a.textContent = iiii.a;
-                    a.href = iiii.href;
-                    a.setAttribute('target', '_blank')
-                    aside.appendChild(a)
-                }
-            }
+        // ?value=名前
+        if (params.get("value") === mate.id) {
+            value(`${mate.id}/value.json`)
         }
     }
-}
-
-function shuffle(arrays) {
-    const array = arrays.slice()
-    for (let i = array.length - 1; i >= 0; i--) {
-        const shuffleArr = Math.floor(Math.random() * (i + 1));
-        [array[i], array[shuffleArr]] = [array[shuffleArr], array[i]]
-    }
-    return array
 }
 
 function creatQ(allQ) {
@@ -118,10 +110,46 @@ function creatQ(allQ) {
         `;
         section.appendChild(h4);
     }
+
     const section = document.createElement('section')
     section.className = "question";
     section.textContent = "question";
     questions.appendChild(section)
+
+
+    const aside = document.querySelector('aside')
+    if (allQ.text) {
+        for (const i of allQ.text) {
+            const p = document.createElement('p')
+            p.innerHTML = i;
+            aside.appendChild(p)
+        }
+    }
+
+    if (allQ.link) {
+        for (const ii of allQ.link) {
+            const a = document.createElement('a')
+            a.textContent = ii.a;
+            a.href = ii.href;
+            a.setAttribute('target', '_blank')
+            aside.appendChild(a)
+        }
+    }
+}
+
+function valuing(act) {
+    const title = document.querySelector('#value h3 strong')
+    const name = document.querySelector('#value h3 small')
+    title.textContent = act.value;
+    name.textContent = act.name;
+
+    const section = document.querySelector('#value section')
+    for (const i of act.text) {
+        const p = document.createElement('p')
+        p.innerHTML = i;
+        section.appendChild(p)
+    }
+
 }
 
 function headline() {
@@ -135,16 +163,22 @@ document.addEventListener('readystatechange', event => {
         headline()
         indexJSON()
 
-        // ?name=名前
         const header = document.querySelector('header')
-        const article = document.querySelector('article')
+        const profile = document.querySelector('#article')
+        const value = document.querySelector('#value')
 
         if (params.get("name")) {
             header.hidden = true;
-            article.hidden = false;
+            profile.hidden = false;
+            value.hidden = true;
+        } else if (params.get("value")) {
+            header.hidden = true;
+            profile.hidden = true;
+            value.hidden = false;
         } else {
             header.hidden = false;
-            article.hidden = true;
+            profile.hidden = true;
+            value.hidden = true;
         }
     }
 }, false)

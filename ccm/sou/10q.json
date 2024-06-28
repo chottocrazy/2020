@@ -3,8 +3,8 @@
     "name": "ソウ",
     "yomi": "Sou",
     "text": [
-        "a self-styled dyer and a bag maker. my age is the middle of so-called Lost Generation.I'm studying dyeing and growing plants for dyeing in Kitakagaya. I live while thinking that my way to live would be a tip for someone's live",
-        "自称染色家and鞄作家。年齢は、いわゆる「失われた世代」のド真ん中。染色を追究する余り、北加賀屋にて畑を借りて染料になる植物を自身で栽培中。自分の生き方が、誰かの人生のヒントになればと良いと思い、日々呼吸しています。"
+        "自称染色家and鞄作家。年齢は、いわゆる「失われた世代」のド真ん中。染色を追究する余り、北加賀屋にて畑を借りて染料になる植物を自身で栽培中。自分の生き方が、誰かの人生のヒントになればと良いと思い、日々呼吸しています。",
+        "a self-styled dyer and a bag maker. my age is the middle of so-called Lost Generation.I'm studying dyeing and growing plants for dyeing in Kitakagaya. I live while thinking that my way to live would be a tip for someone's live"
     ],
     "link": [
         {
@@ -42,7 +42,7 @@
         },
         {
             "id": "Q4",
-            "question": "Do you want to appear on TV program or something and being said <i>you are weird</i> by celebrity?",
+            "question": "Do you want to appear on TV program or some media and being said <b>you are weird</b> by celebrity?",
             "jp": "TVとかに出演して、マ〇コデラックスに「あんた、変態ねぇ。」と言われてみたいですか？",
             "yes": "Yes",
             "left": "目指せ香川〇之、さ〇なクン！",
@@ -51,7 +51,7 @@
         },
         {
             "id": "Q5",
-            "question": "Do you have any hobbies that make you feel too emotional when you think about it?",
+            "question": "Do you have any hobbies that make you get too crazy in it?",
             "jp": "エモ過ぎて、鼻血を出してまう(もしくは、それに近い気分)になるくらいの趣味はありますか？",
             "yes": "Yes",
             "left": "それくらいの「推し」がいる。",

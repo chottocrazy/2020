@@ -3,17 +3,17 @@
     "name": "りえ",
     "yomi": "Rie",
     "text": [
-        "A lady in 40s, company employee in Tokyo.<br>I love: art museum, green place, shrine,flowers, delicious foods and alcohol.,",
-        "40代婦人・東京在住の会社員です。<br>美術館・緑の濃い場所・神社・お花・美味しいもの・お酒が好きです。"
+        "40代婦人・東京在住の会社員です。<br>美術館・緑の濃い場所・神社・お花・美味しいもの・お酒が好きです。",
+        "A lady in 40s, company employee in Tokyo.<br>I love: art museum, green place, shrine, flowers, delicious foods and alcohol."
     ],
     "questions": [
         {
             "id": "Q1",
             "question": "Have you ever made a pitfall?",
             "jp": "落とし穴を作ったことある？",
-            "yes": "Yes I have",
+            "yes": "Yes",
             "left": "ある",
-            "no": "No I haven't.",
+            "no": "No i have never",
             "right": "ない"
         },
         {
@@ -38,9 +38,9 @@
             "id": "Q4",
             "question": "Do you believe in invisible existence?",
             "jp": "目に見えないものの存在を",
-            "yes": "Yes I do.",
+            "yes": "Yes",
             "left": "信じる",
-            "no": "No I don't.",
+            "no": "No i don't",
             "right": "信じない"
         },
         {
@@ -74,9 +74,9 @@
             "id": "Q8",
             "question": "I am",
             "jp": "自分は",
-            "yes": "an adult.",
+            "yes": "an adult",
             "left": "もうさすがに大人",
-            "no": "still a child.",
+            "no": "still a child",
             "right": "まだぜんぜん子供"
         },
         {
@@ -90,11 +90,11 @@
         },
         {
             "id": "Q10",
-            "question": "Truth",
+            "question": "The Truth",
             "jp": "本当のこと",
-            "yes": "I want to know.",
+            "yes": "I want to know",
             "left": "知りたい",
-            "no": "I don't want to know.",
+            "no": "I don't want to know",
             "right": "知りたくない"
         }
     ]

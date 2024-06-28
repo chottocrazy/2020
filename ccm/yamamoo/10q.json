@@ -3,8 +3,8 @@
     "name": "Yamamoo",
     "yomi": "ヤマモー",
     "text": [
-        "I am an employee and also an artist. I have experienced some expressions both with other people and by myself.",
-        "自称働く表現家。某物流企業で管理職として激務をこなしながら、いくつかのユニットやソロで日本各地だけでなく、海外でも公演経験あり。"
+        "自称働く表現家。某物流企業で管理職として激務をこなしながら、いくつかのユニットやソロで日本各地だけでなく、海外でも公演経験あり。",
+        "I am an employee and also an artist. I have experienced some expressions both with other people and by myself."
     ],
     "questions": [
         {
@@ -38,9 +38,9 @@
             "id": "Q4",
             "question": "Do you often compare with someone?",
             "jp": "人と比べることある？",
-            "yes": "Yes I do",
+            "yes": "Yes i do",
             "left": "ある",
-            "no": "No I don't",
+            "no": "No i don't",
             "right": "ない"
         },
         {
@@ -56,45 +56,45 @@
             "id": "Q6",
             "question": "Do you want to buy as much as you can at a 100 yen shop?",
             "jp": "いやというほど100均で買い物したい？",
-            "yes": "Yes I do",
+            "yes": "Yes",
             "left": "してみたい",
-            "no": "No I don't",
+            "no": "Not so much",
             "right": "別にしたくない"
         },
         {
             "id": "Q7",
             "question": "Do you like young people these days?",
             "jp": "最近の若者は好き？",
-            "yes": "Yes I like",
+            "yes": "Yes i like",
             "left": "好き",
-            "no": "No I don't",
+            "no": "No i don't",
             "right": "嫌い"
         },
         {
             "id": "Q8",
-            "question": "Did you feel good when you watched the TV program <i>Hanzawa Naoki</i>?",
+            "question": "Did you feel good when you watched the TV program <b>Hanzawa Naoki</b>?",
             "jp": "半沢直樹見て、スッキリした？",
-            "yes": "Yes I did",
+            "yes": "Yes i did",
             "left": "した",
-            "no": "No I didn't",
+            "no": "No i didn't",
             "right": "してない"
         },
         {
             "id": "Q9",
             "question": "Do you want to go overseas soon?",
             "jp": "早く海外旅行に行きたい？",
-            "yes": "Yes I want",
+            "yes": "Yes",
             "left": "行きたい",
-            "no": "No I don't",
+            "no": "No i don't",
             "right": "行きたくない"
         },
         {
             "id": "Q10",
             "question": "Do you want to go and see this show?",
             "jp": "このイベント見てみたい？",
-            "yes": "Yes I do",
+            "yes": "Yes",
             "left": "見たい",
-            "no": "No not really",
+            "no": "Not really",
             "right": "特に行きたいと思わない"
         }
     ]
