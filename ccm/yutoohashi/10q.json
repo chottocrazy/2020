@@ -1,0 +1,107 @@
+{
+    "id": "yutoohashi",
+    "name": "Yuto Ohashi",
+    "yomi": "オオハシユウト",
+    "text": [
+        "about something like being alone and a scenery.",
+        "1994。ひとりとか風景とかそういうことについて。"
+    ],
+    "link": [
+        {
+            "a": "Website",
+            "href": "http://yutoohashi.net/"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Is there a boundary?",
+            "jp": "境い目はあるとおもう",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q2",
+            "question": "Which prefer if you keep walking?",
+            "jp": "歩き続けるならどちらがいい",
+            "yes": "in the city",
+            "left": "街",
+            "no": "in a harbor",
+            "right": "港"
+        },
+        {
+            "id": "Q3",
+            "question": "In the darkest place you would",
+            "jp": "もっとも暗い場所で",
+            "yes": "lay down",
+            "left": "横たわる",
+            "no": "close your eyes",
+            "right": "目を瞑る"
+        },
+        {
+            "id": "Q4",
+            "question": "Do you know where it came from?",
+            "jp": "どこから来たのかを知っている",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No I don't",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q5",
+            "question": "Can you sleep in the lighted place?",
+            "jp": "明るい場所で眠ることができる",
+            "yes": "Yes I can",
+            "left": "はい",
+            "no": "No I can't",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q6",
+            "question": "Which do you need?",
+            "jp": "聴診器と時計、どちらが必要だと思う",
+            "yes": "a stethoscope",
+            "left": "聴診器",
+            "no": "a watch",
+            "right": "時計"
+        },
+        {
+            "id": "Q7",
+            "question": "Do you think there is a better place?",
+            "jp": "今よりももっといい場所があるとおもう",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No I don't",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q8",
+            "question": "When you open your eyes you will see",
+            "jp": "目を開くと",
+            "yes": "the sky",
+            "left": "空がみえる",
+            "no": "some people",
+            "right": "人がみえる"
+        },
+        {
+            "id": "Q9",
+            "question": "Do you think it is okay if you have a day you do nothing?",
+            "jp": "なにもしない日があってもいいと思う",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q10",
+            "question": "When you say  <i>thank you</i> you feel",
+            "jp": "ありがとうと伝えるとき",
+            "yes": "embarrassed",
+            "left": "照れくさい",
+            "no": "happy",
+            "right": "嬉しくなる"
+        }
+    ]
+}

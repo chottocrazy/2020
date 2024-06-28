@@ -1,0 +1,107 @@
+{
+    "id": "wannabeyouth",
+    "name": "wanna be youth",
+    "yomi": "ワナビーユース",
+    "text": [
+        "I just take a walk and recording at home.",
+        "散歩したり、宅録したりしています"
+    ],
+    "link": [
+        {
+            "a": "Twitter",
+            "href": "https://www.twitter.com/wannabe_youth/"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Which do you prefer?",
+            "jp": "選ぶならどっち？",
+            "yes": "love someone",
+            "left": "愛したい",
+            "no": "being loved by someone",
+            "right": "愛されたい"
+        },
+        {
+            "id": "Q2",
+            "question": "Do you like human?",
+            "jp": "人間は好き？",
+            "yes": "Yes",
+            "left": "好き",
+            "no": "No",
+            "right": "嫌い"
+        },
+        {
+            "id": "Q3",
+            "question": "The eyes are the windows to the soul. agree?",
+            "jp": "目は口ほどに物を言う？",
+            "yes": "Yes",
+            "left": "そう思う",
+            "no": "No I don't think so.",
+            "right": "そう思わない"
+        },
+        {
+            "id": "Q4",
+            "question": "Do you want to be forgiven?",
+            "jp": "許されたい？",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q5",
+            "question": "Which do you like?",
+            "jp": "浴びるなら？",
+            "yes": "sun light",
+            "left": "日光",
+            "no": "moon light",
+            "right": "月光"
+        },
+        {
+            "id": "Q6",
+            "question": "Which do you rely on?",
+            "jp": "どっちを頼りにする？",
+            "yes": "knowledge",
+            "left": "知識",
+            "no": "experience",
+            "right": "経験"
+        },
+        {
+            "id": "Q7",
+            "question": "Do your footprints leave?",
+            "jp": "あなたの足跡は？",
+            "yes": "Yes",
+            "left": "残る",
+            "no": "No",
+            "right": "残らない"
+        },
+        {
+            "id": "Q8",
+            "question": "Which would you like to be?",
+            "jp": "なるとしたら",
+            "yes": "a spherical object",
+            "left": "球体",
+            "no": "a cube",
+            "right": "立方体"
+        },
+        {
+            "id": "Q9",
+            "question": "Eventually",
+            "jp": "ゆくゆくは？",
+            "yes": "we will fly",
+            "left": "空を飛ぶ",
+            "no": "we will crawl on the ground",
+            "right": "地を這う"
+        },
+        {
+            "id": "Q10",
+            "question": "The important thing should be",
+            "jp": "大事なことは",
+            "yes": "shared",
+            "left": "共有する",
+            "no": "kept a secret",
+            "right": "一人で愛でる"
+        }
+    ]
+}

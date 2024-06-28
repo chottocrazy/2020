@@ -56,3 +56,24 @@ h3,
     user-select: none;
     pointer-events: none;
 }
+
+#stage strong {
+    color: #fff;
+    -webkit-text-stroke: 0.025rem green;
+    text-stroke: 0.025rem green;
+}
+
+#communication strong {
+    color: 111#fff;
+    -webkit-text-stroke: 0.025rem #fff;
+    text-stroke: 0.025rem #fff;
+}
+
+.programs strong {
+    font-size: 150%;
+    display: inline-block;
+    transform: scale(1, 2);
+    margin: 1rem 0;
+    pointer-events: none;
+    user-select: none;
+}

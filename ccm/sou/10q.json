@@ -1,0 +1,107 @@
+{
+    "id": "sou",
+    "name": "ソウ",
+    "yomi": "Sou",
+    "text": [
+        "a self-styled dyer and a bag maker. my age is the middle of so-called Lost Generation.I'm studying dyeing and growing plants for dyeing in Kitakagaya. I live while thinking that my way to live would be a tip for someone's live",
+        "自称染色家and鞄作家。年齢は、いわゆる「失われた世代」のド真ん中。染色を追究する余り、北加賀屋にて畑を借りて染料になる植物を自身で栽培中。自分の生き方が、誰かの人生のヒントになればと良いと思い、日々呼吸しています。"
+    ],
+    "link": [
+        {
+            "a": "Instagram",
+            "href": "https://www.instagram.com/2nd_rosmarin_to_a16/"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Are you angry at something?",
+            "jp": "今、何かに、怒ってますか？",
+            "yes": "Yes",
+            "left": "世の中に対し、もの申したいことが沢山ある！",
+            "no": "No",
+            "right": "何事もなるようになるさ。"
+        },
+        {
+            "id": "Q2",
+            "question": "Are you glad when someone tells you that you are a good person?",
+            "jp": "「あなた良い人だね」って言われると素直にうれしいですか？",
+            "yes": "Yes",
+            "left": "それほどでも~。と照れる",
+            "no": "No",
+            "right": "むしろ、相手を疑ってしまう。"
+        },
+        {
+            "id": "Q3",
+            "question": "Getting first place is all about?",
+            "jp": "一番でなければ意味は無いですか？",
+            "yes": "Yes",
+            "left": "勝つと言うことは、そういう事だ。",
+            "no": "No",
+            "right": "何事も腹八分目がちょうど良い。"
+        },
+        {
+            "id": "Q4",
+            "question": "Do you want to appear on TV program or something and being said <i>you are weird</i> by celebrity?",
+            "jp": "TVとかに出演して、マ〇コデラックスに「あんた、変態ねぇ。」と言われてみたいですか？",
+            "yes": "Yes",
+            "left": "目指せ香川〇之、さ〇なクン！",
+            "no": "No",
+            "right": "そもそも、TVに出るなんてありえない。"
+        },
+        {
+            "id": "Q5",
+            "question": "Do you have any hobbies that make you feel too emotional when you think about it?",
+            "jp": "エモ過ぎて、鼻血を出してまう(もしくは、それに近い気分)になるくらいの趣味はありますか？",
+            "yes": "Yes",
+            "left": "それくらいの「推し」がいる。",
+            "no": "No",
+            "right": "そもそも、そういう類の人が理解できない。"
+        },
+        {
+            "id": "Q6",
+            "question": "Do you think your meal is good as usual?",
+            "jp": "今日も、ご飯(もしくはパンはたまたナン)は、おいしいですか？",
+            "yes": "Yes",
+            "left": "あと、味噌汁と魚があれば良い",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q7",
+            "question": "Are you enjoying your life?",
+            "jp": "いくぞ、1.2.3.ダー！人生、楽しんでますかー？",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q8",
+            "question": "Do you think there is something when you exceed the limit?",
+            "jp": "限界の向こう側は有ると思いますか？",
+            "yes": "Yes",
+            "left": "できることなら、見てみたい。",
+            "no": "No",
+            "right": "人それぞれには、できることとできないことがある。"
+        },
+        {
+            "id": "Q9",
+            "question": "When your opinion is different from others do you accept it?",
+            "jp": "人と考えが違った時、そんな考えも有りかもと受け容れられますか？",
+            "yes": "Yes",
+            "left": "自分の考えが必ずしも、総てでは無い。",
+            "no": "No",
+            "right": "時と場合には、押し通す！"
+        },
+        {
+            "id": "Q10",
+            "question": "Why are you and I are asking questions like this?",
+            "jp": "なぜ、あなたと私は、今、こうして、質問し合っているのでしょうか？",
+            "yes": "because of this project",
+            "left": "例1) このプロジェクトがあったから。",
+            "no": "it is god only knows",
+            "right": "例2) それは、神のみぞが知るコトさ。"
+        }
+    ]
+}

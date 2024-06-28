@@ -5,19 +5,6 @@ let s1 = "大 chotto crazy 2020 プレイベント 大 chotto crazy 2020 プレ�
     s3 = "企画：浅野充利／YeXuQo／seaketa／Kenny Pain／ペフ 企画：浅野充利／YeXuQo／seaketa／Kenny Pain／ペフ 企画：浅野充利／YeXuQo／seaketa／Kenny Pain／ペフ 企画：浅野充利／YeXuQo／seaketa／Kenny Pain／ペフ ",
     speed = 400;
 
-let i = 0,
-    imgAll = [
-        "https://d2w9rnfcy7mm78.cloudfront.net/29089038/original_b1c149df713d031c02c0710bf59f109c.jpg",
-        "https://d2w9rnfcy7mm78.cloudfront.net/28964437/original_9bca83e71169e1dec0c3af78367a04ec.jpg",
-        "https://d2w9rnfcy7mm78.cloudfront.net/28964440/original_012842f7c78492c9816a6bffd79fbc43.jpg",
-        "https://d2w9rnfcy7mm78.cloudfront.net/29089039/original_bfe2f00096707f9aebfcf32ffcadd5e4.gif",
-        "https://d2w9rnfcy7mm78.cloudfront.net/28964438/original_41fcdd8151b81368d9560811918ba430.jpg",
-        "https://d2w9rnfcy7mm78.cloudfront.net/29089041/original_53263c5a28f19b8b76a5281f650ce7ad.gif",
-        "https://d2w9rnfcy7mm78.cloudfront.net/28964439/original_0e2d60666194112a4402ecf9e384940a.jpg",
-        "https://d2w9rnfcy7mm78.cloudfront.net/29089040/original_9a93e5cff1479053819c32cb30fde546.gif",
-        "https://d2w9rnfcy7mm78.cloudfront.net/28964441/original_882b98c33a1dc32f67958c5fa685c5a4.jpg"
-    ]
-
 function headlineTop() {
     s1 = s1.substring(2, s1.length) + s1.substring(0, 2)
     document.querySelector('#top').value = s1;
@@ -36,6 +23,19 @@ function headlineBottom() {
     document.querySelector('#bottom').value = s3;
     setTimeout("headlineBottom()", speed)
 }
+
+let i = 0,
+    imgAll = [
+        "https://d2w9rnfcy7mm78.cloudfront.net/29089038/original_b1c149df713d031c02c0710bf59f109c.jpg",
+        "https://d2w9rnfcy7mm78.cloudfront.net/28964437/original_9bca83e71169e1dec0c3af78367a04ec.jpg",
+        "https://d2w9rnfcy7mm78.cloudfront.net/28964440/original_012842f7c78492c9816a6bffd79fbc43.jpg",
+        "https://d2w9rnfcy7mm78.cloudfront.net/29089039/original_bfe2f00096707f9aebfcf32ffcadd5e4.gif",
+        "https://d2w9rnfcy7mm78.cloudfront.net/28964438/original_41fcdd8151b81368d9560811918ba430.jpg",
+        "https://d2w9rnfcy7mm78.cloudfront.net/29089041/original_53263c5a28f19b8b76a5281f650ce7ad.gif",
+        "https://d2w9rnfcy7mm78.cloudfront.net/28964439/original_0e2d60666194112a4402ecf9e384940a.jpg",
+        "https://d2w9rnfcy7mm78.cloudfront.net/29089040/original_9a93e5cff1479053819c32cb30fde546.gif",
+        "https://d2w9rnfcy7mm78.cloudfront.net/28964441/original_882b98c33a1dc32f67958c5fa685c5a4.jpg"
+    ]
 
 function changeIMG() {
     if (i === imgAll.length - 1) {

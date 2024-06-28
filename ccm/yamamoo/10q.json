@@ -1,0 +1,101 @@
+{
+    "id": "yamamoo",
+    "name": "Yamamoo",
+    "yomi": "ヤマモー",
+    "text": [
+        "I am an employee and also an artist. I have experienced some expressions both with other people and by myself.",
+        "自称働く表現家。某物流企業で管理職として激務をこなしながら、いくつかのユニットやソロで日本各地だけでなく、海外でも公演経験あり。"
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Do you think expression is necessary?",
+            "jp": "表現って必要？",
+            "yes": "Yes",
+            "left": "必要",
+            "no": "No",
+            "right": "必要ない"
+        },
+        {
+            "id": "Q2",
+            "question": "Do you often listen carefully?",
+            "jp": "耳をそばだてる時ある？",
+            "yes": "Yes",
+            "left": "ある",
+            "no": "No",
+            "right": "ない"
+        },
+        {
+            "id": "Q3",
+            "question": "Do you want someone to understand?",
+            "jp": "理解してほしいと思う？",
+            "yes": "Yse",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q4",
+            "question": "Do you often compare with someone?",
+            "jp": "人と比べることある？",
+            "yes": "Yes I do",
+            "left": "ある",
+            "no": "No I don't",
+            "right": "ない"
+        },
+        {
+            "id": "Q5",
+            "question": "Do you like consuming?",
+            "jp": "消費が好き？",
+            "yes": "Yes",
+            "left": "好き",
+            "no": "No",
+            "right": "好きでない"
+        },
+        {
+            "id": "Q6",
+            "question": "Do you want to buy as much as you can at a 100 yen shop?",
+            "jp": "いやというほど100均で買い物したい？",
+            "yes": "Yes I do",
+            "left": "してみたい",
+            "no": "No I don't",
+            "right": "別にしたくない"
+        },
+        {
+            "id": "Q7",
+            "question": "Do you like young people these days?",
+            "jp": "最近の若者は好き？",
+            "yes": "Yes I like",
+            "left": "好き",
+            "no": "No I don't",
+            "right": "嫌い"
+        },
+        {
+            "id": "Q8",
+            "question": "Did you feel good when you watched the TV program <i>Hanzawa Naoki</i>?",
+            "jp": "半沢直樹見て、スッキリした？",
+            "yes": "Yes I did",
+            "left": "した",
+            "no": "No I didn't",
+            "right": "してない"
+        },
+        {
+            "id": "Q9",
+            "question": "Do you want to go overseas soon?",
+            "jp": "早く海外旅行に行きたい？",
+            "yes": "Yes I want",
+            "left": "行きたい",
+            "no": "No I don't",
+            "right": "行きたくない"
+        },
+        {
+            "id": "Q10",
+            "question": "Do you want to go and see this show?",
+            "jp": "このイベント見てみたい？",
+            "yes": "Yes I do",
+            "left": "見たい",
+            "no": "No not really",
+            "right": "特に行きたいと思わない"
+        }
+    ]
+}

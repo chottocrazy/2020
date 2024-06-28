@@ -1,0 +1,115 @@
+{
+    "id": "seaketa",
+    "name": "seaketa",
+    "yomi": "シーケタ",
+    "text": [
+        "I do music things.",
+        "音楽やっています。"
+    ],
+    "link": [
+        {
+            "a": "Bandcamp",
+            "href": "https://kumocommunication.bandcamp.com"
+        },
+        {
+            "a": "Twitter",
+            "href": "https://www.twitter.com/seaketaseaketa/"
+        },
+        {
+            "a": "SoundCloud",
+            "href": "https://www.soundcloud.com/seaketa/"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Which is your favorite ear?",
+            "jp": "好きな耳は？",
+            "yes": "right",
+            "left": "右",
+            "no": "left",
+            "right": "左"
+        },
+        {
+            "id": "Q2",
+            "question": "Do you like glasses?",
+            "jp": "メガネは好き？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q3",
+            "question": "a jewelry",
+            "jp": "宝石",
+            "yes": "I want one.",
+            "left": "欲しい",
+            "no": "I don't want it.",
+            "right": "欲しくない"
+        },
+        {
+            "id": "Q4",
+            "question": "I {　　} some sign",
+            "jp": "気配を",
+            "yes": "feel",
+            "left": "感じる",
+            "no": "don't feel",
+            "right": "感じない"
+        },
+        {
+            "id": "Q5",
+            "question": "When you find a stone",
+            "jp": "石を見かけたら",
+            "yes": "you'd kick it",
+            "left": "蹴る",
+            "no": "you wouldn'd kick it",
+            "right": "蹴らない"
+        },
+        {
+            "id": "Q6",
+            "question": "Do you like sound of gravel?",
+            "jp": "砂利の音",
+            "yes": "Yes",
+            "left": "好き",
+            "no": "No",
+            "right": "嫌い"
+        },
+        {
+            "id": "Q7",
+            "question": "I {　　} to talk more with others?",
+            "jp": "人と",
+            "yes": "want",
+            "left": "しゃべりたい",
+            "no": "don't want",
+            "right": "しゃべりたくない"
+        },
+        {
+            "id": "Q8",
+            "question": "Which do you prefer?",
+            "jp": "山か海どっちが好き",
+            "yes": "the mountain",
+            "left": "山",
+            "no": "the ocean",
+            "right": "海"
+        },
+        {
+            "id": "Q9",
+            "question": "Speaking of water flowing",
+            "jp": "水が流れるといえば",
+            "yes": "The river",
+            "left": "川",
+            "no": "The waterfall",
+            "right": "滝"
+        },
+        {
+            "id": "Q10",
+            "question": "Have you ever picked up a stone?",
+            "jp": "石を拾ったことが",
+            "yes": "Yes I have.",
+            "left": "ある",
+            "no": "No I haven't.",
+            "right": "ない"
+        }
+    ]
+}

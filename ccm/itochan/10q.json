@@ -1,0 +1,111 @@
+{
+    "id": "itochan",
+    "name": "イトウヒロキ",
+    "yomi": "Hiroki Ito",
+    "text": [
+        "Line One",
+        "こんにちはです☀︎イトウ ヒロキです。<br>1996年生まれの岡山県出身です。"
+    ],
+    "link": [
+        {
+            "a": "Twitter",
+            "href": "https://www.twitter.com/kirohitooo/"
+        },
+        {
+            "a": "Instagram",
+            "href": "https://www.instagram.com/takapop_1996/"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "What taste of ramen noodle do you like?",
+            "jp": "どの味のラーメンが好きです？",
+            "yes": "Tonkotsu (pork bone broth)",
+            "left": "豚骨",
+            "no": "salt",
+            "right": "塩"
+        },
+        {
+            "id": "Q2",
+            "question": "What color do you like?",
+            "jp": "好きな色は、何ですか？",
+            "yes": "green",
+            "left": "緑",
+            "no": "red",
+            "right": "赤"
+        },
+        {
+            "id": "Q3",
+            "question": "What taste of ice cream do you like?",
+            "jp": "何味のアイスが好きですか？",
+            "yes": "vanilla",
+            "left": "バニラ",
+            "no": "green tea",
+            "right": "抹茶"
+        },
+        {
+            "id": "Q4",
+            "question": "What do you draw with?",
+            "jp": "絵を描く時は、何を持ちますか？",
+            "yes": "a pencil",
+            "left": "鉛筆",
+            "no": "a ballpoint pen",
+            "right": "ボールペン"
+        },
+        {
+            "id": "Q5",
+            "question": "MUJI is about?",
+            "jp": "無印良品といえば、何ですか？",
+            "yes": "curry",
+            "left": "カレー",
+            "no": "cosmetics",
+            "right": "化粧水"
+        },
+        {
+            "id": "Q6",
+            "question": "Which do you like?",
+            "jp": "どちらが好きですか？",
+            "yes": "a pillow",
+            "left": "枕",
+            "no": "a cushion",
+            "right": "クッション"
+        },
+        {
+            "id": "Q7",
+            "question": "Where do you drink melon soda?",
+            "jp": "メロンソーダは、どこで飲みますか？",
+            "yes": "at a cafe",
+            "left": "喫茶店",
+            "no": "at Karaoke shop",
+            "right": "カラオケ屋さん"
+        },
+        {
+            "id": "Q8",
+            "question": "What do you imagine when you hear <i>hachi</i>?",
+            "jp": "『はち』といえば、どちらですか？",
+            "yes": "8",
+            "left": "8",
+            "no": "a bee",
+            "right": "蜂"
+        },
+        {
+            "id": "Q9",
+            "question": "What animal do you like?",
+            "jp": "好きな動物は、何ですか？",
+            "yes": "cat",
+            "left": "猫",
+            "no": "bear",
+            "right": "熊"
+        },
+        {
+            "id": "Q10",
+            "question": "Which way do you go?",
+            "jp": "どちらに行きますか？",
+            "yes": "toward left",
+            "left": "左へ",
+            "no": "toward right",
+            "right": "右へ"
+        }
+    ]
+}

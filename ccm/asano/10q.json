@@ -1,0 +1,101 @@
+{
+    "id": "asano",
+    "name": "浅野充利",
+    "yomi": "Mitsutoshi Asano",
+    "text": [
+        "I work in Nagoya. My motto is To grass from concrete",
+        "名古屋在住のサラリーマンです。座右の銘は｢コンクリートから芝へ｣です。"
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Which do you like?",
+            "jp": "どっちが好き？",
+            "yes": "beach",
+            "left": "砂浜",
+            "no": "lawn",
+            "right": "芝生"
+        },
+        {
+            "id": "Q2",
+            "question": "Where do you want to day dreaming?",
+            "jp": "ぼーっとするなら？",
+            "yes": "indoor",
+            "left": "屋内",
+            "no": "outdoor",
+            "right": "屋外"
+        },
+        {
+            "id": "Q3",
+            "question": "What do you imagine with sunshine?",
+            "jp": "日光浴のイメージは？",
+            "yes": "Cuddle hormon",
+            "left": "幸せホルモン",
+            "no": "freckle",
+            "right": "シミ"
+        },
+        {
+            "id": "Q4",
+            "question": "Which do you want once a day?",
+            "jp": "１日１回ほしいものは何？",
+            "yes": "imagination",
+            "left": "イマジネーション",
+            "no": "motivation",
+            "right": "モチベーション"
+        },
+        {
+            "id": "Q5",
+            "question": "What do you think about doing nothing?",
+            "jp": "何もしない、何も考えない事は？",
+            "yes": "easy peasy",
+            "left": "楽チン",
+            "no": "need some courage",
+            "right": "勇気がいる"
+        },
+        {
+            "id": "Q6",
+            "question": "You want to drink?",
+            "jp": "飲むなら？",
+            "yes": "beer",
+            "left": "ビール",
+            "no": "wine",
+            "right": "ワイン"
+        },
+        {
+            "id": "Q7",
+            "question": "Which is more helpful?",
+            "jp": "役立つものは？",
+            "yes": "books",
+            "left": "本",
+            "no": "friends",
+            "right": "友達"
+        },
+        {
+            "id": "Q8",
+            "question": "Which do you need?",
+            "jp": "必要なものは？",
+            "yes": "being relax",
+            "left": "安らぎ",
+            "no": "being plentiful",
+            "right": "豊かさ"
+        },
+        {
+            "id": "Q9",
+            "question": "What is needed in town do you think?",
+            "jp": "街には何が必要？",
+            "yes": "green",
+            "left": "グリーン",
+            "no": "buildings",
+            "right": "ビル"
+        },
+        {
+            "id": "Q10",
+            "question": "Which smell do you like?",
+            "jp": "好きな香りは？",
+            "yes": "smell of the ocean",
+            "left": "磯の香り",
+            "no": "smell of curry and fried noodle",
+            "right": "カレー、焼そばの香り"
+        }
+    ]
+}

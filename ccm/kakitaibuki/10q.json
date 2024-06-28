@@ -1,0 +1,107 @@
+{
+    "id": "kakitaibuki",
+    "name": "Kakita Ibuki",
+    "yomi": "カキタイブキ",
+    "text": [
+        "A person who are swayed by a space.<br>I'm looking for something that is bigger when it's smaller.",
+        "空間にとらわれる人。小さいほど大きい何かを探しています。"
+    ],
+    "link": [
+        {
+            "a": "Instagram",
+            "href": "https://www.instagram.com/_kaaaaa__/"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Do you often experience deja vu?",
+            "jp": "普段デジャブを体験スル？",
+            "yes": "Yes I do.",
+            "left": "はい",
+            "no": "No I don't.",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q2",
+            "question": "Which do you believe?",
+            "jp": "信じるとしたら",
+            "yes": "your own memory",
+            "left": "自分の記憶",
+            "no": "someone's memory",
+            "right": "他人の記憶"
+        },
+        {
+            "id": "Q3",
+            "question": "Well..it might be.",
+            "jp": "きっとそうだろうな",
+            "yes": "Yes it might be.",
+            "left": "はい、きっと。",
+            "no": "No...may be...",
+            "right": "いいえ、おそらく。"
+        },
+        {
+            "id": "Q4",
+            "question": "Is it that?",
+            "jp": "あれはそれ？",
+            "yes": "Yes that is it.",
+            "left": "はい、あれはそれ。",
+            "no": "No it is that.",
+            "right": "いいえ、それはあれ。"
+        },
+        {
+            "id": "Q5",
+            "question": "There is a thing that only I can see.",
+            "jp": "自分にしか見えないものがある",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q6",
+            "question": "To be honest you see the magical power?",
+            "jp": "実は魔力が見える",
+            "yes": "Yes I do",
+            "left": "はい",
+            "no": "No I don't",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q7",
+            "question": "Which would you choose?",
+            "jp": "なんとなく選ぶとしたら",
+            "yes": "three",
+            "left": "木 (き)",
+            "no": "mountain",
+            "right": "山 (やま)"
+        },
+        {
+            "id": "Q8",
+            "question": "Things are filled with memories?",
+            "jp": "思い出はモノに詰まってる？",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q9",
+            "question": "Does it remind you that time?",
+            "jp": "それを見たらあの時を思いだす",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q10",
+            "question": "Where is memory do you think?",
+            "jp": "記憶ってどこにあるの？",
+            "yes": "brain/heart/body",
+            "left": "脳・心・身体",
+            "no": "things/space/environment",
+            "right": "モノ・空間・環境"
+        }
+    ]
+}

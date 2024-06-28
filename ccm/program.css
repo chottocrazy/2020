@@ -1,6 +1,5 @@
 .programs {
     font-family: "Arial", "Yu Gothic", sans-serif;
-    text-align: center;
     display: flex;
     gap: 0.25rem;
     flex-flow: column;
@@ -21,4 +20,8 @@
     font-weight: 555;
     text-align: left;
     line-height: 150%;
+}
+
+.programs button {
+    cursor: help;
 }

@@ -1,0 +1,20 @@
+{
+    "program": [
+        {
+            "id": "__",
+            "title": "__",
+            "date": "__",
+            "how": "__",
+            "percent": "__",
+            "readme": "__",
+            "schedule": [
+                {
+                    "date": "__",
+                    "text": "__",
+                    "status": "__",
+                    "href": "__"
+                }
+            ]
+        }
+    ]
+}

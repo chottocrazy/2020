@@ -1,0 +1,107 @@
+{
+    "id": "kennypain",
+    "name": "Kenny Pain",
+    "yomi": "ケニーペイン",
+    "text": [
+        "born in Osaka. 1996",
+        "1996年生まれ大阪在住"
+    ],
+    "link": [
+        {
+            "a": "Instagram",
+            "href": "https://www.instagram.com/k_e_n_n_y_p_a_i_n/"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Are you an only child?",
+            "jp": "貴方は1人っ子？",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q2",
+            "question": "Can you sleep without a pillow?",
+            "jp": "枕が無くても寝れる？",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q3",
+            "question": "You listen to music with",
+            "jp": "音楽を聴くときは？",
+            "yes": "an earphone",
+            "left": "イヤホン",
+            "no": "a headphone",
+            "right": "ヘッドホン"
+        },
+        {
+            "id": "Q4",
+            "question": "When you sleep you turn the light",
+            "jp": "寝るときの電気は？",
+            "yes": "off",
+            "left": "消す",
+            "no": "on",
+            "right": "消さない"
+        },
+        {
+            "id": "Q5",
+            "question": "Do you think human beings were born from soil?",
+            "jp": "人間は土から生まれたと思う？",
+            "yes": "Yes I do.",
+            "left": "思う",
+            "no": "No I don't.",
+            "right": "思わない"
+        },
+        {
+            "id": "Q6",
+            "question": "If you should cut either cord which color would you choose?",
+            "jp": "コードを切るなら？",
+            "yes": "red",
+            "left": "赤",
+            "no": "blue",
+            "right": "青"
+        },
+        {
+            "id": "Q7",
+            "question": "Weather tomorrow?",
+            "jp": "あ〜した天気にな〜れ？",
+            "yes": "sunny",
+            "left": "晴れ",
+            "no": "rainy or cloudy",
+            "right": "雨・くもり"
+        },
+        {
+            "id": "Q8",
+            "question": "Do you believe fortune-telling by blood type?",
+            "jp": "血液型性格診断は？",
+            "yes": "Yes",
+            "left": "信じる",
+            "no": "No",
+            "right": "信じない"
+        },
+        {
+            "id": "Q9",
+            "question": "Do you want to live near a riverbed?",
+            "jp": "河川敷近くのアパートに？",
+            "yes": "Yes",
+            "left": "住みたい",
+            "no": "No",
+            "right": "住みたくない"
+        },
+        {
+            "id": "Q10",
+            "question": "Are you dreaming now?",
+            "jp": "いま夢をみている？",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        }
+    ]
+}

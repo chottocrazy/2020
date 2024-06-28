@@ -1,0 +1,101 @@
+{
+    "id": "rie",
+    "name": "りえ",
+    "yomi": "Rie",
+    "text": [
+        "A lady in 40s, company employee in Tokyo.<br>I love: art museum, green place, shrine,flowers, delicious foods and alcohol.,",
+        "40代婦人・東京在住の会社員です。<br>美術館・緑の濃い場所・神社・お花・美味しいもの・お酒が好きです。"
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Have you ever made a pitfall?",
+            "jp": "落とし穴を作ったことある？",
+            "yes": "Yes I have",
+            "left": "ある",
+            "no": "No I haven't.",
+            "right": "ない"
+        },
+        {
+            "id": "Q2",
+            "question": "What do you think about during a boring meeting?",
+            "jp": "つまらない会議の間何を考えている？",
+            "yes": "things you want to do",
+            "left": "やりたいこと",
+            "no": "a person you like",
+            "right": "好きなひとのこと"
+        },
+        {
+            "id": "Q3",
+            "question": "Love is all about?",
+            "jp": "愛こそ",
+            "yes": "Yes",
+            "left": "すべて",
+            "no": "No",
+            "right": "すべてではない"
+        },
+        {
+            "id": "Q4",
+            "question": "Do you believe in invisible existence?",
+            "jp": "目に見えないものの存在を",
+            "yes": "Yes I do.",
+            "left": "信じる",
+            "no": "No I don't.",
+            "right": "信じない"
+        },
+        {
+            "id": "Q5",
+            "question": "You have a trauma?",
+            "jp": "トラウマが",
+            "yes": "Yes",
+            "left": "ある",
+            "no": "No",
+            "right": "ない"
+        },
+        {
+            "id": "Q6",
+            "question": "When do you fell happy?",
+            "jp": "幸せを感じるのは？",
+            "yes": "when being by myself",
+            "left": "ひとりでいるとき",
+            "no": "when being with someone",
+            "right": "他の人といるとき"
+        },
+        {
+            "id": "Q7",
+            "question": "Do you drink alcohol when you are alone?",
+            "jp": "ひとりでも",
+            "yes": "Yes",
+            "left": "飲む",
+            "no": "No",
+            "right": "飲まない"
+        },
+        {
+            "id": "Q8",
+            "question": "I am",
+            "jp": "自分は",
+            "yes": "an adult.",
+            "left": "もうさすがに大人",
+            "no": "still a child.",
+            "right": "まだぜんぜん子供"
+        },
+        {
+            "id": "Q9",
+            "question": "What do you see when you walk?",
+            "jp": "歩いているときどこを見てる？",
+            "yes": "a person passing by",
+            "left": "向こうから来る人",
+            "no": "scenery around",
+            "right": "周りの景色"
+        },
+        {
+            "id": "Q10",
+            "question": "Truth",
+            "jp": "本当のこと",
+            "yes": "I want to know.",
+            "left": "知りたい",
+            "no": "I don't want to know.",
+            "right": "知りたくない"
+        }
+    ]
+}

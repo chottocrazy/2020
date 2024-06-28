@@ -1,0 +1,230 @@
+html {
+    font-size: 16px;
+    height: -webkit-fill-available;
+}
+
+[hidden] {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 1.5vw;
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header h1,
+header nav,
+#profile {
+    padding: 1rem;
+    margin: 0;
+}
+
+aside,
+#back {
+    padding: 0.5rem;
+    margin: 1.25rem;
+}
+
+#article::after {
+    content: "";
+    clear: both;
+    display: block;
+    width: 100%;
+    height: 0.25rem;
+}
+
+aside {
+    float: left;
+}
+
+#back {
+    float: right;
+}
+
+ruby,
+#profile h3,
+aside p,
+aside a {
+    padding: 0.25rem;
+    margin: 0.25rem;
+}
+
+ruby {
+    display: inline-block;
+    line-height: 200%;
+}
+
+body {
+    background: #eee;
+}
+
+ruby rt {
+    color: #f6d435;
+}
+
+aside {
+    border: solid 0.1rem #25AF5A;
+    border-radius: 1rem;
+    background: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+header nav,
+#profile {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#profile {
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+header h1 {
+    display: grid;
+    place-items: center;
+}
+
+input[type="button"] {
+    color: #111;
+    background: #fff;
+    padding: 0.25rem;
+    margin: 0;
+}
+
+#back {
+    color: #D24117;
+    background: transparent;
+}
+
+input[type="button"],
+#back {
+    appearance: none;
+    border: none;
+    outline: none;
+}
+
+#headline,
+ruby a,
+ruby b,
+aside p {
+    font-family: "Arial", "Yu Gothic", sans-serif;
+}
+
+ruby rt,
+aside a {
+    font-family: "Times New Roman", "Times", serif;
+}
+
+ruby a,
+ruby b {
+    color: transparent;
+    -webkit-text-stroke: 0.075rem #000;
+    text-stroke: 0.075rem #000;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+ruby a:hover,
+aside a {
+    color: #eee;
+    -webkit-text-stroke: 0.075rem #D24117;
+    text-stroke: 0.075rem #D24117;
+}
+
+ruby rt {
+    text-align: left;
+    transform: scale(1, 1.5);
+}
+
+#back {
+    font-size: 200%;
+}
+
+#headline,
+header nav,
+ruby,
+ruby a,
+ruby b,
+aside a {
+    font-size: 125%;
+}
+
+ruby rt {
+    font-size: 75%;
+}
+
+header,
+#profile h2,
+#headline {
+    width: 100%;
+}
+
+#headline {
+    place-items: top;
+    height: 3.5rem;
+}
+
+aside {
+    max-width: max-content;
+}
+
+@media (orientation: landscape) {
+
+    header {
+        height: 100vh;
+        max-height: -webkit-fill-available;
+    }
+
+    header h1,
+    header nav {
+        width: 50%;
+        height: calc(100% - 3.5rem);
+    }
+}
+
+@media (orientation: portrait) {
+
+    html {
+        font-size: 2.5vw;
+    }
+
+    header h1,
+    header nav {
+        margin: 2.5rem 0 1rem;
+        width: 100%;
+        height: auto;
+    }
+}
+
+ruby rt {
+    letter-spacing: 0.25rem;
+}
+
+header nav {
+    gap: 1rem;
+    overflow: auto;
+}
+
+header h1 {
+    position: relative;
+}
+
+header h1 strong u {
+    font-size: 333%;
+}
+
+.logo *[data-dai]::before {
+    margin-top: 1.5rem;
+    font-size: 150%;
+}

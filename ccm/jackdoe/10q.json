@@ -1,0 +1,111 @@
+{
+    "id": "jackdoe",
+    "name": "Jackdoe",
+    "yomi": "ジャックドー",
+    "text": [
+        "I am an ordinary person who are not talented. I am fortunately gifted in making efforts and I know I don't give up easily. I have kept making extensive efforts until I could do what I wanted to do.<br/>Please make effort simply and honestly and please don't give up so that your dreams will come true. Your dreams will not come true when you give it up,I believe.",
+        "私はJackdoeと申します。まだまだ駆け出しの身ですが、ミュージシャンをしています。生まれてから今までの間、特に音楽を習うこともなく、ただ音楽が身近な場所にあったというだけの私ですが、そこから何故か自分で作りたいと思うようになり、ミュージシャンとして活動を始めるようになりました。"
+    ],
+    "link": [
+        {
+            "a": "Twitter",
+            "href": "https://www.twitter.com/John_yuuya/"
+        },
+        {
+            "a": "SoundCloud",
+            "href": "https://www.soundcloud.com/jackdoe-1/"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Do you think there is a thing that more important than a life?",
+            "jp": "命よりも大切ななにかがある",
+            "yes": "Yes I do.",
+            "left": "ある",
+            "no": "No I don't.",
+            "right": "ない"
+        },
+        {
+            "id": "Q2",
+            "question": "Do you have a belief?",
+            "jp": "誰に言われても曲げることのない信念がある",
+            "yes": "Yes I do.",
+            "left": "ある",
+            "no": "No I don't.",
+            "right": "ない"
+        },
+        {
+            "id": "Q3",
+            "question": "Do you like yourself?",
+            "jp": "自分のことが好きかどうか",
+            "yes": "Yes I do.",
+            "left": "好き",
+            "no": "No I don't like myself.",
+            "right": "嫌い"
+        },
+        {
+            "id": "Q4",
+            "question": "Which do you like?",
+            "jp": "夏と冬どっちが好き？",
+            "yes": "Summer",
+            "left": "夏",
+            "no": "Winter",
+            "right": "冬"
+        },
+        {
+            "id": "Q5",
+            "question": "What would you do if you found a person in trouble?",
+            "jp": "困ってる人がいたらどうする？",
+            "yes": "I would help him.",
+            "left": "助ける",
+            "no": "I would do nothing.",
+            "right": "何もしない"
+        },
+        {
+            "id": "Q6",
+            "question": "Do you think you would love things that you love now if you reborn?",
+            "jp": "自分が好きなものを生まれ変わっても好きになる？",
+            "yes": "I would definitely love them.",
+            "left": "絶対に好きになる",
+            "no": "I might not love them.",
+            "right": "ならないかもしれない"
+        },
+        {
+            "id": "Q7",
+            "question": "When do you relax more?",
+            "jp": "一人でいるときと誰かといるとき、どっちが落ち着く？",
+            "yes": "When you are alone.",
+            "left": "一人",
+            "no": "When you are with someone.",
+            "right": "誰かといるとき"
+        },
+        {
+            "id": "Q8",
+            "question": "Do you think youself are an <i>adult<i>?",
+            "jp": "自分を「大人」だと思っている？",
+            "yes": "No I am still a child.",
+            "left": "まだ子どもだと思っている",
+            "no": "Yes I think I am an adult.",
+            "right": "大人だと思っている"
+        },
+        {
+            "id": "Q9",
+            "question": "Do you feel you are watched over by someone?",
+            "jp": "自分は誰かに守られていると感じている？",
+            "yes": "Yes / Maybe yes",
+            "left": "感じるている、もしくは感じる時がある",
+            "no": "No I don't.",
+            "right": "特に感じない"
+        },
+        {
+            "id": "Q10",
+            "question": "Are you happy now?",
+            "jp": "今、幸せですか？",
+            "yes": "I would rather say yes.",
+            "left": "どちらかといえば幸せ",
+            "no": "I would rather say no.",
+            "right": "どちらかといえば不幸"
+        }
+    ]
+}

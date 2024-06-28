@@ -1,0 +1,107 @@
+{
+    "id": "yuikuroki",
+    "name": "黒木結",
+    "yomi": "Yui Kuroki",
+    "text": [
+        "I am a contemporary artist based Kyoto.",
+        "京都で現代美術の作品を作っています。"
+    ],
+    "link": [
+        {
+            "a": "Tumblr",
+            "href": "https://yui-kuroki.tumblr.com/"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "What do you look at when you taking a walk?",
+            "jp": "さんぽ中、つい見てしまうのは？",
+            "yes": "plants at house around",
+            "left": "人の家の植物",
+            "no": "window of a house",
+            "right": "人の家の窓"
+        },
+        {
+            "id": "Q2",
+            "question": "When you sleep lights are?",
+            "jp": "寝る時、電気を消す？",
+            "yes": "OFF",
+            "left": "消す",
+            "no": "ON",
+            "right": "消さない"
+        },
+        {
+            "id": "Q3",
+            "question": "What bedding do you use?",
+            "jp": "いつも使う寝具は",
+            "yes": "Bed",
+            "left": "ベッド",
+            "no": "Futon",
+            "right": "敷布団"
+        },
+        {
+            "id": "Q4",
+            "question": "Do you like walking?",
+            "jp": "歩くのは好き？",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No i don't",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q5",
+            "question": "Do you dream?",
+            "jp": "よく夢を",
+            "yes": "often",
+            "left": "見る",
+            "no": "rarely",
+            "right": "見ない"
+        },
+        {
+            "id": "Q6",
+            "question": "What would you do when you visit a town you don't know?",
+            "jp": "知らない場所に行ったら",
+            "yes": "walking around",
+            "left": "町を散歩する",
+            "no": "looking for a cafe",
+            "right": "喫茶店を探す"
+        },
+        {
+            "id": "Q7",
+            "question": "Do you usually use a pillow?",
+            "jp": "寝る時、枕を使う？",
+            "yes": "Yes",
+            "left": "使う",
+            "no": "No",
+            "right": "使わない"
+        },
+        {
+            "id": "Q8",
+            "question": "Do you good at remembering directions?",
+            "jp": "道を覚えるのは得意？",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q9",
+            "question": "What do you tend to do when you take a walk?",
+            "jp": "散歩中よくすることは？",
+            "yes": "Listening to music",
+            "left": "音楽を聴く",
+            "no": "Thinking about something",
+            "right": "考えごと"
+        },
+        {
+            "id": "Q10",
+            "question": "Have you ever slept outdoor?",
+            "jp": "屋外で寝たことある？",
+            "yes": "Yes",
+            "left": "ある",
+            "no": "No",
+            "right": "ない"
+        }
+    ]
+}

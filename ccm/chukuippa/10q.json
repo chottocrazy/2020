@@ -1,0 +1,115 @@
+{
+    "id": "chukuippa",
+    "name": "宙空一派",
+    "yomi": "Chukuippa",
+    "text": [
+        "I do home recording. I didn' t eat many Azuki bar this summer.",
+        "俺は自宅録音家。今年の夏はあずきバーをそんなに食べませんでした。"
+    ],
+    "link": [
+        {
+            "a": "BandCamp",
+            "href": "https://chukuippa.bandcamp.com"
+        },
+        {
+            "a": "Twitter",
+            "href": "https://www.twitter.com/colorgang/"
+        },
+        {
+            "a": "SoundCloud",
+            "href": "https://www.soundcloud.com/colorgang/"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Do you have a own motto/policy?",
+            "jp": "あなたには座右の銘がありますか？",
+            "yes": "Yes I have.",
+            "left": "ある",
+            "no": "No I haven't.",
+            "right": "ない"
+        },
+        {
+            "id": "Q2",
+            "question": "Which is similar to waht you want?",
+            "jp": "座右の銘はどちらに近いですか？",
+            "yes": "motto",
+            "left": "モットー",
+            "no": "policy",
+            "right": "ポリシー"
+        },
+        {
+            "id": "Q3",
+            "question": "Do you want to exchange your motto/policy?",
+            "jp": "座右の銘を交換してみたいと思いますか？",
+            "yes": "Yes",
+            "left": "思う",
+            "no": "No",
+            "right": "思わない"
+        },
+        {
+            "id": "Q4",
+            "question": "What do you think if your motto/policy must be simplicity and fortitude?<",
+            "jp": "今日からあなたの座右の銘が「質実剛健」になったらどんな気分ですか？",
+            "yes": "I think I would be sad.",
+            "left": "どちらかと言えば悲しい",
+            "no": "I think I would be happy.",
+            "right": "どちらかと言えば嬉しい"
+        },
+        {
+            "id": "Q5",
+            "question": "What do you think if you have to exchange your motto/policy with someone?",
+            "jp": "座右の銘（もしくはモットー、ポリシー、考え、信念など）を交換せざるを得ない状況になったら、どう思いますか？",
+            "yes": "I would be very excited.",
+            "left": "ワクワクする",
+            "no": "I would be disappointed.",
+            "right": "テンションが下がる"
+        },
+        {
+            "id": "Q6",
+            "question": "simplicity and fortitude is",
+            "jp": "質実剛健って",
+            "yes": "difficult",
+            "left": "こむずかしい",
+            "no": "cool",
+            "right": "かっこいい"
+        },
+        {
+            "id": "Q7",
+            "question": "A Three years on a stone three years for me is",
+            "jp": "石の上にも三年は",
+            "yes": "long",
+            "left": "長い",
+            "no": "short",
+            "right": "短い"
+        },
+        {
+            "id": "Q8",
+            "question": "good fortune and happiness will come to the home of those who smile",
+            "jp": "笑う門には福来たる",
+            "yes": "Yes I think so too.",
+            "left": "に違いない",
+            "no": "Not so much..",
+            "right": "とは限らない"
+        },
+        {
+            "id": "Q9",
+            "question": "You would choose",
+            "jp": "もし選ぶなら、",
+            "yes": "Continuity is the father of success",
+            "left": "継続は力なり",
+            "no": "Sometimes you just have to give up",
+            "right": "辞め時が肝心"
+        },
+        {
+            "id": "Q10",
+            "question": "You would choose",
+            "jp": "もし選ぶなら、",
+            "yes": "Strike while the iron is hot.",
+            "left": "善は急げ",
+            "no": "More haste, less speed.",
+            "right": "急がば回れ"
+        }
+    ]
+}

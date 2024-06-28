@@ -1,0 +1,114 @@
+{
+    "id": "2n2n",
+    "name": "2n2n",
+    "yomi": "ツンツン",
+    "text": [
+        "I feel like to live in Hokkaido somehow. I want to work in Teshima and I want to be able to speak in English. I'm a boy like that.",
+        "北海道に住みたくなってきた",
+        "豊島で働いてみたい",
+        "英語が喋れるようになりたい",
+        "そんな男の子"
+    ],
+    "link": [
+        {
+            "a": "Website",
+            "href": "https://2n2numr.wixsite.com/ho-mu"
+        },
+        {
+            "a": "instagram",
+            "href": "https://www.instagram.com/2n2ndesu/"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Do you prefer bread to rice?",
+            "jp": "パンよりお米",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q2",
+            "question": "You like ambiguous relationship?",
+            "jp": "曖昧な関係が好きだ",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q3",
+            "question": "Do you believe in ghost?",
+            "jp": "幽霊は信じる？",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q4",
+            "question": "Do you predict someone's memory?",
+            "jp": "他人の記憶を予想したりする？",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q5",
+            "question": "You feel your life is soaked in details of your daily life these days.",
+            "jp": "人生が日常の細部に染み込んでいるなぁと感じる、最近",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q6",
+            "question": "A fragmentary thing is the best",
+            "jp": "断片的なのが大事",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q7",
+            "question": "Do you believe in rebirth?",
+            "jp": "生まれ変わりって信じる？",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q8",
+            "question": "Do you have a wider view?",
+            "jp": "視野広い？",
+            "yes": "Yep",
+            "left": "うん",
+            "no": "Nope",
+            "right": "ううん"
+        },
+        {
+            "id": "Q9",
+            "question": "Delicious is happiness",
+            "jp": "おいしいはしあわせ",
+            "yes": "Yes I think so",
+            "left": "そうだね",
+            "no": "No I don't think so",
+            "right": "そうかな"
+        },
+        {
+            "id": "Q10",
+            "question": "Do employees dream of a butterfly?",
+            "jp": "清掃服は蝶の夢を見るか？",
+            "yes": "Yes",
+            "left": "はい",
+            "no": "No",
+            "right": "いいえ"
+        }
+    ]
+}

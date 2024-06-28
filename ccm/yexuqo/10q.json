@@ -1,0 +1,111 @@
+{
+    "id": "yexuqo",
+    "name": "YeXuQo",
+    "yomi": "エズコ",
+    "text": [
+        "I make music and graphics. I recently attracted to things that cute,  comfortable and cool-looking.",
+        "音楽やグラフィックを作っています。ここ最近は、かわいらしいもの、小気味よいもの、涼しいものに惹かれるようになりました"
+    ],
+    "link": [
+        {
+            "a": "SoundCloud",
+            "href": "https://www.soundcloud.com/yexuqo/"
+        },
+        {
+            "a": "Instagram",
+            "href": "https://www.instagram.com/yexuqo/"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Do you want to practice?",
+            "jp": "練習したい？",
+            "yes": "Yes I do.",
+            "left": "したい",
+            "no": "No I don't.",
+            "right": "したくない"
+        },
+        {
+            "id": "Q2",
+            "question": "Want a nice pen?",
+            "jp": "いいペンがほしい？",
+            "yes": "Yes",
+            "left": "ほしい",
+            "no": "No",
+            "right": "いらない"
+        },
+        {
+            "id": "Q3",
+            "question": "Have you ever had a fracture?",
+            "jp": "骨折したことがある？",
+            "yes": "Yes I have.",
+            "left": "ある",
+            "no": "No I have never.",
+            "right": "ない"
+        },
+        {
+            "id": "Q4",
+            "question": "Time",
+            "jp": "時間は",
+            "yes": "I want more!",
+            "left": "もっとたくさんほしい",
+            "no": "I would give it to someone.",
+            "right": "誰かにあげたい"
+        },
+        {
+            "id": "Q5",
+            "question": "Do you think a flower and a leaf is different?",
+            "jp": "花と葉って違うと思う？",
+            "yes": "it could be.",
+            "left": "違うかも",
+            "no": "it might be the same",
+            "right": "同じかも"
+        },
+        {
+            "id": "Q6",
+            "question": "What is the difference between the daytime and the night?",
+            "jp": "昼と夜の差は？",
+            "yes": "brightness",
+            "left": "明るさ",
+            "no": "temperature",
+            "right": "温度"
+        },
+        {
+            "id": "Q7",
+            "question": "Can you imagine the inside of the soil where cactus is planted?",
+            "jp": "サボテンの土の中を想像できる？",
+            "yes": "Yes I can.",
+            "left": "できる",
+            "no": "No I can't.",
+            "right": "できない"
+        },
+        {
+            "id": "Q8",
+            "question": "Do you have any exciting event next year?",
+            "jp": "来年の楽しみがある？",
+            "yes": "Yes!",
+            "left": "ある",
+            "no": "No...",
+            "right": "ない"
+        },
+        {
+            "id": "Q9",
+            "question": "Are you happy if you know?",
+            "jp": "知れたらうれしい？",
+            "yes": "Yes I think so.",
+            "left": "そう思う",
+            "no": "No I don't think so.",
+            "right": "そうは思わない"
+        },
+        {
+            "id": "Q10",
+            "question": "Ended up as you want?",
+            "jp": "思い通りになった？",
+            "yes": "Yes",
+            "left": "なった",
+            "no": "No",
+            "right": "ならなかった"
+        }
+    ]
+}
