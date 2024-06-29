@@ -1,4 +1,7 @@
-body,
+body {
+    background: #eee;
+}
+
 main,
 h1,
 h2 {
@@ -14,18 +17,6 @@ h2 {
 #otobuil h2 {
     margin: 0.5rem;
     width: 60%;
-}
-
-html {
-    font-size: 18px;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background: #eee;
 }
 
 a,
@@ -101,13 +92,6 @@ h1 {
     width: calc(100% - 1rem);
 }
 
-#value h4 {
-    font-size: 250%;
-    width: 90%;
-    height: 90%;
-    margin: auto;
-}
-
 #main article.column b,
 #main article.row section p b {
     font-size: 200%;
@@ -130,7 +114,6 @@ h3 b {
     font-size: 111%;
 }
 
-#value,
 h2 small {
     font-size: 75%;
 }
@@ -178,7 +161,7 @@ h2 small {
 
 @media (min-width: 125rem) {
     html {
-        font-size: 0.81vw;
+        font-size: 0.8vw;
     }
 
     #main {
@@ -203,7 +186,7 @@ h2 small {
         height: 100rem;
     }
 
-    #main article.medium#value {
+    #main article.medium#cocoro {
         width: 50rem;
         height: 25rem;
     }
@@ -211,7 +194,7 @@ h2 small {
 
 @media (orientation: portrait) {
     html {
-        font-size: 2.1vw;
+        font-size: 2vw;
     }
 
     #main {
@@ -225,7 +208,7 @@ h2 small {
     }
 
     #main article.wide,
-    #main article.medium#value {
+    #main article.medium#cocoro {
         width: 100%;
         height: 50vw;
     }

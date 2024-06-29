@@ -24,6 +24,8 @@
 .question h3,
 .question h4 input+label,
 .question h4 a,
+.question h4::after,
+.question strong,
 .question small {
     display: block;
     font-weight: 500;
@@ -82,8 +84,6 @@
 
 .question h4::after {
     content: "or";
-    display: block;
-    font-weight: 500;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -92,12 +92,14 @@
 
 .question h3 {
     font-size: 150%;
-    font-weight: 500;
+}
+
+.question h4 {
+    font-size: 111%;
 }
 
 .question strong {
     font-size: 125%;
-    font-weight: 500;
 }
 
 .question h4 input+label,

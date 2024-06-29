@@ -1,0 +1,354 @@
+body {
+  background:#eee;
+  padding:0; margin:0;
+	position:fixed;
+	z-index:100;
+	display: block;
+	top:0; left:0;
+	width:100vw; height:100vh;
+}
+#max_tv {
+	position:absolute;
+	top:10vh; right:0;
+  height:80%;
+  width: 87.5vw;
+  overflow-y:scroll;
+  padding:0; margin:0;
+}
+#programme {
+	position:relative;
+	padding:0 5%;
+  width:90%;
+}
+#title {font-size:1.75rem;}
+.by {display:block; margin-top:1.25rem; font-size:1.25rem;}
+#about {font-size:1.25rem; margin-top:1.5rem; background-color:rgba(255,255,255,0.5); clear:both; padding:0.5% 2.5%;}
+#about u {margin-right:2vw;}
+#about b {font-size:120%; font-weight:555;}
+
+.online:before {
+display:inline-block; 
+padding:0 0.25rem; 
+margin-top:2.5rem; 
+font-size:1.25rem; 
+}
+.online:after {
+font-size:1.25rem; 
+position:absolute; 
+top:5%; 
+font-weight:500; 
+color:#000; 
+border-bottom:0.125rem solid;
+}
+.online:before {content:"オンライン発表"; border:0.125rem solid #000;}
+
+.by:before {
+	content:"by";
+	margin-right:1vw;
+	font-style:italic;
+ font-family: "MS Serif", "Times New Roman"; 
+	font-size:90%;
+}
+
+#schedule {font-size:1.25rem; margin:2.5rem 0 0;}
+#schedule div {padding:0.5rem 0; position:relative;}
+#schedule div span {
+pointer-events:none; 
+position:relative; 
+z-index:2; 
+display:inline-block;
+}
+
+#schedule .date {
+margin-left:2%;
+position:absolute;
+background:#fff;
+top:1rem;
+}
+#schedule .sub {
+display:block;
+font-size:2.25rem;
+overflow:hidden;
+}
+#schedule .sub u{
+margin:0;
+text-decoration:none;
+display : inline-block;
+padding-left: 100%;
+white-space : nowrap;
+animation : scrollSample01 10s linear infinite;
+}
+#schedule #none a,
+#schedule .up a,
+#schedule .tba a
+{display:none;}
+#schedule .now
+{cursor:pointer;}
+#schedule .up,
+#schedule .tba
+{pointer-events:none;}
+
+#schedule .now .sub u:after {content:"します";}
+#schedule .up .sub u:after {content:"します";}
+#schedule .end .sub {color:#fff;}
+#schedule .end .sub:before {
+ content:"✔";
+	position:absolute;
+	font-size:125%;
+	bottom:0; right:2.5vw;
+ display:inline-block;
+}
+#schedule #link {
+  position: absolute;
+  margin:0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-indent:-999px;
+}
+#schedule .end .sub u:after{
+  content:"しました";
+  color:#fff;
+}
+#schedule .cancel .sub u:after{
+  content:"します";
+}
+#schedule .end {
+  background:linear-gradient(-55deg, #25AF5A, #f6d435, #D24117);
+  background-size:200% 200%;
+  animation:gradientBG 1s ease infinite;
+  cursor:pointer;
+}
+#schedule #link:hover {
+  background:linear-gradient(-55deg, #D24117, #f6d435, #25AF5A);
+  background-size:200% 200%;
+  animation:gradientBG 1s ease infinite;
+	cursor:pointer;
+}
+#iframe {
+	width:95%;
+	height:50vw;
+	margin:0 2.5%;
+	border-radius:2.5vw;
+}
+#video {
+	pointer-events:none;
+}
+#video div{
+	display:none;
+}
+
+#header {
+  position:absolute;
+  height:10vh;
+  top:0; left:0;
+  width:100%;
+  background:#eee;
+}
+#header h2 {
+  pointer-events:none;
+  position:absolute;
+  top:0;left:0;
+	display:inline-block;
+	margin:1.5vh 1rem;
+	font-family: Arial;
+	font-size: 2.5vh;
+	font-weight: normal;
+	font-weight: 500;
+}
+#header h2 b {
+	font-family: "MS Serif", "Times New Roman";
+	color:#f6d435;
+	font-size: 150%;
+	font-style: italic;
+}
+#header h2 i {
+	font-family: "Times New Roman", "Times", serif;
+	font-size: 125%;
+	font-style: italic;
+	letter-spacing: 0.13rem;
+}
+#header h2 .daidaidai {
+	margin:0; padding:0;
+	letter-spacing:-0.5rem;
+	font-size: 5vh;
+ font-family: "Times New Roman", "Times", serif; color:#D24117;
+}
+#header h2 .on:after {
+	color:#25AF5A;
+  content:"2020";
+  position:absolute;
+	z-index:10;
+  margin-left:-2.5vh;
+	margin-top:1vh;
+}
+#header h2 .hold:before, 
+#header h2 .dai:before, 
+#header h2 b,
+#header h2 .daidaidai, 
+#header h2 .on:after {
+  -webkit-text-stroke: 0.15vh #FFF;
+  text-stroke: 0.15vh #FFF;
+}
+#live {
+	color:#fff;
+  background:linear-gradient(-55deg, #D24117, #f6d435, #25AF5A);
+  background-size:200% 200%;
+  animation:gradientBG 1s ease infinite;
+  font-size:2.5vh;
+  padding:1vh;
+	margin:2.5vh 2.5vw;
+  padding:absolute;
+  top:0; right:0;
+  float:right;
+}
+
+#menu_click {
+  position:absolute;
+  height:90vh;
+  bottom:0; left:0;
+  width:12.5vw;
+  background:#eee;
+  z-index:100;
+}
+#menu_click div {
+	position:relative;
+  width:11.5vw;
+  height:21.5vh;
+  border:0.5vh groove;
+}
+#menu_click a {
+  position: absolute;
+  top: 0; left: 0;
+  height:100%;
+  width: 100%;
+  cursor:pointer;
+}
+#menu_click p {
+  pointer-events:none;
+  font-size:0.8rem;
+  width:90%;
+  text-align:center;
+  padding:0; margin:0;
+	position:absolute;
+	z-index:100;
+	top:50%; left:50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+#menu_click .active {
+  background: #cba97b;
+}
+#menu_click .celemony {
+  background: linear-gradient(55deg, #25AF5A, #f6d435, #D24117);
+  background-size: 200% 200%;
+  animation: gradientBG 1s ease infinite;
+}
+#menu_click b,
+#max_tv b {
+	display:inline-block;
+	transform: scale(1, 1.5);
+  line-height:125%;
+	font-size:150%;
+	padding: 0.5vw;
+	font-family: "YuMincho", "Hiragino Mincho ProN W3","Hiragino Mincho ProN", serif;
+}
+#menu_click i {
+	z-index:10;
+	display:inline-block;
+	transform: scale(1, 1.25);
+	font-size:125%;
+	padding:0 0.5vw;
+}
+#menu_click u {
+	display:inline-block;
+	transform: scale(1, 1.25);
+	padding:0 0.5vw;
+	text-decoration:underline wavy #000;
+}
+#menu_click span {
+  color:red;
+  background:#fff;
+  padding:0.5vw;
+}
+#menu_click div a:hover,
+.back_top:hover {
+  background: linear-gradient(-55deg, #25AF5A, #f6d435, #D24117);
+  background-size: 200% 200%;
+  animation: gradientBG 1s ease infinite;
+  color:#fff;
+}
+.back_top {
+  color:#000;
+  font-size:1.25rem;
+  cursor:pointer;
+  display:table-cell;
+  vertical-align:middle;
+  position:absolute;
+  text-align:center;
+  bottom:0; right:0;
+  width: 85.5vw;
+  background:#eee;
+  border:1vw ridge;
+  padding:0.5rem 0;
+}
+.back_top span {
+  display:inline-block;
+  transform: scale(1, 1.5);
+}
+
+/* Animation */
+@keyframes gradientBG {
+0% {background-position: 0% 50%;}
+50% {background-position: 100% 50%;}
+100% {background-position: 0% 50%;}
+}
+@keyframes scrollSample01{
+0% { transform: translateX(0)}
+100% { transform: translateX(-100%)}
+}
+@keyframes flash {
+0%,100% {opacity: 1;}
+50% {opacity: 0;}
+}
+
+@media screen and (max-width: 950px){
+#max_tv {width:85vw;}
+#menu_click {width:15vw;}
+#menu_click div {width:14vw;}
+#menu_click p {font-size:0.7rem;}
+.back_top {width:83vw;}
+#title, #schedule .sub {font-size:3vw;}
+#about,
+.online:before,
+.online:after,
+.by
+{font-size:2.5vw;}
+#schedule .sub {display:block; overflow:hidden;}
+#schedule .sub u{
+margin-top:5.5vw; padding:0 0.25rem;
+text-decoration:none;
+white-space : normal;
+display : inline-block;
+animation : scrollSample01 0s linear infinite;
+}
+}
+
+@media screen and (max-width: 600px){
+#max_tv {width:78vw;}
+#menu_click {width:22vw;}
+#menu_click div {width:20vw;}
+#menu_click p {font-size:0.5rem;}
+.back_top {width:76vw;}
+#progress :after {
+  right:-17.5%;
+    transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+#schedule {font-size:2.5vw;}
+#schedule div {padding-top:5vw;}
+#schedule .date {top:2vw;}
+#schedule .sub u{margin-top:3.5vw;}
+}

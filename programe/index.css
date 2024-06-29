@@ -1,0 +1,269 @@
+body {
+    background: #eee;
+}
+
+@media (orientation: portrait) {
+    html {
+        font-size: 2.5vw;
+    }
+}
+
+input,
+button,
+progress,
+iframe {
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+u {
+    text-decoration: none;
+}
+
+#headline,
+nav h2,
+details summary {
+    color: #111;
+    background: #fff;
+}
+
+#progress u {
+    border: solid 0.1rem #fff;
+}
+
+details summary::marker {
+    color: #D24117;
+}
+
+details summary.done::after {
+    color: #f6d435;
+}
+
+h1 b,
+.online {
+    color: transparent;
+    -webkit-text-stroke: 0.05rem #000;
+    text-stroke: 0.05rem #000;
+}
+
+details summary u {
+    padding: 0.125rem 0.25rem;
+}
+
+#headline {
+    padding: 0.25rem;
+    margin: 0;
+}
+
+#progress u,
+details summary {
+    padding: 0.5rem;
+    margin: 0;
+}
+
+#progress {
+    padding: 0.75rem;
+    margin: 0;
+}
+
+h1 {
+    padding: 1rem 2rem;
+    margin: 0;
+}
+
+#programe header h2 {
+    padding: 0 2rem;
+    margin: 0;
+}
+
+nav,
+nav h2 {
+    padding: 1rem;
+    margin: 0;
+}
+
+details summary b {
+    display: block;
+    margin: 0.5rem 0 0;
+}
+
+#progress,
+#programe header h2 {
+    display: flex;
+    gap: 1rem;
+}
+
+#progress {
+    justify-content: space-between;
+}
+
+#programe header h2 {
+    flex-flow: wrap;
+}
+
+#programe header h1,
+#programe header h2,
+#programe nav {
+    float: right;
+    width: calc(100% - 5rem);
+}
+
+#programe header h1::after,
+#programe header h2::after,
+#programe nav::after {
+    content: "";
+    clear: both;
+    display: block;
+    width: 100%;
+    height: 1rem;
+}
+
+#programe #progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 5rem;
+    height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+details summary {
+    position: relative;
+}
+
+#progress u {
+    width: 4.5rem;
+}
+
+#progress u {
+    display: grid;
+    place-content: center;
+}
+
+header,
+nav {
+    font-family: "Arial", "Yu Gothic", sans-serif;
+}
+
+#progress u {
+    font-family: "Times New Roman", "Times", serif;
+}
+
+h1,
+#progress u {
+    font-size: 150%;
+}
+
+nav h2,
+b,
+#headline {
+    font-size: 125%;
+}
+
+details summary,
+#programe header h2 {
+    font-size: 111%;
+}
+
+details summary::marker {
+    font-size: 90%;
+}
+
+h1 u,
+sup {
+    font-size: 75%;
+}
+
+#headline {
+    font-weight: 600;
+}
+
+h1 b {
+    display: block;
+    line-height: 125%;
+    margin: 2rem 0 0;
+    transform: scale(1, 1.5);
+}
+
+#headline,
+details img,
+details iframe {
+    display: block;
+    width: 100%;
+}
+
+#headline {
+    overflow-x: hidden;
+}
+
+details summary::marker {
+    content: attr(data-date);
+}
+
+details summary.done::after {
+    content: "✓";
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 200%;
+    padding: 0.75rem;
+}
+
+#progress u,
+progress::-webkit-progress-value {
+    background: linear-gradient(90deg, #25AF5A, #f6d435, #D24117);
+    background-size: 200% 200%;
+    color: #fff;
+}
+
+#progress u {
+    animation: gradientBG 2s ease infinite;
+}
+
+
+#index #progress {
+    flex-flow: row;
+}
+
+#index #progress progress {
+    width: calc(100% - 7.5rem);
+}
+
+#programe #progress {
+    flex-flow: column-reverse;
+}
+
+#programe #progress progress {
+    width: calc(100vh - 7.5rem);
+    margin: 0 0.75rem -2.5rem;
+    transform-origin: left top;
+    transform: rotateZ(-90deg);
+}
+
+progress {
+    background-color: #fff;
+    border: #fff solid 0.25rem;
+    border-radius: 3rem;
+    height: 3rem;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #fff;
+    border-radius: 3rem;
+}
+
+progress::-moz-progress-bar {
+    background-color: #fff;
+    border-radius: 3rem;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 3rem;
+}
+
+#headline {
+    height: 3.5rem;
+}

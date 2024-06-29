@@ -112,11 +112,6 @@ function creatQ(allQ) {
         form.appendChild(h4);
     }
 
-    const section = document.createElement('section')
-    section.className = "question";
-    section.textContent = "question";
-    questions.appendChild(section)
-
 
     const aside = document.querySelector('aside')
     if (allQ.text) {

@@ -34,7 +34,9 @@ h3.vertical {
     margin-bottom: 2.5rem;
     place-items: center;
     position: relative;
+    width: 100%;
     min-height: 100vh;
+    overflow-y: hidden;
 }
 
 #value[hidden] {
@@ -42,9 +44,11 @@ h3.vertical {
 }
 
 #value button {
-    place-self: flex-end left;
+    color: #000;
+    background: transparent;
     font-size: 111%;
     padding: 1rem;
+    place-self: flex-end left;
 }
 
 #value img {

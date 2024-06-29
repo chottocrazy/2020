@@ -15,14 +15,8 @@
 }
 
 #cover h1,
-#cover section,
-hr {
+#cover section {
     width: 100%;
-}
-
-hr {
-    clear: both;
-    border: none;
 }
 
 #otobuil {
