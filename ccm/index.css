@@ -13,6 +13,10 @@ html {
     }
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -110,13 +114,22 @@ input[type="button"] {
     margin: 0;
 }
 
+#questions::before {
+    content: "10の質問";
+    display: block;
+    padding: 1.5rem 1.5rem 0.5rem;
+    font-size: 125%;
+    font-weight: 700;
+    
+}
+
 #back {
     color: #D24117;
     background: transparent;
 }
 
 input[type="button"],
-#back {
+button {
     appearance: none;
     border: none;
     outline: none;
@@ -125,7 +138,8 @@ input[type="button"],
 #headline,
 ruby a,
 ruby b,
-aside p {
+aside p,
+#questions::before {
     font-family: "Arial", "Yu Gothic", sans-serif;
 }
 

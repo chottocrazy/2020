@@ -84,16 +84,17 @@ function mates(obj) {
 function creatQ(allQ) {
     const questions = document.querySelector('#questions')
     for (const q of allQ.questions) {
-        const section = document.createElement('section')
-        section.className = "question";
-        questions.appendChild(section)
+        const form = document.createElement('form')
+        form.id = q.id;
+        form.className = "question";
+        questions.appendChild(form)
 
         const h3 = document.createElement('h3');
         h3.innerHTML = `
         <strong>${q.question}</strong>
         <small>${q.jp}</small>
         `;
-        section.appendChild(h3)
+        form.appendChild(h3)
 
         const h4 = document.createElement('h4');
         h4.innerHTML = `
@@ -108,7 +109,7 @@ function creatQ(allQ) {
         <small>${q.right}</small>
         </label>
         `;
-        section.appendChild(h4);
+        form.appendChild(h4);
     }
 
     const section = document.createElement('section')
@@ -148,6 +149,13 @@ function valuing(act) {
         const p = document.createElement('p')
         p.innerHTML = i;
         section.appendChild(p)
+    }
+
+    if (act.img) {
+        const img = document.querySelector('#value img')
+        img.src = act.id + "/" + act.img;
+        img.alt = act.value;
+        img.hidden = false;
     }
 
 }
