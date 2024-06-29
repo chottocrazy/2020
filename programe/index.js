@@ -56,7 +56,6 @@ function indexJson(obj) {
             const summary = document.createElement('summary')
             details.appendChild(summary)
 
-            summary.className = iii.status;
             if (iii.status === "done") {
                 summary.dataset.date = iii.date;
                 summary.innerHTML = `
@@ -64,6 +63,7 @@ function indexJson(obj) {
             }
 
             if (iii.html) {
+                summary.className = "gradation";
                 for (const iiii of iii.html) {
                     details.innerHTML += iiii
                 }

@@ -42,6 +42,10 @@ details summary.done::after {
     color: #f6d435;
 }
 
+.gradation {
+    color: #fff;
+}
+
 h1 b,
 .online {
     color: transparent;
