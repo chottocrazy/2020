@@ -1,0 +1,41 @@
+{
+    "id": "walk",
+    "date": "2021.1.16 - 1.31",
+    "title": "靴の上から靴を履く",
+    "by": [
+        "wanna be youth"
+    ],
+    "progress": "100",
+    "text": [
+        "覚えていない誰かが生活感を出した時に見えた、その人らしさに憧れを持った。",
+        "その人らしい自然な姿、無意識な動きが見たい。"
+    ],
+    "schedule": [
+        {
+            "date": "2020.10.4",
+            "text": "靴の上から靴を履く練習を実施",
+            "status": "done",
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/LPlODq-ZKTE' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
+        },
+        {
+            "date": "2020.10.19",
+            "text": "wanna be youth は、靴の上から靴を履くの実現を辞退",
+            "status": "done",
+            "html": [
+                "<p>自分が生活してく上であまり時間が割けなくなったこと、試してみていくうちに最初ほどの勢いがなくなったことから、実現を辞退します。</p>"
+            ]
+        },
+        {
+            "date": "2021.1.16 - 1.31",
+            "text": "大大大 chotto crazy 2020 MAX にて、ペフがアトラクション「靴の上から靴を履く」を実現",
+            "status": "done",
+            "html": [
+                "<p>「靴の上から靴を履きたい」という言葉のインパクトに惹かれ、このプログラムを採用しました。</p>",
+                "<p>一身上の都合により wanna be youth は、このプログラムの実現を辞退ましたが、もう既に行ったこれまでのオンライン会議の中で実現方法を固まっています。</p>",
+                "<p>wanna be youth の無念の分まで、わたしたちペフが責任を持って、靴の上から靴を履きます。</p>"
+            ]
+        }
+    ]
+}

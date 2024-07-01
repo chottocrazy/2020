@@ -1,0 +1,63 @@
+{
+    "id": "botanical",
+    "date": "2020.11.1",
+    "title": "サボテン植え替え大会",
+    "by": [
+        "YeXuQo"
+    ],
+    "progress": "100",
+    "text": [
+        "<img src='botanical/image.jpg'>"
+    ],
+    "schedule": [
+        {
+            "date": "2020.10.11",
+            "text": "サボテン植え替え大会のための植物の買い出しを実施",
+            "status": "done",
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/YxUCCEZE0Zc' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
+        },
+        {
+            "date": "2020.10.15",
+            "text": "大切なものをオンライン発表",
+            "status": "done",
+            "href": "../ccm/?value=yexuqo"
+        },
+        {
+            "date": "2020.10.31",
+            "text": "サボテン植え替え大会の手引を公開",
+            "status": "done",
+            "html": [
+                "<iframe src='botanical/introduction.pdf' style='height:75vh;'></iframe>"
+            ]
+        },
+        {
+            "date": "2020.11.1",
+            "text": "プレイベント「こす」にて、サボテン植え替え大会を実現",
+            "status": "done",
+            "href": "../pre-event/"
+        },
+        {
+            "date": "2020.11.4",
+            "text": "live at kosu をオンライン発表",
+            "status": "done",
+            "html": [
+                "<iframe src='https://bandcamp.com/EmbeddedPlayer/track=1862610437/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/' style='height: 120px;'></iframe>",
+                "<a href='https://yexuqo.bandcamp.com/track/live-at-kosu'>live at &quot;kosu&quot; by YeXuQo</a>"
+            ]
+        },
+        {
+            "date": "2020.11.17",
+            "text": "植物成長日誌フォトフォルダ「サボテン植え替え大会」をオンライン発表",
+            "status": "done",
+            "href": "https://photos.app.goo.gl/xdeXn6hqMeUZPF1E8"
+        },
+        {
+            "date": "2021.1.16 - 1.31",
+            "text": "大大大 chotto crazy 2020 MAX にて、サボテン植え替え大会で植え替えた植物を展示",
+            "status": "done",
+            "href": "../otobuil/beta/"
+        }
+    ]
+}

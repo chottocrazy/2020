@@ -1,0 +1,68 @@
+{
+    "id": "zayuunomei",
+    "date": "2020.12.15 -",
+    "title": "座右の銘を交換したい",
+    "by": [
+        "宙空一派"
+    ],
+    "progress": "85",
+    "text": [
+        "<u>座右の銘の交換とは</u>",
+        "自分の拠り所としている考え「座右の銘」を、他の人の「座右の銘」と交換してしまうことで、 今までの自分ではない、これまでにはできなかった／してこなかったような新しい発想ができるようになり、 人間としての幅が広がる・・・かも",
+        "というチャレンジです。"
+    ],
+    "schedule": [
+        {
+            "date": "2020.7.12",
+            "text": "座右の銘の交換方法案を発表",
+            "status": "done",
+            "html": [
+                "<iframe src='zayuunomei/howto.pdf' style='height:75vh;'></iframe>"
+            ]
+        },
+        {
+            "date": "2020.9.27",
+            "text": "10の質問をオンライン発表",
+            "status": "done",
+            "href": "../ccm/?name=chukuippa"
+        },
+        {
+            "date": "2020.11.2",
+            "text": "座右の銘カードのデザイン案を発表",
+            "status": "done",
+            "html": [
+                "<iframe src='zayuunomei/card.pdf' style='height:75vh;'></iframe>"
+            ]
+        },
+        {
+            "date": "2020.12.11",
+            "text": "コロナ感染拡大防止対策を徹底するため、アトラクション「座右の銘の交換」の制作",
+            "status": "cancel"
+        },
+        {
+            "date": "2020.12.15",
+            "text": "大切なものをオンライン発表",
+            "status": "done",
+            "href": "../ccm/?value=chukuippa"
+        },
+        {
+            "date": "2020.12.15",
+            "text": "ウェブページ「座右の銘を交換したい」をオンライン発表",
+            "status": "done"
+        },
+        {
+            "date": "2021.1.16 - 1.31",
+            "text": "アトラクション「座右の銘を交換したい」の実現を中止",
+            "status": "done"
+        },
+        {
+            "date": "2021.1.30",
+            "text": "ミニアルバム「座右の銘を交換したい」をオンライン発表",
+            "status": "done",
+            "html": [
+                "<iframe style='width: 100%; height: 120px;' src='https://bandcamp.com/EmbeddedPlayer/album=688996289/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/' seamless></iframe>",
+                "<a href='https://chottocrazy.bandcamp.com/album/-'>座右の銘を交換したい 宙空一派</a>"
+            ]
+        }
+    ]
+}

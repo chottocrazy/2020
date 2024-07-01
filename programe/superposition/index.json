@@ -1,0 +1,41 @@
+{
+    "id": "superposition",
+    "date": "実現中止",
+    "title": "昼と夜の風景の重ね合わせ",
+    "by": [
+        "Kakita Ibuki"
+    ],
+    "progress": "50",
+    "text": [
+        "夜、映像が投影されたところにだけ昼間の日常風景が流れる。ただそれだけ。",
+        "散歩してたらひらめいた小さな思いつきです。"
+    ],
+    "schedule": [
+        {
+            "date": "2020.10.30 - 1-.31",
+            "text": "昼と夜の重ね合わせのテストを実施",
+            "status": "done",
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/l4sH_tPJbHk' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
+        },
+        {
+            "date": "2020.11.1 - 11.2",
+            "text": "プレイベント「こす」の重ね合わせを実施",
+            "status": "done",
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/0QaTxCU5gAg' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
+        },
+        {
+            "date": "2020.12.11",
+            "text": "コロナ感染拡大防止対策を徹底するため他府県からの移動を制限し、昼と夜の重ね合わせインスタレーションの実現",
+            "status": "cancel"
+        },
+        {
+            "date": "2021.1.16 - 1.31",
+            "text": "大大大 chotto crazy 2020 MAXにて、展覧会「昼と夜の重ね合わせ」の実現を中止",
+            "status": "done"
+        }
+    ]
+}

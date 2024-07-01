@@ -1,0 +1,52 @@
+{
+    "id": "indigocarnival",
+    "date": "実現中止",
+    "title": "藍で染めよう祭り",
+    "by": [
+        "ソウ"
+    ],
+    "progress": "40",
+    "text": [
+        "「藍は青よりアオし」と申しまして、その美しさは誰もが認めるものですが、それを自ら行うとなるとそれなりに大がかりなものとなりまして、駆け出しの染色家の私も容易には挑戦はできません。",
+        "知識はあれど実行できないこのもどかしさ、皆に知って欲しい染色のおもしろさ。ラバーダックの首に藍のストールを巻く野望。",
+        "今回は市販のアイでの建染めと、現在育成しているタデアイでの生葉染めとなる予定ですが、もし、来年もあるのならば、来年はスクモ作りから始めたいです。"
+    ],
+    "schedule": [
+        {
+            "date": "2020.9.13",
+            "text": "タデアイの収穫を実施",
+            "status": "done",
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/1OQfTfKUhNo' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
+        },
+        {
+            "date": "2020.11.28",
+            "text": "藍で染めよう祭りの練習を実施",
+            "status": "done",
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/Ps2yJRH8fjo' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
+        },
+        {
+            "date": "2020.12.3",
+            "text": "大阪府が発令した不要不急の外出自粛要請を受け、藍液の制作／管理、不特定多数のお客様を受け入れ開催することは賢明ではないと判断し、「藍で染めよう祭り」また、関連イベントの開催を",
+            "status": "cancel"
+        },
+        {
+            "date": "2021.1.17",
+            "text": "藍で染めよう祭りのための藍液づくりを中止",
+            "status": "done"
+        },
+        {
+            "date": "2021.1.30 & 1.31",
+            "text": "藍で染めよう祭り の開催を中止",
+            "status": "done"
+        },
+        {
+            "date": "Crazy Tee & Tote",
+            "text": "大 chotto crazy 2020 公式グッズ クレイジー染め Tee & Bag を販売",
+            "status": "tobe"
+        }
+    ]
+}

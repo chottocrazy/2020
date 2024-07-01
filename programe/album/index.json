@@ -1,0 +1,50 @@
+{
+    "id": "album",
+    "date": "2020.9.27 -",
+    "title": "楽曲提供したい",
+    "by": [
+        "Jackdoe"
+    ],
+    "progress": "100",
+    "text": [
+        "「やりたいと思っていることを応援する」という気持ちに強く共感し、私も誰かのやりたいことを盛り上げ協力したいとこのアイデアを応募しました。",
+        "",
+        "各プログラムのタイトルや概要から内容を想像し、そのイメージを基に楽曲を制作／提供。",
+        "それらの楽曲をまとめたミニアルバム「大 chotto crazy 2020」をリリースします。"
+    ],
+    "schedule": [
+        {
+            "date": "2020.9.27",
+            "text": "大 chotto crazy 2020 に楽曲「大 chotto crazy」を提供",
+            "status": "done",
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/oPdOnxVfj-8' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
+        },
+        {
+            "date": "2020.12.15",
+            "text": "何人かで「ラ（だと思う音）」の音合わせをしたいに楽曲「440」を提供",
+            "status": "done"
+        },
+        {
+            "date": "2020.12.15",
+            "text": "暗闇でおしゃべりしたいに楽曲「Gentle world」を提供",
+            "status": "done"
+        },
+        {
+            "date": "2021.1.15",
+            "text": "暗室に楽曲「Old melody box」を提供",
+            "status": "done"
+        },
+        {
+            "date": "2021.1.15",
+            "text": "ステージに楽曲「Challenger」を提供",
+            "status": "done"
+        },
+        {
+            "date": "2021.1.15",
+            "text": "アクティブパークに楽曲「We are Journey」を提供",
+            "status": "done"
+        }
+    ]
+}

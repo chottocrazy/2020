@@ -4,45 +4,31 @@
             "id": "asano",
             "name": "浅野充利",
             "yomi": "Mitsutoshi Asano",
-            "program": [
+            "programe": [
                 {
                     "title": "芝浴",
-                    "href": "__"
+                    "href": "shibayoku"
                 }
             ],
             "value": [
                 {
-                    "title": "postcard",
-                    "href": "__"
+                    "title": "postcard"
                 }
-            ],
-            "text": "名古屋在住のサラリーマンです。座右の銘は｢コンクリートから芝へ｣です。"
+            ]
         },
         {
             "id": "itochan",
             "name": "イトウヒロキ",
             "yomi": "Hiroki Ito",
-            "program": [
+            "programe": [
                 {
                     "title": "オススメを集める",
-                    "href": "__"
+                    "href": "okayama"
                 }
             ],
             "value": [
                 {
-                    "title": "TAKAPOP",
-                    "href": "__"
-                }
-            ],
-            "text": "こんにちはです☀︎イトウ ヒロキです。 1996年生まれの岡山県出身です。",
-            "link": [
-                {
-                    "a": "Twitter",
-                    "href": "https://www.twitter.com/kirohitooo/"
-                },
-                {
-                    "a": "Instagram",
-                    "href": "https://www.instagram.com/takapop_1996/"
+                    "title": "TAKAPOP"
                 }
             ]
         },
@@ -50,27 +36,15 @@
             "id": "yexuqo",
             "name": "YeXuQo",
             "yomi": "エズコ",
-            "program": [
+            "programe": [
                 {
                     "title": "サボテン植え替え大会",
-                    "href": "__"
+                    "href": "botanical"
                 }
             ],
             "value": [
                 {
-                    "title": "Dorstenia Crispa",
-                    "href": "__"
-                }
-            ],
-            "text": "音楽やグラフィックを作っています。ここ最近は、かわいらしいもの、小気味よいもの、涼しいものに惹かれるようになりました",
-            "link": [
-                {
-                    "a": "SoundCloud",
-                    "href": "https://www.soundcloud.com/yexuqo/"
-                },
-                {
-                    "a": "Instagram",
-                    "href": "https://www.instagram.com/yexuqo/"
+                    "title": "Dorstenia Crispa"
                 }
             ]
         },
@@ -78,23 +52,15 @@
             "id": "yutoohashi",
             "name": "Yuto Ohashi",
             "yomi": "オオハシユウト",
-            "program": [
+            "programe": [
                 {
                     "title": "手づくりの凧を空へ飛ばしたい",
-                    "href": "__"
+                    "href": "sky"
                 }
             ],
             "value": [
                 {
-                    "title": "ペフのみんなで凧を空に飛ばしたこと",
-                    "href": "__"
-                }
-            ],
-            "text": "1994。ひとりとか風景とかそういうことについて。",
-            "link": [
-                {
-                    "a": "Website",
-                    "href": "http://yutoohashi.net/"
+                    "title": "ペフのみんなで凧を空に飛ばしたこと"
                 }
             ]
         },
@@ -102,27 +68,19 @@
             "id": "kakitaibuki",
             "name": "Kakita Ibuki",
             "yomi": "カキタイブキ",
-            "program": [
+            "programe": [
                 {
                     "title": "記憶の重ね合わせ",
-                    "href": "__"
+                    "href": "memorygame"
                 },
                 {
                     "title": "昼と夜の風景の重ね合わせ",
-                    "href": "__"
+                    "href": "superposition"
                 }
             ],
             "value": [
                 {
-                    "title": "記憶のぶんれいばこ",
-                    "href": "__"
-                }
-            ],
-            "text": "空間にとらわれる人。小さいほど大きい何かを探しています。",
-            "link": [
-                {
-                    "a": "Instagram",
-                    "href": "https://www.instagram.com/_kaaaaa__/"
+                    "title": "記憶のぶんれいばこ"
                 }
             ]
         },
@@ -130,31 +88,15 @@
             "id": "chukuippa",
             "name": "宙空一派",
             "yomi": "Chukuippa",
-            "program": [
+            "programe": [
                 {
                     "title": "座右の銘を交換したい",
-                    "href": "__"
+                    "href": "zayuunomei"
                 }
             ],
             "value": [
                 {
-                    "title": "質実剛健（座右の銘）",
-                    "href": "__"
-                }
-            ],
-            "text": "俺は自宅録音家。今年の夏はあずきバーをそんなに食べませんでした。",
-            "link": [
-                {
-                    "a": "BandCamp",
-                    "href": "https://chukuippa.bandcamp.com"
-                },
-                {
-                    "a": "Twitter",
-                    "href": "https://www.twitter.com/colorgang/"
-                },
-                {
-                    "a": "SoundCloud",
-                    "href": "https://www.soundcloud.com/colorgang/"
+                    "title": "質実剛健（座右の銘）"
                 }
             ]
         },
@@ -162,23 +104,15 @@
             "id": "yuikuroki",
             "name": "黒木結",
             "yomi": "Yui Kuroki",
-            "program": [
+            "programe": [
                 {
                     "title": "ふとんで寝ながらさんぽしたい",
-                    "href": "__"
+                    "href": "ofuton"
                 }
             ],
             "value": [
                 {
-                    "title": "先輩からもらったベッド",
-                    "href": "__"
-                }
-            ],
-            "text": "京都で現代美術の作品を作っています。",
-            "link": [
-                {
-                    "a": "Tumblr",
-                    "href": "https://yui-kuroki.tumblr.com/"
+                    "title": "先輩からもらったベッド"
                 }
             ]
         },
@@ -186,23 +120,15 @@
             "id": "kennypain",
             "name": "Kenny Pain",
             "yomi": "ケニーペイン",
-            "program": [
+            "programe": [
                 {
-                    "title": "暗闇でお話したい",
-                    "href": "__"
+                    "title": "暗闇でおしゃべりしたい",
+                    "href": "talkshow"
                 }
             ],
             "value": [
                 {
-                    "title": "テレビ",
-                    "href": "__"
-                }
-            ],
-            "text": "1996年生まれ大阪在住",
-            "link": [
-                {
-                    "a": "Instagram",
-                    "href": "https://www.instagram.com/k_e_n_n_y_p_a_i_n/"
+                    "title": "テレビ"
                 }
             ]
         },
@@ -210,31 +136,15 @@
             "id": "seaketa",
             "name": "seaketa",
             "yomi": "シーケタ",
-            "program": [
+            "programe": [
                 {
                     "title": "石を磨きたい",
-                    "href": "__"
+                    "href": "stone"
                 }
             ],
             "value": [
                 {
-                    "title": "拾ってきた石",
-                    "href": "__"
-                }
-            ],
-            "text": "音楽やっています。",
-            "link": [
-                {
-                    "a": "Bandcamp",
-                    "href": "https://kumocommunication.bandcamp.com"
-                },
-                {
-                    "a": "Twitter",
-                    "href": "https://www.twitter.com/seaketaseaketa/"
-                },
-                {
-                    "a": "SoundCloud",
-                    "href": "https://www.soundcloud.com/seaketa/"
+                    "title": "拾ってきた石"
                 }
             ]
         },
@@ -242,27 +152,15 @@
             "id": "jackdoe",
             "name": "Jackdoe",
             "yomi": "ジャックドー",
-            "program": [
+            "programe": [
                 {
                     "title": "楽曲提供したい",
-                    "href": "__"
+                    "href": "album"
                 }
             ],
             "value": [
                 {
-                    "title": "自分自身の感性",
-                    "href": "__"
-                }
-            ],
-            "text": "私はJackdoeと申します。まだまだ駆け出しの身ですが、ミュージシャンをしています。生まれてから今までの間、特に音楽を習うこともなく、ただ音楽が身近な場所にあったというだけの私ですが、そこから何故か自分で作りたいと思うようになり、ミュージシャンとして活動を始めるようになりました。",
-            "link": [
-                {
-                    "a": "Twitter",
-                    "href": "https://www.twitter.com/John_yuuya/"
-                },
-                {
-                    "a": "SoundCloud",
-                    "href": "https://www.soundcloud.com/jackdoe-1/"
+                    "title": "自分自身の感性"
                 }
             ]
         },
@@ -270,23 +168,15 @@
             "id": "sou",
             "name": "ソウ",
             "yomi": "Sou",
-            "program": [
+            "programe": [
                 {
                     "title": "藍で染めよう祭り",
-                    "href": "__"
+                    "href": "indigocarnival"
                 }
             ],
             "value": [
                 {
-                    "title": "ラジオ",
-                    "href": "__"
-                }
-            ],
-            "text": "自称染色家and鞄作家。年齢は、いわゆる「失われた世代」のド真ん中。染色を追究する余り、北加賀屋にて畑を借りて染料になる植物を自身で栽培中。自分の生き方が、誰かの人生のヒントになればと良いと思い、日々呼吸しています。",
-            "link": [
-                {
-                    "a": "Instagram",
-                    "href": "https://www.instagram.com/2nd_rosmarin_to_a16/"
+                    "title": "ラジオ"
                 }
             ]
         },
@@ -294,27 +184,15 @@
             "id": "2n2n",
             "name": "2n2n",
             "yomi": "ツンツン",
-            "program": [
+            "programe": [
                 {
                     "title": "とある風景に付随する記憶や感情",
-                    "href": "__"
+                    "href": "memorygame"
                 }
             ],
             "value": [
                 {
-                    "title": "白ごはん",
-                    "href": "__"
-                }
-            ],
-            "text": "北海道に住みたくなってきた。豊島で働いてみたい。英語が喋れるようになりたい。そんな男の子。",
-            "link": [
-                {
-                    "a": "Website",
-                    "href": "https://2n2numr.wixsite.com/ho-mu"
-                },
-                {
-                    "a": "instagram",
-                    "href": "https://www.instagram.com/2n2ndesu/"
+                    "title": "白ごはん"
                 }
             ]
         },
@@ -322,35 +200,19 @@
             "id": "ayumihirono",
             "name": "廣野鮎美",
             "yomi": "Ayumi Hirono",
-            "program": [
+            "programe": [
                 {
                     "title": "口実を作りたい",
-                    "href": "__"
+                    "href": "excuse"
                 },
                 {
                     "title": "砂のトンネルで握手",
-                    "href": "__"
+                    "href": "touch"
                 }
             ],
             "value": [
                 {
-                    "title": "手のひらの厚み、その温度",
-                    "href": "__"
-                }
-            ],
-            "text": "こんにちは。 部屋のカーテンは緑、お気に入りのぬいぐるみは黄色、最近買ったコートは黒です。",
-            "link": [
-                {
-                    "a": "Website",
-                    "href": "https://15hirono.wixsite.com/hironoayumi/"
-                },
-                {
-                    "a": "Twitter",
-                    "href": "https://www.twitter.com/HIRONO_Ayumi_/"
-                },
-                {
-                    "a": "Instagram",
-                    "href": "https://www.instagram.com/10rikera___/"
+                    "title": "手のひらの厚み、その温度"
                 }
             ]
         },
@@ -358,27 +220,15 @@
             "id": "shokoyamamura",
             "name": "山村祥子",
             "yomi": "Shoko Yamamura",
-            "program": [
+            "programe": [
                 {
-                    "title": "「ラ（だと思う音）」の音合わせ",
-                    "href": "__"
+                    "title": "何人かで「ラ（だと思う音）」の音合わせをしたい",
+                    "href": "la"
                 }
             ],
             "value": [
                 {
-                    "title": "「ラの音を、みんなで合うまで歌う」というアイデア",
-                    "href": "__"
-                }
-            ],
-            "text": "アメリカで現代美術を学ぶ。主に都市の消費者生活に焦点を当て、周囲の環境（もの・こと・ひと）に立ち止まり内省する、敬意や優しさを表すといった自他のコミュニケーションの在り方や他に向かう態度を問いかけ、提案することをテーマとして制作を行っている。",
-            "link": [
-                {
-                    "a": "Website",
-                    "href": "https://shokoyamamura.wixsite.com/home"
-                },
-                {
-                    "a": "Instagram",
-                    "href": "https://www.instagram.com/shokoyamamura_art"
+                    "title": "「ラの音を、みんなで合うまで歌う」というアイデア"
                 }
             ]
         },
@@ -386,63 +236,51 @@
             "id": "yamamoo",
             "name": "Yamamoo",
             "yomi": "ヤマモー",
-            "program": [
+            "programe": [
                 {
                     "title": "音の出るものをいっぱい並べる",
-                    "href": "__"
+                    "href": "cocoro"
                 }
             ],
             "value": [
                 {
-                    "title": "家族と仲間",
-                    "href": "__"
+                    "title": "家族と仲間"
                 }
-            ],
-            "text": "自称働く表現家。某物流企業で管理職として激務をこなしながら、いくつかのユニットやソロで日本各地だけでなく、海外でも公演経験あり。今回のテーマは物vs人"
+            ]
         },
         {
             "id": "rie",
             "name": "りえ",
             "yomi": "Rie",
-            "program": [
+            "programe": [
                 {
                     "title": "自慢コンクール",
-                    "href": "__"
+                    "href": "value"
                 },
                 {
                     "title": "こども基地協会を設立",
-                    "href": "__"
+                    "href": "kodomokichi"
                 }
             ],
             "value": [
                 {
-                    "title": "玄関にかけてあるミモザの鏡",
-                    "href": "__"
+                    "title": "玄関にかけてあるミモザの鏡"
                 }
-            ],
-            "text": "40代婦人・東京在住の会社員です。美術館・緑の濃い場所・神社・お花・美味しいもの・お酒が好きです。"
+            ]
         },
         {
             "id": "wannabeyouth",
             "name": "wanna be youth",
             "yomi": "ワナビーユース",
-            "program": [
+            "programe": [
                 {
                     "title": "靴の上から靴を履く",
-                    "href": "__"
+                    "href": "walk"
                 }
             ],
             "value": [
                 {
-                    "title": "矜持を保つこと",
-                    "href": "__"
-                }
-            ],
-            "text": "散歩したり、宅録したりしています",
-            "link": [
-                {
-                    "a": "Twitter",
-                    "href": "https://www.twitter.com/wannabe_youth/"
+                    "title": "矜持を保つこと"
                 }
             ]
         }

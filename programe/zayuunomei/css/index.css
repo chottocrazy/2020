@@ -1,0 +1,253 @@
+html {
+    font-size: 16px;
+    height: -webkit-fill-available;
+}
+
+body,
+#readme h3,
+#readme p {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Meiryo";
+    src: url("Meiryo.ttf");
+}
+
+body {
+    font-family: "Meiryo", sans-serif;
+}
+
+#card {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,
+#readme h3,
+#card::after {
+    font-size: 200%;
+    font-weight: 500;
+}
+
+#readme strong {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 125%;
+}
+
+.button {
+    font-size: 111%;
+}
+
+#readme u,
+form button {
+    font-size: 95%;
+}
+
+form small {
+    font-size: 65%;
+}
+
+form input {
+    font-size: 16px;
+}
+
+input,
+form button {
+    appearance: none;
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+form small,
+form label,
+form input {
+    display: inline-block;
+    margin: 0 0 0.5rem;
+}
+
+h1,
+#readme h3,
+#readme strong,
+form label {
+    transform: scale(1.11, 1);
+}
+
+h2,
+form button {
+    transform: scale(1, 1.25);
+    letter-spacing: 0.25rem;
+}
+
+h1,
+#readme h3,
+#readme strong {
+    transform-origin: top;
+}
+
+form label {
+    transform-origin: left;
+}
+
+h1 {
+    writing-mode: vertical-lr;
+}
+
+#readme {
+    writing-mode: vertical-rl;
+}
+
+#readme time {
+    text-combine-upright: all;
+}
+
+#card::after,
+.button,
+form label,
+form button,
+#readme u {
+    background: blue;
+    color: #fff;
+}
+
+form input {
+    border: solid 0.1rem;
+    color: #000;
+}
+
+form button {
+    border-radius: 2.5rem;
+    padding: 0.25rem 0.75rem;
+    transform-origin: top;
+}
+
+main,
+article {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    max-height: -webkit-fill-available;
+    overflow: hidden;
+}
+
+#readme {
+    padding: 3.21rem;
+    place-self: center;
+    overflow: auto;
+    max-width: 100%;
+}
+
+h1 {
+    padding: 0;
+    margin: 1rem;
+}
+
+#readme section {
+    margin: 0 3.21rem;
+}
+
+#readme u {
+    text-decoration: none;
+    padding: 0.5rem 0.11rem;
+}
+
+h1 {
+    place-self: start;
+}
+
+h2 {
+    padding: 1rem;
+    margin: 1rem 3.21rem 1.11rem 1rem;
+    place-self: end center;
+    text-decoration: 0.11rem wavy underline blue;
+}
+
+.button {
+    padding: 0.321rem;
+    margin: 0;
+}
+
+#play {
+    position: fixed;
+    top: 100%;
+    right: 0;
+    transform-origin: right top;
+    transform: rotate(90deg);
+    width: 100vh;
+    max-width: 100vh;
+}
+
+#headline {
+    place-self: end self-start;
+    width: 100%;
+    max-width: calc(100vw - 2rem);
+}
+
+#card,
+#card::after {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#card {
+    top: 50%;
+    left: 45%;
+    z-index: 0;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+#card::after {
+    top: 50%;
+    left: 50%;
+}
+
+#card::after {
+    content: attr(data-motto);
+    padding: 0.25rem;
+}
+
+#thankyou {
+    width: max-content;
+    margin: auto;
+}
+
+#card {
+    font-size: 11px;
+}
+
+#thankyou {
+    font-size: 75%;
+}
+
+@media (max-width: 1000px) {
+
+    #card {
+        font-size: 1.11vw;
+    }
+
+    #thankyou {
+        font-size: 55%;
+    }
+}
+
+@media (orientation: portrait) {
+    html {
+        font-size: 2.5vw;
+    }
+
+    #card {
+        font-size: 2vw;
+        transform: rotate(90deg);
+        transform-origin: center top;
+    }
+}

@@ -1,4 +1,4 @@
-.programs {
+.programes {
     font-family: "Arial", "Yu Gothic", sans-serif;
     display: flex;
     gap: 0.25rem;
@@ -6,8 +6,8 @@
     justify-content: center;
 }
 
-.programs button,
-.programs a {
+.programes button,
+.programes a {
     appearance: none;
     color: #111;
     background: #fff;
@@ -23,6 +23,6 @@
     line-height: 150%;
 }
 
-.programs button {
+.programes button {
     cursor: help;
 }

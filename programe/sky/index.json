@@ -1,0 +1,55 @@
+{
+    "id": "sky",
+    "date": "2020.11.1 -",
+    "title": "手作りの凧を空へ飛ばしたい",
+    "by": [
+        "Yuto Ohashi"
+    ],
+    "progress": "50",
+    "text": [
+        "「なんとなく思いついたこと」、「それとなくやってみたこと」、こうした事柄がのちになにかしらの印象となって心に残っていく、ということがあります。",
+        "僕が手づくりの凧を空に飛ばしたいと思ったこともこうした些細な出来事がきっかけとなって思いついたことでした。",
+        "",
+        "手づくりの凧を作り、それを真上の空から複数の場所・時間に写しとられた映像の空へとつなぐ、一連の実験。",
+        "ひとつの偶然から生まれた、この空に関する一連の実験が誰かの心象風景となって心に残ることがあるのだとしたら、僕はそれをとても嬉しく思います。"
+    ],
+    "schedule": [
+        {
+            "date": "2020.11.1 - 11.30",
+            "text": "空 の映像／写真を募集",
+            "status": "done"
+        },
+        {
+            "date": "2020.11.15",
+            "text": "大切なものをオンライン発表",
+            "status": "done",
+            "href": "../ccm/?value=yutoohashi"
+        },
+        {
+            "date": "2021.1.17 - 29",
+            "text": "ACTIVE PARK LIVE にて、手作りの空の映像を生配信",
+            "status": "done",
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/zQixonPdOg0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
+        },
+        {
+            "date": "2020.12.11",
+            "text": "コロナ感染拡大防止対策を徹底するため他府県からの移動を制限し、限定開催「手作りの凧を空へ飛ばしたい」",
+            "status": "cancel"
+        },
+        {
+            "date": "2021.1.22 - 23",
+            "text": "限定開催「手作りの凧を空へ飛ばしたい」の実現を中止",
+            "status": "done"
+        },
+        {
+            "date": "2021.1.30",
+            "text": "大大大 chotto crazy 2020 MAX LIVE にて、映像作品 を生配信",
+            "status": "done",
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/UqDFO3PFcPA' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
+        }
+    ]
+}

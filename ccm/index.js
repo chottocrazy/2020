@@ -48,17 +48,18 @@ function mates(obj) {
         if (params.get("name") === mate.id) {
             const name = document.querySelector('#profile h2 ruby b')
             const yomi = document.querySelector('#profile h2 ruby rt')
-            const program = document.querySelector('#profile #program')
+            const programe = document.querySelector('#profile #programe')
             const valuing = document.querySelector('#profile #valuing')
 
             name.textContent = mate.name;
             yomi.textContent = mate.yomi;
 
-            if (mate.program) {
-                for (const ii of mate.program) {
-                    const button = document.createElement('button')
-                    button.textContent = ii.title;
-                    program.appendChild(button)
+            if (mate.programe) {
+                for (const ii of mate.programe) {
+                    const a = document.createElement('a')
+                    a.textContent = ii.title;
+                    a.href = `../programe/?id=${ii.href}`;
+                    programe.appendChild(a)
                 }
             }
 

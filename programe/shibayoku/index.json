@@ -1,0 +1,40 @@
+{
+    "id": "shibayoku",
+    "date": "2020.10.11 -",
+    "title": "芝浴",
+    "by": [
+        "浅野充利"
+    ],
+    "progress": "65",
+    "text": [
+        "<b>芝浴 [しばよく]</b>",
+        "何もしない、あるいは何も考えず、芝で日光を浴び憩うこと"
+    ],
+    "schedule": [
+        {
+            "date": "2020.10.11",
+            "text": "芝浴の目的／5W1Hをオンライン発表",
+            "status": "done"
+        },
+        {
+            "date": "2020.10.11",
+            "text": "大阪府内某所にて、芝浴を実施",
+            "status": "done",
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/VabHM3IrFZM' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
+        },
+        {
+            "date": "2020.11.1",
+            "text": "プレイベント「こす」にて、アトラクション「芝浴」を実現",
+            "status": "done",
+            "href": "../pre-event/"
+        },
+        {
+            "date": "2021.1.16 - 31",
+            "text": "大大大 chotto crazy 2020 MAX にて、アトラクション「芝浴」を実現",
+            "status": "done",
+            "href": "../otobuil/main/"
+        }
+    ]
+}

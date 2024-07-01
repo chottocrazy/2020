@@ -1,0 +1,34 @@
+{
+    "id": "memorygame",
+    "date": "2021.1.16 - 1.31",
+    "title": "メモリーゲーム",
+    "by": [
+        "Kakita Ibuki",
+        "2n2n"
+    ],
+    "progress": "100",
+    "text": [
+        "<b>ルール</b>",
+        "会場の図面が描かれた下敷きの上にある透明な祇に、大大大 chotto crazy 2020 をスケッチしてください。",
+        "・スケッチに使用できる色は白・緑・青・赤・黄・黒の６色",
+        "・印象に残っているものから順にスケッチしましょう",
+        "・色／形の正確性は重要ではありません",
+        "<small>※記憶／感情など、印象をスケッチすることを心がけましょう</small>"
+    ],
+    "schedule": [
+        {
+            "date": "2020.8.4",
+            "text": "重ね合わせの計画書をオンライン発表",
+            "status": "done",
+            "html": [
+                "<iframe src='memorygame/sketch.pdf' style='height:75vh;'></iframe>"
+            ]
+        },
+        {
+            "date": "2021.1.17 - 1.31",
+            "text": "大大大 chotto crazy 2020 MAX にて メモリーゲーム を開催",
+            "status": "done",
+            "href": "../otobuil/"
+        }
+    ]
+}

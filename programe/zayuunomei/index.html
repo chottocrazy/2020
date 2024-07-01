@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="favicon.ico">
+
+    <!--og:meta-->
+    <meta content="website" property="og:type">
+    <title>座右の銘を交換したい | 宙空一派</title>
+    <meta content="座右の銘を交換したい | 宙空一派" property="og:title">
+    <meta content="このサイトに、あなたの名前と「座右の銘」を投稿すると、これまでに投稿のあった「座右の銘」と、あなたの「座右の銘」を交換することが出来ます。" name="description">
+    <meta content="このサイトに、あなたの名前と「座右の銘」を投稿すると、これまでに投稿のあった「座右の銘」と、あなたの「座右の銘」を交換することが出来ます。" name="og:description">
+
+    <link href="css/index.css" rel="stylesheet">
+
+    <script src="js/index.js"></script>
+    <script src="js/script.js"></script>
+    <script src="click/script.js"></script>
+</head>
+
+<body>
+    <main onclick="dialogOpen()">
+        <h1>座右の銘を交換したい</h1>
+        <h2>突然ですが、座右の銘を交換してみませんか？？</h2>
+        <pre id="card" data-motto="質実剛健"></pre>
+    </main>
+
+    <dialog>
+        <form action="" name="motto" method="post">
+            <small>* 座右の銘を交換すると、「新しい座右の銘」の BGM が再生されます。</small><br>
+            <label for="yourPolicy">あなたの座右の銘は？</label><br>
+            <input type="text" name="yourPolicy" id="yourPolicy" required>
+            <br>
+            <label for="yourName">あなたの名前は？</label><br>
+            <input type="name" name="yourName" id="yourName" required>
+            <br>
+            <button type="submit">交換する</button>
+            <button type="button" onclick="dialogClose()">閉じる</button>
+        </form>
+        <pre id="thankyou"></pre>
+    </dialog>
+
+    <article>
+        <section id="readme"></section>
+        <input type="button" id="headline" class="button" onclick="location.assign('../../')">
+    </article>
+
+    <input type="button" id="play" class="button">
+    <script src="bgm/script.js"></script>
+</body>
+
+</html>

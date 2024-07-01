@@ -1,0 +1,52 @@
+{
+    "id": "talkshow",
+    "date": "2021.1.23",
+    "title": "暗闇でおしゃべりしたい",
+    "by": [
+        "Kenny Pain"
+    ],
+    "progress": "100",
+    "text": [
+        "人と話したいけど、注目されたくない。",
+        "人の視線を感じない環境なら、緊張することなく話せるのではないかと考え「暗闇でおしゃべりしたい」を思いついた。",
+        "",
+        "<img src='talkshow/001.jpg' alt='暗闇でおしゃべりしたい 企画書'>"
+    ],
+    "schedule": [
+        {
+            "date": "2020.9.20",
+            "text": "光るご褒美の制作を実施",
+            "status": "done",
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/mCfVYqpQqCU' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
+        },
+        {
+            "date": "2020.10.16",
+            "text": "光るコイン作りのテクニックを公開",
+            "status": "done",
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/GfNny5vIuOg' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
+        },
+        {
+            "date": "2020.11.1",
+            "text": "プレイベント「こす」にて、光るご褒美作りを実施",
+            "status": "done",
+            "href": "../pre-event/"
+        },
+        {
+            "date": "2021.1.17 - 1.30",
+            "text": "大大大 chotto crazy 2020 MAX にて、「暗闇でおしゃべりしたい」を実現",
+            "status": "done"
+        },
+        {
+            "date": "2021.1.23",
+            "text": "限定開催「暗闇でおしゃべり会」を実現",
+            "status": "done",
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/LbUAkZKk4Ag' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
+        }
+    ]
+}
