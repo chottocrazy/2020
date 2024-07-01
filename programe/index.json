@@ -25,18 +25,6 @@
             "type": "online"
         },
         {
-            "title": "口実を作りたい",
-            "href": "excuse",
-            "name": "廣野鮎美",
-            "type": "online"
-        },
-        {
-            "title": "手づくりの凧を空へ飛ばしたい",
-            "href": "sky",
-            "name": "Yuto Ohashi",
-            "type": "online"
-        },
-        {
             "title": "サボテン植え替え大会",
             "href": "botanical",
             "name": "YeXuQo",
@@ -106,6 +94,18 @@
             "title": "砂のトンネルで握手",
             "href": "touch",
             "name": "廣野鮎美",
+            "type": "covid19"
+        },
+        {
+            "title": "口実を作りたい",
+            "href": "excuse",
+            "name": "廣野鮎美",
+            "type": "covid19"
+        },
+        {
+            "title": "手づくりの凧を空へ飛ばしたい",
+            "href": "sky",
+            "name": "Yuto Ohashi",
             "type": "covid19"
         },
         {

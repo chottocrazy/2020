@@ -2,9 +2,66 @@ body {
     background: #eee;
 }
 
+#index nav h2 {
+    display: grid;
+    place-content: center;
+    float: left;
+    padding: 1rem 2rem;
+    margin: 0;
+    width: calc(100% / 4 * 2);
+    height: 30rem;
+}
+
+#index nav a {
+    float: left;
+    display: grid;
+    place-items: center;
+    border: solid 0.175rem;
+    text-decoration: none;
+    height: 10rem;
+    width: calc(100% / 4 * 1);
+}
+
+@media (max-width: 1350px) {
+    #index nav a {
+        font-size: 1.175vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    #index nav h2 {
+        width: calc(100% / 3 * 2);
+    }
+
+    #index nav a {
+        font-size: 1.6vw;
+        width: calc(100% / 3 * 1);
+    }
+}
+
+@media (max-width: 750px) {
+    #index nav h2 {
+        width: 100%;
+    }
+
+    #index nav a {
+        font-size: 2.3vw;
+        width: 50%;
+    }
+}
+
 @media (orientation: portrait) {
     html {
         font-size: 2.5vw;
+    }
+
+    #index nav h2 {
+        width: 100%;
+    }
+
+    #index nav a {
+        font-size: 2.3vw;
+        width: 50%;
     }
 }
 
@@ -46,6 +103,28 @@ details summary.done::after {
     color: #fff;
 }
 
+#index nav a.online {
+    border-color: #fff;
+}
+
+#index nav a.covid19 {
+    border-color: #fff;
+    color: transparent;
+}
+
+#index nav a:hover,
+#index nav a.covid19 {
+    -webkit-text-stroke: 0.05rem #FFF;
+    text-stroke: 0.05rem #FFF;
+}
+
+#index nav a:hover {
+    color: #fff;
+    background: linear-gradient(55deg, #25AF5A, #f6d435, #D24117);
+    background-size: 200% 200%;
+    animation: gradientBG 2s ease infinite;
+}
+
 h1 b,
 .online {
     color: transparent;
@@ -83,8 +162,7 @@ h1 {
     margin: 0;
 }
 
-nav,
-nav h2 {
+nav {
     padding: 1rem;
     margin: 0;
 }
@@ -104,22 +182,8 @@ details summary b {
     place-content: center;
 }
 
-#index nav h2 {
-    float: left;
-    width: 50%;
-}
-
-#index nav a {
-    float: left;
-    display: grid;
-    place-items: center;
-    border: solid 0.25rem;
-    text-decoration: none;
-    width: 25%;
-}
-
 #index nav a b {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 h1 b,
@@ -128,7 +192,7 @@ details iframe,
 details summary b,
 #programe header h1::after,
 #programe header h2::after,
-#programe nav::after {
+nav::after {
     display: block;
 }
 
@@ -152,7 +216,7 @@ details summary b,
 details iframe,
 #programe header h1::after,
 #programe header h2::after,
-#programe nav::after {
+nav::after {
     width: 100%;
 }
 
@@ -162,10 +226,19 @@ details iframe,
 
 #programe header h1::after,
 #programe header h2::after,
-#programe nav::after {
+nav::after {
     content: "";
     clear: both;
+}
+
+#programe header h1::after,
+#programe header h2::after,
+#programe nav::after {
     height: 1rem;
+}
+
+#index nav::after {
+    height: 0.125rem;
 }
 
 #programe #progress {

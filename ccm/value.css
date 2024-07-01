@@ -35,7 +35,7 @@ h3.vertical {
 
 #value {
     font-size: 111%;
-    display: grid;
+    display: flex;
     padding-right: 2.5rem;
     place-items: center;
     position: relative;
@@ -81,7 +81,7 @@ h3.vertical {
     padding: 1rem 1rem 10%;
     margin: auto;
     width: 100%;
-    height: 75vh;
+    height: 75%;
     max-width: 1000px;
     overflow: auto;
 }
