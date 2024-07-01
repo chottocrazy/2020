@@ -126,7 +126,6 @@ document.addEventListener('readystatechange', event => {
         } else {
             index()
             headline()
-            headline.hidden = false;
         }
     }
 }, false)
