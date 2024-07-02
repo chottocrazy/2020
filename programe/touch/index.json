@@ -31,7 +31,9 @@
             "date": "2020.11.15",
             "text": "大切なものをオンライン発表",
             "status": "done",
-            "href": "../ccm/?value=ayumihirono"
+            "html": [
+                "<iframe src='../ccm/?value=ayumihirono' style='height:75vh;'></iframe>"
+            ]
         },
         {
             "date": "2020.12.11",

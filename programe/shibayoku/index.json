@@ -27,14 +27,12 @@
         {
             "date": "2020.11.1",
             "text": "プレイベント「こす」にて、アトラクション「芝浴」を実現",
-            "status": "done",
-            "href": "../pre-event/"
+            "status": "done"
         },
         {
             "date": "2021.1.16 - 31",
             "text": "大大大 chotto crazy 2020 MAX にて、アトラクション「芝浴」を実現",
-            "status": "done",
-            "href": "../otobuil/main/"
+            "status": "done"
         }
     ]
 }
