@@ -16,7 +16,7 @@ body {
     float: left;
     display: grid;
     place-items: center;
-    border: solid 0.175rem;
+    border: outset 0.5rem;
     text-decoration: none;
     height: 10rem;
     width: calc(100% / 4 * 1);

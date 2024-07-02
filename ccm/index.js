@@ -48,7 +48,7 @@ function mates(obj) {
         if (params.get("name") === mate.id) {
             const name = document.querySelector('#profile h2 ruby b')
             const yomi = document.querySelector('#profile h2 ruby rt')
-            const programe = document.querySelector('#profile #programe')
+            const programe = document.querySelector('#profile #things')
             const valuing = document.querySelector('#profile #valuing')
 
             name.textContent = mate.name;
@@ -73,11 +73,6 @@ function mates(obj) {
             }
 
             questions(`${mate.id}/10q.json`)
-        }
-
-        // ?value=名前
-        if (params.get("value") === mate.id) {
-            value(`${mate.id}/value.json`)
         }
     }
 }
@@ -135,25 +130,36 @@ function creatQ(allQ) {
 }
 
 function valuing(act) {
-    const title = document.querySelector('#value h3 strong')
-    const name = document.querySelector('#value h3 small')
-    title.textContent = act.value;
-    name.textContent = act.name;
+    const body = document.body;
+    const article = document.createElement('article')
+    article.className = "value";
+    body.appendChild(article);
 
-    const section = document.querySelector('#value section')
-    for (const i of act.text) {
-        const p = document.createElement('p')
-        p.innerHTML = i;
-        section.appendChild(p)
-    }
+    const h3 = document.createElement('h3');
+    h3.className = "ja vertical";
+    article.appendChild(h3);
+    const title = document.createElement('strong');
+    title.textContent = act.value;
+    h3.appendChild(title);
+    const name = document.createElement('small');
+    name.textContent = act.name;
+    h3.appendChild(name);
 
     if (act.img) {
-        const img = document.querySelector('#value img')
+        const img = document.createElement('img');
         img.src = act.id + "/" + act.img;
         img.alt = act.value;
-        img.hidden = false;
+        article.appendChild(img);
     }
 
+    const section = document.createElement('section');
+    section.className = "ja_app";
+    article.appendChild(section);
+    for (const i of act.text) {
+        const p = document.createElement('p');
+        p.innerHTML = i;
+        section.appendChild(p);
+    }
 }
 
 function headline() {
@@ -164,25 +170,48 @@ function headline() {
 
 document.addEventListener('readystatechange', event => {
     if (event.target.readyState === 'interactive') {
-        headline()
-        indexJSON()
-
         const header = document.querySelector('header')
         const profile = document.querySelector('#article')
-        const value = document.querySelector('#value')
 
         if (params.get("name")) {
             header.hidden = true;
             profile.hidden = false;
-            value.hidden = true;
+            indexJSON()
         } else if (params.get("value")) {
             header.hidden = true;
             profile.hidden = true;
-            value.hidden = false;
+            if (params.get("value") === "20201015") {
+                value("asano/value.json");
+                value("yexuqo/value.json");
+                value("kennypain/value.json");
+                value("seaketa/value.json");
+            } else if (params.get("value") === "20201115") {
+                value("rie/value.json");
+                value("itochan/value.json");
+                value("ayumihirono/value.json");
+                value("yutoohashi/value.json");
+            } else if (params.get("value") === "20201201") {
+                value("kakitaibuki/value.json");
+                value("2n2n/value.json");
+                value("yuikuroki/value.json");
+                value("wannabeyouth/value.json");
+            } else if (params.get("value") === "20201215") {
+                header.hidden = true;
+                profile.hidden = true;
+                value("chukuippa/value.json");
+                value("jackdoe/value.json");
+                value("sou/value.json");
+                value("shokoyamamura/value.json");
+                value("yamamoo/value.json");
+            } else {
+                value(`${params.get("value")}/value.json`);
+            }
         } else {
+            headline()
+            indexJSON()
+
             header.hidden = false;
             profile.hidden = true;
-            value.hidden = true;
         }
     }
 }, false)

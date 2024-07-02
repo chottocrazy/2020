@@ -10,13 +10,23 @@
 	<meta content="website" property="og:type">
 	<title>アクティブパーク | 大大大 chotto crazy 2020 MAX</title>
 	<meta content="アクティブパーク | 大大大 chotto crazy 2020 MAX" property="og:title">
-	<meta content="___" name="description">
-	<meta content="___" name="og:description">
+	<meta content="2021.1.16-31 音ビル 2F B室 思い出と憧れの洞窟" name="description">
+	<meta content="2021.1.16-31 音ビル 2F B室 思い出と憧れの洞窟" name="og:description">
 
+	<link rel="icon" href="icon.png" type="png">
 	<link rel="stylesheet" href="../../thankyou/style.css">
 	<link rel="stylesheet" href="../../programe/style.css">
 	<link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="style.css">
+
+	<script>
+		let videoId = 'YDttIlRWg9s',
+			directory = "../../";
+	</script>
+	<script src="script.js"></script>
+	<script src="../../programe/dialog.js"></script>
+	<script src="../../youtube/script.js"></script>
+	<script src="../../youtube/video.js"></script>
 </head>
 
 <body class="body">
@@ -27,42 +37,51 @@
 				<u>2021.1.16-31</u>
 				<b>音ビル 2F B室</b>
 			</section>
-			<section class="section" data-z="0.75">
+			<section class="section" data-z="1">
 				<h2><strong>思い出と憧れの洞窟</strong></h2>
 				<b>
-					段ボールで手作りした洞窟のような場所<br>
+					ダンボールで形成された手作りの洞窟のような場所<br>
 					<br>
-					ここで 自由に作り、遊び、できたものを<br>
-					壊したり（壊れたり）、直したりを繰り返し<br>
-					アクティブパークは日々変化します。
+					ここで 自由に遊び、楽しみ、できたものを
+					壊したり（壊れたり）、直したりを繰り返し、<br>
+					決して完成することなく、形を変え続け、
+					集まった一つの塊が、アクティブパーク です。
 				</b>
 			</section>
-			<section class="section" data-z="1.5">
+			<section class="section" data-z="2">
 				<p class="programes">
-					<strong>プログラム</strong>
-					<button type="button">こども基地協会を設立</button>
-					<button type="button">手作りの凧を空へ飛ばしたい</button>
-					<button type="button">オススメを集める</button>
-					<button type="button">自慢コンクール</button>
-					<button type="button">サボテン植え替え大会</button>
-					<button type="button">石を磨きたい</button>
+					<strong>公式プログラム</strong>
+					<button type="button" value="kodomokichi">こども基地協会を設立</button>
+					<button type="button" value="value">自慢コンクール</button>
+					<button type="button" value="botanical">サボテン植え替え大会</button>
+					<button type="button" value="stone">石を磨きたい</button>
 					<strong>を実現します</strong>
 				</p>
 			</section>
-			<section class="section" data-z="2.5">
+			<section class="section" data-z="3">
 				<p class="programes">
 					<strong>感染症拡大防止ガイドラインに基づき</strong>
-					<button type="button">口実を作りたい</button>
-					<button type="button">砂のトンネルで握手</button>
-					<strong>実現を延期します</strong>
+					<button type="button" value="excuse">口実を作りたい</button>
+					<button type="button" value="touch">砂のトンネルで握手</button>
+					<button type="button" value="sky">手作りの凧を空へ飛ばしたい</button>
+					<strong>実現中止を決定しました</strong>
 				</p>
 			</section>
 			<section class="section" data-z="4">
+				<div id="player"></div>
 			</section>
-			<section class="section" data-z="5.55" id="img"></section>
+			<section class="section" data-z="5.15" id="img">
+				<u>クリックすると写真が入れ替わります</u>
+			</section>
+			<section class="section" data-z="5.5"></section>
 		</article>
 	</main>
 	<div id="scroll"></div>
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 	<script type="text/javascript" src="index.js"></script>
+
+	<dialog id="programe">
+		<iframe></iframe>
+		<button type="close">閉じる</button>
+	</dialog>
 </body>

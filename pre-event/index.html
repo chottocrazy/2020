@@ -10,15 +10,21 @@
     <meta content="website" property="og:type">
     <title>こす | 大 chotto crazy 2020</title>
     <meta content="こす | 大 chotto crazy 2020" property="og:title">
-    <meta content="We Support your Amazing Ideas and Creative Challenges" name="description">
-    <meta content="We Support your Amazing Ideas and Creative Challenges" name="og:description">
+    <meta content="2020.11.1 音ビル 2F B室 | 芝浴・暗闇でおしゃべり・サボテン植え替え大会・石を磨く" name="description">
+    <meta content="2020.11.1 音ビル 2F B室 | 芝浴・暗闇でおしゃべり・サボテン植え替え大会・石を磨く" name="og:description">
 
+    <link rel="icon" href="icon.png" type="png">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="Zen_Old_Mincho/style.css">
     <link rel="stylesheet" href="css/gizagiza.css">
     <link rel="stylesheet" href="css/gorogoro.css">
     <link rel="stylesheet" href="../programe/style.css">
+
+    <script>
+        let directory = "../";
+    </script>
     <script src="index.js"></script>
+    <script src="../programe/dialog.js"></script>
 </head>
 
 <body class="kosu">
@@ -77,23 +83,28 @@
         <nav>
             <p class="programes">
                 <strong class="ZenOldMincho">プログラム</strong>
-                <button type="button">芝浴</button>
-                <button type="button">暗闇でおしゃべり</button>
-                <button type="button">サボテン植え替え大会</button>
-                <button type="button">石を磨く</button>
+                <button type="button" value="shibayoku">芝浴</button>
+                <button type="button" value="talkshow">暗闇でおしゃべりしたい</button>
+                <button type="button" value="botanical">サボテン植え替え大会</button>
+                <button type="button" value="stone">石を磨きたい</button>
             </p>
             <p class="programes">
                 <strong class="ZenOldMincho">演奏</strong>
-                <button type="button">YeXuQo</button>
-                <button type="button">seaketa</button>
+                <a>YeXuQo</a>
+                <a>seaketa</a>
                 <br>
                 <strong class="ZenOldMincho">キャスト</strong>
-                <button type="button">Kenny Pain</button>
-                <button type="button">ペフ</button>
+                <a>Kenny Pain</a>
+                <a>ペフ</a>
             </p>
         </nav>
         <section id="img" onclick="changeIMG()"></section>
     </footer>
+
+    <dialog id="programe">
+        <iframe></iframe>
+        <button type="close">閉じる</button>
+    </dialog>
 </body>
 
 </html>

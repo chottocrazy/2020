@@ -27,15 +27,16 @@ h3.vertical {
     height: max-content;
 }
 
-#value button {
+.value button {
     position: fixed;
     left: 0;
     bottom: 0;
 }
 
-#value {
+.value {
     font-size: 111%;
     display: flex;
+    flex-flow: column wrap;
     padding-right: 2.5rem;
     place-items: center;
     position: relative;
@@ -50,11 +51,11 @@ h3.vertical {
     }
 }
 
-#value[hidden] {
+.value[hidden] {
     display: none;
 }
 
-#value button {
+.value button {
     color: #000;
     background: transparent;
     font-size: 111%;
@@ -62,38 +63,39 @@ h3.vertical {
     place-self: flex-end left;
 }
 
-#value img {
+.value img {
     place-self: flex-start;
     filter: blur(1rem);
     transition: filter 2s;
     margin: 2.5rem 2.5rem 4.5rem;
-    max-width: calc(100% - 5rem);
-    max-height: calc(100vh - 5rem);
+    max-width: calc(100% - 7.5rem);
+    max-height: calc(100vh - 7.5rem);
 }
 
-#value img:hover {
+.value img:hover {
     filter: blur(0);
 }
 
 .ja_app {
     font-size: 90%;
     line-height: 200%;
-    padding: 1rem 1rem 10%;
-    margin: auto;
+    padding: 1rem 1rem 5.5rem;
+    margin: 2rem auto auto;
     width: 100%;
-    height: 75%;
+    height: 95%;
     max-width: 1000px;
+    place-self: start;
     overflow: auto;
 }
 
 @media screen and (max-width: 1000px) {
-    #value {
+    .value {
         padding-right: 7.5%;
     }
 }
 
 @media screen and (max-width: 550px) {
-    #value {
+    .value[hidden] {
         padding-right: 12.5%;
     }
 }

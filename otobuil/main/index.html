@@ -10,16 +10,21 @@
     <meta content="website" property="og:type">
     <title>暗室／ステージ | 大大大 chotto crazy 2020 MAX</title>
     <meta content="暗室／ステージ | 大大大 chotto crazy 2020 MAX" property="og:title">
-    <meta content="___" name="description">
-    <meta content="___" name="og:description">
+    <meta content="2021.1.16-31 音ビル 2F A室 自己表現のステージ・コミュニケーションの暗室" name="description">
+    <meta content="2021.1.16-31 音ビル 2F A室 自己表現のステージ・コミュニケーションの暗室" name="og:description">
 
+    <link rel="icon" href="icon.png" type="png">
     <link rel="stylesheet" href="../../thankyou/style.css">
     <link rel="stylesheet" href="../../programe/style.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/room.css">
 
+    <script>
+        let directory = "../../";
+    </script>
     <script src="index.js"></script>
+    <script src="../../programe/dialog.js"></script>
 </head>
 
 <body>
@@ -32,7 +37,7 @@
                 <i>A室</i>
             </strong>
         </h1>
-        <h2>人と話したいけど、注目されたくない。人の視線を感じない環境なら緊張することなく話せるのでは。難しいかもしれないし、簡単かもしれない。人を満足させることが目標ではなく、自分が満足できるように。</h2>
+        <h2>相手を満足させることや、好かれよう／嫌われようと相手を意識しコミュニケーションをはかるのではなく、素直に、正直に、自分の気持ちを伝えるための場所</h2>
         <ul id="shiba" onclick="onOff()">
             <li></li>
             <li></li>
@@ -42,13 +47,13 @@
         </ul>
         <p id="stage" class="programes" hidden>
             <strong>プログラム</strong>
-            <button type="button">芝浴</button>
-            <button type="button">靴の上から靴を履く</button>
-            <button type="button">音の出るものをいっぱい並べる</button>
-            <button type="button">何人かで「ラ(だと思う音)」の音合わせをしたい</button>
+            <button type="button" value="shibayoku">芝浴</button>
+            <button type="button" value="walk">靴の上から靴を履く</button>
+            <button type="button" value="cocoro">音の出るものをいっぱい並べる</button>
+            <button type="button" value="la">何人かで「ラ（だと思う音）」の音合わせをしたい</button>
         </p>
 
-        <h3>特別な技術がなくても、自己表現は誰にでもできる。その人らしい自然な姿がみたい。</h3>
+        <h3>誰にでもできることを、自分らしく、自然に<br>特別な技能を披露することではなく、その人らしさを表現する場所</h3>
         <ul id="ansitsu" onclick="inOut()">
             <li></li>
             <li></li>
@@ -59,11 +64,16 @@
         </ul>
         <p id="communication" class="programes" hidden>
             <strong>プログラム</strong>
-            <button type="button">暗闇でおしゃべりしたい</button>
-            <button type="button">記憶の重ね合わせ</button>
-            <button type="button">とある風景に付随する記憶や感情</button>
+            <button type="button" value="talkshow">暗闇でおしゃべりしたい</button>
+            <button type="button" value="memorygame">記憶の重ね合わせ</button>
+            <button type="button" value="memorygame">とある風景に付随する記憶や感情</button>
         </p>
 
         <div id="wall"></div>
     </main>
+
+    <dialog id="programe">
+        <iframe></iframe>
+        <button type="close">閉じる</button>
+    </dialog>
 </body>

@@ -20,6 +20,22 @@
             ]
         },
         {
+            "date": "2020.11.15",
+            "text": "アクティブパークの理想完成図をオンライン発表",
+            "status": "done",
+            "html": [
+                "<iframe src='kodomokichi/atp01.pdf' style='height:75vh;'></iframe>"
+            ]
+        },
+        {
+            "date": "2020.11.15",
+            "text": "アクティブパークの作り方をオンライン発表",
+            "status": "done",
+            "html": [
+                "<iframe src='kodomokichi/atp02.pdf' style='height:75vh;'></iframe>"
+            ]
+        },
+        {
             "date": "2020.11.16 - 11.30",
             "text": "アクティブパークに段ボール洞窟を設営",
             "status": "done",
@@ -42,6 +58,11 @@
             "html": [
                 "<iframe src='kodomokichi/001_ura.pdf' style='height:75vh;'></iframe>"
             ]
+        },
+        {
+            "date": "2021.1.16 - 31",
+            "text": "大ちょっとクレイジスト 中尾香織が、アクティブパークに居住",
+            "status": "done"
         },
         {
             "date": "2021.1.17 - 1.29",
