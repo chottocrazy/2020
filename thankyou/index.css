@@ -122,8 +122,9 @@ hr {
 
 section u,
 section b {
-    padding: 0 0.25rem;
     display: inline-block;
+    padding: 0 0.4rem;
+    letter-spacing: 0.11rem;
 }
 
 section u {

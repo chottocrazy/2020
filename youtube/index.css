@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+button,
+#result input[type="radio"]:checked+label {
+    font-size: 150%;
+}
+
+#result {
+    font-size: 125%;
+}
+
+footer a {
+    color: #fff;
+    font-size: 100%;
+}
+
+footer a {
+    -webkit-text-stroke: 0.0123rem #000;
+    text-stroke: 0.0123rem #000;
+}
+
+footer button,
+#result input[type="radio"]:checked+label {
+    -webkit-text-stroke: 0.05rem #fff;
+    text-stroke: 0.05rem #fff;
+}
+
+#play {
+    color: #D24117;
+}
+
+#result input[type="radio"]:checked+label {
+    color: #f6d435;
+}
+
+#result input[type="radio"]:checked+label {
+    text-decoration: solid underline #25AF5A;
+}
+
+main,
+footer {
+    font-family: "Arial", "Yu Gothic", sans-serif;
+}
+
+#result input[type="radio"]:checked+label {
+    font-family: "Times New Roman", "Times", serif;
+    font-style: italic;
+}
+
+body,
+main,
+#play,
+footer {
+    display: flex;
+}
+
+body,
+#play {
+    flex-flow: column;
+}
+
+main,
+footer {
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+footer {
+    bottom: 0;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+header,
+button,
+footer a {
+    padding: 0.5rem;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+#result li {
+    margin: 1rem;
+}
+
+header,
+footer,
+main #play iframe {
+    width: 100%;
+}
+
+@media (orientation: landscape) {
+
+    main #result {
+        width: 50%;
+        max-width: max-content;
+    }
+
+    main #result {
+        padding: 5rem 0 0;
+        height: 100vh;
+    }
+
+    main #play {
+        width: 50%;
+    }
+
+    main #play iframe {
+        width: 100%;
+        height: 28vw;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+    }
+
+    .full main #play {
+        width: 100%;
+    }
+
+    .full main #play iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+    }
+}
+
+@media (orientation: portrait) {
+    main {
+        flex-flow: column;
+    }
+
+    main #play,
+    main #result {
+        width: 100%;
+    }
+
+    main #result {
+        padding: 1rem 1rem 2.5rem;
+    }
+
+    main #play iframe {
+        height: 56.5vw;
+    }
+
+    .full main #play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100vh;
+        height: 100vw;
+        transform: translate(-50%, -50%) rotateZ(90deg);
+    }
+
+    .full main #play iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+ul {
+    list-style: none;
+    overflow: auto;
+}
+
+button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: inherit;
+    text-align: left;
+    font-family: inherit;
+    font-weight: 555;
+}
+
+.full header,
+.full #result,
+#result input[type="radio"] {
+    display: none;
+}
+
+body {
+    background: #eee;
+}
