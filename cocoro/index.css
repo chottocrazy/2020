@@ -1,0 +1,257 @@
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+header,
+#title,
+footer p,
+nav {
+  display: flex;
+}
+
+header,
+footer p {
+  gap: 0.5rem;
+  place-items: baseline;
+}
+
+header,
+footer p,
+nav {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#title {
+  flex-flow: column-reverse;
+  justify-content: space-between;
+}
+
+#cocoro {
+  display: grid;
+  place-content: center;
+}
+
+#cover {
+  margin: auto;
+  width: 50rem;
+  height: 50rem;
+}
+
+#cocoro,
+#title {
+  float: left;
+  margin: 1rem;
+}
+
+#info,
+#readme {
+  float: right;
+  margin: 1rem;
+}
+
+#cocoro {
+  border-radius: 2rem;
+  width: 15rem;
+  height: 15rem;
+}
+
+#info {
+  padding: 1rem 0;
+  width: 30rem;
+}
+
+#title {
+  width: 22.5rem;
+  height: 30rem;
+}
+
+#readme {
+  border: solid #000;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 30rem;
+  overflow: auto;
+}
+
+footer p b {
+  padding: 0 1rem;
+  width: 25rem;
+  max-width: 25rem;
+}
+
+footer p i {
+  padding: 1rem 1rem 2.22rem;
+  width: 50rem;
+}
+
+nav {
+  width: 100%;
+}
+
+nav p {
+  padding: 0.75rem 2rem;
+  margin: 0;
+  width: calc(100% / 4 * 1);
+  border-left: dashed #000 1px;
+  border-right: dashed #000 1px;
+}
+
+@media (max-width: 950px) {
+  html {
+    font-size: 1.75vw;
+  }
+
+  #cover {
+    width: 95%;
+    height: 95vw;
+  }
+
+  #cocoro {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  #info {
+    width: 55vw;
+  }
+
+  #title {
+    width: 50vw;
+    height: 52.5vw;
+  }
+
+  #readme {
+    width: 35vw;
+    height: 60vw;
+  }
+
+  footer p b {
+    width: 50%;
+  }
+
+  footer p i {
+    width: 100%;
+  }
+
+
+  nav p {
+    font-size: 125%;
+    height: 12.5rem;
+    writing-mode: vertical-rl;
+  }
+}
+
+
+@media (max-width: 750px) {
+  html {
+    font-size: 2.5vw;
+  }
+
+  #cover,
+  #info,
+  #readme,
+  #title {
+    height: max-content;
+  }
+
+  #cover {
+    width: 95%;
+  }
+
+  #cover::after,
+  footer::before {
+    content: "";
+    clear: both;
+    width: 100%;
+  }
+
+  #info {
+    clear: both;
+    width: 90%;
+  }
+
+  #readme,
+  #title,
+  footer,
+  footer p b,
+  footer p i {
+    clear: both;
+    width: 95%;
+  }
+
+  #cocoro {
+    display: none;
+  }
+
+  nav,
+  nav p {
+    border: none;
+  }
+
+  nav p {
+    width: 100%;
+    height: max-content;
+    writing-mode: horizontal-tb;
+  }
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+  }
+
+  html {
+    font-size: 1.75vw;
+  }
+
+  body {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  #cover {
+    width: 95%;
+    height: 90vw;
+  }
+
+  #cocoro {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  #info {
+    width: 55vw;
+  }
+
+  #title {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  #readme {
+    width: 35vw;
+    height: 60vw;
+  }
+
+  footer p b {
+    width: 50%;
+  }
+
+  footer p i {
+    width: 100%;
+  }
+
+
+  nav p {
+    font-size: 125%;
+    height: 12.5rem;
+    writing-mode: vertical-rl;
+  }
+}

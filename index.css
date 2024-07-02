@@ -93,7 +93,8 @@ h1 {
 }
 
 #main article.column b,
-#main article.row section p b {
+#main article.row section p b,
+#cocoro h4 {
     font-size: 200%;
     letter-spacing: 1rem;
 }
@@ -125,7 +126,8 @@ h2 small {
 #main article.row section[data-before]::before,
 #main article.row section[data-after]::after,
 #main article.full section[data-after]::after,
-#main article.column {
+#main article.column,
+#cocoro h4 {
     writing-mode: vertical-lr;
 }
 
@@ -211,5 +213,27 @@ h2 small {
     #main article.medium#cocoro {
         width: 100%;
         height: 50vw;
+    }
+}
+
+#cocoro h4 {
+    animation: cocoro 1.11s linear infinite;
+}
+
+@keyframes cocoro {
+    0% {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    25% {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    50% {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    75% {
+        font-family: 'Times New Roman', Times, serif;
     }
 }

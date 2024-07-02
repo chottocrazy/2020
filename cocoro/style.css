@@ -1,0 +1,192 @@
+header {
+    background: #eee;
+}
+
+.logo i {
+    color: #f6d435;
+}
+
+nav p {
+    background: #f6d435;
+}
+
+#readme p {
+    background: rgba(225, 225, 200, 0.5);
+}
+
+nav p b {
+    color: #fff;
+    -webkit-text-stroke: 0.0125rem #000;
+    text-stroke: 0.0125rem #000;
+}
+
+nav p u {
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+}
+
+#title h2,
+#title h3,
+footer p b,
+nav {
+    font-family: "Arial", "Yu Gothic", sans-serif;
+    font-weight: 555;
+}
+
+h1,
+#info,
+#readme::before,
+footer p i,
+nav p small {
+    font-family: "Times New Roman", "Times", serif;
+    line-height: 175%;
+}
+
+#cocoro {
+    font-size: 1111%;
+}
+
+#title h1 {
+    font-size: 400%;
+}
+
+header,
+#info strong {
+    font-size: 222%;
+}
+
+footer p i {
+    font-size: 200%;
+}
+
+footer p span {
+    font-size: 150%;
+}
+
+#title h2,
+#title h2 b,
+#info b,
+#readme::before,
+footer p b,
+nav p b {
+    font-size: 125%;
+}
+
+#title h3 {
+    font-size: 100%;
+}
+
+#readme p,
+nav p small {
+    font-size: 97.5%;
+}
+
+nav p small {
+    font-style: italic;
+}
+
+footer p b,
+footer p i {
+    text-align: center;
+}
+
+#readme p {
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 1rem 1rem auto;
+    width: 80%;
+}
+
+#readme p::before {
+    content: "";
+    right: 100%;
+    bottom: 1rem;
+    border-top: 1rem solid transparent;
+    border-right: 2rem solid rgba(225, 225, 200, 0.5);
+    border-bottom: 1rem solid transparent;
+}
+
+#title,
+#readme::before {
+    writing-mode: vertical-rl;
+}
+
+#title,
+#readme,
+#readme p,
+.cocoro {
+    position: relative;
+}
+
+#title h1,
+#readme p::before,
+#readme::before,
+.cocoro::before {
+    position: absolute;
+}
+
+#title h1,
+.cocoro::before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cocoro {
+    display: inline-block;
+    animation: dokidoki 1.11s linear infinite;
+}
+
+@keyframes dokidoki {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(0.79);
+    }
+}
+
+.cocoro::before {
+    content: "心";
+    font-size: 30%;
+    animation: cocoro 1.11s linear infinite;
+}
+
+@keyframes cocoro {
+    0% {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    25% {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    50% {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    75% {
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+#readme::before {
+    content: '企画 Yamamoo';
+    bottom: 1rem;
+    left: 0.5rem;
+}
+
+header {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
