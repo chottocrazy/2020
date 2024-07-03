@@ -47,10 +47,18 @@ function onGoogleLoad() {
                 input.dataset.no = i;
                 li.appendChild(input)
 
-                const label = document.createElement('label')
-                label.setAttribute('for', thisID)
+                const label = document.createElement('label');
+                label.setAttribute('for', thisID);
                 label.innerText = thisTitle;
-                li.appendChild(label)
+                li.appendChild(label);
+
+                const br = document.createElement('br');
+                label.appendChild(br);
+
+                const img = document.createElement('img');
+                img.src = `https://i.ytimg.com/vi/${thisID}/mqdefault.jpg`;
+                img.setAttribute('alt', thisTitle)
+                label.appendChild(img);
 
                 if (i === 0) {
                     input.checked = true;

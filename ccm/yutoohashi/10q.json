@@ -96,7 +96,7 @@
         },
         {
             "id": "Q10",
-            "question": "When you say  <b>thank you</b> you feel",
+            "question": "When you say thank you you feel",
             "jp": "ありがとうと伝えるとき",
             "yes": "embarrassed",
             "left": "照れくさい",
