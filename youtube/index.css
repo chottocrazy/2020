@@ -186,6 +186,10 @@ main #play iframe {
         padding: 1rem 1rem 2.5rem;
     }
 
+    #result li {
+        height: 15.5rem;
+    }
+
     main #play iframe {
         height: 56.5vw;
     }
