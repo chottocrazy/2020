@@ -1,0 +1,592 @@
+{
+    "by": "アクティブパーク",
+    "types": [
+        {
+            "id": "itochan",
+            "title": "薦",
+            "name": "Hiroki Ito",
+            "message": "Clouds are hiding all day long☁️ Say hello at midnight☀︎<br>雲は、朝も昼も夕方も夜も深夜も早朝も隠れています☁深夜00:00は、こんにちはを言おう☀︎",
+            "url": "___"
+        },
+        {
+            "id": "rie",
+            "title": "子",
+            "name": "Rie",
+            "message": "Cheer up!<br>元気出して！（ときどき自分に声かけてます(笑)）",
+            "url": "___"
+        },
+        {
+            "id": "ayumihirono",
+            "title": "口",
+            "name": "Ayumi Hirono",
+            "message": "Shaking hands or claping our hands<br>握手または拍手",
+            "url": "___"
+        },
+        {
+            "id": "yamamoo",
+            "title": "音",
+            "name": "Yamamoo",
+            "message": "come on join us!<br>是非顔出して下さい。来た瞬間から貴方はもうアーティスト",
+            "url": "___"
+        },
+        {
+            "id": "yutoohashi",
+            "title": "空",
+            "name": "Yuto Ohashi",
+            "message": "presentday presenttime<br>プレゼントデイ、プレゼントタイム",
+            "url": "___"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Do you believe in invisible existence?",
+            "jp": "目に見えないものの存在を",
+            "yes": "yes i do",
+            "left": "信じる",
+            "no": "no i don't",
+            "right": "信じない",
+            "left_to": "Q2",
+            "light_to": "Q4"
+        },
+        {
+            "id": "Q2",
+            "question": "Do you often compare with someone?",
+            "jp": "人と比べることある？",
+            "yes": "yes i do",
+            "left": "ある",
+            "no": "no i don't",
+            "right": "ない",
+            "left_to": "Q6",
+            "light_to": "Q3"
+        },
+        {
+            "id": "Q3",
+            "question": "Which way do you go?",
+            "jp": "どちらに行きますか？",
+            "yes": "toward left",
+            "left": "左へ",
+            "no": "toward right",
+            "right": "右へ",
+            "left_to": "Q5",
+            "light_to": "Q6"
+        },
+        {
+            "id": "Q4",
+            "question": "Do you think there is a better place?",
+            "jp": "今よりももっといい場所があるとおもう",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q7",
+            "light_to": "Q3"
+        },
+        {
+            "id": "Q5",
+            "question": "I am at the top of the building. because",
+            "jp": "ビルのてっぺん",
+            "yes": "want to see the sky",
+            "left": "空が見たいから",
+            "no": "want to see the clouds",
+            "right": "雲が見たいから",
+            "left_to": "Q9",
+            "light_to": "Q8"
+        },
+        {
+            "id": "Q6",
+            "question": "Do you want someone to understand?",
+            "jp": "理解してほしいと思う？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q10",
+            "light_to": "Q8"
+        },
+        {
+            "id": "Q7",
+            "question": "Is there a boundary?",
+            "jp": "境い目はあるとおもう",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q6",
+            "light_to": "Q11"
+        },
+        {
+            "id": "Q8",
+            "question": "What do you imagine when you hear &quot;hachi&quot;?",
+            "jp": "『はち』といえば、どちらですか？",
+            "yes": "8",
+            "left": "8",
+            "no": "a bee",
+            "right": "蜂",
+            "left_to": "Q11",
+            "light_to": "Q9"
+        },
+        {
+            "id": "Q9",
+            "question": "Let&#039;s go to the park. because",
+            "jp": "公園行こ",
+            "yes": "want to walk with you",
+            "left": "歩きたいから",
+            "no": "want to talk with you",
+            "right": "話したいから",
+            "left_to": "Q13",
+            "light_to": "Q10"
+        },
+        {
+            "id": "Q10",
+            "question": "Let&#039;s talk! because",
+            "jp": "話そ",
+            "yes": "my hair has grown",
+            "left": "髪が伸びたから",
+            "no": "I saw a UFO",
+            "right": "UFO見たから",
+            "left_to": "Q18",
+            "light_to": "Q12"
+        },
+        {
+            "id": "Q11",
+            "question": "What color do you like?",
+            "jp": "好きな色は、何ですか？",
+            "yes": "green",
+            "left": "緑",
+            "no": "red",
+            "right": "赤",
+            "left_to": "Q12",
+            "light_to": "Q13"
+        },
+        {
+            "id": "Q12",
+            "question": "What animal do you like?",
+            "jp": "好きな動物は、何ですか？",
+            "yes": "cats",
+            "left": "猫",
+            "no": "a bear",
+            "right": "熊",
+            "left_to": "Q14",
+            "light_to": "Q17"
+        },
+        {
+            "id": "Q13",
+            "question": "Did you feel good when you watched the TV program &quot;Hanzawa Naoki&quot;?",
+            "jp": "半沢直樹見て、スッキリした？",
+            "yes": "yes i did",
+            "left": "した",
+            "no": "no i didn't / i never saw",
+            "right": "してない",
+            "left_to": "Q19",
+            "light_to": "Q18"
+        },
+        {
+            "id": "Q14",
+            "question": "Do you know where it came from?",
+            "jp": "どこから来たのかを知っている",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q17",
+            "light_to": "Q20"
+        },
+        {
+            "id": "Q15",
+            "question": "When do you fell happy?",
+            "jp": "幸せを感じるのは？",
+            "yes": "when being by myself",
+            "left": "ひとりでいるとき",
+            "no": "when being with someone",
+            "right": "他の人といるとき",
+            "left_to": "Q16",
+            "light_to": "Q18"
+        },
+        {
+            "id": "Q16",
+            "question": "I am",
+            "jp": "自分は",
+            "yes": "an adult",
+            "left": "もうさすがに大人",
+            "no": "still a child",
+            "right": "まだぜんぜん子供",
+            "left_to": "Q20",
+            "light_to": "Q22"
+        },
+        {
+            "id": "Q17",
+            "question": "What taste of ice cream do youlike?",
+            "jp": "何味のアイスが好きですか？",
+            "yes": "vanilla",
+            "left": "バニラ",
+            "no": "green tea",
+            "right": "抹茶",
+            "left_to": "Q21",
+            "light_to": "Q22"
+        },
+        {
+            "id": "Q18",
+            "question": "Let&#039;s eat gyoza! because",
+            "jp": "餃子食べよ",
+            "yes": "it&#039;s sunny",
+            "left": "晴れてるから",
+            "no": "my stomach tells me so",
+            "right": "胃がそう言ってるから",
+            "left_to": "Q23",
+            "light_to": "Q20"
+        },
+        {
+            "id": "Q19",
+            "question": "Do you want to travel abroad soon?",
+            "jp": "早く海外旅行に行きたい？",
+            "yes": "yes",
+            "left": "行きたい",
+            "no": "no i don't",
+            "right": "行きたくない",
+            "left_to": "Q21",
+            "light_to": "Q31"
+        },
+        {
+            "id": "Q20",
+            "question": "Which do you need?",
+            "jp": "聴診器と時計、どちらが必要だと思う",
+            "yes": "a stethoscope",
+            "left": "聴診器",
+            "no": "a watch",
+            "right": "時計",
+            "left_to": "Q24",
+            "light_to": "Q21"
+        },
+        {
+            "id": "Q21",
+            "question": "Do you like consuming?",
+            "jp": "消費が好き？",
+            "yes": "yes",
+            "left": "好き",
+            "no": "no i don't",
+            "right": "好きでない",
+            "left_to": "Q27",
+            "light_to": "Q24"
+        },
+        {
+            "id": "Q22",
+            "question": "What do you think about during a boring meeting?",
+            "jp": "つまらない会議の間何を考えている？",
+            "yes": "things that want to do",
+            "left": "やりたいこと",
+            "no": "people who love",
+            "right": "好きなひとのこと",
+            "left_to": "Q26",
+            "light_to": "Q25"
+        },
+        {
+            "id": "Q23",
+            "question": "Let&#039;s dig potatoes! because",
+            "jp": "じゃがいも掘ろ",
+            "yes": "haven&#039;t ever seen a shooting star",
+            "left": "流れ星見たことないしさ",
+            "no": "want to go to germany",
+            "right": "ドイツ行きたいし",
+            "left_to": "Q28",
+            "light_to": "Q26"
+        },
+        {
+            "id": "Q24",
+            "question": "When you open your eyes you will see",
+            "jp": "目を開くと",
+            "yes": "the sky",
+            "left": "空がみえる",
+            "no": "some people",
+            "right": "人がみえる",
+            "left_to": "Q28",
+            "light_to": "Q31"
+        },
+        {
+            "id": "Q25",
+            "question": "You have a trauma?",
+            "jp": "トラウマが",
+            "yes": "yes",
+            "left": "ある",
+            "no": "no",
+            "right": "ない",
+            "left_to": "Q32",
+            "light_to": "Q26"
+        },
+        {
+            "id": "Q26",
+            "question": "Chocolate. because",
+            "jp": "チョコレート",
+            "yes": "it&#039;s cold",
+            "left": "寒いから",
+            "no": "the parcel isn&#039;t delivered yet",
+            "right": "宅配便が届かないから",
+            "left_to": "Q33",
+            "light_to": "Q27"
+        },
+        {
+            "id": "Q27",
+            "question": "Do you want to go and see this event?",
+            "jp": "このイベント見てみたい？",
+            "yes": "yes",
+            "left": "見たい",
+            "no": "not really",
+            "right": "特に行きたいと思わない",
+            "left_to": "Q30",
+            "light_to": "Q30"
+        },
+        {
+            "id": "Q28",
+            "question": "Can you sleep in the lighted place?",
+            "jp": "明るい場所で眠ることができる",
+            "yes": "yes i can",
+            "left": "はい",
+            "no": "no i can't",
+            "right": "いいえ",
+            "left_to": "Q29",
+            "light_to": "Q31"
+        },
+        {
+            "id": "Q29",
+            "question": "In the darkest place you would",
+            "jp": "もっとも暗い場所で",
+            "yes": "lay down",
+            "left": "横たわる",
+            "no": "close your eyes",
+            "right": "目を瞑る",
+            "left_to": "Q41",
+            "light_to": "Q30"
+        },
+        {
+            "id": "Q30",
+            "question": "Do you often listen carefully?",
+            "jp": "耳をそばだてる時ある？",
+            "yes": "yes",
+            "left": "ある",
+            "no": "no",
+            "right": "ない",
+            "left_to": "Q36",
+            "light_to": "Q31"
+        },
+        {
+            "id": "Q31",
+            "question": "What taste of ramen noodle do you like?",
+            "jp": "どの味のラーメンが好きです？",
+            "yes": "Tonkotsu (pork bone broth)",
+            "left": "豚骨",
+            "no": "salt",
+            "right": "塩",
+            "left_to": "Q34",
+            "light_to": "Q41"
+        },
+        {
+            "id": "Q32",
+            "question": "What do you see when you walk?",
+            "jp": "歩いているときどこを見てる？",
+            "yes": "a person passing by",
+            "left": "向こうから来る人",
+            "no": "scenery around",
+            "right": "周りの景色",
+            "left_to": "Q33",
+            "light_to": "Q35"
+        },
+        {
+            "id": "Q33",
+            "question": "Let&#039;s watch the rising sun! because",
+            "jp": "朝日見よ",
+            "yes": "saw it on the TV yesterday",
+            "left": "昨日テレビで見たから",
+            "no": "in the mountain now",
+            "right": "今山にいるから",
+            "left_to": "Q34",
+            "light_to": "Q38"
+        },
+        {
+            "id": "Q34",
+            "question": "What do you draw with?",
+            "jp": "絵を描く時は、何を持ちますか？",
+            "yes": "a pencil",
+            "left": "鉛筆",
+            "no": "a ballpoint pen",
+            "right": "ボールペン",
+            "left_to": "Q36",
+            "light_to": "Q37"
+        },
+        {
+            "id": "Q35",
+            "question": "Do you drink alcohol when you are alone?",
+            "jp": "ひとりでも",
+            "yes": "yes",
+            "left": "飲む",
+            "no": "no",
+            "right": "飲まない",
+            "left_to": "Q42",
+            "light_to": "Q38"
+        },
+        {
+            "id": "Q36",
+            "question": "Do you like young people these days?",
+            "jp": "最近の若者は好き？",
+            "yes": "yes",
+            "left": "好き",
+            "no": "no i don't",
+            "right": "嫌い",
+            "left_to": "Q42",
+            "light_to": "Q40"
+        },
+        {
+            "id": "Q37",
+            "question": "Which do you like?",
+            "jp": "どちらが好きですか？",
+            "yes": "a pillow",
+            "left": "枕",
+            "no": "a cushion",
+            "right": "クッション",
+            "left_to": "Q39",
+            "light_to": "Q38"
+        },
+        {
+            "id": "Q38",
+            "question": "Let&#039;s go to the book store. because",
+            "jp": "__",
+            "yes": "just found it",
+            "left": "見つけたから",
+            "no": "it was on the road",
+            "right": "落ちてたから",
+            "left_to": "Q45",
+            "light_to": "Q42"
+        },
+        {
+            "id": "Q39",
+            "question": "MUJI is about?",
+            "jp": "無印良品といえば、何ですか？",
+            "yes": "curry",
+            "left": "カレー",
+            "no": "cosmetics",
+            "right": "化粧水",
+            "left_to": "Q40",
+            "light_to": "Q46"
+        },
+        {
+            "id": "Q40",
+            "question": "Do you want to buy as much as you can at a 100 yen shop?",
+            "jp": "いやというほど100均で買い物したい？",
+            "yes": "yes",
+            "left": "してみたい",
+            "no": "not so much",
+            "right": "別にしたくない",
+            "left_to": "Q48",
+            "light_to": "Q41"
+        },
+        {
+            "id": "Q41",
+            "question": "Which prefer if you keep walking?",
+            "jp": "歩き続けるならどちらがいい",
+            "yes": "in the city",
+            "left": "街",
+            "no": "in a harbor",
+            "right": "港",
+            "left_to": "Q45",
+            "light_to": "Q43"
+        },
+        {
+            "id": "Q42",
+            "question": "The Truth",
+            "jp": "本当のこと",
+            "yes": "want to know",
+            "left": "知りたい",
+            "no": "don&#039;t want to know",
+            "right": "知りたくない",
+            "left_to": "Q46",
+            "light_to": "Q44"
+        },
+        {
+            "id": "Q43",
+            "question": "When you say &quot;thank you&quot; you feel",
+            "jp": "ありがとうと伝えるとき",
+            "yes": "embarrassed",
+            "left": "照れくさい",
+            "no": "happy",
+            "right": "嬉しくなる",
+            "left_to": "Q47",
+            "light_to": "Q46"
+        },
+        {
+            "id": "Q44",
+            "question": "Love is all about?",
+            "jp": "愛こそ",
+            "yes": "yes",
+            "left": "すべて",
+            "no": "no",
+            "right": "すべてではない",
+            "left_to": "Q49",
+            "light_to": "Q48"
+        },
+        {
+            "id": "Q45",
+            "question": "Let&#039;s go out together. because",
+            "jp": "デートしましょう",
+            "yes": "the wind brew",
+            "left": "風が吹いたから",
+            "no": "we like green",
+            "right": "緑が好きだから",
+            "left_to": "Q50",
+            "light_to": "Q49"
+        },
+        {
+            "id": "Q46",
+            "question": "Where do you drink melon soda?",
+            "jp": "メロンソーダは、どこで飲みますか？",
+            "yes": "at a cafe",
+            "left": "喫茶店",
+            "no": "at karaoke shop",
+            "right": "カラオケ屋さん",
+            "left_to": "ayumihirono",
+            "light_to": "itochan"
+        },
+        {
+            "id": "Q47",
+            "question": "Do you think it is okay if you have a day you do nothing?",
+            "jp": "なにもしない日があってもいいと思う",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "yutoohashi",
+            "light_to": "yamamoo"
+        },
+        {
+            "id": "Q48",
+            "question": "Do you think expression is necessary?",
+            "jp": "表現って必要？",
+            "yes": "yes",
+            "left": "必要",
+            "no": "no i don't",
+            "right": "必要ない",
+            "left_to": "yamamoo",
+            "light_to": "rie"
+        },
+        {
+            "id": "Q49",
+            "question": "If there is a kids base what do you think?",
+            "jp": "こども基地と聞いたら",
+            "yes": "I want to play there!",
+            "left": "遊びたい",
+            "no": "I want my kids to play there",
+            "right": "遊ばせたい",
+            "left_to": "rie",
+            "light_to": "itochan"
+        },
+        {
+            "id": "Q50",
+            "question": "A excuse",
+            "jp": "口実",
+            "yes": "I need some",
+            "left": "いる",
+            "no": "I don&#039;t need it",
+            "right": "いらない",
+            "left_to": "ayumihirono",
+            "light_to": "Q46"
+        }
+    ]
+}

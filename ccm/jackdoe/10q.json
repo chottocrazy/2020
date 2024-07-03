@@ -57,7 +57,7 @@
             "id": "Q5",
             "question": "What would you do if you found a person in trouble?",
             "jp": "困ってる人がいたらどうする？",
-            "yes": "I would help him",
+            "yes": "I would help her/him",
             "left": "助ける",
             "no": "I would do nothing",
             "right": "何もしない"
@@ -82,7 +82,7 @@
         },
         {
             "id": "Q8",
-            "question": "Do you think youself are an <i>adult<i>?",
+            "question": "Do you think youself are an &quot;adult&quot;?",
             "jp": "自分を「大人」だと思っている？",
             "yes": "No i am still a child",
             "left": "まだ子どもだと思っている",

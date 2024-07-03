@@ -1,0 +1,592 @@
+{
+    "by": "ステージ／暗室",
+    "types": [
+        {
+            "id": "chukuippa",
+            "title": "銘",
+            "name": "Chukuippa",
+            "message": "Let&#039;s walk with straightening your back.<br>背筋を伸ばして歩こう",
+            "url": "___"
+        },
+        {
+            "id": "kakitaibuki",
+            "title": "記",
+            "name": "Kakita Ibuki",
+            "message": "Do you see the front when you look from the back?<br>ウラから覗けばオモテがみえる？",
+            "url": "___"
+        },
+        {
+            "id": "twontwon",
+            "title": "憶",
+            "name": "2n2n",
+            "message": "Let&#039;s do something fun!<br>面白いことしましょ",
+            "url": "___"
+        },
+        {
+            "id": "yuikuroki",
+            "title": "寝",
+            "name": "Yui Kuroki",
+            "message": "Let&#039;s enjoy Ofuton life together!<br>いっしょにおふとんライフを楽しみましょう！",
+            "url": "___"
+        },
+        {
+            "id": "wannabeyouth",
+            "title": "靴",
+            "name": "wanna be youth",
+            "message": "Thank you for your hard work today.<br>今日もお疲れさまです",
+            "url": "___"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Well..it might be.",
+            "jp": "きっとそうだろうな",
+            "yes": "yes it might be",
+            "left": "はい、きっと。",
+            "no": "no...may be...",
+            "right": "いいえ、おそらく。",
+            "left_to": "Q2",
+            "light_to": "Q5"
+        },
+        {
+            "id": "Q2",
+            "question": "Do you want to be forgiven?",
+            "jp": "許されたい？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q7",
+            "light_to": "Q3"
+        },
+        {
+            "id": "Q3",
+            "question": "You like ambiguous relationship?",
+            "jp": "曖昧な関係が好きだ",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q6",
+            "light_to": "Q4"
+        },
+        {
+            "id": "Q4",
+            "question": "Do you have a own motto/policy?",
+            "jp": "あなたには座右の銘がありますか？",
+            "yes": "yes",
+            "left": "ある",
+            "no": "no",
+            "right": "ない",
+            "left_to": "Q5",
+            "light_to": "Q6"
+        },
+        {
+            "id": "Q5",
+            "question": "Do you like walking?",
+            "jp": "歩くのは好き？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no i don't",
+            "right": "いいえ",
+            "left_to": "Q6",
+            "light_to": "Q8"
+        },
+        {
+            "id": "Q6",
+            "question": "Do you believe in rebirth?",
+            "jp": "生まれ変わりって信じる？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q8",
+            "light_to": "Q10"
+        },
+        {
+            "id": "Q7",
+            "question": "Which do you believe?",
+            "jp": "信じるとしたら",
+            "yes": "my memory",
+            "left": "自分の記憶",
+            "no": "someone&#039;s memory",
+            "right": "他人の記憶",
+            "left_to": "Q15",
+            "light_to": "Q11"
+        },
+        {
+            "id": "Q8",
+            "question": "Do you predict someone&#039;s memory?",
+            "jp": "他人の記憶を予想したりする？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q10",
+            "light_to": "Q9"
+        },
+        {
+            "id": "Q9",
+            "question": "Do you want to exchange your motto/policy?",
+            "jp": "座右の銘を交換してみたいと思いますか？",
+            "yes": "yes",
+            "left": "思う",
+            "no": "no",
+            "right": "思わない",
+            "left_to": "Q19",
+            "light_to": "Q11"
+        },
+        {
+            "id": "Q10",
+            "question": "What would you do when you visit a town you don&#039;t know?",
+            "jp": "知らない場所に行ったら",
+            "yes": "walking around",
+            "left": "町を散歩する",
+            "no": "looking for a cafe",
+            "right": "喫茶店を探す",
+            "left_to": "Q13",
+            "light_to": "Q14"
+        },
+        {
+            "id": "Q11",
+            "question": "The eyes are the windows to the soul. agree?",
+            "jp": "目は口ほどに物を言う？",
+            "yes": "yes",
+            "left": "そう思う",
+            "no": "no i don&#039;t think so",
+            "right": "そう思わない",
+            "left_to": "Q14",
+            "light_to": "Q12"
+        },
+        {
+            "id": "Q12",
+            "question": "Which do you rely on?",
+            "jp": "どっちを頼りにする？",
+            "yes": "knowledge",
+            "left": "知識",
+            "no": "experience",
+            "right": "経験",
+            "left_to": "Q13",
+            "light_to": "Q16"
+        },
+        {
+            "id": "Q13",
+            "question": "Do you good at remembering directions?",
+            "jp": "道を覚えるのは得意？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q15",
+            "light_to": "Q16"
+        },
+        {
+            "id": "Q14",
+            "question": "Do you believe in ghost?",
+            "jp": "幽霊は信じる？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q23",
+            "light_to": "Q15"
+        },
+        {
+            "id": "Q15",
+            "question": "Do you often experience deja vu?",
+            "jp": "普段デジャブを体験スル？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no i don't",
+            "right": "いいえ",
+            "left_to": "Q18",
+            "light_to": "Q19"
+        },
+        {
+            "id": "Q16",
+            "question": "What do you tend to do when you take a walk?",
+            "jp": "散歩中よくすることは？",
+            "yes": "listening to music",
+            "left": "音楽を聴く",
+            "no": "thinking about something",
+            "right": "考えごと",
+            "left_to": "Q17",
+            "light_to": "Q19"
+        },
+        {
+            "id": "Q17",
+            "question": "What do you look at when you taking a walk?",
+            "jp": "さんぽ中、つい見てしまうのは？",
+            "yes": "plants at house around",
+            "left": "人の家の植物",
+            "no": "window of a house",
+            "right": "人の家の窓",
+            "left_to": "Q26",
+            "light_to": "Q22"
+        },
+        {
+            "id": "Q18",
+            "question": "Is it that?",
+            "jp": "あれはそれ？",
+            "yes": "yes that is it",
+            "left": "はい、あれはそれ。",
+            "no": "no it is that",
+            "right": "いいえ、それはあれ。",
+            "left_to": "Q26",
+            "light_to": "Q24"
+        },
+        {
+            "id": "Q19",
+            "question": "What do you think if you have to exchange your motto/policy with someone?",
+            "jp": "座右の銘（もしくはモットー、ポリシー、考え、信念など）を交換せざるを得ない状況になったら、どう思いますか？",
+            "yes": "would be very excited",
+            "left": "ワクワクする",
+            "no": "would be disappointed",
+            "right": "テンションが下がる",
+            "left_to": "Q20",
+            "light_to": "Q23"
+        },
+        {
+            "id": "Q20",
+            "question": "What do you think if your motto/policy must be &quot;simplicity and fortitude&quot;?",
+            "jp": "今日からあなたの座右の銘が「質実剛健」になったらどんな気分ですか？",
+            "yes": "would be sad",
+            "left": "どちらかと言えば悲しい",
+            "no": "would be happy",
+            "right": "どちらかと言えば嬉しい",
+            "left_to": "Q21",
+            "light_to": "Q22"
+        },
+        {
+            "id": "Q21",
+            "question": "simplicity and fortitude is",
+            "jp": "質実剛健って",
+            "yes": "difficult",
+            "left": "こむずかしい",
+            "no": "cool",
+            "right": "かっこいい",
+            "left_to": "Q24",
+            "light_to": "Q25"
+        },
+        {
+            "id": "Q22",
+            "question": "The important thing should be",
+            "jp": "大事なことは",
+            "yes": "shared",
+            "left": "共有する",
+            "no": "kept a secret",
+            "right": "一人で愛でる",
+            "left_to": "Q26",
+            "light_to": "Q23"
+        },
+        {
+            "id": "Q23",
+            "question": "A fragmentary thing is the best",
+            "jp": "断片的なのが大事",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q29",
+            "light_to": "Q25"
+        },
+        {
+            "id": "Q24",
+            "question": "Which would you choose?",
+            "jp": "なんとなく選ぶとしたら",
+            "yes": "tree",
+            "left": "木 (き)",
+            "no": "mountain",
+            "right": "山 (やま)",
+            "left_to": "Q30",
+            "light_to": "Q25"
+        },
+        {
+            "id": "Q25",
+            "question": "good fortune and happiness will come to the home of those who smile",
+            "jp": "笑う門には福来たる",
+            "yes": "yes i think so too",
+            "left": "に違いない",
+            "no": "not so much..",
+            "right": "とは限らない",
+            "left_to": "Q30",
+            "light_to": "Q31"
+        },
+        {
+            "id": "Q26",
+            "question": "What bedding do you use?",
+            "jp": "いつも使う寝具は",
+            "yes": "Bed",
+            "left": "ベッド",
+            "no": "Futon",
+            "right": "敷布団",
+            "left_to": "Q32",
+            "light_to": "Q27"
+        },
+        {
+            "id": "Q27",
+            "question": "Which do you like?",
+            "jp": "浴びるなら？",
+            "yes": "sun light",
+            "left": "日光",
+            "no": "moon light",
+            "right": "月光",
+            "left_to": "Q31",
+            "light_to": "Q28"
+        },
+        {
+            "id": "Q28",
+            "question": "Eventually",
+            "jp": "ゆくゆくは？",
+            "yes": "we will fly",
+            "left": "空を飛ぶ",
+            "no": "we will crawl on the ground",
+            "right": "地を這う",
+            "left_to": "Q29",
+            "light_to": "Q34"
+        },
+        {
+            "id": "Q29",
+            "question": "Do you have a wider view?",
+            "jp": "視野広い？",
+            "yes": "yep",
+            "left": "うん",
+            "no": "nope",
+            "right": "ううん",
+            "left_to": "Q32",
+            "light_to": "Q35"
+        },
+        {
+            "id": "Q30",
+            "question": "There is a thing that only I can see",
+            "jp": "自分にしか見えないものがある",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q33",
+            "light_to": "Q34"
+        },
+        {
+            "id": "Q31",
+            "question": "You would choose",
+            "jp": "もし選ぶなら、",
+            "yes": "Continuity is the father of success",
+            "left": "継続は力なり",
+            "no": "Sometimes you just have to give up",
+            "right": "辞め時が肝心",
+            "left_to": "Q37",
+            "light_to": "Q35"
+        },
+        {
+            "id": "Q32",
+            "question": "Do you dream?",
+            "jp": "よく夢を",
+            "yes": "often",
+            "left": "見る",
+            "no": "rarely",
+            "right": "見ない",
+            "left_to": "Q38",
+            "light_to": "Q34"
+        },
+        {
+            "id": "Q33",
+            "question": "To be honest you see the magical power?",
+            "jp": "実は魔力が見える",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no i don't",
+            "right": "いいえ",
+            "left_to": "Q36",
+            "light_to": "Q39"
+        },
+        {
+            "id": "Q34",
+            "question": "Which would you like to be?",
+            "jp": "なるとしたら",
+            "yes": "a spherical object",
+            "left": "球体",
+            "no": "a cube",
+            "right": "立方体",
+            "left_to": "Q37",
+            "light_to": "Q36"
+        },
+        {
+            "id": "Q35",
+            "question": "Do employees dream of a butterfly?",
+            "jp": "清掃服は蝶の夢を見るか？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q41",
+            "light_to": "Q38"
+        },
+        {
+            "id": "Q36",
+            "question": "Do you like human?",
+            "jp": "人間は好き？",
+            "yes": "yes",
+            "left": "好き",
+            "no": "no i don't",
+            "right": "嫌い",
+            "left_to": "Q39",
+            "light_to": "Q45"
+        },
+        {
+            "id": "Q37",
+            "question": "A &quot;Three years on a stone&quot; three years for me is",
+            "jp": "石の上にも三年は",
+            "yes": "long",
+            "left": "長い",
+            "no": "short",
+            "right": "短い",
+            "left_to": "Q43",
+            "light_to": "Q40"
+        },
+        {
+            "id": "Q38",
+            "question": "Do you usually use a pillow?",
+            "jp": "寝る時、枕を使う？",
+            "yes": "yes",
+            "left": "使う",
+            "no": "no",
+            "right": "使わない",
+            "left_to": "Q42",
+            "light_to": "Q44"
+        },
+        {
+            "id": "Q39",
+            "question": "Things are filled with memories?",
+            "jp": "思い出はモノに詰まってる？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q40",
+            "light_to": "Q45"
+        },
+        {
+            "id": "Q40",
+            "question": "Does it remind you that time?",
+            "jp": "それを見たらあの時を思いだす",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q48",
+            "light_to": "Q43"
+        },
+        {
+            "id": "Q41",
+            "question": "Do you prefer bread to rice?",
+            "jp": "パンよりお米",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q42",
+            "light_to": "Q45"
+        },
+        {
+            "id": "Q42",
+            "question": "Delicious is happiness",
+            "jp": "おいしいはしあわせ",
+            "yes": "yes i think so",
+            "left": "そうだね",
+            "no": "no i don&#039;t think so",
+            "right": "そうかな",
+            "left_to": "Q47",
+            "light_to": "Q49"
+        },
+        {
+            "id": "Q43",
+            "question": "You would choose",
+            "jp": "もし選ぶなら、",
+            "yes": "Strike while the iron is hot",
+            "left": "善は急げ",
+            "no": "More haste, less speed",
+            "right": "急がば回れ",
+            "left_to": "Q46",
+            "light_to": "Q44"
+        },
+        {
+            "id": "Q44",
+            "question": "When you sleep lights are?",
+            "jp": "寝る時、電気を消す？",
+            "yes": "off",
+            "left": "消す",
+            "no": "on",
+            "right": "消さない",
+            "left_to": "Q49",
+            "light_to": "Q50"
+        },
+        {
+            "id": "Q45",
+            "question": "Which do you prefer?",
+            "jp": "選ぶならどっち？",
+            "yes": "love someone",
+            "left": "愛したい",
+            "no": "being loved by someone",
+            "right": "愛されたい",
+            "left_to": "Q47",
+            "light_to": "Q46"
+        },
+        {
+            "id": "Q46",
+            "question": "Which is similar to waht you want?",
+            "jp": "座右の銘はどちらに近いですか？",
+            "yes": "motto",
+            "left": "モットー",
+            "no": "policy",
+            "right": "ポリシー",
+            "left_to": "kakitaibuki",
+            "light_to": "chukuippa"
+        },
+        {
+            "id": "Q47",
+            "question": "You feel your life is soaked in details of your daily life these days.",
+            "jp": "人生が日常の細部に染み込んでいるなぁと感じる、最近",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "twontwon",
+            "light_to": "chukuippa"
+        },
+        {
+            "id": "Q48",
+            "question": "Where is memory do you think?",
+            "jp": "記憶ってどこにあるの？",
+            "yes": "brain/heart/body",
+            "left": "脳・心・身体",
+            "no": "things/space/environment",
+            "right": "モノ・空間・環境",
+            "left_to": "twontwon",
+            "light_to": "kakitaibuki"
+        },
+        {
+            "id": "Q49",
+            "question": "Have you ever slept outdoor?",
+            "jp": "屋外で寝たことある？",
+            "yes": "yes",
+            "left": "ある",
+            "no": "no",
+            "right": "ない",
+            "left_to": "yuikuroki",
+            "light_to": "wannabeyouth"
+        },
+        {
+            "id": "Q50",
+            "question": "Do your footprints leave?",
+            "jp": "あなたの足跡は？",
+            "yes": "yes",
+            "left": "残る",
+            "no": "no",
+            "right": "残らない",
+            "left_to": "wannabeyouth",
+            "light_to": "yuikuroki"
+        }
+    ]
+}

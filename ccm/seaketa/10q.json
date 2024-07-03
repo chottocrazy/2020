@@ -61,9 +61,9 @@
             "id": "Q5",
             "question": "When you find a stone",
             "jp": "石を見かけたら",
-            "yes": "you'd kick it",
+            "yes": "kick it",
             "left": "蹴る",
-            "no": "you wouldn'd kick it",
+            "no": "wouldn'd kick it",
             "right": "蹴らない"
         },
         {

@@ -23,9 +23,9 @@
     "questions": [
         {
             "id": "Q1",
-            "question": "Let's eat Gyoza, because",
+            "question": "Let's eat gyoza, because",
             "jp": "餃子食べよ",
-            "yes": "it's sunny today",
+            "yes": "it's sunny",
             "left": "晴れてるから",
             "no": "my stomach tells me so",
             "right": "胃がそう言ってるから"
@@ -34,25 +34,25 @@
             "id": "Q2",
             "question": "Let's go to the park, because",
             "jp": "公園行こ",
-            "yes": "I want to walk",
+            "yes": "want to walk with you",
             "left": "歩きたいから",
-            "no": "I want to talk",
+            "no": "want to talk with you",
             "right": "話したいから"
         },
         {
             "id": "Q3",
             "question": "Let's watch the rising sun, because",
             "jp": "朝日見よ",
-            "yes": "I saw it on the TV yesterday",
+            "yes": "saw it on the TV yesterday",
             "left": "昨日テレビで見たから",
-            "no": "I am in the mountain now",
+            "no": "in the mountain now",
             "right": "今山にいるから"
         },
         {
             "id": "Q4",
             "question": "Let's go to the book store, because",
             "jp": "本屋行こ",
-            "yes": "I found it",
+            "yes": "just found it",
             "left": "見つけたから",
             "no": "it was on the road",
             "right": "落ちてたから"
@@ -70,9 +70,9 @@
             "id": "Q6",
             "question": "Let's dig potatoes, because",
             "jp": "じゃがいも掘ろ",
-            "yes": "I haven't ever seen a shooting star",
+            "yes": "haven't ever seen a shooting star",
             "left": "流れ星見たことないしさ",
-            "no": "I want to go to Germany",
+            "no": "want to go to germany",
             "right": "ドイツ行きたいし"
         },
         {
@@ -90,16 +90,16 @@
             "jp": "デートしましょう",
             "yes": "the wind brew",
             "left": "風が吹いたから",
-            "no": "I like green",
+            "no": "we like green",
             "right": "緑が好きだから"
         },
         {
             "id": "Q9",
             "question": "I am at the top of the building, because",
             "jp": "ビルのてっぺん",
-            "yes": "I want to see the sky",
+            "yes": "want to see the sky",
             "left": "空が見たいから",
-            "no": "I want to see the clouds",
+            "no": "want to see the clouds",
             "right": "雲が見たいから"
         },
         {

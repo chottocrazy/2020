@@ -1,0 +1,592 @@
+{
+    "by": "こす",
+    "types": [
+        {
+            "id": "asano",
+            "title": "芝",
+            "name": "Mitsutoshi Asano",
+            "message": "Let's go to the shibayoku!<br>芝浴に行きましょう❗<br>",
+            "url": "___"
+        },
+        {
+            "id": "kennypain",
+            "title": "話",
+            "name": "Kenny Pain",
+            "message": "It is difficult to communicate with someone. But let's value a feeling of trying to communicate with people.<br>人とコミュニケーションをとるのは難しい。けど人とコミュニケーションをとりたいと思う気持ちは大切にしよう。",
+            "url": "___"
+        },
+        {
+            "id": "seaketa",
+            "title": "磨",
+            "name": "seaketa",
+            "message": "Please take care of yourself.<br>健康に気をつけて。",
+            "url": "___"
+        },
+        {
+            "id": "yexuqo",
+            "title": "植",
+            "name": "YeXuQo",
+            "message": "You and I want to be advised now. We should be loosen ourselves.<br>自分もあなたも今アドバイスを求めていると思います。ほぐしが足りないはずです。",
+            "url": "___"
+        },
+        {
+            "id": "pehu",
+            "title": "花",
+            "name": "Pehu",
+            "message": "Look up, close your eyes and open your arms.<br>上を見て、目をつぶって手を広げて",
+            "url": "___"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Which is your favorite ear?",
+            "jp": "好きな耳は？",
+            "yes": "right",
+            "left": "右",
+            "no": "left",
+            "right": "左",
+            "left_to": "Q2",
+            "light_to": "Q4"
+        },
+        {
+            "id": "Q2",
+            "question": "You listen to music with",
+            "jp": "音楽を聴くときは？",
+            "yes": "an earphone",
+            "left": "イヤホン",
+            "no": "a headphone",
+            "right": "ヘッドホン",
+            "left_to": "Q8",
+            "light_to": "Q9"
+        },
+        {
+            "id": "Q3",
+            "question": "Something",
+            "jp": "何か",
+            "yes": "to listen",
+            "left": "聞く",
+            "no": "to hear",
+            "right": "聞こえる",
+            "left_to": "Q2",
+            "light_to": "Q10"
+        },
+        {
+            "id": "Q4",
+            "question": "Do you want to practice?",
+            "jp": "練習したい？",
+            "yes": "yes i do",
+            "left": "したい",
+            "no": "no i don't",
+            "right": "したくない",
+            "left_to": "Q6",
+            "light_to": "Q8"
+        },
+        {
+            "id": "Q5",
+            "question": "Where do you want to day dreaming?",
+            "jp": "ぼーっとするなら？",
+            "yes": "indoor",
+            "left": "屋内",
+            "no": "outdoor",
+            "right": "屋外",
+            "left_to": "Q8",
+            "light_to": "Q7"
+        },
+        {
+            "id": "Q6",
+            "question": "Time",
+            "jp": "時間は",
+            "yes": "I want more!",
+            "left": "もっとたくさんほしい",
+            "no": "I would give it to someone",
+            "right": "誰かにあげたい",
+            "left_to": "Q10",
+            "light_to": "Q11"
+        },
+        {
+            "id": "Q7",
+            "question": "What do you think about doing nothing?",
+            "jp": "何もしない、何も考えない事は？",
+            "yes": "easy peasy",
+            "left": "楽チン",
+            "no": "need some courage",
+            "right": "勇気がいる",
+            "left_to": "Q12",
+            "light_to": "Q13"
+        },
+        {
+            "id": "Q8",
+            "question": "Are you dreaming now?",
+            "jp": "いま夢をみている？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q14",
+            "light_to": "Q12"
+        },
+        {
+            "id": "Q9",
+            "question": "I {　　} some sign",
+            "jp": "気配を",
+            "yes": "feel",
+            "left": "感じる",
+            "no": "don't feel",
+            "right": "感じない",
+            "left_to": "Q15",
+            "light_to": "Q17"
+        },
+        {
+            "id": "Q10",
+            "question": "I",
+            "jp": "何かを",
+            "yes": "look all",
+            "left": "見る",
+            "no": "see all",
+            "right": "眺める",
+            "left_to": "Q9",
+            "light_to": "Q11"
+        },
+        {
+            "id": "Q11",
+            "question": "If there are a lot you'd",
+            "jp": "たくさんあったら",
+            "yes": "choose one",
+            "left": "選ぶ",
+            "no": "choose nothing",
+            "right": "選ばない",
+            "left_to": "Q8",
+            "light_to": "Q16"
+        },
+        {
+            "id": "Q12",
+            "question": "Want a nice pen?",
+            "jp": "いいペンがほしい？",
+            "yes": "yes",
+            "left": "ほしい",
+            "no": "no",
+            "right": "いらない",
+            "left_to": "Q18",
+            "light_to": "Q20"
+        },
+        {
+            "id": "Q13",
+            "question": "You want to drink?",
+            "jp": "飲むなら？",
+            "yes": "beer",
+            "left": "ビール",
+            "no": "wine",
+            "right": "ワイン",
+            "left_to": "Q14",
+            "light_to": "Q12"
+        },
+        {
+            "id": "Q14",
+            "question": "Which smell do you like?",
+            "jp": "好きな香りは？",
+            "yes": "smell of the ocean",
+            "left": "磯の香り",
+            "no": "smell of curry and fried noodle",
+            "right": "カレー、焼そばの香り",
+            "left_to": "Q18",
+            "light_to": "Q24"
+        },
+        {
+            "id": "Q15",
+            "question": "Do you like glasses?",
+            "jp": "メガネは好き？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q25",
+            "light_to": "Q24"
+        },
+        {
+            "id": "Q16",
+            "question": "Breath",
+            "jp": "息を",
+            "yes": "in and out",
+            "left": "する",
+            "no": "stop",
+            "right": "止める",
+            "left_to": "Q14",
+            "light_to": "Q17"
+        },
+        {
+            "id": "Q17",
+            "question": "Eyes",
+            "jp": "目を",
+            "yes": "closed tight",
+            "left": "閉じる",
+            "no": "wide shut",
+            "right": "瞑る",
+            "left_to": "Q20",
+            "light_to": "Q21"
+        },
+        {
+            "id": "Q18",
+            "question": "Can you sleep without a pillow?",
+            "jp": "枕が無くても寝れる？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q17",
+            "light_to": "Q19"
+        },
+        {
+            "id": "Q19",
+            "question": "When you sleep you turn the light",
+            "jp": "寝るときの電気は？",
+            "yes": "off",
+            "left": "消す",
+            "no": "on",
+            "right": "消さない",
+            "left_to": "Q25",
+            "light_to": "Q22"
+        },
+        {
+            "id": "Q20",
+            "question": "What is the difference between the daytime and the night?",
+            "jp": "昼と夜の差は？",
+            "yes": "brightness",
+            "left": "明るさ",
+            "no": "temperature",
+            "right": "温度",
+            "left_to": "Q23",
+            "light_to": "Q25"
+        },
+        {
+            "id": "Q21",
+            "question": "Your surrounding there is",
+            "jp": "周りに",
+            "yes": "something",
+            "left": "何かある",
+            "no": "nothing",
+            "right": "何もない",
+            "left_to": "Q27",
+            "light_to": "Q28"
+        },
+        {
+            "id": "Q22",
+            "question": "Are you an only child?",
+            "jp": "貴方は1人っ子？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q26",
+            "light_to": "Q29"
+        },
+        {
+            "id": "Q23",
+            "question": "Have you ever had a fracture?",
+            "jp": "骨折したことがある？",
+            "yes": "yes i have",
+            "left": "ある",
+            "no": "no i have never",
+            "right": "ない",
+            "left_to": "Q27",
+            "light_to": "Q22"
+        },
+        {
+            "id": "Q24",
+            "question": "Which is more helpful?",
+            "jp": "役立つものは？",
+            "yes": "books",
+            "left": "本",
+            "no": "friends",
+            "right": "友達",
+            "left_to": "Q29",
+            "light_to": "Q26"
+        },
+        {
+            "id": "Q25",
+            "question": "I {　　} to talk more with others?",
+            "jp": "人と",
+            "yes": "want",
+            "left": "しゃべりたい",
+            "no": "don't want",
+            "right": "しゃべりたくない",
+            "left_to": "Q30",
+            "light_to": "Q27"
+        },
+        {
+            "id": "Q26",
+            "question": "Do you believe fortune-telling by blood type?",
+            "jp": "血液型性格診断は？",
+            "yes": "yes",
+            "left": "信じる",
+            "no": "no",
+            "right": "信じない",
+            "left_to": "Q29",
+            "light_to": "Q34"
+        },
+        {
+            "id": "Q27",
+            "question": "Are you happy if you know?",
+            "jp": "知れたらうれしい？",
+            "yes": "yes i think so",
+            "left": "そう思う",
+            "no": "no i don't think so",
+            "right": "そうは思わない",
+            "left_to": "Q36",
+            "light_to": "Q28"
+        },
+        {
+            "id": "Q28",
+            "question": "Peeling off means",
+            "jp": "はがれてる",
+            "yes": "zero",
+            "left": "ゼロ",
+            "no": "minus",
+            "right": "マイナス",
+            "left_to": "Q30",
+            "light_to": "Q31"
+        },
+        {
+            "id": "Q29",
+            "question": "Which do you need?",
+            "jp": "必要なものは？",
+            "yes": "being relax",
+            "left": "安らぎ",
+            "no": "being plentiful",
+            "right": "豊かさ",
+            "left_to": "Q33",
+            "light_to": "Q32"
+        },
+        {
+            "id": "Q30",
+            "question": "Which do you prefer?",
+            "jp": "山か海どっちが好き",
+            "yes": "the mountain",
+            "left": "山",
+            "no": "the ocean",
+            "right": "海",
+            "left_to": "Q32",
+            "light_to": "Q31"
+        },
+        {
+            "id": "Q31",
+            "question": "Air",
+            "jp": "空気",
+            "yes": "want some",
+            "left": "ほしい",
+            "no": "it's filled",
+            "right": "いっぱい",
+            "left_to": "Q41",
+            "light_to": "Q29"
+        },
+        {
+            "id": "Q32",
+            "question": "Speaking of water flowing",
+            "jp": "水が流れるといえば",
+            "yes": "the river",
+            "left": "川",
+            "no": "the waterfall",
+            "right": "滝",
+            "left_to": "Q37",
+            "light_to": "Q39"
+        },
+        {
+            "id": "Q33",
+            "question": "What is needed in town do you think?",
+            "jp": "街には何が必要？",
+            "yes": "green",
+            "left": "グリーン",
+            "no": "buildings",
+            "right": "ビル",
+            "left_to": "Q42",
+            "light_to": "Q34"
+        },
+        {
+            "id": "Q34",
+            "question": "Do you want to live near a riverbed?",
+            "jp": "河川敷近くのアパートに？",
+            "yes": "yes",
+            "left": "住みたい",
+            "no": "no",
+            "right": "住みたくない",
+            "left_to": "Q44",
+            "light_to": "Q38"
+        },
+        {
+            "id": "Q35",
+            "question": "Do you think human beings were born from soil?",
+            "jp": "人間は土から生まれたと思う？",
+            "yes": "yes",
+            "left": "思う",
+            "no": "no i don't",
+            "right": "思わない",
+            "left_to": "Q34",
+            "light_to": "Q36"
+        },
+        {
+            "id": "Q36",
+            "question": "Can you imagine the inside of the soil where cactus is planted?",
+            "jp": "サボテンの土の中を想像できる？",
+            "yes": "yes i can",
+            "left": "できる",
+            "no": "no i can't",
+            "right": "できない",
+            "left_to": "Q38",
+            "light_to": "Q37"
+        },
+        {
+            "id": "Q37",
+            "question": "Do you like sound of gravel?",
+            "jp": "砂利の音",
+            "yes": "yes",
+            "left": "好き",
+            "no": "no",
+            "right": "嫌い",
+            "left_to": "Q39",
+            "light_to": "Q35"
+        },
+        {
+            "id": "Q38",
+            "question": "Do you think a flower and a leaf is different?",
+            "jp": "花と葉って違うと思う？",
+            "yes": "it could be",
+            "left": "違うかも",
+            "no": "it might be the same",
+            "right": "同じかも",
+            "left_to": "Q43",
+            "light_to": "Q42"
+        },
+        {
+            "id": "Q39",
+            "question": "Have you ever picked up a stone?",
+            "jp": "石を拾ったことが",
+            "yes": "yes i have",
+            "left": "ある",
+            "no": "no i haven't",
+            "right": "ない",
+            "left_to": "Q41",
+            "light_to": "Q40"
+        },
+        {
+            "id": "Q40",
+            "question": "When you find a stone",
+            "jp": "石を見かけたら",
+            "yes": "kick it",
+            "left": "蹴る",
+            "no": "wouldn'd kick it",
+            "right": "蹴らない",
+            "left_to": "Q34",
+            "light_to": "Q48"
+        },
+        {
+            "id": "Q41",
+            "question": "Something",
+            "jp": "何か",
+            "yes": "to touch",
+            "left": "触る",
+            "no": "to feel",
+            "right": "触れる",
+            "left_to": "Q49",
+            "light_to": "Q48"
+        },
+        {
+            "id": "Q42",
+            "question": "Which do you want once a day?",
+            "jp": "１日１回ほしいものは何？",
+            "yes": "imagination",
+            "left": "イマジネーション",
+            "no": "motivation",
+            "right": "モチベーション",
+            "left_to": "Q45",
+            "light_to": "Q43"
+        },
+        {
+            "id": "Q43",
+            "question": "Do you have any exciting event next year?",
+            "jp": "来年の楽しみがある？",
+            "yes": "yes",
+            "left": "ある",
+            "no": "no",
+            "right": "ない",
+            "left_to": "Q50",
+            "light_to": "Q48"
+        },
+        {
+            "id": "Q44",
+            "question": "Weather tomorrow?",
+            "jp": "あ〜した天気にな〜れ？",
+            "yes": "sunny",
+            "left": "晴れ",
+            "no": "rainy or cloudy",
+            "right": "雨・くもり",
+            "left_to": "Q46",
+            "light_to": "Q49"
+        },
+        {
+            "id": "Q45",
+            "question": "What do you imagine with sunshine?",
+            "jp": "日光浴のイメージは？",
+            "yes": "cuddle hormon",
+            "left": "幸せホルモン",
+            "no": "freckle",
+            "right": "シミ",
+            "left_to": "Q47",
+            "light_to": "Q44"
+        },
+        {
+            "id": "Q46",
+            "question": "If you should cut either cord which color would you choose?",
+            "jp": "コードを切るなら？",
+            "yes": "red",
+            "left": "赤",
+            "no": "blue",
+            "right": "青",
+            "left_to": "kennypain",
+            "light_to": "pehu"
+        },
+        {
+            "id": "Q47",
+            "question": "Which do you like?",
+            "jp": "どっちが好き？",
+            "yes": "beach",
+            "left": "砂浜",
+            "no": "lawn",
+            "right": "芝生",
+            "left_to": "seaketa",
+            "light_to": "asano"
+        },
+        {
+            "id": "Q48",
+            "question": "A jewelry",
+            "jp": "宝石",
+            "yes": "want one",
+            "left": "欲しい",
+            "no": "don't want it",
+            "right": "欲しくない",
+            "left_to": "Q46",
+            "light_to": "seaketa"
+        },
+        {
+            "id": "Q49",
+            "question": "Does it last all the way?",
+            "jp": "ずっと続いてる？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "yexuqo",
+            "light_to": "pehu"
+        },
+        {
+            "id": "Q50",
+            "question": "Ended up as you want?",
+            "jp": "思い通りになった？",
+            "yes": "yes",
+            "left": "なった",
+            "no": "no",
+            "right": "ならなかった",
+            "left_to": "asano",
+            "light_to": "yexuqo"
+        }
+    ]
+}

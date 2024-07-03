@@ -192,7 +192,7 @@ document.addEventListener('readystatechange', event => {
                 value("yutoohashi/value.json");
             } else if (params.get("value") === "20201201") {
                 value("kakitaibuki/value.json");
-                value("2n2n/value.json");
+                value("twontwon/value.json");
                 value("yuikuroki/value.json");
                 value("wannabeyouth/value.json");
             } else if (params.get("value") === "20201215") {

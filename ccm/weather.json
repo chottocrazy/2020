@@ -1,0 +1,106 @@
+{
+    "id": "weather",
+    "name": "Shoji Funakawa",
+    "yomi": "船川翔司",
+    "text": [
+        "Weathering with ..."
+    ],
+    "link": [
+        {
+            "a": "Website",
+            "href": "http://sjfnkw.com/"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "Shine",
+            "jp": "ひかる",
+            "yes": "bright",
+            "left": "まぶしい",
+            "no": "indistinct",
+            "right": "よくみえない"
+        },
+        {
+            "id": "Q2",
+            "question": "Blow",
+            "jp": "ふく",
+            "yes": "far ahead",
+            "left": "とおくへ",
+            "no": "in here",
+            "right": "ここで"
+        },
+        {
+            "id": "Q3",
+            "question": "Heap up",
+            "jp": "つもる",
+            "yes": "being buried",
+            "left": "埋まる",
+            "no": "melt in mouse",
+            "right": "口で溶ける"
+        },
+        {
+            "id": "Q4",
+            "question": "Being exposed",
+            "jp": "うたれる",
+            "yes": "run down on my cheek",
+            "left": "頬を伝う",
+            "no": "hold an umbrella",
+            "right": "傘をさす"
+        },
+        {
+            "id": "Q5",
+            "question": "Hold up",
+            "jp": "かざす",
+            "yes": "cold",
+            "left": "つめたい",
+            "no": "warm",
+            "right": "あたたかい"
+        },
+        {
+            "id": "Q6",
+            "question": "Being hit",
+            "jp": "あたる",
+            "yes": "burn",
+            "left": "燃える",
+            "no": "spark",
+            "right": "萌える"
+        },
+        {
+            "id": "Q7",
+            "question": "Being covered",
+            "jp": "おおわれる",
+            "yes": "cool",
+            "left": "涼しい",
+            "no": "look out over",
+            "right": "見渡す"
+        },
+        {
+            "id": "Q8",
+            "question": "Strain",
+            "jp": "そばだてる",
+            "yes": "fall",
+            "left": "ふる",
+            "no": "stopped",
+            "right": "やんでいる"
+        },
+        {
+            "id": "Q9",
+            "question": "Get wet",
+            "jp": "ぬれる",
+            "yes": "heavy",
+            "left": "おもい",
+            "no": "light",
+            "right": "かるい"
+        },
+        {
+            "id": "Q10",
+            "question": "Weathering with ...",
+            "jp": "天気と共に",
+            "yes": "in here",
+            "left": "ここで",
+            "no": "somewhere",
+            "right": "どこかで"
+        }
+    ]
+}

@@ -20,9 +20,9 @@
             "id": "Q2",
             "question": "What do you think about during a boring meeting?",
             "jp": "つまらない会議の間何を考えている？",
-            "yes": "things you want to do",
+            "yes": "things that want to do",
             "left": "やりたいこと",
-            "no": "a person you like",
+            "no": "people who love",
             "right": "好きなひとのこと"
         },
         {

@@ -76,12 +76,12 @@
             "jp": "半沢直樹見て、スッキリした？",
             "yes": "Yes i did",
             "left": "した",
-            "no": "No i didn't",
+            "no": "No i didn't / i never saw",
             "right": "してない"
         },
         {
             "id": "Q9",
-            "question": "Do you want to go overseas soon?",
+            "question": "Do you want to travel abroad soon?",
             "jp": "早く海外旅行に行きたい？",
             "yes": "Yes",
             "left": "行きたい",

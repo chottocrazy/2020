@@ -19,7 +19,7 @@
     "questions": [
         {
             "id": "Q1",
-            "question": "You can recognize musical scale <b>Ra</b>",
+            "question": "You can recognize musical scale &quot;Ra&quot;",
             "jp": "「ラ」の音がわかる",
             "yes": "Yes",
             "left": "はい",

@@ -1,0 +1,106 @@
+{
+    "id": "chishima",
+    "name": "Chishima Foundation for Creative Osaka",
+    "yomi": "おおさか創造千島財団",
+    "text": [
+        "北加賀屋を拠点に、大阪やその周辺で活動するアーティスト、クリエイター、また彼らを支える人たちの活動を支援する事業を行っています。"
+    ],
+    "link": [
+        {
+            "a": "Website",
+            "href": "https://chishima-foundation.com/"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "You wear your shoes first from",
+            "jp": "靴を履くのは",
+            "yes": "right",
+            "left": "右から",
+            "no": "left",
+            "right": "左から"
+        },
+        {
+            "id": "Q2",
+            "question": "Did you take train to get here today?",
+            "jp": "今日は電車に乗ってきた",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q3",
+            "question": "Which do you think is more interesting if they are colored?",
+            "jp": "色がついていたらおもしろいと思うのは",
+            "yes": "rain",
+            "left": "雨",
+            "no": "涙",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q4",
+            "question": "Do you want to meet yourself in 20 years?",
+            "jp": "20年後の自分に会いたいと思いますか？",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q5",
+            "question": "For camping you'd go to",
+            "jp": "キャンプをするなら",
+            "yes": "the mountain",
+            "left": "山",
+            "no": "the beach",
+            "right": "海"
+        },
+        {
+            "id": "Q6",
+            "question": "You prefer Hotcake to pancake?",
+            "jp": "パンケーキよりホットケーキが好きだ",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q7",
+            "question": "Tomato should be eaten with salt",
+            "jp": "トマトに塩は",
+            "yes": "yes",
+            "left": "いる",
+            "no": "no",
+            "right": "いらない"
+        },
+        {
+            "id": "Q8",
+            "question": "Do you often go to 100yen shop?",
+            "jp": "100均にはよく行きますか",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ"
+        },
+        {
+            "id": "Q9",
+            "question": "Which do you want it wider in your room?",
+            "jp": "ワンルームマンションで広かったらうれしいのは",
+            "yes": "kitchen",
+            "left": "キッチン",
+            "no": "balcony",
+            "right": "ベランダ"
+        },
+        {
+            "id": "Q10",
+            "question": "Which is round?",
+            "jp": "丸いのはどっち",
+            "yes": "a ballon",
+            "left": "ふうせん",
+            "no": "a cat",
+            "right": "ねこ"
+        }
+    ]
+}

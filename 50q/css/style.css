@@ -1,0 +1,167 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#logo {
+    position: fixed;
+    z-index: 100;
+}
+
+#logo::before {
+    content: "let's start";
+    font-style: italic;
+    border: solid red 0.1rem;
+    border-radius: 50%;
+    padding: 0.25rem 1rem;
+}
+
+.restart #logo::before {
+    content: "restart";
+}
+
+#types div b,
+#closeBtn {
+    font-size: 200%;
+}
+
+#cover h1 b,
+#cover h2 b,
+#by,
+#who {
+    font-size: 150%;
+}
+
+#cover h1,
+dialog p,
+#logo::before {
+    font-size: 125%;
+}
+
+#cover h2,
+#cover h3,
+#cover p,
+#cover span {
+    font-size: 95%;
+}
+
+#cover h1,
+#cover h3,
+#types div p,
+#who,
+dialog p {
+    line-height: 200%;
+}
+
+#cover h2 {
+    width: 100%;
+}
+
+#modal {
+    border: solid 0.1rem;
+    padding: 0 1rem;
+    min-width: max-content;
+}
+
+dialog::backdrop {
+    backdrop-filter: blur(0.25rem);
+}
+
+#cover h3,
+#types div p {
+    text-align: center;
+}
+
+#by::before,
+#who::before {
+    content: "{ ";
+    font-weight: 700;
+}
+
+#by::after,
+#who::after {
+    content: " }";
+    font-weight: 700;
+}
+
+#closeBtn {
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: red;
+    outline: none;
+    padding: 0;
+    margin: 0.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media (orientation: landscape) {
+    #cover {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #cover div {
+        padding: 1rem;
+    }
+}
+
+@media (orientation: portrait) {
+    #cover {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    #cover div {
+        place-self: end;
+        width: 100%;
+        padding: 2.5vw 5vw;
+    }
+}
+
+#cover h2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+#cover h2 b,
+#types div,
+#types div b {
+    display: grid;
+    place-items: center;
+}
+
+#cover h2 b,
+#types div b {
+    background: #fff;
+    border: solid 0.2rem red;
+    border-radius: 50%;
+    color: #000;
+}
+
+#cover h2 b {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+#types div b {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+#types div {
+    transition: all 1s;
+}
+
+#types div {
+    height: 100vh;
+    max-height: -webkit-fill-available;
+}
+
+#types div:hover {
+    background: red;
+    color: #fff;
+    cursor: pointer;
+}

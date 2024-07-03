@@ -1,0 +1,592 @@
+{
+    "by": "__",
+    "types": [
+        {
+            "id": "__",
+            "title": "__",
+            "name": "__",
+            "message": "___",
+            "url": "___"
+        },
+        {
+            "id": "__",
+            "title": "__",
+            "name": "__",
+            "message": "___",
+            "url": "___"
+        },
+        {
+            "id": "__",
+            "title": "__",
+            "name": "__",
+            "message": "___",
+            "url": "___"
+        },
+        {
+            "id": "__",
+            "title": "__",
+            "name": "__",
+            "message": "___",
+            "url": "___"
+        },
+        {
+            "id": "__",
+            "title": "__",
+            "name": "__",
+            "message": "___",
+            "url": "___"
+        }
+    ],
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q2",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q3",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q4",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q5",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q6",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q7",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q8",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q9",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q10",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q11",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q12",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q13",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q14",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q15",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q16",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q17",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q18",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q19",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q20",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q21",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q22",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q23",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q24",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q25",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q26",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q27",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q28",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q29",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q30",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q31",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q32",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q33",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q34",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q35",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q36",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q37",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q38",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q39",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q40",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q41",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q42",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q43",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q44",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q45",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q46",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q47",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q48",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q49",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        },
+        {
+            "id": "Q50",
+            "question": "__",
+            "jp": "__",
+            "yes": "yes",
+            "left": "はい",
+            "no": "no",
+            "right": "いいえ",
+            "left_to": "Q__",
+            "light_to": "Q__"
+        }
+    ]
+}

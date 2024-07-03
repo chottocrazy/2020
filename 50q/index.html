@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <script src="script.js"></script>
+    <script>
+        const params = new URLSearchParams(location.search)
+
+        // ?id=名前
+        if (params.get("id")) {
+            index50Q(params.get("id") + '.json')
+        }
+    </script>
+
+    <!--og:meta-->
+    <meta content="website" property="og:type">
+    <title>50の質問 | 大 chotto crazy 2020</title>
+    <meta content="50の質問 | 大 chotto crazy 2020" property="og:title">
+    <meta content="これは、創造的チャレンジへの積極性を養い、従来の価値観／方法にとらわれない開かれた考え方を養うことを目的とする創造的娯楽ゲームです。" name="description">
+    <meta content="これは、創造的チャレンジへの積極性を養い、従来の価値観／方法にとらわれない開かれた考え方を養うことを目的とする創造的娯楽ゲームです。" name="og:description">
+
+    <!--for Twitter-->
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="https://the-answers-are-always-inside-of-you.github.io/" property="og:url">
+    <meta content="https://the-answers-are-always-inside-of-you.github.io/public/logo/000.jpeg" property="og:image">
+    <meta content="https://the-answers-are-always-inside-of-you.github.io/public/logo/000.jpeg"
+        name="twitter:image:src">
+
+    <link rel="icon" href="../public/logo/icon.png" type="image/png">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../ccm/10q.css">
+
+</head>
+
+<body>
+    <header id="cover">
+        <b id="logo"></b>
+        <div>
+            <h1>
+                <u>These 50 questions were created for</u><br>
+                これは、
+                <b id="by" class="pehu">大 chotto crazy 2020</b><br>
+                のための 50の質問 です。
+            </h1>
+            <p>
+                <u>These questions have Two Answers.</u><br>
+                質問の答えは全て二択です。
+            </p>
+            <p>You Choose The Answer, It takes you to next question.</p>
+            <p>どちらかの答えを選択すると、次の質問へ進みます。</p>
+        </div>
+        <div>
+            <h2>
+                <span>
+                    As you answer questions and move on,<br>
+                    質問に答えて進むと、
+                </span>
+                <span>You will reach either of</span>
+            </h2>
+            <h2 id="name"></h2>
+            <h3>
+                のうちのいずれかにたどり着きます。<br />
+                Let's see what type you might be.<br />
+                さて、あなたは何タイプでしょうか？
+            </h3>
+        </div>
+    </header>
+
+    <main id="questions"></main>
+
+    <footer id="types"></footer>
+
+    <dialog id="modal" class="dot">
+        <button type="button" id="closeBtn">×</button>
+        <p>
+            <u>Your Answer is the most similar to</u><br />
+            <small>あなたの答えは、この50の質問を考えた人たちのうち</small><br>
+            <b id="who"></b><br />
+            among the people who thought of this 50 questions.<br>
+            <small>に、一番似ています。</small>
+        </p>
+    </dialog>
+</body>
+
+</html>
