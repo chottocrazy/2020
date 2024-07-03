@@ -11,7 +11,7 @@ button {
 }
 
 #result,
-#result input[type="radio"]:checked+label {
+#result input[type="radio"]:checked+label span {
     font-size: 125%;
     font-weight: 600;
 }
@@ -102,15 +102,18 @@ ul {
     margin: 0;
 }
 
-#result li {
-    float: left;
-    height: 12.25rem;
-    width: calc(50% - 2rem);
-    margin: 0 1rem;
+#result li span {
+    display: block;
     overflow: hidden;
-    line-height: 250%;
+    height: 2.5rem;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+#result li {
+    float: left;
+    width: calc(50% - 1rem);
+    margin: 0.5rem;
 }
 
 header,
@@ -129,7 +132,7 @@ main #play iframe {
 @media (orientation: landscape) {
 
     main #result {
-        padding: 5rem 0 0;
+        padding: 5rem 0.5rem 0;
         width: 50%;
         max-width: max-content;
         height: 100vh;
@@ -183,11 +186,7 @@ main #play iframe {
     }
 
     main #result {
-        padding: 1rem 1rem 2.5rem;
-    }
-
-    #result li {
-        height: 15.5rem;
+        padding: 1rem 0.5rem 2.5rem;
     }
 
     main #play iframe {

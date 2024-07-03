@@ -49,11 +49,10 @@ function onGoogleLoad() {
 
                 const label = document.createElement('label');
                 label.setAttribute('for', thisID);
-                label.innerText = thisTitle;
                 li.appendChild(label);
-
-                const br = document.createElement('br');
-                label.appendChild(br);
+                const span = document.createElement('span');
+                span.innerText = thisTitle;
+                label.appendChild(span);
 
                 const img = document.createElement('img');
                 img.src = `https://i.ytimg.com/vi/${thisID}/mqdefault.jpg`;
