@@ -7,7 +7,8 @@ body,
 }
 
 h2,
-section {
+section,
+dialog {
     font-family: "Arial", "Yu Gothic", sans-serif;
     font-weight: 600;
 }
@@ -102,6 +103,10 @@ hr {
         display: grid;
         height: calc(100vh - 1rem);
     }
+
+    #schedule {
+        padding: 1rem;
+    }
 }
 
 #cover section {
@@ -158,9 +163,13 @@ h1,
     font-size: 250%;
 }
 
-section h3,
-section h4,
 section p {
+    font-size: 175%;
+    font-weight: 600;
+}
+
+section h3,
+section h4 {
     font-size: 150%;
     font-weight: 600;
     line-height: 175%;
@@ -171,10 +180,24 @@ section p {
 }
 
 #schedule {
-    font-size: 95%;
+    font-size: 90%;
 }
 
 #chishima img {
     margin-bottom: -0.75rem;
     width: 20rem;
+}
+
+dialog button {
+    appearance: none;
+    color: #000;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 125%;
+    text-decoration: solid underline #D24117;
+    padding: 0;
+    margin: 0;
+    float: right;
 }

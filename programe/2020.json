@@ -9,38 +9,35 @@
         {
             "status": "done",
             "date": "2020.3.29 - 5.15",
-            "text": "あなたの「実現したいこと」の公募を実施",
-            "href": "../thankyou/"
+            "text": "あなたの「実現したいこと」の公募を実施"
         },
         {
             "status": "done",
             "date": "2020.5.30 - 5.31",
-            "text": "プログラム選考会議を YouTube Live にて生配信",
-            "href": "../youtube/"
+            "text": "プログラム選考会議を YouTube Live にて生配信"
         },
         {
             "status": "done",
             "date": "2020.7.4 - 7.22",
             "text": "「実現したいこと」応募者の皆様と個人面談を実施",
-            "href": "../youtube/"
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/oPdOnxVfj-8' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
         },
         {
             "status": "done",
             "date": "2020.9.27",
-            "text": "大 chotto crazy 2020 公式プログラム 20 の 実現したいこと を オンライン発表",
-            "href": "../programe/"
+            "text": "大 chotto crazy 2020 公式プログラム 20 の 実現したいこと を オンライン発表"
         },
         {
             "status": "done",
             "date": "2020.9.27",
-            "text": "17名のプログラム採用者「ちょっとクレイジーな仲間たち」を オンライン発表",
-            "href": "../ccm/"
+            "text": "17名のプログラム採用者「ちょっとクレイジーな仲間たち」を オンライン発表"
         },
         {
             "status": "done",
             "date": "2020.9.27",
-            "text": "「ちょっとクレイジーな仲間たち」の 10の質問 を オンライン発表",
-            "href": "../ccm/"
+            "text": "「ちょっとクレイジーな仲間たち」の 10の質問 を オンライン発表"
         },
         {
             "status": "done",
@@ -65,13 +62,14 @@
             "status": "done",
             "date": "2020.11.1",
             "text": "プレイベント「こす」を開催",
-            "href": "../pre-event/"
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/0QaTxCU5gAg' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
         },
         {
             "status": "done",
             "date": "2020.11.1",
-            "text": "展覧会・アトラクション「大大大 chotto crazy 2020 MAX」の詳細をオンライン発表",
-            "href": "../otobuil/"
+            "text": "展覧会・アトラクション「大大大 chotto crazy 2020 MAX」の詳細をオンライン発表"
         },
         {
             "status": "done",
@@ -123,7 +121,7 @@
         {
             "status": "done",
             "date": "2020.12.15",
-            "text": "大大大 chotto crazy 2020 MAXのための50の質問を発"
+            "text": "大大大 chotto crazy 2020 MAXのための50の質問をオンライン発表"
         },
         {
             "status": "done",
@@ -143,7 +141,10 @@
             "status": "done",
             "date": "2021.1.16 - 1.31",
             "text": "展覧会・アトラクション「大大大 chotto crazy 2020 MAX」を開催",
-            "href": "../otobuil/"
+            "href": "../otobuil/",
+            "html": [
+                "<iframe src='https://www.youtube.com/embed/GO6Kg5FrCr4' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;' style='height:47.5vw;' allowfullscreen></iframe>"
+            ]
         }
     ]
 }

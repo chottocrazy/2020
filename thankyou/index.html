@@ -61,22 +61,27 @@
                 <u>公式プログラム決定まで</u>
             </h2>
             <h3>
+                <u>意気込み</u>
+                <b>2020年3月30日</b><br>
+                大 chotto crazy 2020 への <a onclick="dialogOpen()">意気込み</a> を発表しました。
+            </h3>
+            <h3>
                 <u>公開会議</u>
                 <b>2020年5月30日 & 31日</b><br>
                 公募で集まった「実現したいこと」を実現する方法を考える会議を YouTube Live にて生配信しました。
             </h3>
             <h4>
                 <b>2020年5月24日(日)</b><br>
-                <a
-                    href="https://docs.google.com/document/d/134DM6Or8cVLKX2UNaO12XfRCyPIX_Z5i1O_xeNFSyA8/edit?usp=sharing">
+                <a href="https://docs.google.com/document/d/134DM6Or8cVLKX2UNaO12XfRCyPIX_Z5i1O_xeNFSyA8/edit?usp=sharing"
+                    target="_blank">
                     Googleドキュメント
                 </a>
                 にて、「実現したいこと」応募者の皆様との座談会を開催しました。
             </h4>
             <h4>
                 <b>2020年7月12日(日)</b><br>
-                <a
-                    href="https://docs.google.com/presentation/d/e/2PACX-1vQy3TctZM1w26Jum9UaHw0iMlX8C9vOQl5wQUg1YiCq74jfaP5fDqRS99AsmWsc5Fka4QDbHTT0e6Eg/pub?start=false&loop=false&delayms=3000">
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vQy3TctZM1w26Jum9UaHw0iMlX8C9vOQl5wQUg1YiCq74jfaP5fDqRS99AsmWsc5Fka4QDbHTT0e6Eg/pub?start=false&loop=false&delayms=3000"
+                    target="_blank">
                     「実現したいこと」公募の特徴まとめ及び、開催方法変更のお知らせ
                 </a>
                 を公開しました。
@@ -88,9 +93,9 @@
             </h3>
             <h4>
                 <b>2020年8月17日(月)</b><br>
-                <a
-                    href="https://docs.google.com/presentation/d/e/2PACX-1vQ-clsE1Wvhi2rOJGXJ4nABxWnfM5NcapRaD3XL1OhRuQh89E-ZMiimM-4rMVRkkMKJmPAZQT1sF5Tv/pub?start=false&loop=false&delayms=3000">大
-                    chotto crazy 2020 の 目標 及び、 個人面談に関する報告
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vQ-clsE1Wvhi2rOJGXJ4nABxWnfM5NcapRaD3XL1OhRuQh89E-ZMiimM-4rMVRkkMKJmPAZQT1sF5Tv/pub?start=false&loop=false&delayms=3000"
+                    target="_blank">
+                    大 chotto crazy 2020 の 目標 及び、 個人面談に関する報告
                 </a>
                 を公開しました。
             </h4>
@@ -105,7 +110,29 @@
             </p>
         </section>
     </article>
-    <img src="cover.png" alt="" style="display: block;" width="100%">
+
+    <dialog>
+        <button type="button" onclick="dialogClose()">閉じる</button>
+        <article></article>
+    </dialog>
+
+    <script>
+        const readme = document.querySelector('dialog article')
+        fetch("README.md")
+            .then(response => response.text())
+            .then(innerText => {
+                readme.innerText = innerText;
+            }, false)
+
+        const dialog = document.querySelector('dialog')
+        function dialogOpen() {
+            dialog.showModal();
+        }
+
+        function dialogClose() {
+            dialog.close();
+        }
+    </script>
 </body>
 
 </html>

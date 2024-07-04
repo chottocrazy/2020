@@ -306,6 +306,10 @@ details summary::marker {
     content: attr(data-date);
 }
 
+details summary::-webkit-details-marker {
+    content: attr(data-date);
+}
+
 details summary.done::after {
     content: "✓";
     position: absolute;
