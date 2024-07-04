@@ -2,6 +2,10 @@
 
 const params = new URLSearchParams(location.search)
 
+if (params.get("name") === "chishima") {
+    questions("chishima/10q.json")
+}
+
 async function indexJSON() {
     const request = new Request("index.json")
     const response = await fetch(request)
@@ -61,6 +65,8 @@ function mates(obj) {
                     a.href = `../programe/?id=${ii.href}`;
                     programe.appendChild(a)
                 }
+            } else {
+                programe.remove()
             }
 
             if (mate.value) {
@@ -70,6 +76,8 @@ function mates(obj) {
                     a.href = `?value=${mate.id}`;
                     valuing.appendChild(a)
                 }
+            } else {
+                valuing.remove()
             }
 
             questions(`${mate.id}/10q.json`)
@@ -108,7 +116,6 @@ function creatQ(allQ) {
         form.appendChild(h4);
     }
 
-
     const aside = document.querySelector('aside')
     if (allQ.text) {
         for (const i of allQ.text) {
@@ -126,6 +133,19 @@ function creatQ(allQ) {
             a.setAttribute('target', '_blank')
             aside.appendChild(a)
         }
+    }
+
+    if (params.get("name") === "chishima") {
+        const name = document.querySelector('#profile h2 ruby b')
+        const yomi = document.querySelector('#profile h2 ruby rt')
+        const programe = document.querySelector('#profile #things')
+        const valuing = document.querySelector('#profile #valuing')
+
+        name.textContent = allQ.yomi;
+        yomi.textContent = allQ.name;
+
+        programe.remove()
+        valuing.remove()
     }
 }
 

@@ -6,35 +6,34 @@
             "title": "ラ",
             "name": "Shoko Yamamura",
             "message": "Well, would you like to listen to it?<br>まずは聴いてみませんか",
-            "url": "___"
+            "url": true
         },
         {
             "id": "jackdoe",
             "title": "曲",
             "name": "Jackdoe",
             "message": "Your dreams will not come true when you give it up, I believe.<br>きっとあなたの夢はいつか叶います。",
-            "url": "___"
+            "url": true
         },
         {
             "id": "sou",
             "title": "藍",
             "name": "Sou",
             "message": "this is all about after all, ...what conjunction would you choose after this sentence?<br>「所詮〇〇なんてこんなもの」この言葉のあとに、あなたはどんな言葉を続けますか？",
-            "url": "___"
+            "url": true
         },
         {
             "id": "weather",
             "title": "天",
             "name": "Shoji Funakawa",
-            "message": "Do you think the weather tomorrow is?<br>明日はいい天気だと思う？",
-            "url": "___"
+            "message": "Do you think the weather tomorrow is?<br>明日はいい天気だと思う？"
         },
         {
             "id": "chishima",
             "title": "千",
             "name": "Chishima Foundation for Creative Osaka",
             "message": "北加賀屋を拠点に、大阪やその周辺で活動するアーティスト、クリエイター、また彼らを支える人たちの活動を支援する事業を行っています。",
-            "url": "___"
+            "url": true
         }
     ],
     "questions": [
@@ -198,8 +197,8 @@
             "jp": "色がついていたらおもしろいと思うのは",
             "yes": "rain",
             "left": "雨",
-            "no": "涙",
-            "right": "いいえ",
+            "no": "tear",
+            "right": "涙",
             "left_to": "Q17",
             "light_to": "Q16"
         },

@@ -6,35 +6,35 @@
             "title": "銘",
             "name": "Chukuippa",
             "message": "Let&#039;s walk with straightening your back.<br>背筋を伸ばして歩こう",
-            "url": "___"
+            "url": true
         },
         {
             "id": "kakitaibuki",
             "title": "記",
             "name": "Kakita Ibuki",
             "message": "Do you see the front when you look from the back?<br>ウラから覗けばオモテがみえる？",
-            "url": "___"
+            "url": true
         },
         {
             "id": "twontwon",
             "title": "憶",
             "name": "2n2n",
             "message": "Let&#039;s do something fun!<br>面白いことしましょ",
-            "url": "___"
+            "url": true
         },
         {
             "id": "yuikuroki",
             "title": "寝",
             "name": "Yui Kuroki",
             "message": "Let&#039;s enjoy Ofuton life together!<br>いっしょにおふとんライフを楽しみましょう！",
-            "url": "___"
+            "url": true
         },
         {
             "id": "wannabeyouth",
             "title": "靴",
             "name": "wanna be youth",
             "message": "Thank you for your hard work today.<br>今日もお疲れさまです",
-            "url": "___"
+            "url": true
         }
     ],
     "questions": [

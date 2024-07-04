@@ -27,9 +27,6 @@ function by50Q(by) {
         <b>${type.title}</b>
         <p>${type.message}</p>
         `;
-
-        youare.dataset.name = type.name;
-        youare.dataset.url = type.url;
         types.appendChild(youare);
 
         const dialogModal = document.querySelector('#modal');
@@ -48,8 +45,14 @@ function by50Q(by) {
 
         youare.addEventListener('click', () => {
             onModal()
+
             const who = document.querySelector('#who');
-            who.textContent = type.name;
+            if (type.url) {
+                who.innerHTML = `<a href="../ccm/?name=${type.id}">${type.name}</a>`;
+            } else {
+                who.textContent = type.name;
+
+            }
         });
     }
 }

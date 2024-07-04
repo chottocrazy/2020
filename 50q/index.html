@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="format-detection" content="telephone=no" />
     <link rel="icon" href="" type="image/png">
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 
     <!--og:meta-->
     <meta content="website" property="og:type">
@@ -24,8 +25,10 @@
         const params = new URLSearchParams(location.search)
 
         // ?id=名前
-        if (params.get("id")) {
+        if (location.search) {
             index50Q(params.get("id") + '.json')
+        } else {
+            index50Q('max.json')
         }
     </script>
 

@@ -6,35 +6,34 @@
             "title": "芝",
             "name": "Mitsutoshi Asano",
             "message": "Let's go to the shibayoku!<br>芝浴に行きましょう❗<br>",
-            "url": "___"
+            "url": true
         },
         {
             "id": "kennypain",
             "title": "話",
             "name": "Kenny Pain",
             "message": "It is difficult to communicate with someone. But let's value a feeling of trying to communicate with people.<br>人とコミュニケーションをとるのは難しい。けど人とコミュニケーションをとりたいと思う気持ちは大切にしよう。",
-            "url": "___"
+            "url": true
         },
         {
             "id": "seaketa",
             "title": "磨",
             "name": "seaketa",
             "message": "Please take care of yourself.<br>健康に気をつけて。",
-            "url": "___"
+            "url": true
         },
         {
             "id": "yexuqo",
             "title": "植",
             "name": "YeXuQo",
             "message": "You and I want to be advised now. We should be loosen ourselves.<br>自分もあなたも今アドバイスを求めていると思います。ほぐしが足りないはずです。",
-            "url": "___"
+            "url": true
         },
         {
             "id": "pehu",
             "title": "花",
             "name": "Pehu",
-            "message": "Look up, close your eyes and open your arms.<br>上を見て、目をつぶって手を広げて",
-            "url": "___"
+            "message": "Look up, close your eyes and open your arms.<br>上を見て、目をつぶって手を広げて"
         }
     ],
     "questions": [

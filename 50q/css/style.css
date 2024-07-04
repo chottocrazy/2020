@@ -165,3 +165,7 @@ dialog::backdrop {
     color: #fff;
     cursor: pointer;
 }
+
+#types div p {
+    padding: 0 1rem;
+}

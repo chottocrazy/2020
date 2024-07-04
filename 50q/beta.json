@@ -6,35 +6,35 @@
             "title": "薦",
             "name": "Hiroki Ito",
             "message": "Clouds are hiding all day long☁️ Say hello at midnight☀︎<br>雲は、朝も昼も夕方も夜も深夜も早朝も隠れています☁深夜00:00は、こんにちはを言おう☀︎",
-            "url": "___"
+            "url": true
         },
         {
             "id": "rie",
             "title": "子",
             "name": "Rie",
             "message": "Cheer up!<br>元気出して！（ときどき自分に声かけてます(笑)）",
-            "url": "___"
+            "url": true
         },
         {
             "id": "ayumihirono",
             "title": "口",
             "name": "Ayumi Hirono",
             "message": "Shaking hands or claping our hands<br>握手または拍手",
-            "url": "___"
+            "url": true
         },
         {
             "id": "yamamoo",
             "title": "音",
             "name": "Yamamoo",
             "message": "come on join us!<br>是非顔出して下さい。来た瞬間から貴方はもうアーティスト",
-            "url": "___"
+            "url": true
         },
         {
             "id": "yutoohashi",
             "title": "空",
             "name": "Yuto Ohashi",
             "message": "presentday presenttime<br>プレゼントデイ、プレゼントタイム",
-            "url": "___"
+            "url": true
         }
     ],
     "questions": [
